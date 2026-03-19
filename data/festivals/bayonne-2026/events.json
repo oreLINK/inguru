@@ -1,0 +1,462 @@
+[
+  {
+    "id": "b26-001",
+    "city_id": "bayonne-2026",
+    "venueId": "place-liberte",
+    "shortName": "Lâcher de vaches",
+    "startTimestamp": "2026-03-19T17:00:00+01:00",
+    "endTimestamp": "2026-03-19T18:30:00+01:00",
+    "title": {
+      "fr": "Ouverture officielle – Lâcher de vaches",
+      "es": "Apertura oficial – Suelta de vacas",
+      "eu": "Irekiera ofiziala – Behiak askatzea"
+    },
+    "description": {
+      "fr": "La vache landaise fait son entrée pour le coup d'envoi des fêtes. Moment emblématique, ambiance garantie !",
+      "es": "La vaca landesa hace su entrada para el inicio de las fiestas. ¡Momento emblemático!",
+      "eu": "Landako behia hasten du festen hasiera. Une enblematikoena!"
+    },
+    "tags": [
+      "gratuit",
+      "tradition"
+    ]
+  },
+  {
+    "id": "b26-002",
+    "city_id": "bayonne-2026",
+    "venueId": "place-liberte",
+    "shortName": "Concert ouverture",
+    "startTimestamp": "2026-03-19T21:00:00+01:00",
+    "endTimestamp": "2026-03-19T23:30:00+01:00",
+    "title": {
+      "fr": "Concert d'ouverture",
+      "es": "Concierto de apertura",
+      "eu": "Irekiera kontzertua"
+    },
+    "description": {
+      "fr": "Grand concert en plein air pour lancer les festivités. Artistes locaux et invités surprise au programme.",
+      "es": "Gran concierto al aire libre. Artistas locales e invitados sorpresa.",
+      "eu": "Aire libreko kontzertu handia. Bertako artistak eta ustekabeko gonbidatuak."
+    },
+    "tags": [
+      "gratuit",
+      "concert"
+    ]
+  },
+  {
+    "id": "b26-003",
+    "city_id": "bayonne-2026",
+    "venueId": "place-liberte",
+    "shortName": "Lâcher de vaches",
+    "startTimestamp": "2026-03-20T19:00:00+01:00",
+    "endTimestamp": "2026-03-20T20:30:00+01:00",
+    "title": {
+      "fr": "Lâcher de vaches – Jour 2",
+      "es": "Suelta de vacas – Día 2",
+      "eu": "Behiak askatzea – 2. eguna"
+    },
+    "description": {
+      "fr": "Le rendez-vous quotidien que tout le monde attend.",
+      "es": "La cita diaria que todos esperan.",
+      "eu": "Egunero itxaroten den hitzordua."
+    },
+    "tags": [
+      "gratuit",
+      "tradition"
+    ]
+  },
+  {
+    "id": "b26-004",
+    "city_id": "bayonne-2026",
+    "venueId": "place-liberte",
+    "shortName": "Oreka TX",
+    "startTimestamp": "2026-03-20T22:00:00+01:00",
+    "endTimestamp": "2026-03-21T00:00:00+01:00",
+    "title": {
+      "fr": "Concert – Oreka TX",
+      "es": "Concierto – Oreka TX",
+      "eu": "Kontzertua – Oreka TX"
+    },
+    "description": {
+      "fr": "Le duo de txalaparta invite le public à un voyage sonore entre tradition et modernité.",
+      "es": "El dúo de txalaparta invita al público a un viaje sonoro.",
+      "eu": "Txalaparta duoa entzuleei soinu bidaia eskaintzen die."
+    },
+    "tags": [
+      "gratuit",
+      "musique basque"
+    ]
+  },
+  {
+    "id": "b26-005",
+    "city_id": "bayonne-2026",
+    "venueId": "arenes",
+    "shortName": "Corrida landaise",
+    "startTimestamp": "2026-03-19T15:00:00+01:00",
+    "endTimestamp": "2026-03-19T17:00:00+01:00",
+    "title": {
+      "fr": "Corrida landaise",
+      "es": "Corrida landesa",
+      "eu": "Landes zezenketea"
+    },
+    "description": {
+      "fr": "Tradition landaise au cœur des arènes. Un spectacle mélangeant agilité et élégance.",
+      "es": "Tradición landesa en el corazón de la plaza.",
+      "eu": "Landes tradizioa arenetan. Ikuskizun bakarra."
+    },
+    "tags": [
+      "payant",
+      "tradition"
+    ]
+  },
+  {
+    "id": "b26-006",
+    "city_id": "bayonne-2026",
+    "venueId": "arenes",
+    "shortName": "Course de vaches",
+    "startTimestamp": "2026-03-20T17:00:00+01:00",
+    "endTimestamp": "2026-03-20T19:30:00+01:00",
+    "title": {
+      "fr": "Course de vaches – Écarteurs landais",
+      "es": "Carrera de vacas – Écarteurs landeses",
+      "eu": "Behi lasterketa – Écarteurs landardarrak"
+    },
+    "description": {
+      "fr": "Démonstrations spectaculaires des écarteurs. Un art transmis de génération en génération.",
+      "es": "Demostraciones espectaculares.",
+      "eu": "Écarteurs-en erakustaldi ikusgarriak."
+    },
+    "tags": [
+      "payant",
+      "sport"
+    ]
+  },
+  {
+    "id": "b26-007",
+    "city_id": "bayonne-2026",
+    "venueId": "arenes",
+    "shortName": "Petit déjeuner",
+    "startTimestamp": "2026-03-21T10:30:00+01:00",
+    "endTimestamp": "2026-03-21T12:30:00+01:00",
+    "title": {
+      "fr": "Petit déjeuner aux arènes",
+      "es": "Desayuno en la plaza de toros",
+      "eu": "Gosaria arenetan"
+    },
+    "description": {
+      "fr": "Tradition incontournable : chocolat chaud et tartines avec les amis.",
+      "es": "Tradición imprescindible: chocolate caliente y tostadas.",
+      "eu": "Ezinbesteko tradizioa: txokolate beroa eta opilak."
+    },
+    "tags": [
+      "gratuit"
+    ]
+  },
+  {
+    "id": "b26-008",
+    "city_id": "bayonne-2026",
+    "venueId": "quai-nive",
+    "shortName": "Bandas Nive",
+    "startTimestamp": "2026-03-19T19:00:00+01:00",
+    "endTimestamp": "2026-03-19T20:30:00+01:00",
+    "title": {
+      "fr": "Bandas en bord de Nive",
+      "es": "Bandas a orillas del Nive",
+      "eu": "Bandak Nibi ertzean"
+    },
+    "description": {
+      "fr": "Les fanfares défilent le long du quai dans une atmosphère festive et conviviale.",
+      "es": "Las bandas desfilan por el muelle en un ambiente festivo.",
+      "eu": "Bandak kaian zehar dabiltz giro festibo batean."
+    },
+    "tags": [
+      "gratuit",
+      "musique"
+    ]
+  },
+  {
+    "id": "b26-009",
+    "city_id": "bayonne-2026",
+    "venueId": "quai-nive",
+    "shortName": "Concert Txi-Txi",
+    "startTimestamp": "2026-03-19T22:00:00+01:00",
+    "endTimestamp": "2026-03-20T00:00:00+01:00",
+    "title": {
+      "fr": "Concert Txi-Txi – Scène Nive",
+      "es": "Concierto Txi-Txi – Escenario Nive",
+      "eu": "Txi-Txi Kontzertua – Nibi Agertokia"
+    },
+    "description": {
+      "fr": "Concert de musique basque contemporaine en bord de Nive.",
+      "es": "Concierto de música vasca contemporánea.",
+      "eu": "Musika baskoaren kontzertua Nibi ertzean."
+    },
+    "tags": [
+      "gratuit",
+      "musique basque"
+    ]
+  },
+  {
+    "id": "b26-010",
+    "city_id": "bayonne-2026",
+    "venueId": "quai-nive",
+    "shortName": "Feu d'artifice",
+    "startTimestamp": "2026-03-20T21:30:00+01:00",
+    "endTimestamp": "2026-03-20T23:30:00+01:00",
+    "title": {
+      "fr": "Feu d'artifice & Concert",
+      "es": "Fuegos artificiales & Concierto",
+      "eu": "Su artifizialak & Kontzertua"
+    },
+    "description": {
+      "fr": "Le grand feu d'artifice suivi d'un concert en bord de Nive.",
+      "es": "Los grandes fuegos artificiales seguidos de un concierto.",
+      "eu": "Su artifizial handiak eta ondoren kontzertua."
+    },
+    "tags": [
+      "gratuit"
+    ]
+  },
+  {
+    "id": "b26-011",
+    "city_id": "bayonne-2026",
+    "venueId": "place-gascons",
+    "shortName": "Anim. familles",
+    "startTimestamp": "2026-03-19T15:00:00+01:00",
+    "endTimestamp": "2026-03-19T18:00:00+01:00",
+    "title": {
+      "fr": "Animations jeunesse & familles",
+      "es": "Animaciones para jóvenes y familias",
+      "eu": "Gazteria eta familien animazioak"
+    },
+    "description": {
+      "fr": "Jeux basques traditionnels, initiations aux danses folkloriques et maquillage.",
+      "es": "Juegos vascos, danzas folclóricas y pintacaras.",
+      "eu": "Pilota jokoak, dantza saioak eta margolanak."
+    },
+    "tags": [
+      "gratuit",
+      "famille",
+      "enfants"
+    ]
+  },
+  {
+    "id": "b26-012",
+    "city_id": "bayonne-2026",
+    "venueId": "place-gascons",
+    "shortName": "Pelote basque",
+    "startTimestamp": "2026-03-20T14:00:00+01:00",
+    "endTimestamp": "2026-03-20T17:00:00+01:00",
+    "title": {
+      "fr": "Pelote basque – Démonstration",
+      "es": "Pelota vasca – Demostración",
+      "eu": "Pilota jokoaren erakusketa"
+    },
+    "description": {
+      "fr": "Initiation et démonstration de pelote basque. Essayez la main nue, la pala ou le chistera !",
+      "es": "Iniciación y demostración. ¡Prueba la mano desnuda, la pala o el chistera!",
+      "eu": "Pilota jokoaren hasiera eta erakusketa."
+    },
+    "tags": [
+      "gratuit",
+      "sport",
+      "tradition"
+    ]
+  },
+  {
+    "id": "b26-013",
+    "city_id": "bayonne-2026",
+    "venueId": "place-gascons",
+    "shortName": "Marché artisanal",
+    "startTimestamp": "2026-03-21T11:00:00+01:00",
+    "endTimestamp": "2026-03-21T13:00:00+01:00",
+    "title": {
+      "fr": "Marché artisanal basque",
+      "es": "Mercado artesanal vasco",
+      "eu": "Euskal artisau azoka"
+    },
+    "description": {
+      "fr": "Artisans locaux : poteries, tissages, produits du terroir, bijoux.",
+      "es": "Artesanos locales: cerámica, tejidos, productos locales.",
+      "eu": "Bertako artisauak: zeramikazkoak, ehundutakoak."
+    },
+    "tags": [
+      "gratuit"
+    ]
+  },
+  {
+    "id": "b26-014",
+    "city_id": "bayonne-2026",
+    "venueId": "remparts",
+    "shortName": "Txalaparta electro",
+    "startTimestamp": "2026-03-19T20:30:00+01:00",
+    "endTimestamp": "2026-03-19T22:30:00+01:00",
+    "title": {
+      "fr": "Txalaparta & électro",
+      "es": "Txalaparta & electro",
+      "eu": "Txalaparta & elektroa"
+    },
+    "description": {
+      "fr": "Fusion entre la txalaparta, instrument basque ancestral, et les sonorités électroniques.",
+      "es": "Fusión entre la txalaparta y la electrónica.",
+      "eu": "Txalaparta eta musika elektronikoaren fusio berezia."
+    },
+    "tags": [
+      "gratuit",
+      "musique"
+    ]
+  },
+  {
+    "id": "b26-015",
+    "city_id": "bayonne-2026",
+    "venueId": "remparts",
+    "shortName": "Bal basque",
+    "startTimestamp": "2026-03-20T19:00:00+01:00",
+    "endTimestamp": "2026-03-20T21:00:00+01:00",
+    "title": {
+      "fr": "Bal populaire basque",
+      "es": "Baile popular vasco",
+      "eu": "Euskal dantza herrikoia"
+    },
+    "description": {
+      "fr": "Danses traditionnelles basques ouvertes à tous.",
+      "es": "Danzas tradicionales vascas abiertas a todos.",
+      "eu": "Dantzaldi herrikoia denentzat irekia."
+    },
+    "tags": [
+      "gratuit",
+      "danse",
+      "tradition"
+    ]
+  },
+  {
+    "id": "b26-016",
+    "city_id": "bayonne-2026",
+    "venueId": "remparts",
+    "shortName": "Fid Mella Rock",
+    "startTimestamp": "2026-03-21T21:00:00+01:00",
+    "endTimestamp": "2026-03-21T23:00:00+01:00",
+    "title": {
+      "fr": "Rock basque – Fid Mella & guests",
+      "es": "Rock vasco – Fid Mella & invitados",
+      "eu": "Euskal rock – Fid Mella & gonbidatuak"
+    },
+    "description": {
+      "fr": "La scène des Remparts accueille le rock avec Fid Mella et groupes invités.",
+      "es": "El escenario de las Murallas con Fid Mella.",
+      "eu": "Harresietako agertokia Fid Mellarekin."
+    },
+    "tags": [
+      "gratuit",
+      "rock"
+    ]
+  },
+  {
+    "id": "b26-017",
+    "city_id": "bayonne-2026",
+    "venueId": "grand-bayonne",
+    "shortName": "Bandas du matin",
+    "startTimestamp": "2026-03-19T11:00:00+01:00",
+    "endTimestamp": "2026-03-19T14:00:00+01:00",
+    "title": {
+      "fr": "Bandas dans les rues – Matin",
+      "es": "Bandas por las calles – Mañana",
+      "eu": "Bandak kaleetan – Goiza"
+    },
+    "description": {
+      "fr": "Les bandas animent les rues du Grand Bayonne toute la matinée.",
+      "es": "Las bandas animan las calles de Gran Bayona.",
+      "eu": "Bandak Baiona Handiko kaleak animatzen dituzte."
+    },
+    "tags": [
+      "gratuit"
+    ]
+  },
+  {
+    "id": "b26-018",
+    "city_id": "bayonne-2026",
+    "venueId": "grand-bayonne",
+    "shortName": "Cortège des géants",
+    "startTimestamp": "2026-03-19T16:00:00+01:00",
+    "endTimestamp": "2026-03-19T19:00:00+01:00",
+    "title": {
+      "fr": "Cortège des géants de Bayonne",
+      "es": "Desfile de los gigantes de Bayona",
+      "eu": "Baionako erraldoien desfilea"
+    },
+    "description": {
+      "fr": "Les géants traditionnels défilent dans les rues historiques accompagnés des bandas.",
+      "es": "Los gigantes desfilan por las calles históricas.",
+      "eu": "Erraldoiak kale historikoetan zehar."
+    },
+    "tags": [
+      "gratuit",
+      "tradition"
+    ]
+  },
+  {
+    "id": "b26-019",
+    "city_id": "bayonne-2026",
+    "venueId": "grand-bayonne",
+    "shortName": "Bandas de midi",
+    "startTimestamp": "2026-03-20T11:00:00+01:00",
+    "endTimestamp": "2026-03-20T14:00:00+01:00",
+    "title": {
+      "fr": "Bandas & ambiance quartier",
+      "es": "Bandas y ambiente de barrio",
+      "eu": "Bandak eta auzo giroaz"
+    },
+    "description": {
+      "fr": "Les rues du vieux Bayonne s'animent dès 11h avec les bandas.",
+      "es": "Las calles del viejo Bayona se animan desde las 11h.",
+      "eu": "Baiona zaharreko kaleak 11etatik animatzen dira."
+    },
+    "tags": [
+      "gratuit"
+    ]
+  },
+  {
+    "id": "b26-020",
+    "city_id": "bayonne-2026",
+    "venueId": "place-liberte",
+    "shortName": "Dernier lâcher",
+    "startTimestamp": "2026-03-23T19:00:00+01:00",
+    "endTimestamp": "2026-03-23T20:30:00+01:00",
+    "title": {
+      "fr": "Dernier lâcher de vaches",
+      "es": "Última suelta de vacas",
+      "eu": "Azken behi lasterka"
+    },
+    "description": {
+      "fr": "Le dernier lâcher de vaches, moment empreint d'émotion.",
+      "es": "La última suelta, momento de emoción.",
+      "eu": "Azken behi lasterka, emozioz betea."
+    },
+    "tags": [
+      "gratuit",
+      "tradition"
+    ]
+  },
+  {
+    "id": "b26-021",
+    "city_id": "bayonne-2026",
+    "venueId": "place-liberte",
+    "shortName": "Adieu aux fêtes",
+    "startTimestamp": "2026-03-23T23:30:00+01:00",
+    "endTimestamp": "2026-03-24T01:00:00+01:00",
+    "title": {
+      "fr": "Adieu aux fêtes",
+      "es": "Adiós a las fiestas",
+      "eu": "Festen agurra"
+    },
+    "description": {
+      "fr": "La traditionnelle chanson clôt les fêtes dans les larmes et la joie mêlées.",
+      "es": "La canción tradicional cierra las fiestas entre lágrimas y alegría.",
+      "eu": "Abesti tradizionalak festak ixten ditu."
+    },
+    "tags": [
+      "gratuit",
+      "tradition"
+    ]
+  }
+]

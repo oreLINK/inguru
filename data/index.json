@@ -1,0 +1,40 @@
+{
+  "festivals": [
+    {
+      "id": "bayonne-2026",
+      "name":  { "fr": "Fêtes de Bayonne", "es": "Fiestas de Bayona", "eu": "Baionako Festak" },
+      "city":  "Bayonne",
+      "dates": { "start": "2026-03-19", "end": "2026-03-23" },
+      "center": { "lat": 43.4929, "lng": -1.4748 },
+      "theme": { "primary": "#e63012", "secondary": "#ffffff" },
+      "emoji": "🐄"
+    },
+    {
+      "id": "dax-2025",
+      "name":  { "fr": "Fêtes de Dax", "es": "Fiestas de Dax", "eu": "Daxeko Festak" },
+      "city":  "Dax",
+      "dates": { "start": "2025-08-13", "end": "2025-08-17" },
+      "center": { "lat": 43.7093, "lng": -1.0530 },
+      "theme": { "primary": "#d4111a", "secondary": "#f5c400" },
+      "emoji": "🌞"
+    },
+    {
+      "id": "mont-marsan-2025",
+      "name":  { "fr": "Fêtes de la Madeleine", "es": "Fiestas de la Magdalena", "eu": "Madalenaren Festak" },
+      "city":  "Mont-de-Marsan",
+      "dates": { "start": "2025-07-18", "end": "2025-07-22" },
+      "center": { "lat": 43.8902, "lng": -0.4999 },
+      "theme": { "primary": "#7c3aed", "secondary": "#fbbf24" },
+      "emoji": "🎠"
+    },
+    {
+      "id": "pamplona-2025",
+      "name":  { "fr": "San Fermin", "es": "Sanfermines", "eu": "San Ferminak" },
+      "city":  "Pampelune",
+      "dates": { "start": "2025-07-06", "end": "2025-07-14" },
+      "center": { "lat": 42.8169, "lng": -1.6432 },
+      "theme": { "primary": "#dc2626", "secondary": "#ffffff" },
+      "emoji": "🐂"
+    }
+  ]
+}

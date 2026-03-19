@@ -1,0 +1,14 @@
+{
+  "name": "Inguru – Fêtes en direct",
+  "short_name": "Inguru",
+  "description": "Ce qui se passe autour de toi, maintenant",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#e63012",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "assets/img/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "place-liberte",
+    "name": { "fr": "Place de la Liberté", "es": "Plaza de la Libertad", "eu": "Askatasun Plaza" },
+    "coords": { "lat": 43.4927, "lng": -1.4743 },
+    "type": "place",
+    "address": "Place de la Liberté, Bayonne",
+    "go": "https://maps.app.goo.gl/5jf1JxqPqY2pjpDR9"
+  },
+  {
+    "id": "arenes",
+    "name": { "fr": "Arènes de Bayonne", "es": "Plaza de toros de Bayona", "eu": "Baionako Zezenketa Plaza" },
+    "coords": { "lat": 43.4897, "lng": -1.4822 },
+    "type": "arena",
+    "address": "Allées Paulmy, Bayonne",
+    "go": "https://maps.app.goo.gl/arenesBayonne123"
+  },
+  {
+    "id": "quai-nive",
+    "name": { "fr": "Quai Galuperie – Scène Nive", "es": "Muelle Galuperie – Escenario Nive", "eu": "Galuperie Kaia – Nibi Agertokia" },
+    "coords": { "lat": 43.4938, "lng": -1.4723 },
+    "type": "scene",
+    "address": "Quai Galuperie, Bayonne",
+    "go": "https://maps.app.goo.gl/quaiNiveBayonne456"
+  },
+  {
+    "id": "place-gascons",
+    "name": { "fr": "Place des Gascons", "es": "Plaza de los Gascones", "eu": "Gaskoinien Plaza" },
+    "coords": { "lat": 43.4948, "lng": -1.4718 },
+    "type": "place",
+    "address": "Place des Gascons, Bayonne",
+    "go": "https://maps.app.goo.gl/placeGascons789"
+  },
+  {
+    "id": "remparts",
+    "name": { "fr": "Scène des Remparts", "es": "Escenario de las Murallas", "eu": "Harresietako Agertokia" },
+    "coords": { "lat": 43.4915, "lng": -1.4775 },
+    "type": "scene",
+    "address": "Remparts Lachepaillet, Bayonne",
+    "go": "https://maps.app.goo.gl/remparts101"
+  },
+  {
+    "id": "grand-bayonne",
+    "name": { "fr": "Grand Bayonne – Rue Port Neuf", "es": "Gran Bayona – Calle Port Neuf", "eu": "Baiona Handia – Port Neuf Kalea" },
+    "coords": { "lat": 43.4920, "lng": -1.4760 },
+    "type": "street",
+    "address": "Rue Port Neuf, Bayonne",
+    "go": "https://maps.app.goo.gl/grandBayonne202"
+  }
+]

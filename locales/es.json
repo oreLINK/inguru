@@ -1,0 +1,16 @@
+{
+  "loading": "Cargando…",
+  "status_now": "▶ En curso",
+  "status_next": "⏱ Próximamente",
+  "status_done": "✓ Terminado",
+  "navigate": "Itinerario",
+  "in": "en",
+  "remaining": "quedan",
+  "today_schedule": "Programa de hoy",
+  "no_event": "No hay eventos programados hoy",
+  "as_crow_flies": "en línea recta",
+  "error_load": "No se pueden cargar los datos. Comprueba tu conexión.",
+  "go_there": "🗺️ Ir ahí",
+  "share_pals": "💬 Avisar a mis amigos",
+  "copied": "¡Mensaje copiado!"
+}

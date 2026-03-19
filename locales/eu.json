@@ -1,0 +1,16 @@
+{
+  "loading": "Kargatzen…",
+  "status_now": "▶ Orain",
+  "status_next": "⏱ Laster",
+  "status_done": "✓ Amaituta",
+  "navigate": "Ibilbidea",
+  "in": "barru",
+  "remaining": "gelditzen",
+  "today_schedule": "Gaurko programa",
+  "no_event": "Gaur ez dago ekitaldirikan",
+  "as_crow_flies": "txori hegaldi",
+  "error_load": "Ezin dira datuak kargatu. Egiaztatu konexioa.",
+  "go_there": "🗺️ Joan",
+  "share_pals": "💬 Lagunei jakinarazi",
+  "copied": "Mezua kopiatua!"
+}

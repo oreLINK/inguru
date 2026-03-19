@@ -1,0 +1,15 @@
+{
+  "id": "bayonne-2026",
+  "name": {
+    "fr": "Fêtes de Bayonne 2026",
+    "es": "Fiestas de Bayona 2026",
+    "eu": "Baionako Festak 2026"
+  },
+  "year": 2026,
+  "dates": { "start": "2026-03-19", "end": "2026-03-23" },
+  "center": { "lat": 43.4929, "lng": -1.4748 },
+  "defaultZoom": 16,
+  "theme": { "primary": "#e63012", "secondary": "#ffffff" },
+  "timezone": "Europe/Paris",
+  "website": "https://fetes.bayonne.fr"
+}
