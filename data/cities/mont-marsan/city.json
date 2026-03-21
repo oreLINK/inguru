@@ -1,0 +1,14 @@
+{
+  "id": "mont-marsan",
+  "name": {
+    "fr": "Mont-de-Marsan",
+    "es": "Mont-de-Marsan",
+    "eu": "Mont-de-Marsan"
+  },
+  "country": "FR",
+  "center": {
+    "lat": 43.8902,
+    "lng": -0.4999
+  },
+  "category": "large"
+}

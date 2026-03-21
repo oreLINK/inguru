@@ -1,0 +1,14 @@
+{
+  "id": "mouguerre",
+  "name": {
+    "fr": "Mouguerre",
+    "es": "Mouguerre",
+    "eu": "Mugerre"
+  },
+  "country": "FR",
+  "center": {
+    "lat": 43.5072,
+    "lng": -1.4333
+  },
+  "category": "small"
+}

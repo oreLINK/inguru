@@ -2,10 +2,6 @@
 
 > **"Inguru"** means *"around / nearby"* in Basque.
 
-![Beta](https://img.shields.io/badge/status-beta-orange?style=flat-square)
-![Version](https://img.shields.io/badge/version-0.1.0--beta-blue?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
-
 Inguru is a mobile-first progressive web app that shows you **what's happening around you, right now**, during a local festival. Built for the Fêtes de Bayonne, it's fully generic and can host any festival with just three JSON files.
 
 ---

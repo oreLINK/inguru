@@ -1,40 +1,53 @@
 {
-  "festivals": [
+  "_doc": "index.json liste uniquement les éditions affichables. Toutes les données sont dans data/cities/{cityId}/. Pour ajouter une fête : (1) créer data/cities/{cityId}/city.json + venues.json, (2) créer data/cities/{cityId}/festivals/{festivalId}/festival.json, (3) créer data/cities/{cityId}/festivals/{festivalId}/{year}/edition.json + events.json, (4) ajouter une entrée ici.",
+  "editions": [
     {
-      "id": "bayonne-2026",
-      "name":  { "fr": "Fêtes de Bayonne", "es": "Fiestas de Bayona", "eu": "Baionako Festak" },
-      "city":  "Bayonne",
-      "dates": { "start": "2026-03-19", "end": "2026-03-23" },
-      "center": { "lat": 43.4929, "lng": -1.4748 },
-      "theme": { "primary": "#e63012", "secondary": "#ffffff" },
-      "emoji": "🐄"
+      "id": "bayonne-fetes-2026",
+      "cityId": "bayonne",
+      "festivalId": "fetes-bayonne",
+      "year": 2026
+    },
+    {
+      "id": "bayonne-foire-jambon-2026",
+      "cityId": "bayonne",
+      "festivalId": "foire-jambon",
+      "year": 2026
     },
     {
       "id": "dax-2025",
-      "name":  { "fr": "Fêtes de Dax", "es": "Fiestas de Dax", "eu": "Daxeko Festak" },
-      "city":  "Dax",
-      "dates": { "start": "2025-08-13", "end": "2025-08-17" },
-      "center": { "lat": 43.7093, "lng": -1.0530 },
-      "theme": { "primary": "#d4111a", "secondary": "#f5c400" },
-      "emoji": "🌞"
+      "cityId": "dax",
+      "festivalId": "fetes-dax",
+      "year": 2025
     },
     {
       "id": "mont-marsan-2025",
-      "name":  { "fr": "Fêtes de la Madeleine", "es": "Fiestas de la Magdalena", "eu": "Madalenaren Festak" },
-      "city":  "Mont-de-Marsan",
-      "dates": { "start": "2025-07-18", "end": "2025-07-22" },
-      "center": { "lat": 43.8902, "lng": -0.4999 },
-      "theme": { "primary": "#7c3aed", "secondary": "#fbbf24" },
-      "emoji": "🎠"
+      "cityId": "mont-marsan",
+      "festivalId": "fetes-madeleine",
+      "year": 2025
     },
     {
       "id": "pamplona-2025",
-      "name":  { "fr": "San Fermin", "es": "Sanfermines", "eu": "San Ferminak" },
-      "city":  "Pampelune",
-      "dates": { "start": "2025-07-06", "end": "2025-07-14" },
-      "center": { "lat": 42.8169, "lng": -1.6432 },
-      "theme": { "primary": "#dc2626", "secondary": "#ffffff" },
-      "emoji": "🐂"
+      "cityId": "pamplona",
+      "festivalId": "san-fermin",
+      "year": 2025
+    },
+    {
+      "id": "parentis-2025",
+      "cityId": "parentis",
+      "festivalId": "fetes-parentis",
+      "year": 2025
+    },
+    {
+      "id": "tarnos-2025",
+      "cityId": "tarnos",
+      "festivalId": "fetes-tarnos",
+      "year": 2025
+    },
+    {
+      "id": "mouguerre-2025",
+      "cityId": "mouguerre",
+      "festivalId": "fetes-mouguerre",
+      "year": 2025
     }
   ]
 }

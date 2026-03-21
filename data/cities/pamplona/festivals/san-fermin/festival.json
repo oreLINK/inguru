@@ -1,0 +1,13 @@
+{
+  "id": "san-fermin",
+  "cityId": "pamplona",
+  "name": {
+    "fr": "San Fermin",
+    "es": "Sanfermines",
+    "eu": "San Ferminak"
+  },
+  "theme": {
+    "primary": "#dc2626",
+    "secondary": "#ffffff"
+  }
+}

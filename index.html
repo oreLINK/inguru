@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TPJ6J7LG');</script>
-<!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="theme-color" content="#e63012" />
@@ -19,51 +12,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPJ6J7LG"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div id="app">
 
-  <!-- ── Header ──────────────────────────────────────────────── -->
   <header id="header">
     <div class="header-left">
       <span class="logo">inguru</span>
       <button id="festival-btn">
-        <span class="festival-btn-emoji" id="festival-btn-emoji">🎉</span>
+        <span class="festival-btn-emoji" id="festival-btn-emoji"> </span>
         <span class="festival-btn-name" id="festival-btn-name">Chargement…</span>
         <span class="festival-btn-arrow">▾</span>
       </button>
     </div>
     <div class="header-right">
-      <!-- Sélecteur de langue -->
       <div class="lang-wrapper">
         <button id="lang-btn" class="icon-btn" title="Langue">🌐</button>
         <div id="lang-menu" class="lang-menu hidden">
-          <button data-lang="fr">🇫🇷 Français</button>
-          <button data-lang="es">🇪🇸 Español</button>
-          <button data-lang="eu">🏔️ Euskara</button>
+          <button data-lang="fr">Français</button>
+          <button data-lang="es">Español</button>
+          <button data-lang="eu">Euskara</button>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- ── Festival Picker Panel ────────────────────────────────── -->
+  <!-- Festival Picker — style Apple avec 3 sections -->
   <div id="festival-panel">
-    <div class="panel-label" id="panel-label">Choisir une fête</div>
-    <div class="festival-grid" id="festival-grid"></div>
+    <div id="festival-sections"></div>
   </div>
 
-  <!-- ── Scrim ────────────────────────────────────────────────── -->
   <div id="scrim"></div>
-
-  <!-- ── Map ──────────────────────────────────────────────────── -->
   <div id="map"></div>
 
-  <!-- ── Bouton flottant "Ma position" ────────────────────────── -->
-  <button id="fab-locate" class="fab-locate" title="Ma position">📍</button>
+  <!-- FABs empilés bas-droite -->
+  <div class="fab-stack">
+    <button id="fab-share-loc" class="fab fab-share-loc hidden" title="">📤</button>
+    <button id="fab-locate"    class="fab fab-locate"            title="">📍</button>
+  </div>
 
-  <!-- ── Event popup ──────────────────────────────────────────── -->
+  <!-- Popup événement -->
   <div id="event-popup" class="ev-popup hidden">
     <div class="ev-popup-inner">
       <button id="popup-close" class="ev-popup-close" aria-label="Fermer">✕</button>
@@ -72,7 +58,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="ev-popup-arrow" id="popup-arrow"></div>
   </div>
 
-  <!-- ── Chargement ───────────────────────────────────────────── -->
+  <!-- Chargement -->
   <div id="loading" class="loading">
     <div class="loading-logo">inguru</div>
     <div class="loading-inner">
@@ -81,7 +67,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 
-  <!-- ── Erreur ───────────────────────────────────────────────── -->
+  <!-- Erreur -->
   <div id="error-screen" class="error-screen hidden">
     <span class="error-icon">⚠️</span>
     <p id="error-text">Erreur de chargement</p>

@@ -1,0 +1,13 @@
+{
+  "id": "fetes-madeleine",
+  "cityId": "mont-marsan",
+  "name": {
+    "fr": "Fêtes de la Madeleine",
+    "es": "Fiestas de la Magdalena",
+    "eu": "Madalenaren Festak"
+  },
+  "theme": {
+    "primary": "#7c3aed",
+    "secondary": "#fbbf24"
+  }
+}

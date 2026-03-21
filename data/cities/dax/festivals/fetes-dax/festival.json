@@ -1,0 +1,13 @@
+{
+  "id": "fetes-dax",
+  "cityId": "dax",
+  "name": {
+    "fr": "Fêtes de Dax",
+    "es": "Fiestas de Dax",
+    "eu": "Daxeko Festak"
+  },
+  "theme": {
+    "primary": "#d4111a",
+    "secondary": "#f5c400"
+  }
+}

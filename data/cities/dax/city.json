@@ -1,0 +1,14 @@
+{
+  "id": "dax",
+  "name": {
+    "fr": "Dax",
+    "es": "Dax",
+    "eu": "Dax"
+  },
+  "country": "FR",
+  "center": {
+    "lat": 43.7093,
+    "lng": -1.053
+  },
+  "category": "large"
+}

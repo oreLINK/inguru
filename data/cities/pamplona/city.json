@@ -1,0 +1,14 @@
+{
+  "id": "pamplona",
+  "name": {
+    "fr": "Pampelune",
+    "es": "Pamplona",
+    "eu": "Iruñea"
+  },
+  "country": "ES",
+  "center": {
+    "lat": 42.8169,
+    "lng": -1.6432
+  },
+  "category": "large"
+}

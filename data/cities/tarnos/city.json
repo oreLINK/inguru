@@ -1,0 +1,14 @@
+{
+  "id": "tarnos",
+  "name": {
+    "fr": "Tarnos",
+    "es": "Tarnos",
+    "eu": "Tarnos"
+  },
+  "country": "FR",
+  "center": {
+    "lat": 43.5397,
+    "lng": -1.4617
+  },
+  "category": "medium"
+}

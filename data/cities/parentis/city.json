@@ -1,0 +1,14 @@
+{
+  "id": "parentis",
+  "name": {
+    "fr": "Parentis-en-Born",
+    "es": "Parentis-en-Born",
+    "eu": "Parentis-en-Born"
+  },
+  "country": "FR",
+  "center": {
+    "lat": 44.3486,
+    "lng": -1.0719
+  },
+  "category": "medium"
+}

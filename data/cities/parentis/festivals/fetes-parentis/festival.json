@@ -1,0 +1,13 @@
+{
+  "id": "fetes-parentis",
+  "cityId": "parentis",
+  "name": {
+    "fr": "Fêtes de Parentis",
+    "es": "Fiestas de Parentis",
+    "eu": "Parentisko Festak"
+  },
+  "theme": {
+    "primary": "#0369a1",
+    "secondary": "#fbbf24"
+  }
+}
