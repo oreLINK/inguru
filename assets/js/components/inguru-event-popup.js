@@ -9,7 +9,7 @@
  *   show(html)        — affiche la popup avec le contenu HTML fourni
  *   hide()            — masque la popup
  *   isVisible()       — retourne l'état courant
- *   setTheme(p, s)    — applique les couleurs du festival (hex strings)
+ *   setTheme(p, s)    — applique les couleurs de la feria (hex strings)
  */
 class InguruEventPopup extends HTMLElement {
   #visible = false;
@@ -60,7 +60,7 @@ class InguruEventPopup extends HTMLElement {
   }
 
   /**
-   * Applique les couleurs du festival courant aux éléments internes.
+   * Applique les couleurs de la feria courant aux éléments internes.
    * p = primary hex, s = secondary hex
    */
   setTheme(p, s) {

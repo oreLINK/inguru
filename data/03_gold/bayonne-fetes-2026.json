@@ -1,33 +1,5 @@
 {
   "id": "bayonne-fetes-2026",
-  "city": {
-    "id": "bayonne",
-    "name": {
-      "fr": "Bayonne",
-      "es": "Bayona",
-      "eu": "Baiona"
-    },
-    "country": "FR",
-    "center": {
-      "lat": 43.4929,
-      "lng": -1.4748
-    },
-    "category": "large"
-  },
-  "festival": {
-    "id": "fetes-bayonne",
-    "cityId": "bayonne",
-    "name": {
-      "fr": "Fêtes de Bayonne",
-      "es": "Fiestas de Bayona",
-      "eu": "Baionako Festak"
-    },
-    "website": "https://fetes.bayonne.fr",
-    "theme": {
-      "primary": "#e63012",
-      "secondary": "#ffffff"
-    }
-  },
   "edition": {
     "year": 2026,
     "dates": {
@@ -693,5 +665,33 @@
         "tradition"
       ]
     }
-  ]
+  ],
+  "town": {
+    "id": "bayonne",
+    "name": {
+      "fr": "Bayonne",
+      "es": "Bayona",
+      "eu": "Baiona"
+    },
+    "country": "FR",
+    "center": {
+      "lat": 43.4929,
+      "lng": -1.4748
+    },
+    "category": "large"
+  },
+  "feria": {
+    "id": "fetes-bayonne",
+    "name": {
+      "fr": "Fêtes de Bayonne",
+      "es": "Fiestas de Bayona",
+      "eu": "Baionako Festak"
+    },
+    "website": "https://fetes.bayonne.fr",
+    "theme": {
+      "primary": "#e63012",
+      "secondary": "#ffffff"
+    },
+    "townId": "bayonne"
+  }
 }

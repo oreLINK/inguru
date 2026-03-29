@@ -1,8 +1,8 @@
 """
 Pipeline ELT pour la Foire au Jambon de Bayonne.
 
-Génère à partir de bronze/cities/bayonne/foire-jambon/{year}/events_raw.json :
-  - silver/cities/bayonne/foire-jambon/{year}/events_clean.json
+Génère à partir de bronze/towns/bayonne/foire-jambon/{year}/events_raw.json :
+  - silver/02_ferias/bayonne/foire-jambon/{year}/foire-jambon-{year}-events-clean.json
   - gold/bayonne__foire-jambon__{year}.json
 
 Usage :
@@ -34,6 +34,12 @@ def _read_json(path: Path) -> Any:
 def _write_json(path: Path, data: Any) -> None:
   path.parent.mkdir(parents=True, exist_ok=True)
   path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def _dmy_to_iso(dmy: str) -> str:
+  """'23/04/2026' → '2026-04-23'"""
+  d, m, y = dmy.split("/")
+  return f"{y}-{m}-{d}"
 
 
 def _parse_date(day: str) -> str | None:
@@ -110,17 +116,21 @@ def build_events_clean(flat_events: list[dict[str, Any]], year: int) -> list[dic
       continue
     start, end = _parse_time(ev.get("time_raw", ""))
     free, price = _pricing(ev.get("title_raw") or "", ev.get("note_raw"))
+    title_fr = ev.get("title_raw") or ""
+    title_obj = {"fr": title_fr, "es": None, "eus": None}
 
+    dmy = f"{date[8:10]}/{date[5:7]}/{date[:4]}"
     entry: dict[str, Any] = {
-      "id": f"fj{str(year)[-2:]}-{i:03d}",
-      "date": date,
+      "id": f"fjb{str(year)[-2:]}-{i:04d}",
+      "startDate": dmy,
       "startTime": start,
-      "location_normalized": _venue_id(ev.get("location_raw", "")),
-      "title_fr": ev.get("title_raw") or "",
-      "free": free,
+      "endDate": dmy if end else None,
+      "endTime": end if end else None,
+      "location": _venue_id(ev.get("location_raw", "")),
+      "title_long": title_obj,
+      "title_short": title_obj.copy(),
+      "isPaid": not free,
     }
-    if end:
-      entry["endTime"] = end
     if price:
       entry["price"] = price
     out.append(entry)
@@ -132,7 +142,7 @@ def build_events_clean(flat_events: list[dict[str, Any]], year: int) -> list[dic
 # ---------------------------------------------------------------------------
 
 def build_gold_bundle(
-  city: dict[str, Any],
+  town: dict[str, Any],
   feria: dict[str, Any],
   edition: dict[str, Any],
   places: list[dict[str, Any]],
@@ -141,32 +151,33 @@ def build_gold_bundle(
 ) -> dict[str, Any]:
   events: list[dict[str, Any]] = []
   for ev in events_clean:
-    start_ts = f"{ev['date']}T{ev['startTime']}:00{TZ_SUFFIX}"
-    free = bool(ev.get("free"))
-    tags = ["gratuit"] if free else ["payant"]
+    is_paid = bool(ev.get("isPaid"))
+    tags = ["payant"] if is_paid else ["gratuit"]
 
+    start_iso = _dmy_to_iso(ev["startDate"])
     out_ev: dict[str, Any] = {
       "id": ev["id"],
-      "venueId": ev["location_normalized"],
-      "shortName": ev["title_fr"][:24],
-      "startTimestamp": start_ts,
-      "title": {"fr": ev["title_fr"]},
+      "venueId": ev["location"],
+      "shortName": (ev["title_short"]["fr"] or "")[:24],
+      "startTimestamp": f"{start_iso}T{ev['startTime']}:00{TZ_SUFFIX}",
+      "title": ev["title_long"],
       "tags": tags,
     }
-    if ev.get("endTime"):
-      out_ev["endTimestamp"] = f"{ev['date']}T{ev['endTime']}:00{TZ_SUFFIX}"
-    if (not free) and ev.get("price"):
+    if ev.get("endDate") and ev.get("endTime"):
+      end_iso = _dmy_to_iso(ev["endDate"])
+      out_ev["endTimestamp"] = f"{end_iso}T{ev['endTime']}:00{TZ_SUFFIX}"
+    if is_paid and ev.get("price"):
       out_ev["description"] = {"fr": str(ev["price"])}
     events.append(out_ev)
 
   events.sort(key=lambda e: e["startTimestamp"])
 
   return {
-    "id": f"{city['id']}__{feria['id']}__{year}",
-    "city": city,
-    "festival": {
+    "id": f"{town['id']}__{feria['id']}__{year}",
+    "town": town,
+    "feria": {
       "id": feria["id"],
-      "cityId": feria.get("cityId") or city["id"],
+      "townId": feria.get("townId") or town["id"],
       "name": feria["name"],
       "website": feria.get("website"),
       "theme": feria.get("theme"),
@@ -187,15 +198,15 @@ def build_gold_bundle(
 def run(year: int) -> None:
   root = Path(__file__).resolve().parents[1] / "data"
 
-  bronze_path  = root / "bronze" / "cities" / CITY_ID / FERIA_ID / str(year) / "events_raw.json"
-  silver_out   = root / "silver" / "cities" / CITY_ID / FERIA_ID / str(year) / "events_clean.json"
-  city_path    = root / "silver" / "cities" / CITY_ID / "city.json"
-  places_path  = root / "silver" / "cities" / CITY_ID / "places.json"
-  feria_path   = root / "silver" / "ferias" / f"{FERIA_ID}.json"
-  gold_out     = root / "gold" / f"{CITY_ID}__{FERIA_ID}__{year}.json"
+  bronze_path  = root / "01_bronze" / "towns" / CITY_ID / FERIA_ID / str(year) / "events_raw.json"
+  silver_out   = root / "02_silver" / "02_ferias" / CITY_ID / FERIA_ID / f"{FERIA_ID}-{year}-events-clean.json"
+  city_path    = root / "02_silver" / "01_town" / CITY_ID / "town.json"
+  places_path  = root / "02_silver" / "01_town" / CITY_ID / "places.json"
+  feria_path   = root / "02_silver" / "ferias" / f"{FERIA_ID}.json"
+  gold_out     = root / "03_gold" / f"{CITY_ID}__{FERIA_ID}__{year}.json"
 
   bronze = _read_json(bronze_path)
-  city   = _read_json(city_path)
+  town   = _read_json(city_path)
   places = _read_json(places_path)
   feria  = _read_json(feria_path)
 
@@ -208,14 +219,12 @@ def run(year: int) -> None:
   events_clean = build_events_clean(flat_events, year)
 
   _write_json(silver_out, {
-    "_source": str(bronze_path.relative_to(root)).replace("\\", "/"),
-    "_processed_at": "auto",
     "events": events_clean,
   })
   print(f"✓ silver → {silver_out.relative_to(root.parent)}")
 
   _write_json(gold_out, build_gold_bundle(
-    city=city,
+    town=town,
     feria=feria,
     edition=feria["editions"][str(year)],
     places=places,

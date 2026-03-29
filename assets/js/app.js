@@ -10,9 +10,9 @@
  */
 const App = {
   lang:                'fr',
-  festivalIndex:       [],
-  currentFestivalMeta: null,
-  _cityCache:          {},
+  editionsIndex:       [],
+  currentMeta: null,
+  _townCache:          {},
   _refreshTimer:       null,
   _panelOpen:          false,
   activeVenueId:       null,
@@ -20,7 +20,7 @@ const App = {
   // ─── Références aux composants ───────────────────────────────────
   get $loading()  { return document.querySelector('inguru-loading');        },
   get $header()   { return document.querySelector('inguru-header');         },
-  get $panel()    { return document.querySelector('inguru-festival-panel'); },
+  get $panel()    { return document.querySelector('inguru-feria-panel'); },
   get $popup()    { return document.querySelector('inguru-event-popup');    },
   get $fabs()     { return document.querySelector('inguru-fab-stack');      },
 
@@ -47,12 +47,12 @@ const App = {
       ]);
 
       // Filtre les éditions selon isDisplay dans index.json (true par défaut si absent)
-      this.festivalIndex = (index.editions ?? []).filter(e => e.isDisplay !== false);
+      this.editionsIndex = (index.editions ?? []).filter(e => e.isDisplay !== false);
 
       await this._enrichEditionsFromGold();
 
-      const active = Events.selectActive(this.festivalIndex);
-      await this._loadFestival(active, false);
+      const active = Events.selectActive(this.editionsIndex);
+      await this._loadFeria(active, false);
 
       this._setupEventListeners();
       this._requestGeolocation();
@@ -71,7 +71,7 @@ const App = {
   // ─── Écoute des CustomEvents des composants ──────────────────────
   _setupEventListeners() {
     // Header
-    document.addEventListener('inguru:festival-panel-toggle', () => {
+    document.addEventListener('inguru:feria-panel-toggle', () => {
       this._panelOpen ? this._closePanel() : this._openPanel();
     });
 
@@ -80,8 +80,8 @@ const App = {
     });
 
     // Festival panel
-    document.addEventListener('inguru:festival-select', (e) => {
-      this._selectFestival(e.detail.id);
+    document.addEventListener('inguru:feria-select', (e) => {
+      this._selectFeria(e.detail.id);
     });
 
     // Popup
@@ -125,22 +125,22 @@ const App = {
     });
   },
 
-  // ─── Chargement festival ─────────────────────────────────────────
-  async _loadFestival(meta, animate = true) {
+  // ─── Chargement feria ────────────────────────────────────────────
+  async _loadFeria(meta, animate = true) {
     Events.venues = [];
     Events.events = [];
 
     try {
       const loaded = await Events.load(meta);
       Object.assign(meta, loaded);
-      const idx = this.festivalIndex.findIndex(f => f.id === meta.id);
-      if (idx >= 0) Object.assign(this.festivalIndex[idx], loaded);
+      const idx = this.editionsIndex.findIndex(f => f.id === meta.id);
+      if (idx >= 0) Object.assign(this.editionsIndex[idx], loaded);
     } catch (err) {
       console.error(`[App] Impossible de charger "${meta.id}":`, err.message);
       throw err;
     }
 
-    this.currentFestivalMeta = meta;
+    this.currentMeta = meta;
     this._applyTheme(meta.theme);
 
     if (!MapModule.map) {
@@ -161,9 +161,9 @@ const App = {
       if (this.activeVenueId) this._renderAndShowPopup(this.activeVenueId);
     }, (Events.config?.markerRefreshInterval ?? 60) * 1000);
 
-    this.$header?.setFestival(Utils.loc(meta.name, this.lang));
+    this.$header?.setFeria(Utils.loc(meta.name, this.lang));
     this.$panel?.render(
-      this.festivalIndex, this.lang,
+      this.editionsIndex, this.lang,
       MapModule.userPos, meta.id,
       (hex) => this._hexToRgb(hex)
     );
@@ -191,39 +191,39 @@ const App = {
     return { r: (n >> 16) & 255, g: (n >> 8) & 255, b: n & 255 };
   },
 
-  // ─── Pré-chargement villes ───────────────────────────────────────
+  // ─── Pré-chargement towns ────────────────────────────────────────
   async _enrichEditionsFromGold() {
-    await Promise.all(this.festivalIndex.map(async (ed) => {
+    await Promise.all(this.editionsIndex.map(async (ed) => {
       if (!ed.id) return;
-      const bundlePath = `data/gold/${ed.id}.json`;
+      const bundlePath = `data/03_gold/${ed.id}.json`;
       try {
         const res = await fetch(bundlePath);
         if (!res.ok) return;
         const d = await res.json();
 
         if (!ed.dates) ed.dates = d.edition?.dates ?? ed.dates;
-        if (!ed.name)  ed.name  = d.festival?.name ?? ed.name;
-        if (!ed.theme) ed.theme = d.festival?.theme ?? ed.theme;
+        if (!ed.name)  ed.name  = d.feria?.name ?? ed.name;
+        if (!ed.theme) ed.theme = d.feria?.theme ?? ed.theme;
 
-        const city = d.city;
-        if (city) {
-          if (!ed.city)     ed.city     = city.name;
-          if (!ed.center)   ed.center   = city.center;
-          if (!ed.category) ed.category = city.category;
+        const town = d.town;
+        if (town) {
+          if (!ed.town)     ed.town     = town.name;
+          if (!ed.center)   ed.center   = town.center;
+          if (!ed.category) ed.category = town.category;
         }
       } catch (e) {}
     }));
   },
 
-  // ─── Sélection festival ──────────────────────────────────────────
-  async _selectFestival(id) {
-    const meta = this.festivalIndex.find(f => f.id === id);
+  // ─── Sélection feria ─────────────────────────────────────────────
+  async _selectFeria(id) {
+    const meta = this.editionsIndex.find(f => f.id === id);
     if (!meta) return;
     this._closePanel();
-    await this._loadFestival(meta, true);
+    await this._loadFeria(meta, true);
   },
 
-  // ─── Panneau festival ────────────────────────────────────────────
+  // ─── Panneau feria ───────────────────────────────────────────────
   _openPanel() {
     this._panelOpen = true;
     this.$panel?.open();
@@ -254,8 +254,8 @@ const App = {
     const html = this._buildPopupHTML(venueId);
     if (!html) return;
 
-    // Applique le thème festival au popup
-    const theme = this.currentFestivalMeta?.theme;
+    // Applique le thème feria au popup
+    const theme = this.currentMeta?.theme;
     this.$popup?.setTheme(theme?.primary ?? '#e63012', theme?.secondary ?? '#fff');
     this.$popup?.show(html);
   },
@@ -295,9 +295,12 @@ const App = {
 
     if (!result) {
       return `
-        <div class="popup-venue" style="color:var(--popup-p)">${Utils.escHtml(Utils.loc(venue.name, lang))}</div>
-        <div class="popup-title">${I18n.t('no_event')}</div>
-        ${distHtml}${btns}`;
+        <div class="popup-body-scroll">
+          <div class="popup-venue" style="color:var(--popup-p)">${Utils.escHtml(Utils.loc(venue.name, lang))}</div>
+          <div class="popup-title">${I18n.t('no_event')}</div>
+          ${distHtml}
+        </div>
+        <div class="popup-btn-wrap">${btns}</div>`;
     }
 
     const { event, status } = result;
@@ -364,13 +367,15 @@ const App = {
     }
 
     return `
-      <div class="popup-venue" style="color:var(--popup-p)">${Utils.escHtml(Utils.loc(venue.name, lang))}</div>
-      <div class="popup-title">${Utils.escHtml(Utils.loc(event.title, lang))}</div>
-      <div class="popup-meta">${badge}<span>🕐 ${timeRange}</span>${cdHtml}</div>
-      ${descHtml}
-      ${distHtml}
-      ${schedHtml}
-      <div style="margin-top:14px">${btns}</div>`;
+      <div class="popup-body-scroll">
+        <div class="popup-venue" style="color:var(--popup-p)">${Utils.escHtml(Utils.loc(venue.name, lang))}</div>
+        <div class="popup-title">${Utils.escHtml(Utils.loc(event.title, lang))}</div>
+        <div class="popup-meta">${badge}<span>🕐 ${timeRange}</span>${cdHtml}</div>
+        ${descHtml}
+        ${distHtml}
+        ${schedHtml}
+      </div>
+      <div class="popup-btn-wrap">${btns}</div>`;
   },
 
   // ─── Partage ─────────────────────────────────────────────────────
@@ -421,12 +426,12 @@ const App = {
     this.lang = lang;
     I18n.set(lang);
     this.$header?.setLang(lang);
-    if (this.currentFestivalMeta) {
-      this.$header?.setFestival(Utils.loc(this.currentFestivalMeta.name, lang));
+    if (this.currentMeta) {
+      this.$header?.setFeria(Utils.loc(this.currentMeta.name, lang));
     }
     this.$panel?.render(
-      this.festivalIndex, lang,
-      MapModule.userPos, this.currentFestivalMeta?.id,
+      this.editionsIndex, lang,
+      MapModule.userPos, this.currentMeta?.id,
       (hex) => this._hexToRgb(hex)
     );
     MapModule.renderAll(lang);
@@ -465,13 +470,13 @@ const App = {
 
     if (!MapModule._firstFix) {
       MapModule._firstFix = true;
-      const c = this.currentFestivalMeta?.center;
+      const c = this.currentMeta?.center;
       if (c && Utils.haversine(lat, lng, c.lat, c.lng) < 10000)
         MapModule.map.flyTo([lat, lng], 16, { duration: 1 });
       // Rebuild du panneau avec les distances maintenant connues
       this.$panel?.render(
-        this.festivalIndex, this.lang,
-        { lat, lng }, this.currentFestivalMeta?.id,
+        this.editionsIndex, this.lang,
+        { lat, lng }, this.currentMeta?.id,
         (hex) => this._hexToRgb(hex)
       );
     }

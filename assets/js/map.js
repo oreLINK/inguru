@@ -11,8 +11,8 @@ const MapModule = {
   _sheetJustOpened: false,
   _isDark: false,
 
-  init(festival) {
-    const { lat, lng } = festival.center;
+  init(meta) {
+    const { lat, lng } = meta.center;
 
     this.map = L.map('map', {
       zoomControl:         false,
@@ -21,7 +21,7 @@ const MapModule = {
       zoomDelta:           0.5,
       wheelPxPerZoomLevel: 80,
       tap:                 false,
-    }).setView([lat, lng], festival.defaultZoom ?? 16);
+    }).setView([lat, lng], meta.defaultZoom ?? 16);
 
     // Tuile unique OpenStreetMap — dark mode via filtre CSS
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

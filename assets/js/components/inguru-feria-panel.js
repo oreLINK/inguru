@@ -1,9 +1,9 @@
 /**
- * <inguru-festival-panel>
- * Panneau de sélection des festivals — style Apple, 3 sections + recherche.
+ * <inguru-feria-panel>
+ * Panneau de sélection des ferias — style Apple, 3 sections + recherche.
  *
  * CustomEvents émis :
- *   inguru:festival-select { id } — un festival a été sélectionné
+ *   inguru:feria-select { id } — une feria a été sélectionnée
  *
  * Méthodes :
  *   open()
@@ -11,13 +11,13 @@
  *   render(editions, lang, userPos, currentId, hexToRgb)
  *   isOpen()
  */
-class InguruFestivalPanel extends HTMLElement {
+class InguruFeriaPanel extends HTMLElement {
   #open = false;
 
   connectedCallback() {
     this.innerHTML = `
-      <div id="festival-panel">
-        <div id="festival-sections"></div>
+      <div id="feria-panel">
+        <div id="feria-sections"></div>
       </div>`;
   }
 
@@ -27,7 +27,7 @@ class InguruFestivalPanel extends HTMLElement {
 
   open() {
     this.#open = true;
-    const panel = this.querySelector('#festival-panel');
+    const panel = this.querySelector('#feria-panel');
     if (!panel) return;
 
     // Injecte la barre de recherche une seule fois
@@ -37,14 +37,14 @@ class InguruFestivalPanel extends HTMLElement {
       wrap.innerHTML = `
         <span class="fp-search-icon">🔍</span>
         <input class="fp-search" id="fp-search-input" type="search"
-          placeholder="${I18n.t('search_festival')}" autocomplete="off" spellcheck="false">`;
+          placeholder="${I18n.t('search_feria')}" autocomplete="off" spellcheck="false">`;
       panel.insertBefore(wrap, panel.firstChild);
       panel.querySelector('#fp-search-input').addEventListener('input', (e) => {
         this.#renderSections(e.target.value);
       });
     } else {
       const inp = panel.querySelector('#fp-search-input');
-      if (inp) { inp.value = ''; inp.placeholder = I18n.t('search_festival'); }
+      if (inp) { inp.value = ''; inp.placeholder = I18n.t('search_feria'); }
       this.#renderSections('');
     }
 
@@ -54,7 +54,7 @@ class InguruFestivalPanel extends HTMLElement {
 
   close() {
     this.#open = false;
-    this.querySelector('#festival-panel')?.classList.remove('open');
+    this.querySelector('#feria-panel')?.classList.remove('open');
   }
 
   /**
@@ -86,7 +86,7 @@ class InguruFestivalPanel extends HTMLElement {
       { key: 'small',  label: I18n.t('section_small')  },
     ];
 
-    const container = this.querySelector('#festival-sections');
+    const container = this.querySelector('#feria-sections');
     container.innerHTML = '';
 
     for (const cat of cats) {
@@ -95,8 +95,8 @@ class InguruFestivalPanel extends HTMLElement {
           if (f.category !== cat.key) return false;
           if (!query) return true;
           const name = normalize(Utils.loc(f.name, lang));
-          const city = normalize(Utils.loc(f.city ?? f.name, lang));
-          return name.includes(query) || city.includes(query);
+          const town = normalize(Utils.loc(f.town ?? f.name, lang));
+          return name.includes(query) || town.includes(query);
         })
         .sort((a, b) => {
           const aOver = today > (a.dates?.end ?? '');
@@ -149,13 +149,13 @@ class InguruFestivalPanel extends HTMLElement {
         card.dataset.cat = cat.key;
         card.style.cssText = `--card-gradient:${grad};--card-p:${pc};--card-s:${sc}`;
         card.innerHTML = `
-          <div class="fp-card-city">${Utils.escHtml(Utils.loc(f.name, lang))}</div>
+          <div class="fp-card-town">${Utils.escHtml(Utils.loc(f.name, lang))}</div>
           <div class="fp-card-dates">${dates}</div>
           ${distLabel}
           <span class="fp-badge ${badgeCls}">${badgeTxt}</span>`;
 
         card.addEventListener('click', () => {
-          this.dispatchEvent(new CustomEvent('inguru:festival-select', {
+          this.dispatchEvent(new CustomEvent('inguru:feria-select', {
             bubbles: true, detail: { id: f.id }
           }));
         });
@@ -169,4 +169,4 @@ class InguruFestivalPanel extends HTMLElement {
   }
 }
 
-customElements.define('inguru-festival-panel', InguruFestivalPanel);
+customElements.define('inguru-feria-panel', InguruFeriaPanel);

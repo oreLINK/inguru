@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": "musique",
+      "label": { "fr": "Musique", "es": "Música", "eus": "Musika" },
+      "color": "#7C3AED"
+    },
+    {
+      "id": "sport",
+      "label": { "fr": "Sport", "es": "Deporte", "eus": "Kirola" },
+      "color": "#2563EB"
+    },
+    {
+      "id": "association",
+      "label": { "fr": "Association", "es": "Asociación", "eus": "Elkartea" },
+      "color": "#059669"
+    },
+    {
+      "id": "gastronomie",
+      "label": { "fr": "Gastronomie", "es": "Gastronomía", "eus": "Gastronomia" },
+      "color": "#D97706"
+    },
+    {
+      "id": "festivite",
+      "label": { "fr": "Festivité", "es": "Festividad", "eus": "Ospakizuna" },
+      "color": "#DB2777"
+    }
+  ]
+}

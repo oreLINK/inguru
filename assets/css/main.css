@@ -78,7 +78,7 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
              -webkit-text-stroke-color var(--t-med);
 }
 
-#festival-btn{
+#feria-btn{
   display:flex;align-items:center;gap:6px;
   padding:7px 12px 7px 10px;border-radius:30px;
   cursor:pointer;border:1px solid var(--glass-border);
@@ -89,11 +89,11 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
   transition:border-color var(--t-fast),background var(--t-fast);
   min-width:0;overflow:hidden;
 }
-#festival-btn.open{border-color:var(--p-a35);background:var(--p-a10);}
-.festival-btn-emoji{font-size:1.1rem;flex-shrink:0;}
-.festival-btn-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:140px;}
-.festival-btn-arrow{color:var(--ink-3);font-size:0.7rem;flex-shrink:0;transition:transform var(--t-fast) var(--spring);}
-#festival-btn.open .festival-btn-arrow{transform:rotate(180deg);}
+#feria-btn.open{border-color:var(--p-a35);background:var(--p-a10);}
+.feria-btn-emoji{font-size:1.1rem;flex-shrink:0;}
+.feria-btn-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:140px;}
+.feria-btn-arrow{color:var(--ink-3);font-size:0.7rem;flex-shrink:0;transition:transform var(--t-fast) var(--spring);}
+#feria-btn.open .feria-btn-arrow{transform:rotate(180deg);}
 
 .icon-btn{
   width:42px;height:42px;display:flex;align-items:center;justify-content:center;
@@ -132,7 +132,7 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
 .lang-menu button.lang-active::after{content:'✓';margin-left:auto;font-size:0.85rem;opacity:0.85;}
 
 /* ═══ FESTIVAL PICKER — style Apple ═══════════════════════════════ */
-#festival-panel{
+#feria-panel{
   position:fixed;
   top:calc(var(--header-h) + var(--safe-top));
   left:0;right:0;z-index:950;
@@ -147,7 +147,7 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
   opacity:0;pointer-events:none;
   transition:transform var(--t-med) var(--spring),opacity var(--t-med) var(--ease);
 }
-#festival-panel.open{transform:scaleY(1) translateY(0);opacity:1;pointer-events:auto;}
+#feria-panel.open{transform:scaleY(1) translateY(0);opacity:1;pointer-events:auto;}
 
 /* Section (grande / intermédiaire / petite) */
 .fp-section{margin-bottom:20px;}
@@ -169,7 +169,7 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
 }
 .fp-scroll::-webkit-scrollbar{display:none;}
 
-/* Carte festival — base */
+/* Carte feria — base */
 .fp-card{
   flex-shrink:0;
   padding:13px 13px 12px;
@@ -201,13 +201,13 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
 .fp-card[data-cat="small"]  { width:96px; padding:10px 10px 9px; border-radius:14px; }
 
 /* Textes */
-.fp-card-city{
+.fp-card-town{
   font-family:var(--font-display);font-weight:800;line-height:1.1;
   color:var(--ink);margin-bottom:3px;
 }
-.fp-card[data-cat="large"]  .fp-card-city { font-size:1.08rem; }
-.fp-card[data-cat="medium"] .fp-card-city { font-size:0.95rem; }
-.fp-card[data-cat="small"]  .fp-card-city { font-size:0.84rem; }
+.fp-card[data-cat="large"]  .fp-card-town { font-size:1.08rem; }
+.fp-card[data-cat="medium"] .fp-card-town { font-size:0.95rem; }
+.fp-card[data-cat="small"]  .fp-card-town { font-size:0.84rem; }
 
 .fp-card-dates{color:var(--ink-3);font-weight:600;margin-bottom:5px;}
 .fp-card[data-cat="large"]  .fp-card-dates { font-size:0.74rem; }
@@ -330,7 +330,7 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
 }
 
 /* ═══ POPUP ═══════════════════════════════════════════════════════ */
-/* Variables locales popup (injectées par JS selon le festival) */
+/* Variables locales popup (injectées par JS selon la feria) */
 .ev-popup{
   --popup-p: var(--p); --popup-s: var(--s);
   --popup-p-a18: var(--p-a18); --popup-p-a35: var(--p-a35); --popup-p-a60: var(--p-a60);
@@ -383,9 +383,14 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
 
 .ev-popup-content{
   position:relative;z-index:1;
-  padding:12px 18px 20px;  /* même espacement que la croix → 12px global */
+  padding:12px 18px 0;
   overflow:hidden;
+  display:flex;flex-direction:column;
 }
+.popup-body-scroll{flex:1;overflow-y:auto;min-height:0;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,0.15) transparent;padding-bottom:14px;}
+.popup-body-scroll::-webkit-scrollbar{width:3px;}
+.popup-body-scroll::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.15);border-radius:2px;}
+.popup-btn-wrap{flex-shrink:0;padding:10px 0 20px;}
 
 /* ── Mobile < 640px : moitié basse ─────────────────────────────── */
 @media (max-width:639px){
@@ -401,7 +406,7 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
     max-height:50vh;display:flex;flex-direction:column;
     padding-bottom:max(8px,var(--safe-bot));}
   .ev-popup-content{flex:1;overflow:hidden;}
-  .popup-venue{margin-top:50px !important;}
+  .popup-venue{margin-top:25px !important;}
   .ev-popup-arrow{display:none !important;}
   .ev-popup-close{width:36px !important;height:36px !important;font-size:1rem !important;
     top:12px !important;right:12px !important;
@@ -475,8 +480,7 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
 .countdown        {color:var(--amber);font-weight:700;}
 .countdown-running{color:var(--red-soft);font-weight:700;}
 .schedule-label{font-size:0.68rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin:4px 0 10px;}
-.schedule-scroll{overflow-y:auto;max-height:190px;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,0.15) transparent;padding-right:2px;}
-.schedule-scroll::-webkit-scrollbar{width:3px;}
+.schedule-scroll{overflow-y:visible;}
 .schedule-scroll::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.15);border-radius:2px;}
 .schedule-day{font-size:0.68rem;font-weight:700;letter-spacing:0.06em;text-transform:capitalize;color:var(--popup-p);opacity:0.85;padding:8px 11px 4px;margin-top:4px;}
 .schedule-item {display:flex;align-items:flex-start;gap:10px;padding:9px 11px;border-radius:var(--r-sm);margin-bottom:4px;border:1px solid transparent;font-size:0.88rem;}

@@ -51,7 +51,7 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
 
   // Données : network-first
-  if (url.pathname.startsWith('/data/gold/') || url.pathname === '/data/index.json') {
+  if (url.pathname.startsWith('/data/03_gold/') || url.pathname === '/data/index.json') {
     event.respondWith(
       fetch(event.request)
         .then(res => {

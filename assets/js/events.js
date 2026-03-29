@@ -3,22 +3,27 @@
  *
  * Structure de données :
  *   data/index.json          → liste des éditions { id, isDisplay }
- *   data/gold/{id}.json      → bundle "édition" (ville + fête + dates + lieux + events)
+ *   data/03_gold/{id}.json   → bundle "édition" (town + feria + dates + lieux + events)
  */
 const Events = {
-  city:     null,
-  festival: null,
-  edition:  null,
-  venues:   [],
-  events:   [],
+  town:           null,
+  feria:          null,
+  edition:        null,
+  venues:         [],
+  events:         [],
 
-  config: null,
+  config:         null,
+  dominantColors: {},
 
   // ─── Chargement de la config globale ─────────────────────────────
   async loadConfig() {
-    const res = await fetch('data/config.json');
-    if (!res.ok) throw new Error('Impossible de charger data/config.json');
-    this.config = await res.json();
+    const [configRes, colorsRes] = await Promise.all([
+      fetch('data/config.json'),
+      fetch('data/events_dominant_colors.json'),
+    ]);
+    if (!configRes.ok) throw new Error('Impossible de charger data/config.json');
+    this.config = await configRes.json();
+    if (colorsRes.ok) this.dominantColors = await colorsRes.json();
     return this.config;
   },
 
@@ -30,24 +35,24 @@ const Events = {
   },
 
   /**
-   * Charge toutes les données d'une édition depuis data/gold/{id}.json.
-   * Retourne un objet `meta` complet pour l'affichage (fusion city + festival + edition).
+   * Charge toutes les données d'une édition depuis data/03_gold/{id}.json.
+   * Retourne un objet `meta` complet pour l'affichage (fusion town + feria + edition).
    *
    * @param {object} ref  Entrée de l'index : { id, isDisplay }
    */
   async load(ref) {
-    const bundlePath = `data/gold/${ref.id}.json`;
+    const bundlePath = `data/03_gold/${ref.id}.json`;
     const res = await fetch(bundlePath);
     if (!res.ok) throw new Error(`Fichier manquant : ${bundlePath}`);
 
     const bundle = await res.json();
-    this.city     = bundle.city ?? null;
-    this.festival = bundle.festival ?? null;
+    this.town     = bundle.town ?? null;
+    this.feria    = bundle.feria ?? null;
     this.edition  = bundle.edition ?? null;
     this.venues   = bundle.places ?? [];
     this.events   = bundle.events ?? [];
 
-    if (!this.city || !this.festival || !this.edition)
+    if (!this.town || !this.feria || !this.edition)
       throw new Error(`Bundle invalide : ${bundlePath}`);
 
     // Objet meta fusionné pour l'affichage
@@ -62,23 +67,22 @@ const Events = {
   _buildMeta(ref) {
     return {
       id:          ref.id,
-      // Nom : du festival, affiché avec la ville
-      name:        this.festival.name,
-      city:        this.city.name,
-      // emoji supprimé
-      // Données géographiques depuis la ville
-      center:      this.city.center,
-      category:    this.city.category,
-      // Thème depuis le festival (couleurs propres à chaque fête)
-      theme:       this.festival.theme,
+      // Nom : de la feria, affiché avec la town
+      name:        this.feria.name,
+      town:        this.town.name,
+      // Données géographiques depuis la town
+      center:      this.town.center,
+      category:    this.town.category,
+      // Thème : priorité au fichier events_dominant_colors.json, sinon feria.theme
+      theme:       this.dominantColors[this.feria.id] ?? this.feria.theme,
       // Données de l'édition
       dates:       this.edition.dates,
       defaultZoom: this.edition.defaultZoom ?? this.config?.defaultZoom ?? 16,
-      website:     this.festival.website ?? null,
+      website:     this.feria.website ?? null,
     };
   },
 
-  // ─── Sélection du festival actif ──────────────────────────────────
+  // ─── Sélection de la feria active ─────────────────────────────────
   selectActive(editions) {
     const today = Time.todayStr();
     return editions.find(e => today >= e.dates?.start && today <= e.dates?.end)

@@ -1,14 +1,14 @@
 /**
  * <inguru-header>
- * Barre de navigation : logo Shrikhand + bouton festival + sélecteur de langue.
+ * Barre de navigation : logo Shrikhand + bouton feria + sélecteur de langue.
  *
  * CustomEvents émis :
- *   inguru:festival-panel-toggle  — demande l'ouverture/fermeture du panneau
+ *   inguru:feria-panel-toggle  — demande l'ouverture/fermeture du panneau
  *   inguru:lang-change { lang }  — changement de langue sélectionné
  *
  * Méthodes :
- *   setFestival(name)   — met à jour le nom affiché
- *   setPanelOpen(bool)  — met à jour l'état visuel du bouton festival
+ *   setFeria(name)      — met à jour le nom affiché
+ *   setPanelOpen(bool)  — met à jour l'état visuel du bouton feria
  *   closeLangMenu()     — ferme le dropdown langue
  */
 class InguruHeader extends HTMLElement {
@@ -17,9 +17,9 @@ class InguruHeader extends HTMLElement {
       <header id="header">
         <div class="header-left">
           <span class="logo">inguru</span>
-          <button id="festival-btn" aria-haspopup="true" aria-expanded="false">
-            <span class="festival-btn-name" id="festival-btn-name">Chargement…</span>
-            <span class="festival-btn-arrow" aria-hidden="true">▾</span>
+          <button id="feria-btn" aria-haspopup="true" aria-expanded="false">
+            <span class="feria-btn-name" id="feria-btn-name">Chargement…</span>
+            <span class="feria-btn-arrow" aria-hidden="true">▾</span>
           </button>
         </div>
         <div class="header-right">
@@ -34,14 +34,14 @@ class InguruHeader extends HTMLElement {
         </div>
       </header>`;
 
-    this._setupFestivalBtn();
+    this._setupFeriaBtn();
     this._setupLangMenu();
   }
 
   // ─── Méthodes publiques ───────────────────────────────────────────
 
-  setFestival(name) {
-    const el = this.querySelector('#festival-btn-name');
+  setFeria(name) {
+    const el = this.querySelector('#feria-btn-name');
     if (el) el.textContent = name;
   }
 
@@ -52,7 +52,7 @@ class InguruHeader extends HTMLElement {
   }
 
   setPanelOpen(open) {
-    const btn = this.querySelector('#festival-btn');
+    const btn = this.querySelector('#feria-btn');
     if (!btn) return;
     btn.classList.toggle('open', open);
     btn.setAttribute('aria-expanded', open);
@@ -64,10 +64,10 @@ class InguruHeader extends HTMLElement {
 
   // ─── Setup interne ────────────────────────────────────────────────
 
-  _setupFestivalBtn() {
-    this.querySelector('#festival-btn')?.addEventListener('click', (e) => {
+  _setupFeriaBtn() {
+    this.querySelector('#feria-btn')?.addEventListener('click', (e) => {
       e.stopPropagation();
-      this.dispatchEvent(new CustomEvent('inguru:festival-panel-toggle', { bubbles: true }));
+      this.dispatchEvent(new CustomEvent('inguru:feria-panel-toggle', { bubbles: true }));
     });
   }
 
