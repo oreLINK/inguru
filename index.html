@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="theme-color" content="#e63012" />
   <meta name="description" content="Inguru – Ce qui se passe autour de toi, maintenant" />
-  <title>Inguru 🎉</title>
+  <title>Inguru</title>
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="assets/img/icons/icon-192.png" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -14,73 +14,36 @@
 <body>
 <div id="app">
 
-  <header id="header">
-    <div class="header-left">
-      <span class="logo">inguru</span>
-      <button id="festival-btn">
-        <span class="festival-btn-emoji" id="festival-btn-emoji"> </span>
-        <span class="festival-btn-name" id="festival-btn-name">Chargement…</span>
-        <span class="festival-btn-arrow">▾</span>
-      </button>
-    </div>
-    <div class="header-right">
-      <div class="lang-wrapper">
-        <button id="lang-btn" class="icon-btn" title="Langue">🌐</button>
-        <div id="lang-menu" class="lang-menu hidden">
-          <button data-lang="fr">Français</button>
-          <button data-lang="es">Español</button>
-          <button data-lang="eu">Euskara</button>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Festival Picker — style Apple avec 3 sections -->
-  <div id="festival-panel">
-    <div id="festival-sections"></div>
-  </div>
+  <!-- Web Components -->
+  <inguru-header></inguru-header>
+  <inguru-festival-panel></inguru-festival-panel>
 
   <div id="scrim"></div>
   <div id="map"></div>
 
-  <!-- FABs empilés bas-droite -->
-  <div class="fab-stack">
-    <button id="fab-share-loc" class="fab fab-share-loc hidden" title="">📤</button>
-    <button id="fab-locate"    class="fab fab-locate"            title="">📍</button>
-  </div>
-
-  <!-- Popup événement -->
-  <div id="event-popup" class="ev-popup hidden">
-    <div class="ev-popup-inner">
-      <button id="popup-close" class="ev-popup-close" aria-label="Fermer">✕</button>
-      <div id="popup-content" class="ev-popup-content"></div>
-    </div>
-    <div class="ev-popup-arrow" id="popup-arrow"></div>
-  </div>
-
-  <!-- Chargement -->
-  <div id="loading" class="loading">
-    <div class="loading-logo">inguru</div>
-    <div class="loading-inner">
-      <div class="spinner"></div>
-      <p id="loading-text">Chargement…</p>
-    </div>
-  </div>
-
-  <!-- Erreur -->
-  <div id="error-screen" class="error-screen hidden">
-    <span class="error-icon">⚠️</span>
-    <p id="error-text">Erreur de chargement</p>
-    <button onclick="location.reload()" class="btn btn-primary" style="max-width:200px">Réessayer</button>
-  </div>
+  <inguru-fab-stack></inguru-fab-stack>
+  <inguru-event-popup></inguru-event-popup>
+  <inguru-loading></inguru-loading>
 
 </div>
 
+<!-- Leaflet -->
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- Utilitaires (pas de dépendances entre eux) -->
 <script src="assets/js/utils.js"></script>
 <script src="assets/js/time.js"></script>
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/events.js"></script>
+
+<!-- Web Components (dépendent de utils/i18n) -->
+<script src="assets/js/components/inguru-loading.js"></script>
+<script src="assets/js/components/inguru-header.js"></script>
+<script src="assets/js/components/inguru-festival-panel.js"></script>
+<script src="assets/js/components/inguru-fab-stack.js"></script>
+<script src="assets/js/components/inguru-event-popup.js"></script>
+
+<!-- Carte + Bootstrap (dépendent des composants) -->
 <script src="assets/js/map.js"></script>
 <script src="assets/js/app.js"></script>
 </body>

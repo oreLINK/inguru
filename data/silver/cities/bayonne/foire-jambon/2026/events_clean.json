@@ -1,0 +1,155 @@
+{
+  "_source": "bronze/cities/bayonne/foire-jambon/2026/events_raw.json",
+  "_processed_at": "auto",
+  "events": [
+    {
+      "id": "fj26-001",
+      "date": "2026-04-23",
+      "startTime": "09:30",
+      "location_normalized": "carreau-halles",
+      "title_fr": "Concours du meilleur jambon fermier",
+      "free": true,
+      "endTime": "11:30"
+    },
+    {
+      "id": "fj26-002",
+      "date": "2026-04-23",
+      "startTime": "10:30",
+      "location_normalized": "esplanade-roland-barthes",
+      "title_fr": "Inauguration officielle de la 563e Foire au jambon de Bayonne",
+      "free": true
+    },
+    {
+      "id": "fj26-003",
+      "date": "2026-04-23",
+      "startTime": "11:00",
+      "location_normalized": "trinquet-saint-andre",
+      "title_fr": "Pelote basque main nue – ½ finale A",
+      "free": true
+    },
+    {
+      "id": "fj26-004",
+      "date": "2026-04-23",
+      "startTime": "11:30",
+      "location_normalized": "carreau-halles",
+      "title_fr": "Transfert en musique",
+      "free": true
+    },
+    {
+      "id": "fj26-005",
+      "date": "2026-04-23",
+      "startTime": "12:00",
+      "location_normalized": "esplanade-roland-barthes",
+      "title_fr": "Remise des prix concours jambon fermier et vente aux enchères du jambon primé",
+      "free": true
+    },
+    {
+      "id": "fj26-006",
+      "date": "2026-04-23",
+      "startTime": "16:30",
+      "location_normalized": "trinquet-saint-andre",
+      "title_fr": "Open de pelote basque main nue – ½ finales B",
+      "free": true
+    },
+    {
+      "id": "fj26-007",
+      "date": "2026-04-24",
+      "startTime": "09:30",
+      "location_normalized": "rue-pelletier",
+      "title_fr": "Atelier découpe et transformation du cochon — dégustation txistorra au jambon de Bayonne",
+      "free": true,
+      "endTime": "11:30"
+    },
+    {
+      "id": "fj26-008",
+      "date": "2026-04-25",
+      "startTime": "06:00",
+      "location_normalized": "allee-platanes",
+      "title_fr": "Marché traditionnel",
+      "free": true,
+      "endTime": "13:00"
+    },
+    {
+      "id": "fj26-009",
+      "date": "2026-04-25",
+      "startTime": "10:00",
+      "location_normalized": "maison-associations",
+      "title_fr": "Intronisations des nouveaux membres de la Confrérie du Jambon de Bayonne",
+      "free": true
+    },
+    {
+      "id": "fj26-010",
+      "date": "2026-04-25",
+      "startTime": "10:00",
+      "location_normalized": "esplanade-roland-barthes",
+      "title_fr": "Concours d'omelettes au Jambon de Bayonne avec les associations bayonnaises",
+      "free": true,
+      "endTime": "13:00"
+    },
+    {
+      "id": "fj26-011",
+      "date": "2026-04-25",
+      "startTime": "11:00",
+      "location_normalized": "trinquet-saint-andre",
+      "title_fr": "Finale Open de pelote basque main nue",
+      "free": true
+    },
+    {
+      "id": "fj26-012",
+      "date": "2026-04-25",
+      "startTime": "11:00",
+      "location_normalized": "rues-bayonne",
+      "title_fr": "Défilé de la Confrérie et de ses invités à travers les rues de la Ville",
+      "free": true
+    },
+    {
+      "id": "fj26-013",
+      "date": "2026-04-25",
+      "startTime": "12:00",
+      "location_normalized": "esplanade-roland-barthes",
+      "title_fr": "Visite des stands des charcutiers-salaisonniers",
+      "free": true
+    },
+    {
+      "id": "fj26-014",
+      "date": "2026-04-26",
+      "startTime": "10:00",
+      "location_normalized": "rues-bayonne",
+      "title_fr": "Défilé de la Confrérie à travers les rues de Bayonne",
+      "free": true
+    },
+    {
+      "id": "fj26-015",
+      "date": "2026-04-26",
+      "startTime": "10:30",
+      "location_normalized": "cathedrale-sainte-marie",
+      "title_fr": "Messe des Confréries",
+      "free": true
+    },
+    {
+      "id": "fj26-016",
+      "date": "2026-04-26",
+      "startTime": "11:00",
+      "location_normalized": "carreau-halles",
+      "title_fr": "Mutxiko (danse basque) avec Orai Bat",
+      "free": true
+    },
+    {
+      "id": "fj26-017",
+      "date": "2026-04-26",
+      "startTime": "12:00",
+      "location_normalized": "esplanade-roland-barthes",
+      "title_fr": "Retour des confréries sur la foire",
+      "free": true
+    },
+    {
+      "id": "fj26-018",
+      "date": "2026-04-26",
+      "startTime": "13:30",
+      "location_normalized": "maison-associations",
+      "title_fr": "Repas du 63e Chapitre de la Confrérie — ouvert à tous sur réservation",
+      "free": false,
+      "price": "sur réservation"
+    }
+  ]
+}

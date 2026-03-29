@@ -1,0 +1,41 @@
+{
+  "id": "foire-jambon",
+  "cityId": "bayonne",
+  "name": {
+    "fr": "Foire au Jambon",
+    "es": "Feria del Jamón",
+    "eu": "Urdaiazpiko Azoka"
+  },
+  "website": "https://bayonne-tourisme.com",
+  "theme": {
+    "primary": "#8b1a1a",
+    "secondary": "#f5c400"
+  },
+  "editions": {
+    "2025": {
+      "year": 2025,
+      "dates": {
+        "start": "2025-04-10",
+        "end": "2025-04-13"
+      },
+      "name": {
+        "fr": "Foire au Jambon 2025",
+        "es": "Feria del Jamón 2025",
+        "eu": "Urdaiazpiko Azoka 2025"
+      }
+    },
+    "2026": {
+      "year": 2026,
+      "dates": {
+        "start": "2026-04-23",
+        "end": "2026-04-26"
+      },
+      "name": {
+        "fr": "Foire au Jambon 2026",
+        "es": "Feria del Jamón 2026",
+        "eu": "Urdaiazpiko Azoka 2026"
+      }
+    }
+  }
+}
+

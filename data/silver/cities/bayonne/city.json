@@ -1,0 +1,15 @@
+{
+  "id": "bayonne",
+  "name": {
+    "fr": "Bayonne",
+    "es": "Bayona",
+    "eu": "Baiona"
+  },
+  "country": "FR",
+  "center": {
+    "lat": 43.4929,
+    "lng": -1.4748
+  },
+  "category": "large"
+}
+

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "esplanade-roland-barthes",
+    "name": {
+      "fr": "Esplanade Roland-Barthes - Place Verte",
+      "es": "Explanada Roland-Barthes - Plaza Verde",
+      "eu": "Roland-Barthes Esplanada - Plaza Berdea"
+    },
+    "coords": {
+      "lat": 43.488409,
+      "lng": -1.473382
+    },
+    "type": "esplanade"
+  },
+  {
+    "id": "carreau-halles",
+    "name": {
+      "fr": "Carreau des Halles",
+      "es": "Patio de los Mercados",
+      "eu": "Halletako Karrea"
+    },
+    "coords": {
+      "lat": 43.490394,
+      "lng": -1.475065
+    },
+    "type": "place"
+  },
+  {
+    "id": "trinquet-saint-andre",
+    "name": {
+      "fr": "Trinquet Saint-André",
+      "es": "Trinquete San Andrés",
+      "eu": "Doneandre Trinketea"
+    },
+    "coords": {
+      "lat": 43.490217,
+      "lng": -1.471721
+    },
+    "type": "sport"
+  },
+  {
+    "id": "rue-pelletier",
+    "name": {
+      "fr": "Rue Pelletier",
+      "es": "Calle Pelletier",
+      "eu": "Pelletier Kalea"
+    },
+    "coords": {
+      "lat": 43.488923,
+      "lng": -1.472932
+    },
+    "type": "street"
+  },
+  {
+    "id": "allee-platanes",
+    "name": {
+      "fr": "Allée des Platanes",
+      "es": "Alameda de los Plátanos",
+      "eu": "Platanondoen Hiribidea"
+    },
+    "coords": {
+      "lat": 43.488097,
+      "lng": -1.4731
+    },
+    "type": "street"
+  },
+  {
+    "id": "maison-associations",
+    "name": {
+      "fr": "Maison des Associations",
+      "es": "Casa de las Asociaciones",
+      "eu": "Elkarte Etxea"
+    },
+    "coords": {
+      "lat": 43.484133,
+      "lng": -1.471665
+    },
+    "type": "building"
+  },
+  {
+    "id": "rues-bayonne",
+    "name": {
+      "fr": "Rues de Bayonne",
+      "es": "Calles de Bayona",
+      "eu": "Baionako Kaleak"
+    },
+    "coords": {
+      "lat": 43.490492,
+      "lng": -1.476179
+    },
+    "type": "street"
+  },
+  {
+    "id": "cathedrale-sainte-marie",
+    "name": {
+      "fr": "Cathédrale Sainte-Marie",
+      "es": "Catedral Santa María",
+      "eu": "Santa Maria Katedrala"
+    },
+    "coords": {
+      "lat": 43.490498,
+      "lng": -1.477334
+    },
+    "type": "monument"
+  }
+]

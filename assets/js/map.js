@@ -38,7 +38,7 @@ const MapModule = {
     this.map.on('click', () => {
       if (this._sheetJustOpened) { this._sheetJustOpened = false; return; }
       App.closePopup();
-      App._closeFestivalPanel();
+      App._closePanel();
     });
 
     // Vérifie le mode jour/nuit toutes les 5 minutes
@@ -110,27 +110,29 @@ const MapModule = {
     return L.divIcon({ html, className: '', iconSize: [w, line2 ? 52 : 38], iconAnchor: [w/2, line2 ? 52 : 38], popupAnchor: [0, -54] });
   },
 
-  _formatMarkerTime(result) {
+  _formatMarkerTime(result, lang) {
     if (!result || result.status === 'now') return '';
     const now   = new Date();
     const start = new Date(result.event.startTimestamp);
     const mins  = Math.round((start - now) / 60_000);
-    if (mins < 60) return `dans ${mins}min`;
+    if (mins < 60) return I18n.t('in_x_min', { n: mins });
     const sameDay = start.toDateString() === now.toDateString();
     if (sameDay) {
-      const h = Math.floor(mins/60), m = mins%60;
-      return `dans ${h}h${m>0?String(m).padStart(2,'0'):''}`;
+      const h = Math.floor(mins / 60), m = mins % 60;
+      const t = `${h}h${m > 0 ? String(m).padStart(2, '0') : ''}`;
+      return I18n.t('in_x_hours', { t });
     }
     const diffDays = Math.floor((start - now) / 86_400_000);
-    const hh = String(start.getHours()).padStart(2,'0');
-    const mm = String(start.getMinutes()).padStart(2,'0');
+    const hh = String(start.getHours()).padStart(2, '0');
+    const mm = String(start.getMinutes()).padStart(2, '0');
+    const t  = `${hh}h${mm}`;
     if (diffDays < 7) {
-      const wd = start.toLocaleDateString('fr-FR', { weekday:'short' });
-      return `${wd} à ${hh}h${mm}`;
+      const wd = start.toLocaleDateString(I18n.locale(lang), { weekday: 'short' });
+      return I18n.t('wd_at', { wd, t });
     }
-    const dd = String(start.getDate()).padStart(2,'0');
-    const mo = String(start.getMonth()+1).padStart(2,'0');
-    return `${dd}/${mo} à ${hh}h${mm}`;
+    const dd = String(start.getDate()).padStart(2, '0');
+    const mo = String(start.getMonth() + 1).padStart(2, '0');
+    return I18n.t('date_at', { d: `${dd}/${mo}`, t });
   },
 
   renderAll(lang) {
@@ -145,8 +147,8 @@ const MapModule = {
       toRemove.delete(venue.id);
 
       const { event, status } = result;
-      const line1 = event.shortName ?? Utils.loc(event.title, lang).slice(0, 18);
-      const line2 = this._formatMarkerTime(result);
+      const line1 = event.shortName ?? Utils.shortText(Utils.loc(event.title, lang), 20);
+      const line2 = this._formatMarkerTime(result, lang);
       const icon  = this._makeIcon(line1, line2, status);
       const { lat, lng } = venue.coords;
 
@@ -155,8 +157,8 @@ const MapModule = {
       } else {
         const marker = L.marker([lat, lng], { icon }).addTo(this.map);
         marker._venueId = venue.id;
-        marker.on('click',    (e) => { L.DomEvent.stopPropagation(e); this._openVenue(venue.id, marker.getLatLng()); });
-        marker.on('touchend', (e) => { L.DomEvent.stopPropagation(e); this._openVenue(venue.id, marker.getLatLng()); });
+        marker.on('click',    (e) => { L.DomEvent.stopPropagation(e); this._openVenue(venue.id); });
+        marker.on('touchend', (e) => { L.DomEvent.stopPropagation(e); this._openVenue(venue.id); });
         this.markers[venue.id] = marker;
       }
     }
@@ -164,9 +166,9 @@ const MapModule = {
     for (const id of toRemove) { if (this.markers[id]) { this.map.removeLayer(this.markers[id]); delete this.markers[id]; } }
   },
 
-  _openVenue(venueId, latlng) {
+  _openVenue(venueId) {
     this._sheetJustOpened = true;
-    App.showPopup(venueId, latlng);
+    App.showPopup(venueId);
     setTimeout(() => { this._sheetJustOpened = false; }, 400);
   },
 

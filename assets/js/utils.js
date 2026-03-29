@@ -65,6 +65,15 @@ const Utils = {
   },
 
   /**
+   * Tronque un texte à `max` caractères en coupant sur un espace (+ ellipsis)
+   */
+  shortText(str, max = 20) {
+    if (!str || str.length <= max) return str;
+    const cut = str.slice(0, max).lastIndexOf(' ');
+    return (cut > max / 2 ? str.slice(0, cut) : str.slice(0, max)).trimEnd() + '…';
+  },
+
+  /**
    * Échappe le HTML pour éviter les injections
    */
   escHtml(str) {

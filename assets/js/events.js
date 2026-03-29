@@ -3,11 +3,7 @@
  *
  * Structure de données :
  *   data/index.json                                          → liste des éditions
- *   data/cities/{cityId}/city.json                          → infos ville
- *   data/cities/{cityId}/venues.json                        → lieux
- *   data/cities/{cityId}/festivals/{festivalId}/festival.json → infos fête
- *   data/cities/{cityId}/festivals/{festivalId}/{year}/edition.json → dates
- *   data/cities/{cityId}/festivals/{festivalId}/{year}/events.json  → programme
+ *   data/gold/{cityId}__{festivalId}__{year}.json            → bundle "édition" (ville + fête + dates + lieux + events)
  */
 const Events = {
   city:     null,
@@ -41,33 +37,19 @@ const Events = {
    */
   async load(ref) {
     const { cityId, festivalId, year } = ref;
-    const cityBase    = `data/cities/${cityId}`;
-    const festBase    = `${cityBase}/festivals/${festivalId}`;
-    const editionBase = `${festBase}/${year}`;
+    const bundlePath = `data/gold/${cityId}__${festivalId}__${year}.json`;
+    const res = await fetch(bundlePath);
+    if (!res.ok) throw new Error(`Fichier manquant : ${bundlePath}`);
 
-    const [cityRes, festRes, edRes, venRes, evRes] = await Promise.all([
-      fetch(`${cityBase}/city.json`),
-      fetch(`${festBase}/festival.json`),
-      fetch(`${editionBase}/edition.json`),
-      fetch(`${cityBase}/venues.json`),
-      fetch(`${editionBase}/events.json`),
-    ]);
+    const bundle = await res.json();
+    this.city     = bundle.city ?? null;
+    this.festival = bundle.festival ?? null;
+    this.edition  = bundle.edition ?? null;
+    this.venues   = bundle.places ?? [];
+    this.events   = bundle.events ?? [];
 
-    const missing = [
-      !cityRes.ok && `city.json (${cityId})`,
-      !festRes.ok && `festival.json (${festivalId})`,
-      !edRes.ok  && `edition.json (${year})`,
-      !venRes.ok && `venues.json`,
-      !evRes.ok  && `events.json`,
-    ].filter(Boolean);
-
-    if (missing.length) throw new Error(`Fichiers manquants : ${missing.join(', ')}`);
-
-    this.city    = await cityRes.json();
-    this.festival = await festRes.json();
-    this.edition  = await edRes.json();
-    this.venues   = await venRes.json();
-    this.events   = await evRes.json();
+    if (!this.city || !this.festival || !this.edition)
+      throw new Error(`Bundle invalide : ${bundlePath}`);
 
     // Objet meta fusionné pour l'affichage
     const meta = this._buildMeta(ref);

@@ -1,0 +1,369 @@
+{
+  "id": "bayonne__foire-jambon__2026",
+  "city": {
+    "id": "bayonne",
+    "name": {
+      "fr": "Bayonne",
+      "es": "Bayona",
+      "eu": "Baiona"
+    },
+    "country": "FR",
+    "center": {
+      "lat": 43.4929,
+      "lng": -1.4748
+    },
+    "category": "large"
+  },
+  "festival": {
+    "id": "foire-jambon",
+    "cityId": "bayonne",
+    "name": {
+      "fr": "Foire au Jambon",
+      "es": "Feria del Jamón",
+      "eu": "Urdaiazpiko Azoka"
+    },
+    "website": "https://bayonne-tourisme.com",
+    "theme": {
+      "primary": "#8b1a1a",
+      "secondary": "#f5c400"
+    }
+  },
+  "edition": {
+    "year": 2026,
+    "dates": {
+      "start": "2026-04-23",
+      "end": "2026-04-26"
+    }
+  },
+  "places": [
+    {
+      "id": "esplanade-roland-barthes",
+      "name": {
+        "fr": "Esplanade Roland-Barthes - Place Verte",
+        "es": "Explanada Roland-Barthes - Plaza Verde",
+        "eu": "Roland-Barthes Esplanada - Plaza Berdea"
+      },
+      "coords": {
+        "lat": 43.488409,
+        "lng": -1.473382
+      },
+      "type": "esplanade"
+    },
+    {
+      "id": "carreau-halles",
+      "name": {
+        "fr": "Carreau des Halles",
+        "es": "Patio de los Mercados",
+        "eu": "Halletako Karrea"
+      },
+      "coords": {
+        "lat": 43.490394,
+        "lng": -1.475065
+      },
+      "type": "place"
+    },
+    {
+      "id": "trinquet-saint-andre",
+      "name": {
+        "fr": "Trinquet Saint-André",
+        "es": "Trinquete San Andrés",
+        "eu": "Doneandre Trinketea"
+      },
+      "coords": {
+        "lat": 43.490217,
+        "lng": -1.471721
+      },
+      "type": "sport"
+    },
+    {
+      "id": "rue-pelletier",
+      "name": {
+        "fr": "Rue Pelletier",
+        "es": "Calle Pelletier",
+        "eu": "Pelletier Kalea"
+      },
+      "coords": {
+        "lat": 43.488923,
+        "lng": -1.472932
+      },
+      "type": "street"
+    },
+    {
+      "id": "allee-platanes",
+      "name": {
+        "fr": "Allée des Platanes",
+        "es": "Alameda de los Plátanos",
+        "eu": "Platanondoen Hiribidea"
+      },
+      "coords": {
+        "lat": 43.488097,
+        "lng": -1.4731
+      },
+      "type": "street"
+    },
+    {
+      "id": "maison-associations",
+      "name": {
+        "fr": "Maison des Associations",
+        "es": "Casa de las Asociaciones",
+        "eu": "Elkarte Etxea"
+      },
+      "coords": {
+        "lat": 43.484133,
+        "lng": -1.471665
+      },
+      "type": "building"
+    },
+    {
+      "id": "rues-bayonne",
+      "name": {
+        "fr": "Rues de Bayonne",
+        "es": "Calles de Bayona",
+        "eu": "Baionako Kaleak"
+      },
+      "coords": {
+        "lat": 43.490492,
+        "lng": -1.476179
+      },
+      "type": "street"
+    },
+    {
+      "id": "cathedrale-sainte-marie",
+      "name": {
+        "fr": "Cathédrale Sainte-Marie",
+        "es": "Catedral Santa María",
+        "eu": "Santa Maria Katedrala"
+      },
+      "coords": {
+        "lat": 43.490498,
+        "lng": -1.477334
+      },
+      "type": "monument"
+    }
+  ],
+  "events": [
+    {
+      "id": "fj26-001",
+      "venueId": "carreau-halles",
+      "shortName": "Concours du meilleur jam",
+      "startTimestamp": "2026-04-23T09:30:00+02:00",
+      "title": {
+        "fr": "Concours du meilleur jambon fermier"
+      },
+      "tags": [
+        "gratuit"
+      ],
+      "endTimestamp": "2026-04-23T11:30:00+02:00"
+    },
+    {
+      "id": "fj26-002",
+      "venueId": "esplanade-roland-barthes",
+      "shortName": "Inauguration officielle ",
+      "startTimestamp": "2026-04-23T10:30:00+02:00",
+      "title": {
+        "fr": "Inauguration officielle de la 563e Foire au jambon de Bayonne"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-003",
+      "venueId": "trinquet-saint-andre",
+      "shortName": "Pelote basque main nue –",
+      "startTimestamp": "2026-04-23T11:00:00+02:00",
+      "title": {
+        "fr": "Pelote basque main nue – ½ finale A"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-004",
+      "venueId": "carreau-halles",
+      "shortName": "Transfert en musique",
+      "startTimestamp": "2026-04-23T11:30:00+02:00",
+      "title": {
+        "fr": "Transfert en musique"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-005",
+      "venueId": "esplanade-roland-barthes",
+      "shortName": "Remise des prix concours",
+      "startTimestamp": "2026-04-23T12:00:00+02:00",
+      "title": {
+        "fr": "Remise des prix concours jambon fermier et vente aux enchères du jambon primé"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-006",
+      "venueId": "trinquet-saint-andre",
+      "shortName": "Open de pelote basque ma",
+      "startTimestamp": "2026-04-23T16:30:00+02:00",
+      "title": {
+        "fr": "Open de pelote basque main nue – ½ finales B"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-007",
+      "venueId": "rue-pelletier",
+      "shortName": "Atelier découpe et trans",
+      "startTimestamp": "2026-04-24T09:30:00+02:00",
+      "title": {
+        "fr": "Atelier découpe et transformation du cochon — dégustation txistorra au jambon de Bayonne"
+      },
+      "tags": [
+        "gratuit"
+      ],
+      "endTimestamp": "2026-04-24T11:30:00+02:00"
+    },
+    {
+      "id": "fj26-008",
+      "venueId": "allee-platanes",
+      "shortName": "Marché traditionnel",
+      "startTimestamp": "2026-04-25T06:00:00+02:00",
+      "title": {
+        "fr": "Marché traditionnel"
+      },
+      "tags": [
+        "gratuit"
+      ],
+      "endTimestamp": "2026-04-25T13:00:00+02:00"
+    },
+    {
+      "id": "fj26-009",
+      "venueId": "maison-associations",
+      "shortName": "Intronisations des nouve",
+      "startTimestamp": "2026-04-25T10:00:00+02:00",
+      "title": {
+        "fr": "Intronisations des nouveaux membres de la Confrérie du Jambon de Bayonne"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-010",
+      "venueId": "esplanade-roland-barthes",
+      "shortName": "Concours d'omelettes au ",
+      "startTimestamp": "2026-04-25T10:00:00+02:00",
+      "title": {
+        "fr": "Concours d'omelettes au Jambon de Bayonne avec les associations bayonnaises"
+      },
+      "tags": [
+        "gratuit"
+      ],
+      "endTimestamp": "2026-04-25T13:00:00+02:00"
+    },
+    {
+      "id": "fj26-011",
+      "venueId": "trinquet-saint-andre",
+      "shortName": "Finale Open de pelote ba",
+      "startTimestamp": "2026-04-25T11:00:00+02:00",
+      "title": {
+        "fr": "Finale Open de pelote basque main nue"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-012",
+      "venueId": "rues-bayonne",
+      "shortName": "Défilé de la Confrérie e",
+      "startTimestamp": "2026-04-25T11:00:00+02:00",
+      "title": {
+        "fr": "Défilé de la Confrérie et de ses invités à travers les rues de la Ville"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-013",
+      "venueId": "esplanade-roland-barthes",
+      "shortName": "Visite des stands des ch",
+      "startTimestamp": "2026-04-25T12:00:00+02:00",
+      "title": {
+        "fr": "Visite des stands des charcutiers-salaisonniers"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-014",
+      "venueId": "rues-bayonne",
+      "shortName": "Défilé de la Confrérie à",
+      "startTimestamp": "2026-04-26T10:00:00+02:00",
+      "title": {
+        "fr": "Défilé de la Confrérie à travers les rues de Bayonne"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-015",
+      "venueId": "cathedrale-sainte-marie",
+      "shortName": "Messe des Confréries",
+      "startTimestamp": "2026-04-26T10:30:00+02:00",
+      "title": {
+        "fr": "Messe des Confréries"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-016",
+      "venueId": "carreau-halles",
+      "shortName": "Mutxiko (danse basque) a",
+      "startTimestamp": "2026-04-26T11:00:00+02:00",
+      "title": {
+        "fr": "Mutxiko (danse basque) avec Orai Bat"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-017",
+      "venueId": "esplanade-roland-barthes",
+      "shortName": "Retour des confréries su",
+      "startTimestamp": "2026-04-26T12:00:00+02:00",
+      "title": {
+        "fr": "Retour des confréries sur la foire"
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "fj26-018",
+      "venueId": "maison-associations",
+      "shortName": "Repas du 63e Chapitre de",
+      "startTimestamp": "2026-04-26T13:30:00+02:00",
+      "title": {
+        "fr": "Repas du 63e Chapitre de la Confrérie — ouvert à tous sur réservation"
+      },
+      "tags": [
+        "payant"
+      ],
+      "description": {
+        "fr": "sur réservation"
+      }
+    }
+  ]
+}

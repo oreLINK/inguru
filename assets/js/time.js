@@ -54,10 +54,14 @@ const Time = {
     return Math.round((end - new Date()) / 60_000);
   },
 
-  /** Minutes → "2h30" ou "45 min" */
+  /** Minutes → "2h30", "45 min" ou "3 j" (≥ 24h) */
   formatCountdown(minutes) {
     if (minutes <= 0) return '';
     if (minutes < 60) return `${minutes}\u202fmin`;
+    if (minutes >= 1440) {
+      const days = Math.round(minutes / 1440);
+      return `${days}\u202fj`;
+    }
     const h = Math.floor(minutes / 60);
     const m = minutes % 60;
     return m > 0 ? `${h}h${String(m).padStart(2, '0')}` : `${h}h`;

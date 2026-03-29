@@ -5,7 +5,7 @@
  * pour éviter que leur lenteur bloque l'installation du SW.
  */
 
-const CACHE_NAME = 'inguru-v3';
+const CACHE_NAME = 'inguru-v4';
 
 // Uniquement les fichiers locaux — pas de CDN externe
 const SHELL = [
@@ -50,8 +50,8 @@ self.addEventListener('fetch', (event) => {
   // Ne pas intercepter les requêtes CDN externes
   if (url.origin !== self.location.origin) return;
 
-  // Données festival : network-first
-  if (url.pathname.startsWith('/data/festivals/')) {
+  // Données : network-first
+  if (url.pathname.startsWith('/data/gold/') || url.pathname === '/data/index.json') {
     event.respondWith(
       fetch(event.request)
         .then(res => {

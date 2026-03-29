@@ -1,12 +1,6 @@
 {
-  "_doc": "index.json liste uniquement les éditions affichables. Toutes les données sont dans data/cities/{cityId}/. Pour ajouter une fête : (1) créer data/cities/{cityId}/city.json + venues.json, (2) créer data/cities/{cityId}/festivals/{festivalId}/festival.json, (3) créer data/cities/{cityId}/festivals/{festivalId}/{year}/edition.json + events.json, (4) ajouter une entrée ici.",
+  "_doc": "Éditions affichables. Données dans data/gold/{cityId}__{festivalId}__{year}.json",
   "editions": [
-    {
-      "id": "bayonne-fetes-2026",
-      "cityId": "bayonne",
-      "festivalId": "fetes-bayonne",
-      "year": 2026
-    },
     {
       "id": "bayonne-foire-jambon-2026",
       "cityId": "bayonne",
@@ -14,40 +8,10 @@
       "year": 2026
     },
     {
-      "id": "dax-2025",
-      "cityId": "dax",
-      "festivalId": "fetes-dax",
-      "year": 2025
-    },
-    {
-      "id": "mont-marsan-2025",
-      "cityId": "mont-marsan",
-      "festivalId": "fetes-madeleine",
-      "year": 2025
-    },
-    {
-      "id": "pamplona-2025",
-      "cityId": "pamplona",
-      "festivalId": "san-fermin",
-      "year": 2025
-    },
-    {
-      "id": "parentis-2025",
-      "cityId": "parentis",
-      "festivalId": "fetes-parentis",
-      "year": 2025
-    },
-    {
-      "id": "tarnos-2025",
-      "cityId": "tarnos",
-      "festivalId": "fetes-tarnos",
-      "year": 2025
-    },
-    {
-      "id": "mouguerre-2025",
-      "cityId": "mouguerre",
-      "festivalId": "fetes-mouguerre",
-      "year": 2025
+      "id": "bayonne-fetes-2026",
+      "cityId": "bayonne",
+      "festivalId": "fetes-bayonne",
+      "year": 2026
     }
   ]
 }
