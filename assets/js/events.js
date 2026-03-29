@@ -2,8 +2,8 @@
  * events.js – Chargement et filtrage
  *
  * Structure de données :
- *   data/index.json                                          → liste des éditions
- *   data/gold/{cityId}__{festivalId}__{year}.json            → bundle "édition" (ville + fête + dates + lieux + events)
+ *   data/index.json          → liste des éditions { id, isDisplay }
+ *   data/gold/{id}.json      → bundle "édition" (ville + fête + dates + lieux + events)
  */
 const Events = {
   city:     null,
@@ -30,14 +30,13 @@ const Events = {
   },
 
   /**
-   * Charge toutes les données d'une édition depuis la nouvelle structure.
+   * Charge toutes les données d'une édition depuis data/gold/{id}.json.
    * Retourne un objet `meta` complet pour l'affichage (fusion city + festival + edition).
    *
-   * @param {object} ref  Entrée de l'index : { id, cityId, festivalId, year }
+   * @param {object} ref  Entrée de l'index : { id, isDisplay }
    */
   async load(ref) {
-    const { cityId, festivalId, year } = ref;
-    const bundlePath = `data/gold/${cityId}__${festivalId}__${year}.json`;
+    const bundlePath = `data/gold/${ref.id}.json`;
     const res = await fetch(bundlePath);
     if (!res.ok) throw new Error(`Fichier manquant : ${bundlePath}`);
 
@@ -63,9 +62,6 @@ const Events = {
   _buildMeta(ref) {
     return {
       id:          ref.id,
-      cityId:      ref.cityId,
-      festivalId:  ref.festivalId,
-      year:        ref.year,
       // Nom : du festival, affiché avec la ville
       name:        this.festival.name,
       city:        this.city.name,
@@ -80,22 +76,6 @@ const Events = {
       defaultZoom: this.edition.defaultZoom ?? this.config?.defaultZoom ?? 16,
       website:     this.festival.website ?? null,
     };
-  },
-
-  /**
-   * Construit les metas de toutes les éditions de l'index SANS charger
-   * les fichiers individuels (pour le panneau festival picker).
-   * Utilisé par app.js._buildFestivalPanel() via les données déjà en cache dans l'index.
-   */
-  metaFromIndexEntry(entry, cachedCities) {
-    const city = cachedCities[entry.cityId];
-    return city ? {
-      ...entry,
-      city:     city.name,
-      center:   city.center,
-      theme:    city.theme,
-      category: city.category,
-    } : entry;
   },
 
   // ─── Sélection du festival actif ──────────────────────────────────

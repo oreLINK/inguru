@@ -1,17 +1,7 @@
 {
-  "_doc": "Éditions affichables. Données dans data/gold/{cityId}__{festivalId}__{year}.json",
+  "_doc": "Éditions disponibles. Bundle dans data/gold/{id}.json",
   "editions": [
-    {
-      "id": "bayonne-foire-jambon-2026",
-      "cityId": "bayonne",
-      "festivalId": "foire-jambon",
-      "year": 2026
-    },
-    {
-      "id": "bayonne-fetes-2026",
-      "cityId": "bayonne",
-      "festivalId": "fetes-bayonne",
-      "year": 2026
-    }
+    { "id": "bayonne-foire-jambon-2026", "isDisplay": true },
+    { "id": "bayonne-fetes-2026",        "isDisplay": false }
   ]
 }

@@ -45,7 +45,9 @@ const App = {
         Events.loadIndex(),
         Events.loadConfig(),
       ]);
-      this.festivalIndex = index.editions ?? [];
+
+      // Filtre les éditions selon isDisplay dans index.json (true par défaut si absent)
+      this.festivalIndex = (index.editions ?? []).filter(e => e.isDisplay !== false);
 
       await this._enrichEditionsFromGold();
 
@@ -192,8 +194,8 @@ const App = {
   // ─── Pré-chargement villes ───────────────────────────────────────
   async _enrichEditionsFromGold() {
     await Promise.all(this.festivalIndex.map(async (ed) => {
-      if (!ed.cityId || !ed.festivalId || !ed.year) return;
-      const bundlePath = `data/gold/${ed.cityId}__${ed.festivalId}__${ed.year}.json`;
+      if (!ed.id) return;
+      const bundlePath = `data/gold/${ed.id}.json`;
       try {
         const res = await fetch(bundlePath);
         if (!res.ok) return;
