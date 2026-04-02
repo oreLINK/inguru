@@ -1,0 +1,30 @@
+[
+  {
+    "id": "fjb-toilettes-001",
+    "type": "toilettes",
+    "name": {
+      "fr": "Toilettes Esplanade Roland-Barthes",
+      "es": "Aseos Esplanada Roland-Barthes",
+      "eus": "Komunak Roland-Barthes Esplanada"
+    },
+    "coords": {
+      "lat": 43.488409,
+      "lng": -1.473382
+    },
+    "isDisplay": true
+  },
+  {
+    "id": "fjb-toilettes-002",
+    "type": "toilettes",
+    "name": {
+      "fr": "Toilettes Carreau des Halles",
+      "es": "Aseos Patio de los Mercados",
+      "eus": "Komunak Halletako Karrea"
+    },
+    "coords": {
+      "lat": 43.490394,
+      "lng": -1.475065
+    },
+    "isDisplay": true
+  }
+]

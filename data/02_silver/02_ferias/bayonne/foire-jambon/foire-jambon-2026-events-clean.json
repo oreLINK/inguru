@@ -1,221 +1,455 @@
 {
-"events": [
+  "events": [
     {
-      "id": "fjb26-0001",
-      "startDate": "23/04/2026",
-      "startTime": "09:30",
+      "category": "gastronomie",
       "endDate": "23/04/2026",
       "endTime": "11:30",
+      "id": "fjb26-0001",
+      "isPaid": false,
       "location": "carreau-halles",
-      "category": "gastronomie",
-      "title_long": { "fr": "Concours du meilleur jambon fermier", "es": null, "eus": null },
-      "title_short": { "fr": "Concours du meilleur jambon fermier", "es": null, "eus": null },
-      "isPaid": false
+      "startDate": "23/04/2026",
+      "startTime": "09:30",
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Concours du jambon fermier"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Concours Jambon Fermier"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Les producteurs de jambon fermier s'affrontent pour décrocher le titre du meilleur jambon de l'année, jugé par un jury de professionnels."
+      }
     },
     {
+      "category": "traditions",
+      "endDate": null,
+      "endTime": null,
       "id": "fjb26-0002",
+      "isPaid": false,
+      "location": "esplanade-roland-barthes",
       "startDate": "23/04/2026",
       "startTime": "10:30",
-      "endDate": null,
-      "endTime": null,
-      "location": "esplanade-roland-barthes",
-      "category": "festivite",
-      "title_long": { "fr": "Inauguration officielle de la 563e Foire au jambon de Bayonne", "es": null, "eus": null },
-      "title_short": { "fr": "Inauguration officielle de la 563e Foire au jambon de Bayonne", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Inauguration officielle de la 563e Foire au jambon de Bayonne"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Inauguration Foire"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Cérémonie d'ouverture officielle de la 563e édition de la Foire au jambon, en présence des élus, de la Confrérie et des bandas."
+      }
     },
     {
+      "category": "sport",
+      "endDate": null,
+      "endTime": null,
       "id": "fjb26-0003",
+      "isPaid": false,
+      "location": "trinquet-saint-andre",
       "startDate": "23/04/2026",
       "startTime": "11:00",
-      "endDate": null,
-      "endTime": null,
-      "location": "trinquet-saint-andre",
-      "category": "sport",
-      "title_long": { "fr": "Pelote basque main nue – ½ finale A", "es": null, "eus": null },
-      "title_short": { "fr": "Pelote basque main nue – ½ finale A", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Pelote basque main nue – ½ finale A"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Pelote basque"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Demi-finale A de l'Open de pelote basque main nue, discipline reine pratiquée au trinquet Saint-André."
+      }
     },
     {
+      "category": "musique",
+      "endDate": null,
+      "endTime": null,
       "id": "fjb26-0004",
+      "isPaid": false,
+      "location": "carreau-halles",
       "startDate": "23/04/2026",
       "startTime": "11:30",
-      "endDate": null,
-      "endTime": null,
-      "location": "carreau-halles",
-      "category": "musique",
-      "title_long": { "fr": "Transfert en musique", "es": null, "eus": null },
-      "title_short": { "fr": "Transfert en musique", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Transfert en musique"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Transfert en musique"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Déambulation musicale des bandas et txarangas accompagnant le cortège officiel à travers les rues de Bayonne."
+      }
     },
     {
+      "category": "gastronomie",
+      "endDate": null,
+      "endTime": null,
       "id": "fjb26-0005",
+      "isPaid": false,
+      "location": "esplanade-roland-barthes",
       "startDate": "23/04/2026",
       "startTime": "12:00",
-      "endDate": null,
-      "endTime": null,
-      "location": "esplanade-roland-barthes",
-      "category": "gastronomie",
-      "title_long": { "fr": "Remise des prix concours jambon fermier et vente aux enchères du jambon primé", "es": null, "eus": null },
-      "title_short": { "fr": "Remise des prix concours jambon fermier et vente aux enchères du jambon primé", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Remise des prix concours jambon fermier et vente aux enchères du jambon primé"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Prix Concours Jambon Fermier"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Palmarès du concours du meilleur jambon fermier, suivi de la vente aux enchères du jambon primé au profit d'une association."
+      }
     },
     {
+      "category": "sport",
+      "endDate": null,
+      "endTime": null,
       "id": "fjb26-0006",
+      "isPaid": false,
+      "location": "trinquet-saint-andre",
       "startDate": "23/04/2026",
       "startTime": "16:30",
-      "endDate": null,
-      "endTime": null,
-      "location": "trinquet-saint-andre",
-      "category": "sport",
-      "title_long": { "fr": "Open de pelote basque main nue – ½ finales B", "es": null, "eus": null },
-      "title_short": { "fr": "Open de pelote basque main nue – ½ finales B", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Open de pelote basque main nue – ½ finales B"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Open de pelote basque"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Demi-finale B de l'Open de pelote basque main nue. Les meilleurs joueurs du Pays Basque s'affrontent pour une place en finale."
+      }
     },
     {
-      "id": "fjb26-0007",
-      "startDate": "24/04/2026",
-      "startTime": "09:30",
+      "category": "gastronomie",
       "endDate": "24/04/2026",
       "endTime": "11:30",
+      "id": "fjb26-0007",
+      "isPaid": false,
       "location": "rue-pelletier",
-      "category": "gastronomie",
-      "title_long": { "fr": "Atelier découpe et transformation du cochon — dégustation txistorra au jambon de Bayonne", "es": null, "eus": null },
-      "title_short": { "fr": "Atelier découpe et transformation du cochon — dégustation txistorra au jambon de Bayonne", "es": null, "eus": null },
-      "isPaid": false
+      "startDate": "24/04/2026",
+      "startTime": "09:30",
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Atelier découpe et transformation du cochon — dégustation txistorra au jambon de Bayonne"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Atelier découpe et transformation du cochon — dégustation txistorra au jambon de Bayonne"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Démonstration de découpe et de transformation du cochon par des artisans charcutiers, suivie d'une dégustation de txistorra et de jambon de Bayonne."
+      }
     },
     {
+      "category": "gastronomie",
+      "endDate": "25/04/2026",
+      "endTime": "13:00",
       "id": "fjb26-0008",
+      "isPaid": false,
+      "location": "allee-platanes",
       "startDate": "25/04/2026",
       "startTime": "06:00",
-      "endDate": "25/04/2026",
-      "endTime": "13:00",
-      "location": "allee-platanes",
-      "category": "gastronomie",
-      "title_long": { "fr": "Marché traditionnel", "es": null, "eus": null },
-      "title_short": { "fr": "Marché traditionnel", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Marché traditionnel"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Marché traditionnel"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Grand marché traditionnel avec producteurs locaux, artisans et exposants régionaux tout au long de la matinée sous les platanes."
+      }
     },
     {
+      "category": "traditions",
+      "endDate": null,
+      "endTime": null,
       "id": "fjb26-0009",
+      "isPaid": false,
+      "location": "maison-associations",
       "startDate": "25/04/2026",
       "startTime": "10:00",
-      "endDate": null,
-      "endTime": null,
-      "location": "maison-associations",
-      "category": "association",
-      "title_long": { "fr": "Intronisations des nouveaux membres de la Confrérie du Jambon de Bayonne", "es": null, "eus": null },
-      "title_short": { "fr": "Intronisations des nouveaux membres de la Confrérie du Jambon de Bayonne", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Intronisations des nouveaux membres de la Confrérie du Jambon de Bayonne"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Intronisations des nouveaux membres de la Confrérie du Jambon de Bayonne"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Cérémonie d'intronisation des nouveaux membres de la Confrérie du Jambon de Bayonne, gardienne des traditions de la charcuterie basque."
+      }
     },
     {
-      "id": "fjb26-0010",
-      "startDate": "25/04/2026",
-      "startTime": "10:00",
+      "category": "gastronomie",
       "endDate": "25/04/2026",
       "endTime": "13:00",
+      "id": "fjb26-0010",
+      "isPaid": false,
       "location": "esplanade-roland-barthes",
-      "category": "gastronomie",
-      "title_long": { "fr": "Concours d'omelettes au Jambon de Bayonne avec les associations bayonnaises", "es": null, "eus": null },
-      "title_short": { "fr": "Concours d'omelettes au Jambon de Bayonne avec les associations bayonnaises", "es": null, "eus": null },
-      "isPaid": false
+      "startDate": "25/04/2026",
+      "startTime": "10:00",
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Concours d'omelettes au Jambon de Bayonne avec les associations bayonnaises"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Concours d'omelettes au Jambon de Bayonne avec les associations bayonnaises"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Les peñas et associations de Bayonne s'affrontent à la poêle pour réaliser la meilleure omelette au jambon de Bayonne, sous le regard du public."
+      }
     },
     {
-      "id": "fjb26-0011",
-      "startDate": "25/04/2026",
-      "startTime": "11:00",
-      "endDate": null,
-      "endTime": null,
-      "location": "trinquet-saint-andre",
       "category": "sport",
-      "title_long": { "fr": "Finale Open de pelote basque main nue", "es": null, "eus": null },
-      "title_short": { "fr": "Finale Open de pelote basque main nue", "es": null, "eus": null },
-      "isPaid": false
-    },
-    {
-      "id": "fjb26-0012",
-      "startDate": "25/04/2026",
-      "startTime": "11:00",
       "endDate": null,
       "endTime": null,
-      "location": "rues-bayonne",
-      "category": "festivite",
-      "title_long": { "fr": "Défilé de la Confrérie et de ses invités à travers les rues de la Ville", "es": null, "eus": null },
-      "title_short": { "fr": "Défilé de la Confrérie et de ses invités à travers les rues de la Ville", "es": null, "eus": null },
-      "isPaid": false
+      "id": "fjb26-0011",
+      "isPaid": false,
+      "location": "trinquet-saint-andre",
+      "startDate": "25/04/2026",
+      "startTime": "11:00",
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Finale Open de pelote basque main nue"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Finale Open de pelote basque main nue"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Grande finale de l'Open de pelote basque main nue, point d'orgue sportif de la Foire, avec les meilleurs joueurs de la discipline."
+      }
     },
     {
+      "category": "traditions",
+      "endDate": null,
+      "endTime": null,
+      "id": "fjb26-0012",
+      "isPaid": false,
+      "location": "rues-bayonne",
+      "startDate": "25/04/2026",
+      "startTime": "11:00",
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Défilé de la Confrérie et de ses invités à travers les rues de la Ville"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Défilé de la Confrérie et de ses invités à travers les rues de la Ville"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Cortège coloré de la Confrérie du Jambon et de ses confréries invitées à travers le centre historique de Bayonne, en tenue d'apparat."
+      }
+    },
+    {
+      "category": "gastronomie",
+      "endDate": null,
+      "endTime": null,
       "id": "fjb26-0013",
+      "isPaid": false,
+      "location": "esplanade-roland-barthes",
       "startDate": "25/04/2026",
       "startTime": "12:00",
-      "endDate": null,
-      "endTime": null,
-      "location": "esplanade-roland-barthes",
-      "category": "gastronomie",
-      "title_long": { "fr": "Visite des stands des charcutiers-salaisonniers", "es": null, "eus": null },
-      "title_short": { "fr": "Visite des stands des charcutiers-salaisonniers", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Visite des stands des charcutiers-salaisonniers"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Visite des stands des charcutiers-salaisonniers"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Parcours des stands des charcutiers et salaisonniers de la région pour découvrir et déguster les meilleurs produits du terroir basque."
+      }
     },
     {
+      "category": "traditions",
+      "endDate": null,
+      "endTime": null,
       "id": "fjb26-0014",
+      "isPaid": false,
+      "location": "rues-bayonne",
       "startDate": "26/04/2026",
       "startTime": "10:00",
-      "endDate": null,
-      "endTime": null,
-      "location": "rues-bayonne",
-      "category": "festivite",
-      "title_long": { "fr": "Défilé de la Confrérie à travers les rues de Bayonne", "es": null, "eus": null },
-      "title_short": { "fr": "Défilé de la Confrérie à travers les rues de Bayonne", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Défilé de la Confrérie à travers les rues de Bayonne"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Défilé de la Confrérie à travers les rues de Bayonne"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Procession solennelle de la Confrérie du Jambon de Bayonne à travers les ruelles du quartier historique, en direction de la cathédrale."
+      }
     },
     {
+      "category": "traditions",
+      "endDate": null,
+      "endTime": null,
       "id": "fjb26-0015",
+      "isPaid": false,
+      "location": "cathedrale-sainte-marie",
       "startDate": "26/04/2026",
       "startTime": "10:30",
-      "endDate": null,
-      "endTime": null,
-      "location": "cathedrale-sainte-marie",
-      "category": "association",
-      "title_long": { "fr": "Messe des Confréries", "es": null, "eus": null },
-      "title_short": { "fr": "Messe des Confréries", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Messe des Confréries"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Messe des Confréries"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Messe célébrée à la cathédrale Sainte-Marie en présence des membres des confréries réunies, moment de recueillement avant le repas du Chapitre."
+      }
     },
     {
+      "category": "traditions",
+      "endDate": null,
+      "endTime": null,
       "id": "fjb26-0016",
+      "isPaid": false,
+      "location": "carreau-halles",
       "startDate": "26/04/2026",
       "startTime": "11:00",
-      "endDate": null,
-      "endTime": null,
-      "location": "carreau-halles",
-      "category": "musique",
-      "title_long": { "fr": "Mutxiko (danse basque) avec Orai Bat", "es": null, "eus": null },
-      "title_short": { "fr": "Mutxiko (danse basque) avec Orai Bat", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Mutxiko (danse basque) avec Orai Bat"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Mutxiko (danse basque) avec Orai Bat"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Danses traditionnelles basques en cercle (mutxiko) animées par le groupe Orai Bat, ouvertes à tous les participants."
+      }
     },
     {
+      "category": "traditions",
+      "endDate": null,
+      "endTime": null,
       "id": "fjb26-0017",
+      "isPaid": false,
+      "location": "esplanade-roland-barthes",
       "startDate": "26/04/2026",
       "startTime": "12:00",
-      "endDate": null,
-      "endTime": null,
-      "location": "esplanade-roland-barthes",
-      "category": "festivite",
-      "title_long": { "fr": "Retour des confréries sur la foire", "es": null, "eus": null },
-      "title_short": { "fr": "Retour des confréries sur la foire", "es": null, "eus": null },
-      "isPaid": false
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Retour des confréries sur la foire"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Retour des confréries sur la foire"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Retour festif des confréries sur l'esplanade, marquant la clôture des cérémonies officielles avant le repas du Chapitre."
+      }
     },
     {
-      "id": "fjb26-0018",
-      "startDate": "26/04/2026",
-      "startTime": "13:30",
+      "category": "gastronomie",
       "endDate": null,
       "endTime": null,
-      "location": "maison-associations",
-      "category": "association",
-      "title_long": { "fr": "Repas du 63e Chapitre de la Confrérie — ouvert à tous sur réservation", "es": null, "eus": null },
-      "title_short": { "fr": "Repas du 63e Chapitre de la Confrérie — ouvert à tous sur réservation", "es": null, "eus": null },
+      "id": "fjb26-0018",
       "isPaid": true,
-      "price": "sur réservation"
+      "location": "maison-associations",
+      "price": "sur réservation",
+      "startDate": "26/04/2026",
+      "startTime": "13:30",
+      "title_long": {
+        "es": null,
+        "eus": null,
+        "fr": "Repas du 63e Chapitre de la Confrérie — ouvert à tous sur réservation"
+      },
+      "title_short": {
+        "es": null,
+        "eus": null,
+        "fr": "Repas du 63e Chapitre de la Confrérie — ouvert à tous sur réservation"
+      },
+      "description": {
+        "es": null,
+        "eus": null,
+        "fr": "Repas de gala du 63e Chapitre de la Confrérie du Jambon de Bayonne, ouvert au public sur réservation préalable. Menu autour des produits du terroir basque."
+      }
     }
   ]
 }

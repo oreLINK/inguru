@@ -4,6 +4,8 @@
 const MapModule = {
   map: null,
   markers: {},
+  serviceMarkers: {},
+  animMarkers: {},
   userMarker: null,
   userPos: null,
   _firstFix: false,
@@ -95,15 +97,17 @@ const MapModule = {
   },
 
   // ─── Icône 2 lignes ───────────────────────────────────────────────
-  _makeIcon(line1, line2, status) {
+  _makeIcon(line1, line2, status, color) {
     const liveDot = status === 'now' ? `<span class="marker-live-dot"></span>` : '';
+    const bubbleStyle = color ? `style="background:${color};box-shadow:0 4px 20px ${color}99,0 0 0 1.5px rgba(255,255,255,0.22),inset 0 1px 0 rgba(255,255,255,0.2)"` : '';
+    const tailStyle   = color ? `style="border-top-color:${color}"` : '';
     const html = `
       <div class="inguru-marker m-${status}">
-        <div class="marker-bubble">
+        <div class="marker-bubble" ${bubbleStyle}>
           <div class="mb-line1">${liveDot}${Utils.escHtml(line1)}</div>
           ${line2 ? `<div class="mb-line2">${Utils.escHtml(line2)}</div>` : ''}
         </div>
-        <div class="marker-tail"></div>
+        <div class="marker-tail" ${tailStyle}></div>
       </div>`;
     const longest = Math.max(line1.length, (line2 || '').length);
     const w = Math.min(195, Math.max(110, longest * 7 + 24));
@@ -147,9 +151,10 @@ const MapModule = {
       toRemove.delete(venue.id);
 
       const { event, status } = result;
-      const line1 = event.shortName ?? Utils.shortText(Utils.loc(event.title, lang), 20);
+      const line1 = Utils.loc(event.title_short, lang) ?? event.shortName ?? Utils.shortText(Utils.loc(event.title, lang), 20);
       const line2 = this._formatMarkerTime(result, lang);
-      const icon  = this._makeIcon(line1, line2, status);
+      const color = Events.categories[event.category] ?? null;
+      const icon  = this._makeIcon(line1, line2, status, color);
       const { lat, lng } = venue.coords;
 
       if (this.markers[venue.id]) {
@@ -170,6 +175,78 @@ const MapModule = {
     this._sheetJustOpened = true;
     App.showPopup(venueId);
     setTimeout(() => { this._sheetJustOpened = false; }, 400);
+  },
+
+  renderServices() {
+    const typeMap = {};
+    for (const t of Events.serviceTypes) typeMap[t.id] = t;
+
+    const toRemove = new Set(Object.keys(this.serviceMarkers));
+
+    for (const svc of Events.services) {
+      if (!svc.isDisplay) continue;
+      toRemove.delete(svc.id);
+
+      if (this.serviceMarkers[svc.id]) continue;
+
+      const type  = typeMap[svc.type] ?? {};
+      const icon  = type.icon  ?? '📍';
+      const color = type.color ?? '#6b7280';
+      const html  = `<div class="service-marker-icon" style="background:${color}">${icon}</div>`;
+      const divIcon = L.divIcon({ html, className: '', iconSize: [36, 36], iconAnchor: [18, 18] });
+      const marker  = L.marker([svc.coords.lat, svc.coords.lng], { icon: divIcon, zIndexOffset: -100 }).addTo(this.map);
+      marker._serviceId = svc.id;
+      this.serviceMarkers[svc.id] = marker;
+    }
+
+    for (const id of toRemove) {
+      if (this.serviceMarkers[id]) { this.map.removeLayer(this.serviceMarkers[id]); delete this.serviceMarkers[id]; }
+    }
+  },
+
+  renderAnims() {
+    const toRemove = new Set(Object.keys(this.animMarkers));
+
+    for (const anim of Events.anims) {
+      if (!anim.isDisplay) continue;
+      toRemove.delete(anim.id);
+      if (this.animMarkers[anim.id]) continue;
+
+      const marker = L.marker([anim.coords.lat, anim.coords.lng], {
+        icon: this._makeAnimIcon(anim),
+        zIndexOffset: 50,
+      }).addTo(this.map);
+
+      marker._animId = anim.id;
+      marker.on('click',    (e) => { L.DomEvent.stopPropagation(e); this._sheetJustOpened = true; App.showAnimPopup(anim.id); setTimeout(() => { this._sheetJustOpened = false; }, 400); });
+      marker.on('touchend', (e) => { L.DomEvent.stopPropagation(e); this._sheetJustOpened = true; App.showAnimPopup(anim.id); setTimeout(() => { this._sheetJustOpened = false; }, 400); });
+      this.animMarkers[anim.id] = marker;
+    }
+
+    for (const id of toRemove) {
+      if (this.animMarkers[id]) { this.map.removeLayer(this.animMarkers[id]); delete this.animMarkers[id]; }
+    }
+  },
+
+  clearAnims() {
+    for (const id of Object.keys(this.animMarkers)) {
+      if (this.animMarkers[id]) this.map.removeLayer(this.animMarkers[id]);
+    }
+    this.animMarkers = {};
+  },
+
+  _makeAnimIcon(anim) {
+    const [w, h]   = anim.size   ?? [90, 60];
+    const [ax, ay] = anim.anchor ?? [w / 2, h];
+    const html = `<img src="${anim.src}" width="${w}" height="${h}" style="display:block;pointer-events:none">`;
+    return L.divIcon({ html, className: '', iconSize: [w, h], iconAnchor: [ax, ay] });
+  },
+
+  clearServices() {
+    for (const id of Object.keys(this.serviceMarkers)) {
+      if (this.serviceMarkers[id]) this.map.removeLayer(this.serviceMarkers[id]);
+    }
+    this.serviceMarkers = {};
   },
 
   updateUserPos(lat, lng) {

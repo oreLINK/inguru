@@ -71,6 +71,13 @@ class InguruFeriaPanel extends HTMLElement {
 
   // ─── Rendu interne ────────────────────────────────────────────────
 
+  // Retourne le statut d'une édition : 'live' | 'available' | 'upcoming' | 'done'
+  #getStatus(f, today) {
+    if (today >= (f.dates?.start ?? '') && today <= (f.dates?.end ?? '')) return 'live';
+    if (today > (f.dates?.end ?? '')) return 'done';
+    return f.isAvailable ? 'available' : 'upcoming';
+  }
+
   #renderSections(filter) {
     const { _editions: editions, _lang: lang, _userPos: userPos,
             _currentId: currentId, _hexToRgb: hexToRgb } = this;
@@ -80,6 +87,7 @@ class InguruFeriaPanel extends HTMLElement {
                              .replace(/[-_]/g, ' ').toLowerCase();
     const query  = normalize(filter.trim());
     const today  = Time.todayStr();
+    const statusOrder = { live: 0, available: 1, upcoming: 2, done: 3 };
     const cats   = [
       { key: 'large',  label: I18n.t('section_large')  },
       { key: 'medium', label: I18n.t('section_medium') },
@@ -99,30 +107,31 @@ class InguruFeriaPanel extends HTMLElement {
           return name.includes(query) || town.includes(query);
         })
         .sort((a, b) => {
-          const aOver = today > (a.dates?.end ?? '');
-          const bOver = today > (b.dates?.end ?? '');
-          if (aOver !== bOver) return aOver ? 1 : -1;
-          if (userPos) {
-            const da = Utils.haversine(userPos.lat, userPos.lng, a.center.lat, a.center.lng);
-            const db = Utils.haversine(userPos.lat, userPos.lng, b.center.lat, b.center.lng);
-            return da - db;
+          const sa = this.#getStatus(a, today);
+          const sb = this.#getStatus(b, today);
+          if (statusOrder[sa] !== statusOrder[sb]) return statusOrder[sa] - statusOrder[sb];
+          // Même statut — tri interne
+          if (sa === 'available') {
+            const dateCmp = (a.dates?.start ?? '').localeCompare(b.dates?.start ?? '');
+            if (dateCmp !== 0) return dateCmp;
           }
-          return (a.dates?.start ?? '').localeCompare(b.dates?.start ?? '');
+          return Utils.loc(a.name, lang).localeCompare(Utils.loc(b.name, lang));
         });
 
       if (!list.length) continue;
 
       const section = document.createElement('div');
       section.className = 'fp-section';
-      section.innerHTML = `<div class="fp-section-title">${cat.label}</div>`;
+      section.innerHTML = '';
 
       const scroll = document.createElement('div');
       scroll.className = 'fp-scroll';
 
       for (const f of list) {
-        const isActive  = today >= (f.dates?.start ?? '') && today <= (f.dates?.end ?? '');
-        const isPast    = today > (f.dates?.end ?? '');
+        const status    = this.#getStatus(f, today);
         const isCurrent = f.id === currentId;
+        const disabled  = status === 'upcoming' || status === 'done';
+
         const pc = f.theme?.primary   ?? '#666';
         const sc = f.theme?.secondary ?? '#fff';
         const { r: pr, g: pg, b: pb } = hexToRgb(pc);
@@ -140,13 +149,27 @@ class InguruFeriaPanel extends HTMLElement {
           distLabel = `<span class="fp-card-dist">${Utils.formatDistance(d)}</span>`;
         }
 
-        const badgeCls  = isActive ? 'fp-badge-active' : isPast ? 'fp-badge-done' : 'fp-badge-soon';
-        const badgeTxt  = isActive ? I18n.t('status_active') : isPast ? I18n.t('status_past') : I18n.t('status_upcoming');
+        let badgeCls, badgeTxt;
+        if (status === 'live') {
+          badgeCls = 'fp-badge-live';
+          badgeTxt = I18n.t('status_live');
+        } else if (status === 'available') {
+          const daysLeft = Math.ceil((startD - new Date()) / 86_400_000);
+          badgeCls = 'fp-badge-available';
+          badgeTxt = I18n.t('status_days_left', { n: daysLeft });
+        } else if (status === 'done') {
+          badgeCls = 'fp-badge-done';
+          badgeTxt = I18n.t('status_past');
+        } else {
+          badgeCls = 'fp-badge-upcoming';
+          badgeTxt = I18n.t('status_upcoming');
+        }
 
         const card = document.createElement('button');
-        card.className = `fp-card${isCurrent ? ' fp-card-active' : ''}`;
+        card.className = `fp-card${isCurrent ? ' fp-card-active' : ''}${disabled ? ' fp-card-disabled' : ''}`;
         card.dataset.id  = f.id;
         card.dataset.cat = cat.key;
+        if (disabled) card.setAttribute('disabled', '');
         card.style.cssText = `--card-gradient:${grad};--card-p:${pc};--card-s:${sc}`;
         card.innerHTML = `
           <div class="fp-card-town">${Utils.escHtml(Utils.loc(f.name, lang))}</div>
@@ -154,17 +177,26 @@ class InguruFeriaPanel extends HTMLElement {
           ${distLabel}
           <span class="fp-badge ${badgeCls}">${badgeTxt}</span>`;
 
-        card.addEventListener('click', () => {
-          this.dispatchEvent(new CustomEvent('inguru:feria-select', {
-            bubbles: true, detail: { id: f.id }
-          }));
-        });
+        if (!disabled) {
+          card.addEventListener('click', () => {
+            this.dispatchEvent(new CustomEvent('inguru:feria-select', {
+              bubbles: true, detail: { id: f.id }
+            }));
+          });
+        }
 
         scroll.appendChild(card);
       }
 
       section.appendChild(scroll);
       container.appendChild(section);
+    }
+
+    if (query && !container.children.length) {
+      const empty = document.createElement('div');
+      empty.className = 'fp-empty';
+      empty.textContent = I18n.t('search_no_result');
+      container.appendChild(empty);
     }
   }
 }

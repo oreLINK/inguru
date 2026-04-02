@@ -11,19 +11,33 @@ const Events = {
   edition:        null,
   venues:         [],
   events:         [],
+  services:       [],
+  serviceTypes:   [],
+  anims:          [],
 
   config:         null,
   dominantColors: {},
+  categories:     {},   // map id → color
 
   // ─── Chargement de la config globale ─────────────────────────────
   async loadConfig() {
-    const [configRes, colorsRes] = await Promise.all([
+    const [configRes, colorsRes, svcTypesRes, catsRes] = await Promise.all([
       fetch('data/config.json'),
       fetch('data/events_dominant_colors.json'),
+      fetch('data/02_silver/03_utils/service-types.json'),
+      fetch('data/events_categories.json'),
     ]);
     if (!configRes.ok) throw new Error('Impossible de charger data/config.json');
     this.config = await configRes.json();
     if (colorsRes.ok) this.dominantColors = await colorsRes.json();
+    if (catsRes.ok) {
+      const d = await catsRes.json();
+      this.categories = Object.fromEntries((d.categories ?? []).map(c => [c.id, c.color]));
+    }
+    if (svcTypesRes.ok) {
+      const d = await svcTypesRes.json();
+      this.serviceTypes = d.service_types ?? [];
+    }
     return this.config;
   },
 
@@ -46,11 +60,13 @@ const Events = {
     if (!res.ok) throw new Error(`Fichier manquant : ${bundlePath}`);
 
     const bundle = await res.json();
-    this.town     = bundle.town ?? null;
-    this.feria    = bundle.feria ?? null;
-    this.edition  = bundle.edition ?? null;
-    this.venues   = bundle.places ?? [];
-    this.events   = bundle.events ?? [];
+    this.town         = bundle.town ?? null;
+    this.feria        = bundle.feria ?? null;
+    this.edition      = bundle.edition ?? null;
+    this.venues       = bundle.places ?? [];
+    this.events       = bundle.events ?? [];
+    this.services     = bundle.services ?? [];
+    this.anims        = bundle.anims    ?? [];
 
     if (!this.town || !this.feria || !this.edition)
       throw new Error(`Bundle invalide : ${bundlePath}`);

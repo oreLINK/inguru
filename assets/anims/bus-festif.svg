@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 62" width="60" height="41">
+  <defs>
+    <style>
+      /* Outer group : vibration CSS (translate seul, pas de conflit avec rotate SVG) */
+      #bus { animation: vib 0.09s linear infinite; }
+
+      /* Smoke */
+      .s1 { animation: puff 2.2s ease-out 0s    infinite; transform-box:fill-box; transform-origin:50% 50%; }
+      .s2 { animation: puff 2.2s ease-out 0.73s infinite; transform-box:fill-box; transform-origin:50% 50%; }
+      .s3 { animation: puff 2.2s ease-out 1.46s infinite; transform-box:fill-box; transform-origin:50% 50%; }
+
+      @keyframes vib {
+        0%,100% { transform: translate(0,0);          }
+        20%     { transform: translate( 0.8px,-0.6px); }
+        40%     { transform: translate(-0.7px, 0.5px); }
+        60%     { transform: translate( 0.6px, 0.7px); }
+        80%     { transform: translate(-0.6px,-0.5px); }
+      }
+      @keyframes puff {
+        0%   { transform: scale(0.28);                           opacity: 0.88; }
+        100% { transform: translate(-16px,-14px) scale(1.6);     opacity: 0;    }
+      }
+    </style>
+  </defs>
+
+  <!-- Ombre au sol -->
+  <ellipse cx="47" cy="59" rx="26" ry="2.2" fill="rgba(0,0,0,0.10)"/>
+
+  <!-- Fumée (coords globales, calculées à la sortie du pot d'échappement après rotate -7°) -->
+  <circle class="s1" cx="16" cy="39" r="5.5" fill="#bfb8a6"/>
+  <circle class="s2" cx="16" cy="39" r="5.5" fill="#cdc7b7"/>
+  <circle class="s3" cx="16" cy="39" r="5.5" fill="#dad5c7"/>
+
+  <!-- Bus : groupe externe = vibration CSS / groupe interne = inclinaison SVG fixe -->
+  <g id="bus">
+    <g transform="rotate(-7, 47, 33)">
+
+      <!-- Soubassement -->
+      <rect x="22" y="37" width="56" height="5.5" rx="2"   fill="#9e6c0e"/>
+
+      <!-- Carrosserie principale -->
+      <rect x="20" y="13" width="58" height="27" rx="9"    fill="#f2cb50"/>
+      <!-- Reflet haut -->
+      <rect x="20" y="13" width="58" height="10" rx="9"    fill="rgba(255,255,255,0.22)"/>
+      <!-- Ombre bas carrosserie -->
+      <rect x="20" y="33" width="58" height="7"  rx="0"    fill="rgba(0,0,0,0.06)"/>
+
+      <!-- Toit -->
+      <rect x="23" y="6"  width="51" height="11" rx="6"    fill="#c89318"/>
+      <rect x="25" y="6"  width="47" height="4.5" rx="4"   fill="rgba(255,255,255,0.30)"/>
+
+      <!-- Pare-brise avant (côté droit) -->
+      <rect x="69" y="15" width="9"  height="15" rx="3.5"  fill="#8ec2d8"/>
+      <rect x="69" y="15" width="9"  height="5.5" rx="3.5" fill="rgba(255,255,255,0.52)"/>
+
+      <!-- Phare avant -->
+      <circle cx="79" cy="28" r="3.5"  fill="#fef688" opacity="0.96"/>
+      <circle cx="79" cy="27" r="1.8"  fill="rgba(255,255,255,0.78)"/>
+
+      <!-- Fenêtres rondes style Ghibli (hublots) -->
+      <circle cx="34" cy="24" r="7.5"  fill="#8ec2d8"/>
+      <circle cx="34" cy="22" r="3.2"  fill="rgba(255,255,255,0.44)"/>
+      <circle cx="34" cy="24" r="7.5"  fill="none" stroke="#c08c0c" stroke-width="2"/>
+
+      <circle cx="52" cy="24" r="7.5"  fill="#8ec2d8"/>
+      <circle cx="52" cy="22" r="3.2"  fill="rgba(255,255,255,0.44)"/>
+      <circle cx="52" cy="24" r="7.5"  fill="none" stroke="#c08c0c" stroke-width="2"/>
+
+      <!-- Petit hublot près de l'avant -->
+      <circle cx="65" cy="24" r="5.5"  fill="#8ec2d8"/>
+      <circle cx="65" cy="22.5" r="2.2" fill="rgba(255,255,255,0.44)"/>
+      <circle cx="65" cy="24" r="5.5"  fill="none" stroke="#c08c0c" stroke-width="2"/>
+
+      <!-- Bande décorative -->
+      <rect x="20" y="31" width="58" height="2.5" rx="1"   fill="#c08c0c" opacity="0.55"/>
+
+      <!-- Porte (arrière, côté gauche) -->
+      <rect x="21" y="22" width="9"  height="13" rx="3"    fill="#e2bc3e" stroke="#c08c0c" stroke-width="1.2"/>
+      <circle cx="27.5" cy="28.5" r="1.3"                  fill="#c08c0c"/>
+
+      <!-- Rivets / boulons (touche Ghibli artisanale) -->
+      <circle cx="22" cy="14.5" r="1.3" fill="#c08c0c" opacity="0.65"/>
+      <circle cx="78" cy="14.5" r="1.3" fill="#c08c0c" opacity="0.65"/>
+      <circle cx="22" cy="38.5" r="1.3" fill="#c08c0c" opacity="0.65"/>
+      <circle cx="78" cy="38.5" r="1.3" fill="#c08c0c" opacity="0.65"/>
+
+      <!-- Arches de roues -->
+      <path d="M21,43 a11.5,11.5 0 0,1 23,0" fill="#9e6c0e"/>
+      <path d="M55,43 a11.5,11.5 0 0,1 23,0" fill="#9e6c0e"/>
+
+      <!-- Roues (grosses et rondes, Ghibli) -->
+      <circle cx="32.5" cy="47" r="10"  fill="#1a140e"/>
+      <circle cx="32.5" cy="47" r="6.2" fill="#382a1a"/>
+      <circle cx="32.5" cy="47" r="2.8" fill="#685040"/>
+      <circle cx="30.5" cy="44.5" r="1.5" fill="rgba(255,255,255,0.10)"/>
+
+      <circle cx="66.5" cy="47" r="10"  fill="#1a140e"/>
+      <circle cx="66.5" cy="47" r="6.2" fill="#382a1a"/>
+      <circle cx="66.5" cy="47" r="2.8" fill="#685040"/>
+      <circle cx="64.5" cy="44.5" r="1.5" fill="rgba(255,255,255,0.10)"/>
+
+      <!-- Pot d'échappement (calculé : sort à ≈ 16,39 en coords globales) -->
+      <rect x="10" y="33.5" width="13" height="3.5" rx="1.8" fill="#6e5e4e"/>
+      <rect x="10" y="33.5" width="13" height="1.5" rx="1"   fill="#8a7a68"/>
+
+    </g>
+  </g>
+</svg>

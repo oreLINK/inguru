@@ -1,0 +1,10 @@
+{
+  "service_types": [
+    {
+      "id": "toilettes",
+      "name": { "fr": "Toilettes", "es": "Aseos", "eus": "Komunak" },
+      "icon": "🚻",
+      "color": "#0ea5e9"
+    }
+  ]
+}

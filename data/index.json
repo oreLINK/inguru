@@ -1,7 +1,7 @@
 {
   "_doc": "Éditions disponibles. Bundle dans data/03_gold/{id}.json",
   "editions": [
-    { "id": "bayonne-foire-jambon-2026", "isDisplay": true },
-    { "id": "bayonne-fetes-2026",        "isDisplay": false }
+    { "id": "bayonne-foire-jambon-2026", "isDisplay": true,  "isAvailable": true  },
+    { "id": "bayonne-fetes-2026",        "isDisplay": false, "isAvailable": false }
   ]
 }

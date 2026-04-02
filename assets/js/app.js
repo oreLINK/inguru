@@ -127,8 +127,11 @@ const App = {
 
   // ─── Chargement feria ────────────────────────────────────────────
   async _loadFeria(meta, animate = true) {
-    Events.venues = [];
-    Events.events = [];
+    Events.venues   = [];
+    Events.events   = [];
+    Events.services = [];
+    Events.anims    = [];
+    if (MapModule.map) { MapModule.clearServices(); MapModule.clearAnims(); }
 
     try {
       const loaded = await Events.load(meta);
@@ -154,6 +157,8 @@ const App = {
     }
 
     MapModule.renderAll(this.lang);
+    MapModule.renderServices();
+    MapModule.renderAnims();
 
     if (this._refreshTimer) clearInterval(this._refreshTimer);
     this._refreshTimer = setInterval(() => {
@@ -376,6 +381,21 @@ const App = {
         ${schedHtml}
       </div>
       <div class="popup-btn-wrap">${btns}</div>`;
+  },
+
+  // ─── Popup animation ─────────────────────────────────────────────
+  showAnimPopup(animId) {
+    const anim = Events.anims.find(a => a.id === animId);
+    if (!anim) return;
+    const theme = this.currentMeta?.theme;
+    this.$popup?.setTheme(theme?.primary ?? '#e63012', theme?.secondary ?? '#fff');
+    const name = Utils.escHtml(Utils.loc(anim.name, this.lang));
+    const html = `
+      <div class="popup-body-scroll">
+        <div class="popup-venue" style="color:var(--popup-p)">${name}</div>
+        <div class="popup-title">${I18n.t('no_event')}</div>
+      </div>`;
+    this.$popup?.show(html);
   },
 
   // ─── Partage ─────────────────────────────────────────────────────
