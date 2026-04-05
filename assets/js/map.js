@@ -256,8 +256,15 @@ const MapModule = {
   updateUserPos(lat, lng) {
     this.userPos = { lat, lng };
     if (this.userMarker) { this.userMarker.setLatLng([lat, lng]); return; }
-    const icon = L.divIcon({ html: '<div class="user-dot"></div>', className: '', iconSize: [16,16], iconAnchor: [8,8] });
+    const html = `<div class="user-location-wrapper"><div class="user-cone"></div><div class="user-dot"></div></div>`;
+    const icon = L.divIcon({ html, className: '', iconSize: [60, 70], iconAnchor: [30, 60] });
     this.userMarker = L.marker([lat, lng], { icon, zIndexOffset: 500 }).addTo(this.map);
+  },
+
+  updateUserHeading(heading) {
+    if (heading == null || isNaN(heading)) return;
+    const el = this.userMarker?.getElement()?.querySelector('.user-location-wrapper');
+    if (el) el.style.transform = `rotate(${Math.round(heading)}deg)`;
   },
 
   centerOnUser() {

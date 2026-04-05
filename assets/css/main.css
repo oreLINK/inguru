@@ -340,7 +340,22 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
   cursor:default;pointer-events:none;
 }
 
+.user-location-wrapper{
+  position:relative;
+  width:60px;height:70px;
+  transform-origin:30px 60px;
+  will-change:transform;
+}
+.user-cone{
+  position:absolute;
+  left:8px;top:4px;
+  width:44px;height:56px;
+  background:radial-gradient(ellipse at 50% 100%,rgba(59,130,246,0.55),rgba(59,130,246,0.08) 65%,transparent 100%);
+  clip-path:polygon(50% 100%,5% 0%,95% 0%);
+}
 .user-dot{
+  position:absolute;
+  left:21px;top:51px;
   width:18px;height:18px;
   background:radial-gradient(circle at 35% 35%,#60a5fa,#1d4ed8);
   border:2.5px solid white;border-radius:50%;

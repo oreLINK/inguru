@@ -561,8 +561,34 @@ const App = {
     if (this.activeVenueId) this._renderAndShowPopup(this.activeVenueId);
   },
 
+  // ─── Compass / orientation ───────────────────────────────────────
+  _setupCompass() {
+    const onOrientation = (e) => {
+      // iOS : webkitCompassHeading est le cap magnétique direct (0 = nord)
+      if (e.webkitCompassHeading != null) {
+        MapModule.updateUserHeading(e.webkitCompassHeading);
+        return;
+      }
+      // Android / deviceorientationabsolute : alpha = rotation Z, 0 = est → convertir en cap
+      if (e.absolute && e.alpha != null) {
+        MapModule.updateUserHeading((360 - e.alpha) % 360);
+      }
+    };
+
+    // Demande permission iOS 13+ (doit être dans un geste utilisateur → appelé depuis _requestGeolocation)
+    if (typeof DeviceOrientationEvent?.requestPermission === 'function') {
+      DeviceOrientationEvent.requestPermission()
+        .then(state => { if (state === 'granted') window.addEventListener('deviceorientation', onOrientation); })
+        .catch(() => {});
+    } else {
+      window.addEventListener('deviceorientationabsolute', onOrientation);
+      window.addEventListener('deviceorientation', onOrientation);
+    }
+  },
+
   // ─── Géolocalisation ─────────────────────────────────────────────
   _requestGeolocation() {
+    this._setupCompass();
     if (!navigator.geolocation) return;
     navigator.geolocation.getCurrentPosition(
       pos => this._onGeoSuccess(pos),
@@ -585,8 +611,9 @@ const App = {
   },
 
   _onGeoSuccess(pos) {
-    const { latitude: lat, longitude: lng } = pos.coords;
+    const { latitude: lat, longitude: lng, heading } = pos.coords;
     MapModule.updateUserPos(lat, lng);
+    if (heading != null) MapModule.updateUserHeading(heading);
     this.$fabs?.setActive(true);
     this.$fabs?.setLocating(false);
     this.$fabs?.showShareBtn(true);
