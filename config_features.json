@@ -1,0 +1,95 @@
+{
+  "_comment": "Priorité : feria > global. L'ID feria est déduit de l'édition en retirant l'année (ex: bayonne-foire-jambon-2026 → bayonne-foire-jambon). Si une clé est absente dans feria, la valeur global s'applique.",
+  "global": {
+    "events": true,
+    "services": false,
+    "locationButton": true,
+    "zoomButton": true,
+    "eventPopup": {
+      "enabled": true,
+      "fields": {
+        "place": true,
+        "title": true,
+        "date": true,
+        "time": true,
+        "delay": true,
+        "description": true,
+        "nextProgram": false,
+        "payment": true,
+        "ticketRequired": true,
+        "ticketing": true,
+        "streaming": {
+          "enabled": true,
+          "spotify": true,
+          "appleMusic": true,
+          "youtube": true,
+          "soundcloud": true
+        },
+        "notifyFriendsButton": true,
+        "directionsButton": true
+      }
+    }
+  },
+  "ferias": {
+    "bayonne-foire-jambon": {
+      "events": true,
+      "services": true,
+      "locationButton": true,
+      "zoomButton": true,
+      "eventPopup": {
+        "enabled": true,
+        "fields": {
+          "place": true,
+          "title": true,
+          "date": true,
+          "time": true,
+          "delay": true,
+          "description": true,
+          "nextProgram": true,
+          "payment": true,
+          "ticketRequired": true,
+          "ticketing": true,
+          "streaming": {
+            "enabled": true,
+            "spotify": true,
+            "appleMusic": true,
+            "youtube": true,
+            "soundcloud": true
+          },
+          "notifyFriendsButton": true,
+          "directionsButton": true
+        }
+      }
+    },
+    "bayonne-fetes": {
+      "events": true,
+      "services": true,
+      "locationButton": true,
+      "zoomButton": true,
+      "eventPopup": {
+        "enabled": true,
+        "fields": {
+          "place": true,
+          "title": true,
+          "date": true,
+          "time": true,
+          "delay": true,
+          "description": true,
+          "nextProgram": true,
+          "payment": true,
+          "ticketRequired": true,
+          "ticketing": true,
+          "streaming": {
+            "enabled": true,
+            "spotify": true,
+            "appleMusic": true,
+            "youtube": true,
+            "soundcloud": true
+          },
+          "notifyFriendsButton": true,
+          "directionsButton": true
+        }
+      }
+    }
+  }
+}

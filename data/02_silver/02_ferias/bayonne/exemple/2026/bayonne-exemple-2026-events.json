@@ -1,0 +1,281 @@
+{
+  "events": [
+    {
+      "category": "gastronomie",
+      "endDate": "03/07/2026",
+      "endTime": "18:00",
+      "id": "exp26-0001",
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "location": "esplanade-roland-barthes",
+      "startDate": "20/03/2026",
+      "startTime": "09:00",
+      "title_long": {
+        "es": "Exposición de sabores del País Vasco",
+        "eus": "Euskal Herriko zapore erakusketa",
+        "fr": "Exposition des saveurs du Pays Basque"
+      },
+      "title_short": {
+        "es": "Expo Sabores Vascos",
+        "eus": "Zapore Erakusketa",
+        "fr": "Expo Saveurs Basques"
+      },
+      "description": {
+        "es": "Dos semanas de descubrimiento de los productos del terruño vasco: charcutería, quesos, vinos y licores locales presentados por productores de la región.",
+        "eus": "Bi astez euskal lurraldearen produktuak ezagutzeko: txarkuteria, gaztaiak, ardoak eta bertako likoreak eskualdeko ekoizleek aurkeztuta.",
+        "fr": "Deux semaines de découverte des produits du terroir basque : charcuterie, fromages, vins et liqueurs locaux présentés par les producteurs de la région."
+      }
+    },
+    {
+      "category": "musique",
+      "endDate": "02/04/2026",
+      "endTime": "23:30",
+      "id": "exp26-0002",
+      "payment": {
+        "isPaid": true,
+        "isTicketMandatory": true,
+        "isTicketOnline": true,
+        "linkTicket": "https://google.fr"
+      },
+      "location": "carreau-halles",
+      "startDate": "02/04/2026",
+      "startTime": "21:00",
+      "title_long": {
+        "es": "Concierto Baskonia – Noche de txalaparta y trikitixa",
+        "eus": "Baskonia Kontzertu – Txalaparta eta trikitixaren gaua",
+        "fr": "Concert Baskonia – Nuit de txalaparta et trikitixa"
+      },
+      "title_short": {
+        "es": "Concierto Baskonia",
+        "eus": "Baskonia Kontzertu",
+        "fr": "Concert Baskonia"
+      },
+      "description": {
+        "es": "Gran concierto de música tradicional vasca con txalaparta, trikitixa y coros, bajo las estrellas en el Patio de los Mercados.",
+        "eus": "Euskal musika tradizionaleko kontzertu handia txalaparta, trikitxa eta abesbatzekin, Halletako Karriko izarren azpian.",
+        "fr": "Grand concert de musique traditionnelle basque avec txalaparta, trikitixa et chœurs, sous les étoiles au Carreau des Halles."
+      }
+    },
+    {
+      "category": "animations",
+      "endDate": "12/04/2026",
+      "endTime": "22:00",
+      "id": "exp26-0003",
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "location": "allee-platanes",
+      "startDate": "03/04/2026",
+      "startTime": "14:00",
+      "title_long": {
+        "es": "Feria de atracciones – Alameda de los Plátanos",
+        "eus": "Jolas-azoka – Platanondoen Hiribidea",
+        "fr": "Fête foraine – Allée des Platanes"
+      },
+      "title_short": {
+        "es": "Feria Atracciones",
+        "eus": "Jolas-azoka",
+        "fr": "Fête Foraine"
+      },
+      "description": {
+        "es": "Diez días de feria de atracciones a orillas del Adour: manèges, tiro al blanco, algodón de azúcar y juegos para todos.",
+        "eus": "Hamar egunez jolas-azoka Aturri ibaiaren bazterretan: zirrara-tresnak, jaurtiketak, kotoi gozoa eta jokoak guztientzat.",
+        "fr": "Dix jours de fête foraine en bord d'Adour : manèges, tirs, barbes à papa et jeux pour toute la famille."
+      }
+    },
+    {
+      "category": "gastronomie",
+      "endDate": "06/04/2026",
+      "endTime": "13:00",
+      "id": "exp26-0004",
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "location": "esplanade-roland-barthes",
+      "startDate": "06/04/2026",
+      "startTime": "08:00",
+      "title_long": {
+        "es": "Mercado de productores locales",
+        "eus": "Tokiko ekoizleen azoka",
+        "fr": "Marché des producteurs locaux"
+      },
+      "title_short": {
+        "es": "Mercado Productores",
+        "eus": "Ekoizleen Azoka",
+        "fr": "Marché Producteurs"
+      },
+      "description": {
+        "es": "Mercado matutino con una treintena de productores locales: frutas y verduras de temporada, quesos, miel, conservas y artesanía alimentaria.",
+        "eus": "Goizeko azoka hogeita hamar ekoizle lokalekin: sasoiko fruta eta barazkiak, gaztaiak, eztia, kontserbak eta elikadura artisautza.",
+        "fr": "Marché matinal avec une trentaine de producteurs locaux : fruits et légumes de saison, fromages, miel, conserves et artisanat alimentaire."
+      }
+    },
+    {
+      "category": "sport",
+      "endDate": "07/04/2026",
+      "endTime": "18:00",
+      "id": "exp26-0005",
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "location": "trinquet-saint-andre",
+      "startDate": "07/04/2026",
+      "startTime": "10:00",
+      "title_long": {
+        "es": "Torneo de pelota vasca – Categorías jóvenes y senior",
+        "eus": "Eskupilota txapelketa – Gazteak eta seniors",
+        "fr": "Tournoi de pelote basque – Catégories jeunes et séniors"
+      },
+      "title_short": {
+        "es": "Torneo Pelota",
+        "eus": "Pilota Txapelketa",
+        "fr": "Tournoi Pelote"
+      },
+      "description": {
+        "es": "Jornada de competición de pelota vasca a mano con categorías juveniles por la mañana y senior por la tarde al frontón cubierto Saint-André.",
+        "eus": "Esku pilotako lehiaketa jardunaldia, goizeko gazte kategoriekin eta arratsaldeko senior kategoriekin Saint-André trinketean.",
+        "fr": "Journée de compétition de pelote basque main nue avec catégories jeunes le matin et séniors l'après-midi au trinquet Saint-André."
+      }
+    },
+    {
+      "category": "traditions",
+      "endDate": "20/04/2026",
+      "endTime": "22:00",
+      "id": "exp26-0006",
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "location": "rues-bayonne",
+      "startDate": "15/04/2026",
+      "startTime": "10:00",
+      "title_long": {
+        "es": "Semana cultural vasca – Danzas, música y artesanía",
+        "eus": "Euskal kultura astea – Dantzak, musika eta artisautza",
+        "fr": "Semaine culturelle basque – Danses, musique et artisanat"
+      },
+      "title_short": {
+        "es": "Semana Cultural Vasca",
+        "eus": "Euskal Kultura Astea",
+        "fr": "Semaine Culturelle Basque"
+      },
+      "description": {
+        "es": "Seis días de inmersión en la cultura vasca con exhibiciones de danzas tradicionales, conciertos de música folk, talleres de artesanía y proyecciones documentales.",
+        "eus": "Sei egun euskal kulturan murgiltzeko, dantza tradizionalen erakustaldiekin, folk musikako kontzertuekin, artisautza tailerrekin eta dokumentalen proiekzioekin.",
+        "fr": "Six jours d'immersion dans la culture basque avec démonstrations de danses traditionnelles, concerts de musique folk, ateliers artisanaux et projections documentaires."
+      }
+    },
+    {
+      "category": "traditions",
+      "endDate": "20/04/2026",
+      "endTime": "17:00",
+      "id": "exp26-0007",
+      "payment": {
+        "isPaid": true,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "location": "cathedrale-sainte-marie",
+      "startDate": "19/04/2026",
+      "startTime": "15:00",
+      "title_long": {
+        "es": "Concierto de música sacra en la Catedral Santa María",
+        "eus": "Musika sakratuaren kontzertua Santa Maria Katedralean",
+        "fr": "Concert de musique sacrée à la Cathédrale Sainte-Marie"
+      },
+      "title_short": {
+        "es": "Música Sacra Catedral",
+        "eus": "Musika Sakratua",
+        "fr": "Musique Sacrée Cathédrale"
+      },
+      "description": {
+        "es": "Concierto de dos días de coros y órgano en la Catedral de Santa María, con repertorio sacro del siglo XVI al XIX.",
+        "eus": "Bi eguneko kontzertua koruak eta organoarekin Santa Maria Katedralean, XVI. mendetik XIX. mendera arteko errepertorio sakratuarekin.",
+        "fr": "Concert de deux jours de chœurs et orgue à la Cathédrale Sainte-Marie, avec un répertoire sacré du XVIe au XIXe siècle."
+      }
+    },
+    {
+      "category": "musique",
+      "endDate": "25/04/2026",
+      "endTime": "23:30",
+      "id": "exp26-0009",
+      "payment": {
+        "isPaid": true,
+        "isTicketMandatory": true,
+        "isTicketOnline": true,
+        "linkTicket": "https://google.fr"
+      },
+      "location": "carreau-halles",
+      "startDate": "25/04/2026",
+      "startTime": "21:00",
+      "title_long": {
+        "es": "Concierto Txaranga Nagusia – Noche de bandas",
+        "eus": "Txaranga Nagusia Kontzertu – Banden gaua",
+        "fr": "Concert Txaranga Nagusia – Nuit des bandas"
+      },
+      "title_short": {
+        "es": "Concierto Bandas",
+        "eus": "Banden Kontzertu",
+        "fr": "Concert Bandas"
+      },
+      "description": {
+        "es": "Gran noche de bandas y txarangas del País Vasco reunidas en el Patio de los Mercados para un concierto único bajo las estrellas.",
+        "eus": "Euskal Herriko banden eta txarangen gau handia Halletako Karrikon bilduta, izarren azpiko kontzertu bakarrean.",
+        "fr": "Grande nuit des bandas et txarangas du Pays Basque réunies au Carreau des Halles pour un concert unique sous les étoiles."
+      },
+      "artistName": "Avicii",
+      "listenArtist": {
+        "spotify": true,
+        "appleMusic": true,
+        "youtube": true,
+        "soundcloud": true
+      }
+    },
+    {
+      "category": "musique",
+      "endDate": "03/05/2026",
+      "endTime": "01:00",
+      "id": "exp26-0008",
+      "payment": {
+        "isPaid": true,
+        "isTicketMandatory": true,
+        "isTicketOnline": true,
+        "linkTicket": "https://google.fr"
+      },
+      "location": "carreau-halles",
+      "startDate": "01/05/2026",
+      "startTime": "18:00",
+      "title_long": {
+        "es": "Gran fiesta de clausura – Tres noches de conciertos",
+        "eus": "Itxiera jai handia – Hiru kontzertu gau",
+        "fr": "Grande fête de clôture – Trois nuits de concerts"
+      },
+      "title_short": {
+        "es": "Fiesta de Clausura",
+        "eus": "Itxiera Jaia",
+        "fr": "Fête de Clôture"
+      },
+      "description": {
+        "es": "Tres noches consecutivas de conciertos para cerrar la edición 2026: bandas locales el viernes, artistas regionales el sábado y gran finale con fuegos artificiales el domingo.",
+        "eus": "Hiru gau jarraiko kontzertua 2026ko edizioa ixteko: bertako taldeak ostiralean, eskualdeko artistak larunbatean eta final handia su artifizialarekin igandean.",
+        "fr": "Trois nuits de concerts pour clôturer l'édition 2026 : groupes locaux le vendredi, artistes régionaux le samedi et grand finale avec feu d'artifice le dimanche."
+      }
+    }
+  ]
+}

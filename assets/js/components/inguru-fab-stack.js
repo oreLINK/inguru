@@ -42,6 +42,10 @@ class InguruFabStack extends HTMLElement {
   showShareBtn(visible) {
     this.querySelector('#fab-share-loc')?.classList.toggle('hidden', !visible);
   }
+
+  showLocateBtn(visible) {
+    this.querySelector('#fab-locate')?.classList.toggle('hidden', !visible);
+  }
 }
 
 customElements.define('inguru-fab-stack', InguruFabStack);

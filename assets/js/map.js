@@ -12,6 +12,8 @@ const MapModule = {
   _geoStarted: false,
   _sheetJustOpened: false,
   _isDark: false,
+  _zoomControl: null,
+  _zoomVisible: false,
 
   init(meta) {
     const { lat, lng } = meta.center;
@@ -34,8 +36,10 @@ const MapModule = {
     // Applique le filtre CSS jour/nuit
     this._applyDayNight(lat, lng);
 
-    // Zoom à gauche
-    L.control.zoom({ position: 'bottomleft' }).addTo(this.map);
+    // Zoom à gauche (géré via setZoomVisible)
+    this._zoomControl = L.control.zoom({ position: 'bottomleft' });
+    this._zoomControl.addTo(this.map);
+    this._zoomVisible = true;
 
     this.map.on('click', () => {
       if (this._sheetJustOpened) { this._sheetJustOpened = false; return; }
@@ -258,5 +262,16 @@ const MapModule = {
 
   centerOnUser() {
     if (this.userPos) this.map.flyTo([this.userPos.lat, this.userPos.lng], 17, { duration: 0.8 });
+  },
+
+  setZoomVisible(visible) {
+    if (!this._zoomControl || !this.map) return;
+    if (visible && !this._zoomVisible) {
+      this.map.addControl(this._zoomControl);
+      this._zoomVisible = true;
+    } else if (!visible && this._zoomVisible) {
+      this.map.removeControl(this._zoomControl);
+      this._zoomVisible = false;
+    }
   },
 };

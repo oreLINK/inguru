@@ -1,6 +1,6 @@
 {
   "_doc": "Configuration globale Inguru — s'applique à toutes les villes et fêtes. Les valeurs peuvent être surchargées dans edition.json de chaque fête.",
-  "defaultZoom": 16,
+  "defaultZoom": 17,
   "markerRefreshInterval": 60,
   "walkingSpeedMpm": 75,
   "geolocationMaxAge": 10000,

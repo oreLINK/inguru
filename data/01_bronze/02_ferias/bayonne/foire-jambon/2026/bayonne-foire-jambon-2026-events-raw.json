@@ -1,0 +1,165 @@
+{
+  "_source": "https://www.foireaujambon.fr/programme-foire-au-jambon-bayonne/",
+  "_scraped_at": "2026-03-28",
+  "_note": "Programme 2025 utilisé comme référence. Dates adaptées à l'édition 2026 (23-26 avril). Le programme 2026 officiel sera publié en février/mars 2026.",
+  "edition": "562e (2025 ref) → 563e (2026)",
+  "dates_raw": "du 23 au 26 Avril 2026",
+  "events_raw": [
+    {
+      "day": "Jeudi 23 Avril 2026",
+      "events": [
+        {
+          "time_raw": "9h30 à 11h30",
+          "location_raw": "Carreau des Halles",
+          "title_raw": "Concours du meilleur jambon fermier",
+          "note": "En présence des maîtres charcutiers et des représentants de la confrérie du jambon de Bayonne"
+        },
+        {
+          "time_raw": "10h30",
+          "location_raw": "Esplanade Roland-Barthes",
+          "title_raw": "Inauguration officielle de la 563e Foire au jambon de Bayonne"
+        },
+        {
+          "time_raw": "11h",
+          "location_raw": "Trinquet Saint-André",
+          "title_raw": "Pelote basque main nue – ½ finale A",
+          "price_raw": "entrée 10 € (gratuit moins de 16 ans)"
+        },
+        {
+          "time_raw": "11h30",
+          "location_raw": "Carreau des Halles → Esplanade Roland-Barthes",
+          "title_raw": "Transfert en musique"
+        },
+        {
+          "time_raw": "12h",
+          "location_raw": "Esplanade Roland-Barthes (terrasse)",
+          "title_raw": "Remise des prix concours jambon fermier et vente aux enchères du jambon primé"
+        },
+        {
+          "time_raw": "16h30",
+          "location_raw": "Trinquet Saint-André",
+          "title_raw": "Open de pelote basque main nue – ½ finales B",
+          "price_raw": "entrée 10 € (gratuit moins de 16 ans)"
+        },
+        {
+          "time_raw": "9h-12h et 13h-19h",
+          "location_raw": "Esplanade Roland Barthes",
+          "title_raw": "Ferme aux animaux (cochons, volailles…)"
+        },
+        {
+          "time_raw": "9h30-20h",
+          "location_raw": "Esplanade Roland Barthes",
+          "title_raw": "Chapiteaux salaisonniers, restaurant et foire gourmande"
+        }
+      ]
+    },
+    {
+      "day": "Vendredi 24 Avril 2026",
+      "events": [
+        {
+          "time_raw": "9h30 à 11h30",
+          "location_raw": "Rue Pelletier",
+          "title_raw": "Atelier découpe et transformation du cochon — dégustation txistorra au jambon de Bayonne",
+          "theme_raw": "« Le cochon, du courtil à l'assiette »"
+        },
+        {
+          "time_raw": "9h-12h et 13h-19h",
+          "location_raw": "Esplanade Roland Barthes",
+          "title_raw": "Ferme aux animaux (cochons, volailles…)"
+        },
+        {
+          "time_raw": "9h30-20h",
+          "location_raw": "Esplanade Roland Barthes",
+          "title_raw": "Chapiteaux salaisonniers, restaurant et foire gourmande"
+        }
+      ]
+    },
+    {
+      "day": "Samedi 25 Avril 2026",
+      "events": [
+        {
+          "time_raw": "6h à 13h",
+          "location_raw": "Allée des Platanes",
+          "title_raw": "Marché traditionnel"
+        },
+        {
+          "time_raw": "10h",
+          "location_raw": "Maison des Associations",
+          "title_raw": "Intronisations des nouveaux membres de la Confrérie du Jambon de Bayonne"
+        },
+        {
+          "time_raw": "10h à 13h",
+          "location_raw": "Esplanade Roland-Barthes",
+          "title_raw": "Concours d'omelettes au Jambon de Bayonne avec les associations bayonnaises"
+        },
+        {
+          "time_raw": "11h",
+          "location_raw": "Trinquet Saint-André",
+          "title_raw": "Finale Open de pelote basque main nue",
+          "price_raw": "entrée 10 € (gratuit moins de 16 ans)"
+        },
+        {
+          "time_raw": "11h",
+          "location_raw": "Rues de Bayonne",
+          "title_raw": "Défilé de la Confrérie et de ses invités à travers les rues de la Ville"
+        },
+        {
+          "time_raw": "12h",
+          "location_raw": "Esplanade Roland-Barthes",
+          "title_raw": "Visite des stands des charcutiers-salaisonniers"
+        },
+        {
+          "time_raw": "9h-12h et 13h-19h",
+          "location_raw": "Esplanade Roland Barthes",
+          "title_raw": "Ferme aux animaux (cochons, volailles…)"
+        },
+        {
+          "time_raw": "9h30-20h",
+          "location_raw": "Esplanade Roland Barthes",
+          "title_raw": "Chapiteaux salaisonniers, restaurant et foire gourmande"
+        }
+      ]
+    },
+    {
+      "day": "Dimanche 26 Avril 2026",
+      "events": [
+        {
+          "time_raw": "10h",
+          "location_raw": "Rues de Bayonne",
+          "title_raw": "Défilé de la Confrérie à travers les rues de Bayonne"
+        },
+        {
+          "time_raw": "10h30",
+          "location_raw": "Cathédrale Sainte-Marie",
+          "title_raw": "Messe des Confréries"
+        },
+        {
+          "time_raw": "11h",
+          "location_raw": "Place du Carreau des Halles",
+          "title_raw": "Mutxiko (danse basque) avec Orai Bat"
+        },
+        {
+          "time_raw": "12h",
+          "location_raw": "Esplanade Roland-Barthes",
+          "title_raw": "Retour des confréries sur la foire"
+        },
+        {
+          "time_raw": "13h30",
+          "location_raw": "Maison des Associations",
+          "title_raw": "Repas du 63e Chapitre de la Confrérie — ouvert à tous sur réservation",
+          "contact_raw": "06 16 65 10 12 ; c.jambon.bayonne@gmail.com"
+        },
+        {
+          "time_raw": "9h-12h et 13h-17h",
+          "location_raw": "Esplanade Roland Barthes",
+          "title_raw": "Ferme aux animaux (cochons, volailles…)"
+        },
+        {
+          "time_raw": "9h30-19h",
+          "location_raw": "Esplanade Roland Barthes",
+          "title_raw": "Chapiteaux salaisonniers, restaurant et foire gourmande"
+        }
+      ]
+    }
+  ]
+}

@@ -130,7 +130,7 @@ class InguruFeriaPanel extends HTMLElement {
       for (const f of list) {
         const status    = this.#getStatus(f, today);
         const isCurrent = f.id === currentId;
-        const disabled  = status === 'upcoming' || status === 'done';
+        const disabled  = !f.isAvailable || status === 'done';
 
         const pc = f.theme?.primary   ?? '#666';
         const sc = f.theme?.secondary ?? '#fff';
@@ -150,7 +150,10 @@ class InguruFeriaPanel extends HTMLElement {
         }
 
         let badgeCls, badgeTxt;
-        if (status === 'live') {
+        if (!f.isAvailable && status !== 'done') {
+          badgeCls = 'fp-badge-upcoming';
+          badgeTxt = I18n.t('status_unavailable');
+        } else if (status === 'live') {
           badgeCls = 'fp-badge-live';
           badgeTxt = I18n.t('status_live');
         } else if (status === 'available') {

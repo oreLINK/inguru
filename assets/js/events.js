@@ -21,11 +21,12 @@ const Events = {
 
   // ─── Chargement de la config globale ─────────────────────────────
   async loadConfig() {
-    const [configRes, colorsRes, svcTypesRes, catsRes] = await Promise.all([
+    const [configRes, colorsRes, svcTypesRes, catsRes, featuresRes] = await Promise.all([
       fetch('data/config.json'),
       fetch('data/events_dominant_colors.json'),
       fetch('data/02_silver/03_utils/service-types.json'),
       fetch('data/events_categories.json'),
+      fetch('config_features.json'),
     ]);
     if (!configRes.ok) throw new Error('Impossible de charger data/config.json');
     this.config = await configRes.json();
@@ -38,6 +39,7 @@ const Events = {
       const d = await svcTypesRes.json();
       this.serviceTypes = d.service_types ?? [];
     }
+    if (featuresRes.ok) Features.load(await featuresRes.json());
     return this.config;
   },
 
@@ -101,8 +103,10 @@ const Events = {
   // ─── Sélection de la feria active ─────────────────────────────────
   selectActive(editions) {
     const today = Time.todayStr();
-    return editions.find(e => today >= e.dates?.start && today <= e.dates?.end)
-        ?? editions[0];
+    const valid = editions.filter(e => e.isAvailable !== false);
+    return valid.find(e => today >= (e.dates?.start ?? '') && today <= (e.dates?.end ?? ''))
+        ?? valid.find(e => today < (e.dates?.start ?? ''))
+        ?? null;
   },
 
   // ─── Accès aux données ────────────────────────────────────────────

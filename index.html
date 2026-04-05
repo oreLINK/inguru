@@ -25,12 +25,26 @@
   <inguru-event-popup></inguru-event-popup>
   <inguru-loading></inguru-loading>
 
+  <div id="no-events">
+    <div class="no-events-inner">
+      <div class="no-events-rooster">
+        <span class="rooster-emoji">🐓</span>
+        <span class="rooster-z z1">z</span>
+        <span class="rooster-z z2">z</span>
+        <span class="rooster-z z3">Z</span>
+      </div>
+      <p id="no-events-msg"></p>
+    </div>
+  </div>
+
 </div>
 
 <!-- Leaflet -->
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <!-- Utilitaires (pas de dépendances entre eux) -->
+<script src="assets/js/features.js"></script>
+<script src="assets/js/share-template.js"></script>
 <script src="assets/js/utils.js"></script>
 <script src="assets/js/time.js"></script>
 <script src="assets/js/i18n.js"></script>

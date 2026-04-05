@@ -1,0 +1,14 @@
+{
+  "id": "foire-jambon",
+  "name": {
+    "fr": "Foire au Jambon",
+    "es": "Feria del Jamón",
+    "eu": "Urdaiazpiko Azoka"
+  },
+  "website": "https://bayonne-tourisme.com",
+  "theme": {
+    "primary": "#8b1a1a",
+    "secondary": "#f5c400"
+  },
+  "townId": "bayonne"
+}
