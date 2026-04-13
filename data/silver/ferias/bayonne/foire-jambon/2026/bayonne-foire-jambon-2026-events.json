@@ -6,9 +6,9 @@
       "endTime": "11:30",
       "id": "fjb26-0001",
       "payment": {
-        "isPaid": true,
-        "isTicketMandatory": true,
-        "isTicketOnline": true,
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
         "linkTicket": "https://google.fr"
       },
       "location": "carreau-halles",

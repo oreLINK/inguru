@@ -5,7 +5,7 @@
  * pour éviter que leur lenteur bloque l'installation du SW.
  */
 
-const CACHE_NAME = 'inguru-v4';
+const CACHE_NAME = 'inguru-v6';
 
 // Uniquement les fichiers locaux — pas de CDN externe
 const SHELL = [
@@ -18,7 +18,7 @@ const SHELL = [
   '/assets/js/events.js',
   '/assets/js/map.js',
   '/assets/js/app.js',
-  '/data/index.json',
+  '/data/editions.json',
 ];
 
 // ─── Install : ne bloque PAS sur les erreurs de cache ──────────────
@@ -51,7 +51,7 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
 
   // Données : network-first
-  if (url.pathname.startsWith('/data/03_gold/') || url.pathname === '/data/index.json') {
+  if (url.pathname.startsWith('/data/gold/') || url.pathname === '/data/editions.json') {
     event.respondWith(
       fetch(event.request)
         .then(res => {

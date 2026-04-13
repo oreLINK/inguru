@@ -137,13 +137,13 @@
       },
       "endTimestamp": "2026-04-23T11:30:00+02:00",
       "payment": {
-        "isPaid": true,
-        "isTicketMandatory": true,
-        "isTicketOnline": true,
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
         "linkTicket": "https://google.fr"
       },
       "tags": [
-        "payant"
+        "gratuit"
       ]
     },
     {

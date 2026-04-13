@@ -1,0 +1,997 @@
+{
+  "id": "condom__bandas-condom__2026",
+  "edition": {
+    "year": 2026,
+    "dates": {
+      "start": "2026-05-08",
+      "end": "2026-05-10"
+    }
+  },
+  "places": [
+    {
+      "id": "devant-la-mairie",
+      "name": {
+        "fr": "Devant la Mairie",
+        "es": "Frente al Ayuntamiento",
+        "eu": "Udaletxe Aurrean"
+      },
+      "coords": {
+        "lat": 43.9605,
+        "lng": 0.371
+      },
+      "type": "place"
+    },
+    {
+      "id": "grande-scene",
+      "name": {
+        "fr": "Grande Scène",
+        "es": "Gran Escenario",
+        "eu": "Agertoki Handia"
+      },
+      "coords": {
+        "lat": 43.9612,
+        "lng": 0.3725
+      },
+      "type": "scene"
+    },
+    {
+      "id": "bodega-des-festayres",
+      "name": {
+        "fr": "Bodéga des Festayres",
+        "es": "Bodega de los Festayres",
+        "eu": "Festayres Bodega"
+      },
+      "coords": {
+        "lat": 43.961,
+        "lng": 0.3718
+      },
+      "type": "building"
+    },
+    {
+      "id": "bodega-du-petit-festayre",
+      "name": {
+        "fr": "Bodéga du Petit Festayre",
+        "es": "Bodega del Pequeño Festayre",
+        "eu": "Festayre Txikiaren Bodega"
+      },
+      "coords": {
+        "lat": 43.9608,
+        "lng": 0.3722
+      },
+      "type": "building"
+    },
+    {
+      "id": "centre-ville",
+      "name": {
+        "fr": "Centre-ville",
+        "es": "Centro de la ciudad",
+        "eu": "Hirigunea"
+      },
+      "coords": {
+        "lat": 43.9607,
+        "lng": 0.372
+      },
+      "type": "place"
+    },
+    {
+      "id": "dans-toute-la-ville",
+      "name": {
+        "fr": "Dans toute la ville",
+        "es": "Por toda la ciudad",
+        "eu": "Hiri osoan zehar"
+      },
+      "coords": {
+        "lat": 43.9607,
+        "lng": 0.372
+      },
+      "type": "street"
+    },
+    {
+      "id": "espace-rive-gauche-rue-des-arenes",
+      "name": {
+        "fr": "Espace Rive Gauche — Rue des Arènes",
+        "es": "Espacio Orilla Izquierda — Calle de las Arenas",
+        "eu": "Ezkerraldeko Espazioa — Arenako Kalea"
+      },
+      "coords": {
+        "lat": 43.9598,
+        "lng": 0.3695
+      },
+      "type": "place"
+    },
+    {
+      "id": "stade-jean-trillo",
+      "name": {
+        "fr": "Stade Jean Trillo",
+        "es": "Estadio Jean Trillo",
+        "eu": "Jean Trillo Estadioa"
+      },
+      "coords": {
+        "lat": 43.958,
+        "lng": 0.375
+      },
+      "type": "sport"
+    },
+    {
+      "id": "scene-principale",
+      "name": {
+        "fr": "Scène principale",
+        "es": "Escenario principal",
+        "eu": "Agertoki nagusia"
+      },
+      "coords": {
+        "lat": 43.9612,
+        "lng": 0.3725
+      },
+      "type": "scene"
+    },
+    {
+      "id": "eglise-st-jacques",
+      "name": {
+        "fr": "Église Saint-Jacques",
+        "es": "Iglesia San Jaime",
+        "eu": "San Jakue Eliza"
+      },
+      "coords": {
+        "lat": 43.9602,
+        "lng": 0.3728
+      },
+      "type": "monument"
+    },
+    {
+      "id": "podium-les-argentiers",
+      "name": {
+        "fr": "Podium les Argentiers",
+        "es": "Podio los Argentiers",
+        "eu": "Argentiers-eko Podiumea"
+      },
+      "coords": {
+        "lat": 43.96,
+        "lng": 0.373
+      },
+      "type": "scene"
+    },
+    {
+      "id": "podium-du-cloitre",
+      "name": {
+        "fr": "Podium du Cloître",
+        "es": "Podio del Claustro",
+        "eu": "Klaustroaren Podiumea"
+      },
+      "coords": {
+        "lat": 43.9609,
+        "lng": 0.3714
+      },
+      "type": "scene"
+    }
+  ],
+  "events": [
+    {
+      "id": "bcc26-0001",
+      "category": "traditions",
+      "venueId": "devant-la-mairie",
+      "shortName": "Ouverture du Festival — ",
+      "startTimestamp": "2026-05-08T18:30:00+02:00",
+      "title": {
+        "fr": "Ouverture du Festival — Remise des clés de la ville aux musiciens",
+        "es": "Apertura del Festival — Entrega de las llaves de la ciudad a los músicos",
+        "eus": "Festibalaren inaugurazioa — Hiriaren giltzak musikariei entregatzea"
+      },
+      "title_short": {
+        "fr": "Ouverture du Festival",
+        "es": "Apertura del Festival",
+        "eus": "Festibalaren inaugurazioa"
+      },
+      "description": {
+        "fr": "Cérémonie d'ouverture de la 53e édition du Festival de Bandas de Condom, avec la remise symbolique des clés de la ville aux musiciens. L'apéritif d'ouverture suit avec Band'A'Part et un grand Paquito réunissant trois bandas.",
+        "es": "Ceremonia de apertura de la 53ª edición del Festival de Bandas de Condom, con la entrega simbólica de las llaves de la ciudad a los músicos. El aperitivo de inauguración continúa con Band'A'Part y un gran Paquito con tres bandas.",
+        "eus": "Condom-eko Bandas Festibalaren 53. edizioko irekiera ekitaldia, musikariei hiriaren giltzak sinbolikoki ematearekin. Ondoren, Band'A'Part eta hiru bandarekiko Paquito handiarekin hasierako aperitifa."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0002",
+      "category": "musique",
+      "venueId": "bodega-des-festayres",
+      "shortName": "Les Fantaskes",
+      "startTimestamp": "2026-05-08T19:30:00+02:00",
+      "title": {
+        "fr": "Les Fantaskes",
+        "es": "Les Fantaskes",
+        "eus": "Les Fantaskes"
+      },
+      "title_short": {
+        "fr": "Les Fantaskes",
+        "es": "Les Fantaskes",
+        "eus": "Les Fantaskes"
+      },
+      "description": {
+        "fr": "Les Fantaskes se produisent à la Bodéga des Festayres pour animer la soirée d'ouverture du Festival de Bandas de Condom.",
+        "es": "Les Fantaskes actúan en la Bodéga des Festayres para animar la noche de apertura del Festival de Bandas de Condom.",
+        "eus": "Les Fantaskes Bodéga des Festayres-en aritzen dira Condom-eko Bandas Festibalaren inaugurazio gaua animatzeko."
+      },
+      "artistName": "Les Fantaskes",
+      "listenArtist": {
+        "spotify": false,
+        "appleMusic": false,
+        "youtube": false,
+        "soundcloud": false
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0003",
+      "category": "musique",
+      "venueId": "bodega-des-festayres",
+      "shortName": "Les Pistons",
+      "startTimestamp": "2026-05-08T19:30:00+02:00",
+      "title": {
+        "fr": "Les Pistons",
+        "es": "Les Pistons",
+        "eus": "Les Pistons"
+      },
+      "title_short": {
+        "fr": "Les Pistons",
+        "es": "Les Pistons",
+        "eus": "Les Pistons"
+      },
+      "description": {
+        "fr": "Les Pistons investissent la Bodéga des Festayres pour une soirée festive lors de l'ouverture du Festival de Bandas de Condom.",
+        "es": "Les Pistons toman la Bodéga des Festayres para una noche festiva en la apertura del Festival de Bandas de Condom.",
+        "eus": "Les Pistons Bodéga des Festayres-en aritzen dira Condom-eko Bandas Festibalaren irekiera festiborako."
+      },
+      "artistName": "Les Pistons",
+      "listenArtist": {
+        "spotify": false,
+        "appleMusic": false,
+        "youtube": false,
+        "soundcloud": false
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0004",
+      "category": "musique",
+      "venueId": "bodega-des-festayres",
+      "shortName": "Laura Lafon",
+      "startTimestamp": "2026-05-08T19:30:00+02:00",
+      "title": {
+        "fr": "Laura Lafon",
+        "es": "Laura Lafon",
+        "eus": "Laura Lafon"
+      },
+      "title_short": {
+        "fr": "Laura Lafon",
+        "es": "Laura Lafon",
+        "eus": "Laura Lafon"
+      },
+      "description": {
+        "fr": "Laura Lafon se produit à la Bodéga des Festayres pour ouvrir les festivités musicales du Festival de Bandas de Condom.",
+        "es": "Laura Lafon actúa en la Bodéga des Festayres para abrir las festividades musicales del Festival de Bandas de Condom.",
+        "eus": "Laura Lafon Bodéga des Festayres-en aritzen da Condom-eko Bandas Festibalaren musika jaiak irekitzeko."
+      },
+      "artistName": "Laura Lafon",
+      "listenArtist": {
+        "spotify": false,
+        "appleMusic": false,
+        "youtube": false,
+        "soundcloud": false
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0005",
+      "category": "concerts",
+      "venueId": "grande-scene",
+      "shortName": "Concert — Luiza",
+      "startTimestamp": "2026-05-08T20:30:00+02:00",
+      "title": {
+        "fr": "Concert — Luiza",
+        "es": "Concierto — Luiza",
+        "eus": "Kontzertua — Luiza"
+      },
+      "title_short": {
+        "fr": "Concert Luiza",
+        "es": "Concierto Luiza",
+        "eus": "Kontzertua Luiza"
+      },
+      "description": {
+        "fr": "Luiza monte sur la Grande Scène du Festival de Bandas de Condom pour un concert en plein air.",
+        "es": "Luiza sube al Gran Escenario del Festival de Bandas de Condom para un concierto al aire libre.",
+        "eus": "Luizak Condom-eko Bandas Festibaleko Agertoki Handian jarduten du aire libreko kontzertu batean."
+      },
+      "artistName": "Luiza",
+      "listenArtist": {
+        "spotify": false,
+        "appleMusic": false,
+        "youtube": false,
+        "soundcloud": false
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0006",
+      "category": "concerts",
+      "venueId": "grande-scene",
+      "shortName": "Concert — Chef and the G",
+      "startTimestamp": "2026-05-08T20:30:00+02:00",
+      "title": {
+        "fr": "Concert — Chef and the Gang",
+        "es": "Concierto — Chef and the Gang",
+        "eus": "Kontzertua — Chef and the Gang"
+      },
+      "title_short": {
+        "fr": "Chef and the Gang",
+        "es": "Chef and the Gang",
+        "eus": "Chef and the Gang"
+      },
+      "description": {
+        "fr": "Chef and the Gang investit la Grande Scène du Festival de Bandas de Condom pour un concert festif en ouverture.",
+        "es": "Chef and the Gang toma el Gran Escenario del Festival de Bandas de Condom para un concierto festivo de apertura.",
+        "eus": "Chef and the Gang Condom-eko Bandas Festibaleko Agertoki Handian aritzen da irekiera kontzertu festibo batean."
+      },
+      "artistName": "Chef and the Gang",
+      "listenArtist": {
+        "spotify": false,
+        "appleMusic": false,
+        "youtube": false,
+        "soundcloud": false
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0007",
+      "category": "traditions",
+      "venueId": "dans-toute-la-ville",
+      "shortName": "Concours de Bandas, défi",
+      "startTimestamp": "2026-05-09T14:00:00+02:00",
+      "title": {
+        "fr": "Concours de Bandas, défilé et Passe Rue, non stop !",
+        "es": "Concurso de Bandas, desfile y Passe Rue, ¡sin parar!",
+        "eus": "Banden lehiaketa, desfilatzea eta Passe Rue, etenik gabe!"
+      },
+      "title_short": {
+        "fr": "Concours Bandas & Passe Rue",
+        "es": "Concurso Bandas & Passe Rue",
+        "eus": "Banden lehiaketa & Passe Rue"
+      },
+      "description": {
+        "fr": "Les bandas participantes défilent et se produisent dans toute la ville de Condom lors du concours non-stop, au cœur du Festival de Bandas.",
+        "es": "Las bandas participantes desfilan y actúan por toda la ciudad de Condom en el concurso ininterrumpido, en el corazón del Festival de Bandas.",
+        "eus": "Parte hartzen duten bandak Condom hiri osoan zehar ibiltzen eta jotzen dute etenik gabeko lehiaketan, Bandas Festibalaren bihotzean."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0008",
+      "category": "tauromachie",
+      "venueId": "espace-rive-gauche-rue-des-arenes",
+      "shortName": "Course landaise",
+      "startTimestamp": "2026-05-09T15:00:00+02:00",
+      "title": {
+        "fr": "Course landaise",
+        "es": "Corrida landesa",
+        "eus": "Landes-eko lasterketa"
+      },
+      "title_short": {
+        "fr": "Course landaise",
+        "es": "Corrida landesa",
+        "eus": "Landes-eko lasterketa"
+      },
+      "description": {
+        "fr": "Course landaise à l'Espace Rive Gauche de Condom, spectacle taurin traditionnel du Sud-Ouest. Entrée à 13 €, gratuit pour les moins de 12 ans.",
+        "es": "Corrida landesa en el Espace Rive Gauche de Condom, espectáculo taurino tradicional del suroeste de Francia. Entrada a 13 €, gratuita para menores de 12 años.",
+        "eus": "Landes-eko lasterketa Condom-eko Espace Rive Gauche-n, Hego-mendebaldeko zezenketaren ikuskizun tradizionala. Sarrera 13 €, 12 urte azpikoentzat doan."
+      },
+      "payment": {
+        "isPaid": true,
+        "isTicketMandatory": true,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "payant"
+      ]
+    },
+    {
+      "id": "bcc26-0009",
+      "category": "sport",
+      "venueId": "stade-jean-trillo",
+      "shortName": "Match de Touch'Rugby à 5",
+      "startTimestamp": "2026-05-09T15:00:00+02:00",
+      "title": {
+        "fr": "Match de Touch'Rugby à 5",
+        "es": "Partido de Touch'Rugby a 5",
+        "eus": "Touch'Rugby 5eko partida"
+      },
+      "title_short": {
+        "fr": "Touch'Rugby à 5",
+        "es": "Touch'Rugby a 5",
+        "eus": "Touch'Rugby 5ekoa"
+      },
+      "description": {
+        "fr": "Match de Touch'Rugby à 5 au Stade Jean Trillo, organisé par les Coquelicots. Entrée gratuite pour tous.",
+        "es": "Partido de Touch'Rugby a 5 en el Estadio Jean Trillo, organizado por los Coquelicots. Entrada gratuita para todos.",
+        "eus": "Touch'Rugby 5eko partida Jean Trillo Estadioan, Coquelicots-ek antolatuta. Sarrera doan denentzat."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0010",
+      "category": "traditions",
+      "venueId": "centre-ville",
+      "shortName": "Grand Paquito",
+      "startTimestamp": "2026-05-09T17:00:00+02:00",
+      "title": {
+        "fr": "Grand Paquito",
+        "es": "Gran Paquito",
+        "eus": "Paquito Handia"
+      },
+      "title_short": {
+        "fr": "Grand Paquito",
+        "es": "Gran Paquito",
+        "eus": "Paquito Handia"
+      },
+      "description": {
+        "fr": "Grand Paquito dans le centre-ville de Condom : les bandas se rassemblent pour jouer ensemble dans une ambiance festive et conviviale.",
+        "es": "Gran Paquito en el centro de Condom: las bandas se reúnen para tocar juntas en un ambiente festivo y animado.",
+        "eus": "Paquito Handia Condom-eko hirigunean: bandak elkarrekin jotzen dira ingurune festibo eta lagunarteko batean."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0011",
+      "category": "traditions",
+      "venueId": "grande-scene",
+      "shortName": "Concours bandas — Grande",
+      "startTimestamp": "2026-05-09T18:30:00+02:00",
+      "title": {
+        "fr": "Concours bandas — Grande Scène",
+        "es": "Concurso de bandas — Gran Escenario",
+        "eus": "Banden lehiaketa — Agertoki Handia"
+      },
+      "title_short": {
+        "fr": "Concours Bandas",
+        "es": "Concurso Bandas",
+        "eus": "Banden lehiaketa"
+      },
+      "description": {
+        "fr": "Les bandas en compétition se produisent sur la Grande Scène lors de cette épreuve phare du Festival de Bandas de Condom.",
+        "es": "Las bandas en competición actúan en el Gran Escenario en esta prueba emblemática del Festival de Bandas de Condom.",
+        "eus": "Lehian diren bandak Agertoki Handian aritzen dira Condom-eko Bandas Festibalaren proba nagusi honetan."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0012",
+      "category": "concerts",
+      "venueId": "grande-scene",
+      "shortName": "Concert — Gaitistaneko O",
+      "startTimestamp": "2026-05-09T18:30:00+02:00",
+      "title": {
+        "fr": "Concert — Gaitistaneko Orkestra",
+        "es": "Concierto — Gaitistaneko Orkestra",
+        "eus": "Kontzertua — Gaitistaneko Orkestra"
+      },
+      "title_short": {
+        "fr": "Gaitistaneko Orkestra",
+        "es": "Gaitistaneko Orkestra",
+        "eus": "Gaitistaneko Orkestra"
+      },
+      "description": {
+        "fr": "Gaitistaneko Orkestra se produit sur la Grande Scène du Festival de Bandas de Condom pour un concert festif.",
+        "es": "Gaitistaneko Orkestra actúa en el Gran Escenario del Festival de Bandas de Condom para un concierto festivo.",
+        "eus": "Gaitistaneko Orkestrak Condom-eko Bandas Festibaleko Agertoki Handian jotzen du kontzertu festibo batean."
+      },
+      "artistName": "Gaitistaneko Orkestra",
+      "listenArtist": {
+        "spotify": false,
+        "appleMusic": false,
+        "youtube": false,
+        "soundcloud": false
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0013",
+      "category": "musique",
+      "venueId": "bodega-des-festayres",
+      "shortName": "Lous Astiaous",
+      "startTimestamp": "2026-05-09T21:00:00+02:00",
+      "title": {
+        "fr": "Lous Astiaous",
+        "es": "Lous Astiaous",
+        "eus": "Lous Astiaous"
+      },
+      "title_short": {
+        "fr": "Lous Astiaous",
+        "es": "Lous Astiaous",
+        "eus": "Lous Astiaous"
+      },
+      "description": {
+        "fr": "Lous Astiaous animent la Bodéga des Festayres pour une soirée festive lors du Festival de Bandas de Condom.",
+        "es": "Lous Astiaous animan la Bodéga des Festayres para una noche festiva en el Festival de Bandas de Condom.",
+        "eus": "Lous Astiaous-ek Bodéga des Festayres animatzen dute Condom-eko Bandas Festibaleko gau festibo batean."
+      },
+      "artistName": "Lous Astiaous",
+      "listenArtist": {
+        "spotify": false,
+        "appleMusic": false,
+        "youtube": false,
+        "soundcloud": false
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0014",
+      "category": "musique",
+      "venueId": "bodega-des-festayres",
+      "shortName": "DJ Fanou",
+      "startTimestamp": "2026-05-09T23:00:00+02:00",
+      "title": {
+        "fr": "DJ Fanou",
+        "es": "DJ Fanou",
+        "eus": "DJ Fanou"
+      },
+      "title_short": {
+        "fr": "DJ Fanou",
+        "es": "DJ Fanou",
+        "eus": "DJ Fanou"
+      },
+      "description": {
+        "fr": "DJ Fanou clôture la soirée à la Bodéga des Festayres avec un set électro pour prolonger la fête du Festival de Bandas de Condom.",
+        "es": "DJ Fanou cierra la noche en la Bodéga des Festayres con un set electrónico para prolongar la fiesta del Festival de Bandas de Condom.",
+        "eus": "DJ Fanuk Bodéga des Festayres-eko gaua ixten du multzo elektriko batekin Condom-eko Bandas Festibaleko festa luzatzeko."
+      },
+      "artistName": "DJ Fanou",
+      "listenArtist": {
+        "spotify": false,
+        "appleMusic": false,
+        "youtube": false,
+        "soundcloud": false
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0015",
+      "category": "musique",
+      "venueId": "scene-principale",
+      "shortName": "Rencontre Juniors",
+      "startTimestamp": "2026-05-10T09:30:00+02:00",
+      "title": {
+        "fr": "Rencontre Juniors",
+        "es": "Encuentro Júniors",
+        "eus": "Junior Topaketa"
+      },
+      "title_short": {
+        "fr": "Rencontre Juniors",
+        "es": "Encuentro Júniors",
+        "eus": "Junior Topaketa"
+      },
+      "description": {
+        "fr": "Rencontre des jeunes bandas sur la scène principale du Festival de Bandas de Condom, vitrine des futurs talents musicaux.",
+        "es": "Encuentro de las jóvenes bandas en el escenario principal del Festival de Bandas de Condom, escaparate de los futuros talentos musicales.",
+        "eus": "Banden gazteen topaketa Condom-eko Bandas Festibaleko agertoki nagusian, etorkizuneko musika talentuen erakusleiho."
+      },
+      "artistName": null,
+      "listenArtist": {
+        "spotify": false,
+        "appleMusic": false,
+        "youtube": false,
+        "soundcloud": false
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0016",
+      "category": "traditions",
+      "venueId": "eglise-st-jacques",
+      "shortName": "Messe en musique",
+      "startTimestamp": "2026-05-10T10:00:00+02:00",
+      "title": {
+        "fr": "Messe en musique",
+        "es": "Misa con música",
+        "eus": "Musika-meza"
+      },
+      "title_short": {
+        "fr": "Messe en musique",
+        "es": "Misa con música",
+        "eus": "Musika-meza"
+      },
+      "description": {
+        "fr": "Messe célébrée en musique à l'église Saint-Jacques de Condom, tradition dominicale du Festival de Bandas.",
+        "es": "Misa celebrada con música en la iglesia Saint-Jacques de Condom, tradición dominical del Festival de Bandas.",
+        "eus": "Musika-meza Condom-eko Saint-Jacques elizan, Bandas Festibaleko igandeko tradizioa."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0017",
+      "category": "traditions",
+      "venueId": "podium-les-argentiers",
+      "shortName": "Concours Création",
+      "startTimestamp": "2026-05-10T10:00:00+02:00",
+      "title": {
+        "fr": "Concours Création",
+        "es": "Concurso Creación",
+        "eus": "Sormen Lehiaketa"
+      },
+      "title_short": {
+        "fr": "Concours Création",
+        "es": "Concurso Creación",
+        "eus": "Sormen Lehiaketa"
+      },
+      "description": {
+        "fr": "Épreuve Création du concours de bandas, sur le podium des Argentiers : les formations rivalisent d'originalité dans leurs compositions.",
+        "es": "Prueba de Creación del concurso de bandas, en el podio de los Argentiers: las formaciones compiten en originalidad en sus composiciones.",
+        "eus": "Banden lehiaketako Sormen proba Argentiers-eko podiumean: taldeak sormenean lehiatzen dira beren konposizioetan."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0018",
+      "category": "gastronomie",
+      "venueId": "bodega-du-petit-festayre",
+      "shortName": "Producteurs Locaux",
+      "startTimestamp": "2026-05-10T11:30:00+02:00",
+      "title": {
+        "fr": "Producteurs Locaux",
+        "es": "Productores Locales",
+        "eus": "Tokiko Ekoizleak"
+      },
+      "title_short": {
+        "fr": "Producteurs Locaux",
+        "es": "Productores Locales",
+        "eus": "Tokiko Ekoizleak"
+      },
+      "description": {
+        "fr": "Rencontre avec les producteurs locaux à la Bodéga du Petit Festayre, pour découvrir et déguster les saveurs du terroir gersois.",
+        "es": "Encuentro con los productores locales en la Bodéga du Petit Festayre, para descubrir y degustar los sabores del terruño gersois.",
+        "eus": "Tokiko ekoizleekin topaketa Bodéga du Petit Festayre-n, Gers eskualdeko lurraldearen zaporeak ezagutu eta dastatzeko."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0019",
+      "category": "enfants",
+      "venueId": "bodega-du-petit-festayre",
+      "shortName": "Ateliers enfants — Galop",
+      "startTimestamp": "2026-05-10T13:45:00+02:00",
+      "title": {
+        "fr": "Ateliers enfants — Galopony's, Structure Gonflable, Maquillage, Sculpture sur ballons, Jeux Géants",
+        "es": "Talleres infantiles — Galopony's, Castillo Hinchable, Maquillaje, Globoflexia, Juegos Gigantes",
+        "eus": "Haur tailerrak — Galopony's, Egitura Puzgarria, Maquillaje, Puxika Eskultura, Joko Erraldoiak"
+      },
+      "title_short": {
+        "fr": "Ateliers Enfants",
+        "es": "Talleres Infantiles",
+        "eus": "Haur Tailerrak"
+      },
+      "description": {
+        "fr": "Animations gratuites pour les enfants à la Bodéga du Petit Festayre : Galopony's, structure gonflable, maquillage, sculpture sur ballons et jeux géants en bois. Tous en rouge et blanc !",
+        "es": "Animaciones gratuitas para niños en la Bodéga du Petit Festayre: Galopony's, castillo hinchable, maquillaje, globoflexia y juegos gigantes de madera. ¡Todos de rojo y blanco!",
+        "eus": "Haurrentzako animazio doakoak Bodéga du Petit Festayre-n: Galopony's, egitura puzgarria, maquillaje, puxika eskultura eta egur-joko erraldoiak. Denak gorri-zurian!"
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0020",
+      "category": "traditions",
+      "venueId": "centre-ville",
+      "shortName": "Bandas concours — épreuv",
+      "startTimestamp": "2026-05-10T14:00:00+02:00",
+      "title": {
+        "fr": "Bandas concours — épreuves animation",
+        "es": "Concurso de bandas — pruebas de animación",
+        "eus": "Banden lehiaketa — animazio probak"
+      },
+      "title_short": {
+        "fr": "Bandas — Épreuves Animation",
+        "es": "Bandas — Animación",
+        "eus": "Bandas — Animazio Probak"
+      },
+      "description": {
+        "fr": "Les bandas en compétition s'affrontent dans les épreuves d'animation dans le centre-ville de Condom, mêlant musique et ambiance festive.",
+        "es": "Las bandas en competición se enfrentan en las pruebas de animación en el centro de Condom, combinando música y ambiente festivo.",
+        "eus": "Lehian diren bandak animazio proban neurtzen dira Condom-eko hirigunean, musika eta giro festiboa uztartuz."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0021",
+      "category": "traditions",
+      "venueId": "podium-les-argentiers",
+      "shortName": "Concours musical",
+      "startTimestamp": "2026-05-10T14:00:00+02:00",
+      "title": {
+        "fr": "Concours musical",
+        "es": "Concurso musical",
+        "eus": "Musika lehiaketa"
+      },
+      "title_short": {
+        "fr": "Concours Musical",
+        "es": "Concurso Musical",
+        "eus": "Musika Lehiaketa"
+      },
+      "description": {
+        "fr": "Épreuve musicale du concours de bandas sur le podium des Argentiers, où les formations sont évaluées sur leurs qualités d'interprétation.",
+        "es": "Prueba musical del concurso de bandas en el podio de los Argentiers, donde las formaciones son evaluadas por sus cualidades interpretativas.",
+        "eus": "Banden lehiaketako musika proba Argentiers-eko podiumean, taldeak interpretazio kalitatearen arabera ebaluatzen diren tokian."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0022",
+      "category": "traditions",
+      "venueId": "podium-du-cloitre",
+      "shortName": "Concours tradition",
+      "startTimestamp": "2026-05-10T14:00:00+02:00",
+      "title": {
+        "fr": "Concours tradition",
+        "es": "Concurso de tradición",
+        "eus": "Tradiziozko lehiaketa"
+      },
+      "title_short": {
+        "fr": "Concours Tradition",
+        "es": "Concurso Tradición",
+        "eus": "Tradiziozko Lehiaketa"
+      },
+      "description": {
+        "fr": "Épreuve tradition du concours de bandas au podium du Cloître, mettant en valeur le répertoire traditionnel des bandas du Sud-Ouest.",
+        "es": "Prueba de tradición del concurso de bandas en el podio del Claustro, destacando el repertorio tradicional de las bandas del suroeste.",
+        "eus": "Banden lehiaketako tradizio proba Klaustroaren podiumean, Hego-mendebaldeko banden errepertorio tradizionala balioesteko."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0023",
+      "category": "enfants",
+      "venueId": "bodega-du-petit-festayre",
+      "shortName": "Grand Paquito et boom po",
+      "startTimestamp": "2026-05-10T15:00:00+02:00",
+      "title": {
+        "fr": "Grand Paquito et boom pour les Petits Festayres",
+        "es": "Gran Paquito y boom para los Pequeños Festayres",
+        "eus": "Paquito Handia eta boom Festayre Txikientzat"
+      },
+      "title_short": {
+        "fr": "Paquito Petits Festayres",
+        "es": "Paquito Pequeños Festayres",
+        "eus": "Paquito Festayre Txikiak"
+      },
+      "description": {
+        "fr": "Grand Paquito festif et boom dédié aux plus jeunes à la Bodéga du Petit Festayre, pour clore la journée en musique et en fête.",
+        "es": "Gran Paquito festivo y boom dedicado a los más jóvenes en la Bodéga du Petit Festayre, para cerrar el día con música y fiesta.",
+        "eus": "Paquito festibo handia eta boom gazteenentzat Bodéga du Petit Festayre-n, eguna musika eta festarekin ixteko."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    },
+    {
+      "id": "bcc26-0024",
+      "category": "traditions",
+      "venueId": "podium-du-cloitre",
+      "shortName": "Remise des Prix",
+      "startTimestamp": "2026-05-10T17:30:00+02:00",
+      "title": {
+        "fr": "Remise des Prix",
+        "es": "Entrega de Premios",
+        "eus": "Sari Banaketa"
+      },
+      "title_short": {
+        "fr": "Remise des Prix",
+        "es": "Entrega de Premios",
+        "eus": "Sari Banaketa"
+      },
+      "description": {
+        "fr": "Cérémonie de clôture du Festival de Bandas de Condom avec la remise des prix aux bandas lauréates du concours.",
+        "es": "Ceremonia de clausura del Festival de Bandas de Condom con la entrega de premios a las bandas ganadoras del concurso.",
+        "eus": "Condom-eko Bandas Festibaleko itxiera ekitaldia, lehiaketako irabazle diren bandei sariak ematearekin."
+      },
+      "payment": {
+        "isPaid": false,
+        "isTicketMandatory": false,
+        "isTicketOnline": false,
+        "linkTicket": null
+      },
+      "tags": [
+        "gratuit"
+      ]
+    }
+  ],
+  "anims": [],
+  "services": [],
+  "town": {
+    "id": "condom",
+    "name": {
+      "fr": "Condom",
+      "es": "Condom",
+      "eu": "Condom"
+    },
+    "country": "FR",
+    "center": {
+      "lat": 43.9607,
+      "lng": 0.372
+    },
+    "category": "medium"
+  },
+  "feria": {
+    "id": "bandas-condom",
+    "townId": "condom"
+  }
+}

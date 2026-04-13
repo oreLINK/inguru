@@ -198,12 +198,12 @@ def build_gold_bundle(
 def run(year: int) -> None:
   root = Path(__file__).resolve().parents[1] / "data"
 
-  bronze_path  = root / "01_bronze" / "towns" / CITY_ID / FERIA_ID / str(year) / "events_raw.json"
-  silver_out   = root / "02_silver" / "02_ferias" / CITY_ID / FERIA_ID / f"{FERIA_ID}-{year}-events-clean.json"
-  city_path    = root / "02_silver" / "01_town" / CITY_ID / "town.json"
-  places_path  = root / "02_silver" / "01_town" / CITY_ID / "places.json"
-  feria_path   = root / "02_silver" / "ferias" / f"{FERIA_ID}.json"
-  gold_out     = root / "03_gold" / f"{CITY_ID}__{FERIA_ID}__{year}.json"
+  bronze_path  = root / "bronze" / "ferias" / CITY_ID / FERIA_ID / str(year) / "events_raw.json"
+  silver_out   = root / "silver" / "ferias" / CITY_ID / FERIA_ID / f"{FERIA_ID}-{year}-events-clean.json"
+  city_path    = root / "silver" / "town" / CITY_ID / "town.json"
+  places_path  = root / "silver" / "town" / CITY_ID / "places.json"
+  feria_path   = root / "silver" / "ferias" / f"{FERIA_ID}.json"
+  gold_out     = root / "gold" / f"{CITY_ID}__{FERIA_ID}__{year}.json"
 
   bronze = _read_json(bronze_path)
   town   = _read_json(city_path)

@@ -1,0 +1,59 @@
+# Scraper pour la Foire au Jambon de Bayonne
+# Source officielle: https://www.foireaujambon.fr/programme-foire-au-jambon-bayonne/
+
+id: foire-jambon
+cityId: bayonne
+
+url: "https://www.foireaujambon.fr/programme-foire-au-jambon-bayonne/"
+engine: cheerio
+
+# ⚠️  Les sélecteurs ci-dessous sont indicatifs — à vérifier contre le HTML réel avec:
+#     curl -s "https://www.foireaujambon.fr/..." | grep -o 'class="[^"]*"' | sort -u
+#
+# Structure probable: sections par jour avec liste d'événements imbriqués.
+selectors:
+  dayBlock: ".programme-day, .day-section, section.day, .wp-block-group"
+  dayTitle: "h2, h3, .day-title, .programme-date"
+  eventItem: ".event-item, li.event, .programme-item, .wp-block-group > div"
+  eventTime: ".event-time, .horaire, time, .time"
+  eventLocation: ".event-location, .lieu, .place, .location"
+  eventTitle: ".event-title, h4, h5, p strong, .title"
+  eventNote: ".event-note, .description, .details, p:not(:first-child)"
+  eventPrice: ".event-price, .tarif, .prix, .price"
+
+dateFormat: "dddd D MMMM YYYY"
+locale: fr
+
+# Lieux pré-définis avec coords exactes (aucun appel Nominatim requis)
+knownLocations:
+  "Esplanade Roland-Barthes":
+    lat: 43.488409
+    lng: -1.473382
+    address: "Esplanade Roland-Barthes, Bayonne, France"
+  "Esplanade Roland-Barthes - Place Verte":
+    lat: 43.488409
+    lng: -1.473382
+    address: "Esplanade Roland-Barthes, Bayonne, France"
+  "Carreau des Halles":
+    lat: 43.490394
+    lng: -1.475065
+    address: "Carreau des Halles, Bayonne, France"
+  "Trinquet Saint-André":
+    lat: 43.490217
+    lng: -1.471721
+    address: "Trinquet Saint-André, Bayonne, France"
+  "Rue Pelletier":
+    lat: 43.488923
+    lng: -1.472932
+    address: "Rue Pelletier, Bayonne, France"
+
+# Normalise les variantes de noms avant lookup dans knownLocations
+locationAliases:
+  "Esplanade Roland Barthes": "Esplanade Roland-Barthes"
+  "Esplanade Roland Barthes (terrasse)": "Esplanade Roland-Barthes"
+  "Esplanade Roland-Barthes (terrasse)": "Esplanade Roland-Barthes"
+  "Esplanade Roland-Barthes - Place Verte (terrasse)": "Esplanade Roland-Barthes"
+
+fallbackCoords:
+  lat: 43.4903
+  lng: -1.4753

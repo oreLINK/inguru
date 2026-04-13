@@ -1,0 +1,17 @@
+# Dépendances npm
+node_modules/
+package-lock.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Éditeurs
+.vscode/
+*.swp
+*.swo
+
+# Pipeline — données brutes (régénérables via scraping)
+# Décommenter pour ne pas versionner le bronze :
+# data/bronze/

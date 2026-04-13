@@ -1,0 +1,53 @@
+# Template pour un nouveau scraper festival.
+# Copier ce fichier, renommer en {festivalId}.yaml, remplir les valeurs.
+#
+# Usage: node pipeline/cli.js <festivalId> <year>
+
+# --- Identifiants ---
+id: mon-festival          # doit correspondre au nom du fichier
+cityId: ma-ville          # doit correspondre à l'id dans config/festivals.json
+
+# --- Source ---
+# URL fixe ou pattern avec {year}
+url: "https://example.com/programme"
+# urlPattern: "https://example.com/programme-{year}/"
+
+# Moteur de rendu: cheerio (défaut, rapide) ou playwright (pages JS-rendues)
+engine: cheerio
+
+# --- Sélecteurs CSS ---
+# Adapter à la structure HTML réelle de la page.
+# Conseil: ouvrir la page dans Chrome DevTools > inspecter les éléments.
+selectors:
+  dayBlock: ".day-block"        # Conteneur pour les événements d'un jour
+  dayTitle: "h2"                # Titre du jour (dans dayBlock ou frère précédent)
+  eventItem: ".event"           # Événement individuel (dans dayBlock)
+  eventTime: ".time"            # Horaire (dans eventItem)
+  eventLocation: ".location"    # Lieu (dans eventItem)
+  eventTitle: ".title"          # Titre (dans eventItem)
+  eventNote: ".note"            # Optionnel: note/description
+  eventPrice: ".price"          # Optionnel: info tarif
+
+# Format de date sur ce site (format dayjs, locale fr)
+dateFormat: "dddd D MMMM YYYY"
+locale: fr
+
+# --- Lieux pré-définis ---
+# Evite les appels Nominatim pour les lieux connus.
+# Clé = location_raw exact tel qu'il apparaît dans le HTML.
+knownLocations:
+  # "Nom du lieu":
+  #   lat: 43.49
+  #   lng: -1.47
+  #   address: "Nom du lieu, Ville, France"
+
+# --- Alias de lieux ---
+# Normalise les variantes de noms de lieux avant géocodage.
+locationAliases:
+  # "Esplanade Roland Barthes": "Esplanade Roland-Barthes"
+
+# --- Coordonnées de secours ---
+# Utilisées si le géocodage échoue.
+fallbackCoords:
+  lat: 43.49
+  lng: -1.47

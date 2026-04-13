@@ -7,17 +7,17 @@ Construit le bundle gold d'une ou plusieurs éditions à partir des fichiers sil
 
 Sources silver attendues
 ------------------------
-  01_town/{town}/town.json
-  01_town/{town}/places.json
-  02_ferias/{town}/{feria}/feria.json
-  02_ferias/{town}/{feria}/anim.json
-  02_ferias/{town}/{feria}/services.json
-  02_ferias/{town}/{feria}/{year}/edition.json
-  02_ferias/{town}/{feria}/{year}/{town}-{feria}-{year}-events.json
+  town/{town}/town.json
+  town/{town}/places.json
+  ferias/{town}/{feria}/feria.json
+  ferias/{town}/{feria}/anim.json
+  ferias/{town}/{feria}/services.json
+  ferias/{town}/{feria}/{year}/edition.json
+  ferias/{town}/{feria}/{year}/{town}-{feria}-{year}-events.json
 
 Sortie
 ------
-  03_gold/{town}-{feria}-{year}.json
+  gold/{town}-{feria}-{year}.json
 
 Usage
 -----
@@ -39,8 +39,8 @@ from zoneinfo import ZoneInfo
 # ─── Chemins ────────────────────────────────────────────────────────────────
 
 ROOT     = Path(__file__).resolve().parent.parent
-SILVER   = ROOT / "data" / "02_silver"
-GOLD_DIR = ROOT / "data" / "03_gold"
+SILVER   = ROOT / "data" / "silver"
+GOLD_DIR = ROOT / "data" / "gold"
 TZ       = ZoneInfo("Europe/Paris")
 
 # ─── Utilitaires ─────────────────────────────────────────────────────────────
@@ -114,8 +114,8 @@ def transform_event(ev: dict) -> dict:
 # ─── Construction du bundle gold ─────────────────────────────────────────────
 
 def build_gold(town: str, feria: str, year: int) -> dict:
-    town_dir  = SILVER / "01_town"   / town
-    feria_dir = SILVER / "02_ferias" / town / feria
+    town_dir  = SILVER / "town"   / town
+    feria_dir = SILVER / "ferias" / town / feria
     year_dir  = feria_dir / str(year)
 
     # ── Town ──────────────────────────────────────────────────────────────────
@@ -173,7 +173,7 @@ def build_gold(town: str, feria: str, year: int) -> dict:
 def find_editions_for_year(year: int) -> list[dict]:
     """Parcourt silver pour trouver toutes les éditions d'une année donnée."""
     found = []
-    ferias_root = SILVER / "02_ferias"
+    ferias_root = SILVER / "ferias"
     if not ferias_root.exists():
         return found
     for town_dir in sorted(ferias_root.iterdir()):

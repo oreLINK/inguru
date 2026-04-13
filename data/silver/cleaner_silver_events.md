@@ -1,16 +1,6 @@
-# Prompt — Nettoyage bronze → silver (events)
-
-## Utilisation
-
-Donne ce prompt à Claude en lui fournissant le fichier bronze à transformer.  
-Le fichier source suit la convention : `{ville}-{feria-slug}-{année}-events-raw.json`
-
----
-
-## Prompt
-
-```
 Transforme le fichier bronze ci-joint en fichier silver Inguru au format décrit ci-dessous.
+Fichier source bronze : /Users/aurelienbertrand/Library/Mobile Documents/com~apple~CloudDocs/Documents/DATA/inguru/data/01_bronze/02_ferias/condom/bandas-condom/2026/condom-bandas-condom-2026-events-raw.json
+Dossier cible silver : /Users/aurelienbertrand/Library/Mobile Documents/com~apple~CloudDocs/Documents/DATA/inguru/data/02_silver/02_ferias/condom/bandas-condom/2026
 
 ---
 
@@ -120,7 +110,7 @@ Mets `artistName` si l'artiste est identifiable dans `title_raw`. Chaque service
 
 ---
 
-### Fichier de sortie
+### Fichier de sortie — events
 
 ```json
 {
@@ -137,4 +127,71 @@ Exemple :
 ```
 data/02_silver/02_ferias/bayonne/foire-jambon/bayonne-foire-jambon-2026-events.json
 ```
+
+---
+
+### Fichiers de ville — town.json et places.json
+
+Si les fichiers `town.json` et `places.json` n'existent pas encore pour cette ville, les créer dans :
 ```
+data/02_silver/01_town/{ville}/
+```
+
+---
+
+#### town.json
+
+Informations générales sur la ville.
+
+```json
+{
+  "id": "{ville}",
+  "name": {
+    "fr": "...",
+    "es": "...",
+    "eu": "..."
+  },
+  "country": "FR",
+  "center": {
+    "lat": 0.0,
+    "lng": 0.0
+  },
+  "category": "small | medium | large"
+}
+```
+
+- `id` : slug de la ville (minuscules, sans accents)
+- `name` : nom dans les trois langues (`fr`, `es`, `eu`)
+- `center` : coordonnées GPS du centre-ville
+- `category` : `small` (< 20 000 hab.) · `medium` (20 000–100 000) · `large` (> 100 000)
+
+---
+
+#### places.json
+
+Liste de tous les lieux référencés dans les events de la ville (tous événements confondus).
+
+```json
+[
+  {
+    "id": "nom-du-lieu",
+    "name": {
+      "fr": "...",
+      "es": "...",
+      "eu": "..."
+    },
+    "coords": {
+      "lat": 0.0,
+      "lng": 0.0
+    },
+    "type": "..."
+  }
+]
+```
+
+- `id` : slug du lieu, identique au champ `location` des events
+- `name` : nom complet dans les trois langues
+- `coords` : coordonnées GPS approximatives du lieu
+- `type` : parmi `place` · `scene` · `street` · `building` · `sport` · `monument`
+
+> Inclure un entry par `location` distinct utilisé dans les events silver de la ville.

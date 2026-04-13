@@ -1,0 +1,63 @@
+[
+  {
+    "category": "tauromachie",
+    "keywords": [
+      "corrida", "tauromachie", "course landaise", "novillada", "cocardes",
+      "recorte", "encierro", "torero", "toril", "novillero", "ganadería"
+    ]
+  },
+  {
+    "category": "sport",
+    "keywords": [
+      "pelote", "pelote basque", "cesta punta", "main nue", "rebot",
+      "aviron", "rugby", "tournoi", "match", "compétition", "finale",
+      "open", "sport", "demi-finale", "championnat"
+    ]
+  },
+  {
+    "category": "gastronomie",
+    "keywords": [
+      "jambon", "dégustation", "concours", "charcuterie", "gastronomie",
+      "repas", "méchoui", "omelette", "tripes", "txistorra", "boudin",
+      "fromage", "vin", "foire gourmande", "salaisonniers", "cochon",
+      "ferme aux animaux", "enchères", "transformation", "découpe", "atelier",
+      "chapiteaux", "restaurant"
+    ]
+  },
+  {
+    "category": "musique",
+    "keywords": [
+      "banda", "bandas", "txaranga", "tamborrada", "fanfare",
+      "déambulation", "défilé musical", "transfert en musique", "orchestre",
+      "chœur", "chorale"
+    ]
+  },
+  {
+    "category": "concerts",
+    "keywords": [
+      "concert", "dj", "podium", "scène", "bal", "artiste", "récital", "gala"
+    ]
+  },
+  {
+    "category": "traditions",
+    "keywords": [
+      "inauguration", "ouverture", "lancement", "clés", "cérémonie",
+      "procession", "messe", "confrérie", "danse", "mutxiko",
+      "force basque", "bertsu", "tradition", "remise"
+    ]
+  },
+  {
+    "category": "spectacles",
+    "keywords": [
+      "feux d'artifice", "artifice", "corso", "géants", "grosses têtes",
+      "théâtre", "cirque", "jongleur", "marionnette", "pyrotechnie"
+    ]
+  },
+  {
+    "category": "enfants",
+    "keywords": [
+      "enfants", "boum des petits", "gonflable", "animation enfants",
+      "atelier enfants", "mini", "kids", "initiation"
+    ]
+  }
+]

@@ -1,8 +1,25 @@
 {
-  "_doc": "Éditions disponibles. Bundle dans data/03_gold/{id}.json",
+  "_doc": "Éditions disponibles. Bundle dans data/gold/{id}.json",
   "editions": [
-    { "id": "bayonne-foire-jambon-2026", "isDisplay": false,  "isAvailable": true  },
-    { "id": "bayonne-fetes-2026",        "isDisplay": false, "isAvailable": false },
-    { "id": "bayonne-exemple-2026",        "isDisplay": true, "isAvailable": false }
+    {
+      "id": "bayonne-exemple-2026",
+      "isAvailable": false,
+      "isDisplay": true
+    },
+    {
+      "id": "bayonne-foire-jambon-2026",
+      "isAvailable": false,
+      "isDisplay": true
+    },
+    {
+      "id": "bayonne-fetes-2026",
+      "isAvailable": false,
+      "isDisplay": true
+    },
+    {
+      "id": "condom-bandas-condom-2026",
+      "isAvailable": false,
+      "isDisplay": true
+    }
   ]
 }

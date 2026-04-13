@@ -259,7 +259,7 @@ const App = {
   async _enrichEditionsFromGold() {
     await Promise.all(this.editionsIndex.map(async (ed) => {
       if (!ed.id) return;
-      const bundlePath = `data/03_gold/${ed.id}.json`;
+      const bundlePath = `data/gold/${ed.id}.json`;
       try {
         const res = await fetch(bundlePath);
         if (!res.ok) return;

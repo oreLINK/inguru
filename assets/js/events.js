@@ -2,8 +2,9 @@
  * events.js – Chargement et filtrage
  *
  * Structure de données :
- *   data/index.json          → liste des éditions { id, isDisplay }
- *   data/03_gold/{id}.json   → bundle "édition" (town + feria + dates + lieux + events)
+ *   data/editions.json       → liste des éditions { id, isDisplay }
+ *   data/app.json            → config globale (settings, categories, themes, serviceTypes, features)
+ *   data/gold/{id}.json      → bundle "édition" (town + feria + dates + lieux + events)
  */
 const Events = {
   town:           null,
@@ -21,43 +22,34 @@ const Events = {
 
   // ─── Chargement de la config globale ─────────────────────────────
   async loadConfig() {
-    const [configRes, colorsRes, svcTypesRes, catsRes, featuresRes] = await Promise.all([
-      fetch('data/config.json'),
-      fetch('data/events_dominant_colors.json'),
-      fetch('data/02_silver/03_utils/service-types.json'),
-      fetch('data/events_categories.json'),
-      fetch('config_features.json'),
-    ]);
-    if (!configRes.ok) throw new Error('Impossible de charger data/config.json');
-    this.config = await configRes.json();
-    if (colorsRes.ok) this.dominantColors = await colorsRes.json();
-    if (catsRes.ok) {
-      const d = await catsRes.json();
-      this.categories = Object.fromEntries((d.categories ?? []).map(c => [c.id, c.color]));
-    }
-    if (svcTypesRes.ok) {
-      const d = await svcTypesRes.json();
-      this.serviceTypes = d.service_types ?? [];
-    }
-    if (featuresRes.ok) Features.load(await featuresRes.json());
+    const res = await fetch('data/app.json');
+    if (!res.ok) throw new Error('Impossible de charger data/app.json');
+    const app = await res.json();
+
+    this.config       = app.settings      ?? {};
+    this.dominantColors = app.themes      ?? {};
+    this.categories   = Object.fromEntries((app.categories ?? []).map(c => [c.id, c.color]));
+    this.serviceTypes = app.serviceTypes  ?? [];
+    Features.load(app.features ?? {});
+
     return this.config;
   },
 
-  // ─── Chargement de l'index ────────────────────────────────────────
+  // ─── Chargement de l'index des éditions ──────────────────────────
   async loadIndex() {
-    const res = await fetch('data/index.json');
-    if (!res.ok) throw new Error('Impossible de charger data/index.json');
+    const res = await fetch('data/editions.json');
+    if (!res.ok) throw new Error('Impossible de charger data/editions.json');
     return res.json();
   },
 
   /**
-   * Charge toutes les données d'une édition depuis data/03_gold/{id}.json.
+   * Charge toutes les données d'une édition depuis data/gold/{id}.json.
    * Retourne un objet `meta` complet pour l'affichage (fusion town + feria + edition).
    *
    * @param {object} ref  Entrée de l'index : { id, isDisplay }
    */
   async load(ref) {
-    const bundlePath = `data/03_gold/${ref.id}.json`;
+    const bundlePath = `data/gold/${ref.id}.json`;
     const res = await fetch(bundlePath);
     if (!res.ok) throw new Error(`Fichier manquant : ${bundlePath}`);
 

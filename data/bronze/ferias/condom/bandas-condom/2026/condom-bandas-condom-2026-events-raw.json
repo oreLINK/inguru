@@ -1,0 +1,148 @@
+{
+  "_source": "https://www.festivaldebandas.fr/programme/",
+  "_scraped_at": "2026-04-05",
+  "_note": "Programme 2026 reconstitué à partir de sources multiples (gers-reservation.com, gers-armagnac.com, snippets Google de festivaldebandas.fr) car la page officielle retourne une erreur 403. Le programme du dimanche côté Grande Scène et certains horaires de concerts du vendredi ne sont pas détaillés dans les sources disponibles.",
+  "edition": "53e (2026)",
+  "dates_raw": "8, 9, 10 Mai 2026",
+  "events_raw": [
+    {
+      "day": "Vendredi 8 Mai 2026",
+      "events": [
+        {
+          "time_raw": "18h30",
+          "location_raw": "Devant la mairie",
+          "title_raw": "Ouverture du Festival — Remise des clés de la ville aux musiciens",
+          "note": "Suivi de l'apéritif d'ouverture avec Band'A'Part et PAQUITO GÉANT d'ouverture avec 3 bandas"
+        },
+        {
+          "time_raw": "à partir de 20h30",
+          "location_raw": "Grande Scène",
+          "title_raw": "Concert — Luiza"
+        },
+        {
+          "time_raw": "à partir de 20h30",
+          "location_raw": "Grande Scène",
+          "title_raw": "Concert — Chef and the Gang"
+        },
+        {
+          "time_raw": "ouverture 19h30",
+          "location_raw": "Bodéga des Festayres",
+          "title_raw": "Les Fantaskes"
+        },
+        {
+          "time_raw": "ouverture 19h30",
+          "location_raw": "Bodéga des Festayres",
+          "title_raw": "Les Pistons"
+        },
+        {
+          "time_raw": "ouverture 19h30",
+          "location_raw": "Bodéga des Festayres",
+          "title_raw": "Laura Lafon"
+        }
+      ]
+    },
+    {
+      "day": "Samedi 9 Mai 2026",
+      "events": [
+        {
+          "time_raw": "14h à 15h",
+          "location_raw": "Dans toute la ville",
+          "title_raw": "Concours de Bandas, défilé et Passe Rue, non stop !"
+        },
+        {
+          "time_raw": "15h",
+          "location_raw": "Espace Rive Gauche, rue des arènes",
+          "title_raw": "Course landaise",
+          "price_raw": "entrée 13 € (gratuit pour les moins de 12 ans)"
+        },
+        {
+          "time_raw": "15h",
+          "location_raw": "Stade Jean Trillo, Condom",
+          "title_raw": "Match de Touch'Rugby à 5",
+          "note": "Organisé par les Coquelicots, entrée gratuite"
+        },
+        {
+          "time_raw": "17h",
+          "location_raw": "Centre-ville",
+          "title_raw": "Grand PAQUITO"
+        },
+        {
+          "time_raw": "18h30",
+          "location_raw": "Grande Scène",
+          "title_raw": "Concours bandas"
+        },
+        {
+          "time_raw": "18h30",
+          "location_raw": "Grande Scène",
+          "title_raw": "Concert — Gaitistaneko Orkestra"
+        },
+        {
+          "time_raw": "21h",
+          "location_raw": "Bodéga des Festayres",
+          "title_raw": "Lous Astiaous"
+        },
+        {
+          "time_raw": "23h",
+          "location_raw": "Bodéga des Festayres",
+          "title_raw": "DJ Fanou"
+        }
+      ]
+    },
+    {
+      "day": "Dimanche 10 Mai 2026",
+      "events": [
+        {
+          "time_raw": "9h30",
+          "location_raw": "Scène principale",
+          "title_raw": "Rencontre Juniors"
+        },
+        {
+          "time_raw": "10h",
+          "location_raw": "Église St Jacques",
+          "title_raw": "Messe en musique"
+        },
+        {
+          "time_raw": "10h",
+          "location_raw": "Podium les Argentiers",
+          "title_raw": "Concours Création"
+        },
+        {
+          "time_raw": "11h30",
+          "location_raw": "Bodéga du petit Festayre",
+          "title_raw": "Producteurs Locaux"
+        },
+        {
+          "time_raw": "13h45",
+          "location_raw": "Bodéga du petit Festayre",
+          "title_raw": "Ateliers enfants — Les Galopony's, Structure Gonflable, Stand maquillage enfant, Sculpture sur ballons, Jeux Géants en bois",
+          "note": "Animations enfants gratuites — Tous en rouge et blanc !"
+        },
+        {
+          "time_raw": "14h",
+          "location_raw": "Centre-ville",
+          "title_raw": "Bandas concours — épreuves animation"
+        },
+        {
+          "time_raw": "14h",
+          "location_raw": "Podium les Argentiers",
+          "title_raw": "Concours musical"
+        },
+        {
+          "time_raw": "14h",
+          "location_raw": "Podium du Cloître",
+          "title_raw": "Concours tradition"
+        },
+        {
+          "time_raw": "15h",
+          "location_raw": "Bodéga du petit Festayre",
+          "title_raw": "Grand Paquito et boom pour les Petits Festayres"
+        },
+        {
+          "time_raw": "17h30",
+          "location_raw": "Podium du Cloître",
+          "title_raw": "Remise des Prix"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "foire-jambon",
+    "cityId": "bayonne",
+    "cityName": "Bayonne",
+    "name": "Foire au Jambon de Bayonne"
+  },
+  {
+    "id": "bandas-condom",
+    "cityId": "condom",
+    "cityName": "Condom",
+    "name": "Festival de Bandas de Condom"
+  }
+]
