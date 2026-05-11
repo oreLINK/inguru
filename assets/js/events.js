@@ -2,35 +2,41 @@
  * events.js – Chargement et filtrage
  *
  * Structure de données :
- *   data/editions.json       → liste des éditions { id, isDisplay }
- *   data/app.json            → config globale (settings, categories, themes, serviceTypes, features)
- *   data/gold/{id}.json      → bundle "édition" (town + feria + dates + lieux + events)
+ *   config/config.json            → config technique (zoom, intervalles…)
+ *   config/features.json          → feature flags + serviceTypes
+ *   data/editions.json            → index des éditions { id, cityId, feteId, isDisplay }
+ *   data/cities.json              → villes (BAY, PAM, MDM, DAX, CON)
+ *   data/places/{cityId}.json     → places par ville
+ *   data/fetes/{feteId}.json      → fête (nom, thème, services, anims)
+ *   data/editions/{editionId}.json → infos édition (dates, année)
+ *   data/events/{editionId}.json  → events de l'édition
  */
 const Events = {
-  town:           null,
-  feria:          null,
-  edition:        null,
-  venues:         [],
-  events:         [],
-  services:       [],
-  serviceTypes:   [],
-  anims:          [],
+  town:         null,
+  feria:        null,
+  edition:      null,
+  venues:       [],
+  events:       [],
+  services:     [],
+  serviceTypes: [],
+  anims:        [],
 
-  config:         null,
-  dominantColors: {},
-  categories:     {},   // map id → color
+  config:       null,
+  categories:   {},
 
   // ─── Chargement de la config globale ─────────────────────────────
   async loadConfig() {
-    const res = await fetch('data/app.json');
-    if (!res.ok) throw new Error('Impossible de charger data/app.json');
-    const app = await res.json();
+    const [configRes, featuresRes] = await Promise.all([
+      fetch('config/config.json'),
+      fetch('config/features.json'),
+    ]);
+    if (!configRes.ok)   throw new Error('Impossible de charger config/config.json');
+    if (!featuresRes.ok) throw new Error('Impossible de charger config/features.json');
 
-    this.config       = app.settings      ?? {};
-    this.dominantColors = app.themes      ?? {};
-    this.categories   = Object.fromEntries((app.categories ?? []).map(c => [c.id, c.color]));
-    this.serviceTypes = app.serviceTypes  ?? [];
-    Features.load(app.features ?? {});
+    this.config       = await configRes.json();
+    const features    = await featuresRes.json();
+    this.serviceTypes = features.serviceTypes ?? [];
+    Features.load(features);
 
     return this.config;
   },
@@ -43,31 +49,50 @@ const Events = {
   },
 
   /**
-   * Charge toutes les données d'une édition depuis data/gold/{id}.json.
+   * Charge toutes les données d'une édition depuis les fichiers plats.
    * Retourne un objet `meta` complet pour l'affichage (fusion town + feria + edition).
    *
-   * @param {object} ref  Entrée de l'index : { id, isDisplay }
+   * @param {object} ref  Entrée de l'index : { id, cityId, feteId, editionId, isDisplay }
    */
   async load(ref) {
-    const bundlePath = `data/gold/${ref.id}.json`;
-    const res = await fetch(bundlePath);
-    if (!res.ok) throw new Error(`Fichier manquant : ${bundlePath}`);
+    if (!ref.cityId || !ref.feteId || !ref.id)
+      throw new Error(`Ref invalide : cityId, feteId, id requis`);
 
-    const bundle = await res.json();
-    this.town         = bundle.town ?? null;
-    this.feria        = bundle.feria ?? null;
-    this.edition      = bundle.edition ?? null;
-    this.venues       = bundle.places ?? [];
-    this.events       = bundle.events ?? [];
-    this.services     = bundle.services ?? [];
-    this.anims        = bundle.anims    ?? [];
+    const [citiesRes, placesRes, feteRes, editionRes, eventsRes] = await Promise.all([
+      fetch('data/cities.json'),
+      fetch(`data/places/${ref.cityId}.json`),
+      fetch(`data/fetes/${ref.feteId}.json`),
+      fetch(`data/editions/${ref.id}.json`),
+      fetch(`data/events/${ref.id}.json`),
+    ]);
+
+    if (!placesRes.ok)  throw new Error(`Fichier manquant : data/places/${ref.cityId}.json`);
+    if (!feteRes.ok)    throw new Error(`Fichier manquant : data/fetes/${ref.feteId}.json`);
+    if (!editionRes.ok) throw new Error(`Fichier manquant : data/editions/${ref.id}.json`);
+    if (!eventsRes.ok)  throw new Error(`Fichier manquant : data/events/${ref.id}.json`);
+
+    const cities    = citiesRes.ok ? await citiesRes.json() : { cities: [] };
+    const placesDoc = await placesRes.json();
+    const fete      = await feteRes.json();
+    const edition   = await editionRes.json();
+    const eventsDoc = await eventsRes.json();
+
+    this.town    = (cities.cities ?? []).find(c => c.id === ref.cityId) ?? null;
+    this.feria   = fete;
+    this.edition = edition;
+
+    // Seules les places référencées par les events de cette édition
+    const usedPlaceIds = new Set((eventsDoc.events ?? []).map(e => e.venueId).filter(Boolean));
+    this.venues   = (placesDoc.places ?? []).filter(p => usedPlaceIds.has(p.id));
+
+    this.events   = eventsDoc.events ?? [];
+    this.services = fete.services    ?? [];
+    this.anims    = fete.anims       ?? [];
 
     if (!this.town || !this.feria || !this.edition)
-      throw new Error(`Bundle invalide : ${bundlePath}`);
+      throw new Error(`Données invalides pour ${ref.editionId}`);
 
-    // Objet meta fusionné pour l'affichage
-    const meta = this._buildMeta(ref);
-    return meta;
+    return this._buildMeta(ref);
   },
 
   /**
@@ -84,10 +109,10 @@ const Events = {
       center:      this.town.center,
       category:    this.town.category,
       // Thème : priorité au fichier events_dominant_colors.json, sinon feria.theme
-      theme:       this.dominantColors[this.feria.id] ?? this.feria.theme,
+      theme:       this.feria.theme,
       // Données de l'édition
       dates:       this.edition.dates,
-      defaultZoom: this.edition.defaultZoom ?? this.config?.defaultZoom ?? 16,
+      defaultZoom: this.config?.defaultZoom ?? 17,
       website:     this.feria.website ?? null,
     };
   },

@@ -1,0 +1,39 @@
+{
+  "cities": [
+    {
+      "id": "BAY",
+      "name": { "fr": "Bayonne", "es": "Bayona", "eu": "Baiona" },
+      "country": "FR",
+      "center": { "lat": 43.4929, "lng": -1.4748 },
+      "category": "large"
+    },
+    {
+      "id": "PAM",
+      "name": { "fr": "Pampelune", "es": "Pamplona", "eu": "Iruñea" },
+      "country": "ES",
+      "center": { "lat": 42.8169, "lng": -1.6432 },
+      "category": "large"
+    },
+    {
+      "id": "MDM",
+      "name": { "fr": "Mont-de-Marsan", "es": "Mont-de-Marsan", "eu": "Mont-de-Marsan" },
+      "country": "FR",
+      "center": { "lat": 43.8882, "lng": -0.5003 },
+      "category": "medium"
+    },
+    {
+      "id": "DAX",
+      "name": { "fr": "Dax", "es": "Dax", "eu": "Dax" },
+      "country": "FR",
+      "center": { "lat": 43.7102, "lng": -1.0548 },
+      "category": "medium"
+    },
+    {
+      "id": "CON",
+      "name": { "fr": "Condom", "es": "Condom", "eu": "Condom" },
+      "country": "FR",
+      "center": { "lat": 43.9607, "lng": 0.372 },
+      "category": "medium"
+    }
+  ]
+}

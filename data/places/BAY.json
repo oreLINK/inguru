@@ -1,0 +1,129 @@
+{
+  "cityId": "BAY",
+  "places": [
+    {
+      "id": "place-liberte",
+      "cityId": "BAY",
+      "name": { "fr": "Place de la Liberté", "es": "Plaza de la Libertad", "eu": "Askatasun Plaza" },
+      "coords": { "lat": 43.4927, "lng": -1.4743 },
+      "type": "place",
+      "address": "Place de la Liberté, Bayonne",
+      "go": "https://maps.app.goo.gl/5jf1JxqPqY2pjpDR9"
+    },
+    {
+      "id": "arenes",
+      "cityId": "BAY",
+      "name": { "fr": "Arènes de Bayonne", "es": "Plaza de toros de Bayona", "eu": "Baionako Zezenketa Plaza" },
+      "coords": { "lat": 43.4897, "lng": -1.4822 },
+      "type": "arena",
+      "address": "Allées Paulmy, Bayonne",
+      "go": "https://maps.app.goo.gl/arenesBayonne123"
+    },
+    {
+      "id": "quai-nive",
+      "cityId": "BAY",
+      "name": { "fr": "Quai Galuperie – Scène Nive", "es": "Muelle Galuperie – Escenario Nive", "eu": "Galuperie Kaia – Nibi Agertokia" },
+      "coords": { "lat": 43.4938, "lng": -1.4723 },
+      "type": "scene",
+      "address": "Quai Galuperie, Bayonne",
+      "go": "https://maps.app.goo.gl/quaiNiveBayonne456"
+    },
+    {
+      "id": "place-gascons",
+      "cityId": "BAY",
+      "name": { "fr": "Place des Gascons", "es": "Plaza de los Gascones", "eu": "Gaskoinien Plaza" },
+      "coords": { "lat": 43.4948, "lng": -1.4718 },
+      "type": "place",
+      "address": "Place des Gascons, Bayonne",
+      "go": "https://maps.app.goo.gl/placeGascons789"
+    },
+    {
+      "id": "remparts",
+      "cityId": "BAY",
+      "name": { "fr": "Scène des Remparts", "es": "Escenario de las Murallas", "eu": "Harresietako Agertokia" },
+      "coords": { "lat": 43.4915, "lng": -1.4775 },
+      "type": "scene",
+      "address": "Remparts Lachepaillet, Bayonne",
+      "go": "https://maps.app.goo.gl/remparts101"
+    },
+    {
+      "id": "grand-bayonne",
+      "cityId": "BAY",
+      "name": { "fr": "Grand Bayonne – Rue Port Neuf", "es": "Gran Bayona – Calle Port Neuf", "eu": "Baiona Handia – Port Neuf Kalea" },
+      "coords": { "lat": 43.492, "lng": -1.476 },
+      "type": "street",
+      "address": "Rue Port Neuf, Bayonne",
+      "go": "https://maps.app.goo.gl/grandBayonne202"
+    },
+    {
+      "id": "esplanade-roland-barthes",
+      "cityId": "BAY",
+      "name": { "fr": "Esplanade Roland-Barthes", "es": "Explanada Roland-Barthes", "eu": "Roland-Barthes Esplanada" },
+      "coords": { "lat": 43.4924, "lng": -1.4751 },
+      "type": "esplanade",
+      "address": "Esplanade Roland-Barthes, Bayonne",
+      "go": "https://maps.app.goo.gl/esplanadeRolandBarthes"
+    },
+    {
+      "id": "carreau-halles",
+      "cityId": "BAY",
+      "name": { "fr": "Carreau des Halles", "es": "Patio de los Mercados", "eu": "Halletako Karrea" },
+      "coords": { "lat": 43.4932, "lng": -1.4735 },
+      "type": "place",
+      "address": "Place des Halles, Bayonne",
+      "go": "https://maps.app.goo.gl/carreauHalles"
+    },
+    {
+      "id": "trinquet-saint-andre",
+      "cityId": "BAY",
+      "name": { "fr": "Trinquet Saint-André", "es": "Trinquete San Andrés", "eu": "Doneandre Trinketea" },
+      "coords": { "lat": 43.4918, "lng": -1.4762 },
+      "type": "sport",
+      "address": "Rue du Jeu de Paume, Bayonne",
+      "go": "https://maps.app.goo.gl/trinquetSaintAndre"
+    },
+    {
+      "id": "cathedrale-sainte-marie",
+      "cityId": "BAY",
+      "name": { "fr": "Cathédrale Sainte-Marie", "es": "Catedral Santa María", "eu": "Santa Maria Katedrala" },
+      "coords": { "lat": 43.4916, "lng": -1.4744 },
+      "type": "monument",
+      "address": "Cathédrale Sainte-Marie, Bayonne",
+      "go": "https://maps.app.goo.gl/cathedraleBayonne"
+    },
+    {
+      "id": "maison-associations",
+      "cityId": "BAY",
+      "name": { "fr": "Maison des Associations", "es": "Casa de las Asociaciones", "eu": "Elkarte Etxea" },
+      "coords": { "lat": 43.493, "lng": -1.4758 },
+      "type": "building",
+      "address": "Rue Sainte-Catherine, Bayonne",
+      "go": "https://maps.app.goo.gl/maisonAssociations"
+    },
+    {
+      "id": "allee-platanes",
+      "cityId": "BAY",
+      "name": { "fr": "Allée des Platanes", "es": "Alameda de los Plátanos", "eu": "Platanondoen Hiribidea" },
+      "coords": { "lat": 43.4905, "lng": -1.483 },
+      "type": "street",
+      "address": "Allées Paul Samazeuilh, Bayonne",
+      "go": "https://maps.app.goo.gl/alleePlatanes"
+    },
+    {
+      "id": "rues-bayonne",
+      "cityId": "BAY",
+      "name": { "fr": "Rues de Bayonne", "es": "Calles de Bayona", "eu": "Baionako Kaleak" },
+      "coords": { "lat": 43.4921, "lng": -1.475 },
+      "type": "street",
+      "address": "Centre-ville de Bayonne",
+      "go": "https://maps.app.goo.gl/5jf1JxqPqY2pjpDR9"
+    },
+    {
+      "id": "rue-pelletier",
+      "cityId": "BAY",
+      "name": { "fr": "Rue Pelletier", "es": "Calle Pelletier", "eu": "Pelletier Kalea" },
+      "coords": { "lat": 43.488923, "lng": -1.472932 },
+      "type": "street"
+    }
+  ]
+}

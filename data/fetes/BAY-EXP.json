@@ -1,0 +1,9 @@
+{
+  "id": "exemple",
+  "cityId": "BAY",
+  "name": { "fr": "Feria Exemple", "es": "Feria Ejemplo", "eu": "Adibide Feria" },
+  "website": "https://bayonne-tourisme.com",
+  "theme": { "primary": "#1a5c8b", "secondary": "#f5a400" },
+  "services": [],
+  "anims": []
+}

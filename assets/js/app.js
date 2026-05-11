@@ -43,18 +43,22 @@ const _STREAM_SERVICES = [
 const App = {
   lang:                'fr',
   editionsIndex:       [],
-  currentMeta: null,
+  currentMeta:         null,
   _townCache:          {},
   _refreshTimer:       null,
   _panelOpen:          false,
+  _menuOpen:           false,
+  _currentView:        'map',
   activeVenueId:       null,
 
   // ─── Références aux composants ───────────────────────────────────
-  get $loading()  { return document.querySelector('inguru-loading');        },
-  get $header()   { return document.querySelector('inguru-header');         },
-  get $panel()    { return document.querySelector('inguru-feria-panel'); },
-  get $popup()    { return document.querySelector('inguru-event-popup');    },
-  get $fabs()     { return document.querySelector('inguru-fab-stack');      },
+  get $loading()   { return document.querySelector('inguru-loading');     },
+  get $header()    { return document.querySelector('inguru-header');      },
+  get $panel()     { return document.querySelector('inguru-feria-panel');},
+  get $popup()     { return document.querySelector('inguru-event-popup'); },
+  get $fabs()      { return document.querySelector('inguru-fab-stack');   },
+  get $viewMenu()  { return document.querySelector('inguru-view-menu');   },
+  get $programme() { return document.querySelector('inguru-programme');   },
 
   // ─── Init ────────────────────────────────────────────────────────
   async init() {
@@ -93,6 +97,7 @@ const App = {
       await this._loadFeria(active, false);
 
       this._setupEventListeners();
+      this._setupHeaderHide();
       this._requestGeolocation();
 
       clearTimeout(timeout);
@@ -108,6 +113,15 @@ const App = {
 
   // ─── Écoute des CustomEvents des composants ──────────────────────
   _setupEventListeners() {
+    // Menu multi-vues
+    document.addEventListener('inguru:menu-toggle', () => {
+      this._menuOpen ? this._closeMenu() : this._openMenu();
+    });
+    document.addEventListener('inguru:menu-close', () => this._closeMenu());
+    document.addEventListener('inguru:view-change', (e) => {
+      this._switchView(e.detail.view);
+    });
+
     // Header
     document.addEventListener('inguru:feria-panel-toggle', () => {
       this._panelOpen ? this._closePanel() : this._openPanel();
@@ -147,6 +161,7 @@ const App = {
     // Scrim
     document.getElementById('scrim')?.addEventListener('click', () => {
       this._closePanel();
+      this._closeMenu();
       this.$header?.closeLangMenu();
     });
 
@@ -159,6 +174,7 @@ const App = {
       if (e.key === 'Escape') {
         this.closePopup();
         this._closePanel();
+        this._closeMenu();
       }
     });
   },
@@ -170,6 +186,11 @@ const App = {
     Events.services = [];
     Events.anims    = [];
     if (MapModule.map) { MapModule.clearServices(); MapModule.clearAnims(); }
+
+    // Retour à la vue map à chaque chargement d'édition
+    this._currentView = 'map';
+    this.$programme?.hide();
+    this.$viewMenu?.setActiveView('map');
 
     try {
       const loaded = await Events.load(meta);
@@ -185,11 +206,11 @@ const App = {
     this._applyTheme(meta.theme);
 
     if (!MapModule.map) {
-      MapModule.init({ center: meta.center, defaultZoom: meta.defaultZoom ?? 16 });
+      MapModule.init({ center: meta.center, defaultZoom: Events.config?.defaultZoom ?? 17 });
     } else if (animate) {
       MapModule.map.flyTo(
         [meta.center.lat, meta.center.lng],
-        meta.defaultZoom ?? Events.config?.defaultZoom ?? 16,
+        Events.config?.defaultZoom ?? 17,
         { duration: 1.2 }
       );
     }
@@ -255,25 +276,37 @@ const App = {
     return { r: (n >> 16) & 255, g: (n >> 8) & 255, b: n & 255 };
   },
 
-  // ─── Pré-chargement towns ────────────────────────────────────────
+  // ─── Pré-chargement des métadonnées d'affichage ──────────────────
   async _enrichEditionsFromGold() {
+    let citiesData = null;
+    try {
+      const res = await fetch('data/cities.json');
+      if (res.ok) citiesData = await res.json();
+    } catch (e) {}
+
     await Promise.all(this.editionsIndex.map(async (ed) => {
-      if (!ed.id) return;
-      const bundlePath = `data/gold/${ed.id}.json`;
+      if (!ed.cityId || !ed.feteId || !ed.id) return;
       try {
-        const res = await fetch(bundlePath);
-        if (!res.ok) return;
-        const d = await res.json();
+        const [feteRes, editionRes] = await Promise.all([
+          fetch(`data/fetes/${ed.feteId}.json`),
+          fetch(`data/editions/${ed.id}.json`),
+        ]);
 
-        if (!ed.dates) ed.dates = d.edition?.dates ?? ed.dates;
-        if (!ed.name)  ed.name  = d.feria?.name ?? ed.name;
-        if (!ed.theme) ed.theme = d.feria?.theme ?? ed.theme;
+        if (feteRes.ok) {
+          const fete = await feteRes.json();
+          if (!ed.name)  ed.name  = fete.name;
+          if (!ed.theme) ed.theme = fete.theme;
+        }
+        if (editionRes.ok) {
+          const edition = await editionRes.json();
+          if (!ed.dates) ed.dates = edition.dates;
+        }
 
-        const town = d.town;
-        if (town) {
-          if (!ed.town)     ed.town     = town.name;
-          if (!ed.center)   ed.center   = town.center;
-          if (!ed.category) ed.category = town.category;
+        const city = (citiesData?.cities ?? []).find(c => c.id === ed.cityId);
+        if (city) {
+          if (!ed.town)     ed.town     = city.name;
+          if (!ed.center)   ed.center   = city.center;
+          if (!ed.category) ed.category = city.category;
         }
       } catch (e) {}
     }));
@@ -290,6 +323,7 @@ const App = {
   // ─── Panneau feria ───────────────────────────────────────────────
   _openPanel() {
     this._panelOpen = true;
+    this._showHeader();
     this.$panel?.open();
     this.$header?.setPanelOpen(true);
     document.getElementById('scrim')?.classList.add('visible');
@@ -301,6 +335,64 @@ const App = {
     this.$panel?.close();
     this.$header?.setPanelOpen(false);
     document.getElementById('scrim')?.classList.remove('visible');
+  },
+
+  // ─── Menu multi-vues ─────────────────────────────────────────────
+  _openMenu() {
+    this._menuOpen = true;
+    this._showHeader();
+    this.$viewMenu?.setActiveView(this._currentView);
+    this.$viewMenu?.open();
+    this.$fabs?.setMenuOpen(true);
+  },
+
+  _closeMenu() {
+    this._menuOpen = false;
+    this.$viewMenu?.close();
+    this.$fabs?.setMenuOpen(false);
+  },
+
+  // ─── Header auto-hide on scroll/drag ────────────────────────────
+  _hideHeader() { document.querySelector('#header')?.classList.add('header-hidden'); },
+  _showHeader()  { document.querySelector('#header')?.classList.remove('header-hidden'); },
+
+  _setupHeaderHide() {
+    let startY = 0;
+    const onStart = (e) => { startY = e.touches[0].clientY; };
+    const onMove  = (e) => {
+      const delta = startY - e.touches[0].clientY;
+      if (Math.abs(delta) < 10) return;
+      delta > 0 ? this._hideHeader() : this._showHeader();
+    };
+    const mapEl = document.getElementById('map');
+    mapEl?.addEventListener('touchstart', onStart, { passive: true, capture: true });
+    mapEl?.addEventListener('touchmove',  onMove,  { passive: true, capture: true });
+  },
+
+  _setupProgScroll() {
+    const prog = document.querySelector('#prog-scroll');
+    if (!prog || prog._hhBound) return;
+    prog._hhBound = true;
+    let lastY = 0;
+    prog.addEventListener('scroll', () => {
+      const delta = prog.scrollTop - lastY;
+      lastY = prog.scrollTop;
+      if (Math.abs(delta) < 4) return;
+      delta > 0 ? this._hideHeader() : this._showHeader();
+    }, { passive: true });
+  },
+
+  _switchView(view) {
+    if (view === this._currentView) return;
+    this._currentView = view;
+    if (view === 'programme') {
+      this.$programme?.render(this.lang);
+      this.$programme?.show();
+      this._setupProgScroll();
+    } else {
+      this.$programme?.hide();
+      this.closePopup();
+    }
   },
 
   // ─── Popup événement ─────────────────────────────────────────────
@@ -548,7 +640,7 @@ const App = {
   _changeLang(lang) {
     this.lang = lang;
     I18n.set(lang);
-    this.$header?.setLang(lang);
+    this.$viewMenu?.setLang(lang);
     if (this.currentMeta) {
       this.$header?.setFeria(Utils.loc(this.currentMeta.name, lang));
     }
@@ -558,6 +650,7 @@ const App = {
       (hex) => this._hexToRgb(hex)
     );
     MapModule.renderAll(lang);
+    if (this._currentView === 'programme') this.$programme?.render(lang);
     if (this.activeVenueId) this._renderAndShowPopup(this.activeVenueId);
   },
 

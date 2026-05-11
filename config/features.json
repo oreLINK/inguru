@@ -1,0 +1,104 @@
+{
+  "serviceTypes": [
+    {
+      "id": "toilettes",
+      "name": { "fr": "Toilettes", "es": "Aseos", "eus": "Komunak" },
+      "icon": "🚻",
+      "color": "#0ea5e9"
+    }
+  ],
+
+  "global": {
+    "events": true,
+    "services": false,
+    "locationButton": true,
+    "zoomButton": true,
+    "eventPopup": {
+      "enabled": true,
+      "fields": {
+        "place": true,
+        "title": true,
+        "date": true,
+        "time": true,
+        "delay": true,
+        "description": true,
+        "nextProgram": false,
+        "payment": true,
+        "ticketRequired": true,
+        "ticketing": true,
+        "streaming": {
+          "enabled": true,
+          "spotify": true,
+          "appleMusic": true,
+          "youtube": true,
+          "soundcloud": true
+        },
+        "notifyFriendsButton": true,
+        "directionsButton": true
+      }
+    }
+  },
+
+  "ferias": {
+    "BAY-FJB": {
+      "events": true,
+      "services": true,
+      "locationButton": true,
+      "zoomButton": true,
+      "eventPopup": {
+        "enabled": true,
+        "fields": {
+          "place": true,
+          "title": true,
+          "date": true,
+          "time": true,
+          "delay": true,
+          "description": true,
+          "nextProgram": true,
+          "payment": true,
+          "ticketRequired": true,
+          "ticketing": true,
+          "streaming": {
+            "enabled": true,
+            "spotify": true,
+            "appleMusic": true,
+            "youtube": true,
+            "soundcloud": true
+          },
+          "notifyFriendsButton": true,
+          "directionsButton": true
+        }
+      }
+    },
+    "BAY-FDB": {
+      "events": true,
+      "services": true,
+      "locationButton": true,
+      "zoomButton": true,
+      "eventPopup": {
+        "enabled": true,
+        "fields": {
+          "place": true,
+          "title": true,
+          "date": true,
+          "time": true,
+          "delay": true,
+          "description": true,
+          "nextProgram": true,
+          "payment": true,
+          "ticketRequired": true,
+          "ticketing": true,
+          "streaming": {
+            "enabled": true,
+            "spotify": true,
+            "appleMusic": true,
+            "youtube": true,
+            "soundcloud": true
+          },
+          "notifyFriendsButton": true,
+          "directionsButton": true
+        }
+      }
+    }
+  }
+}
