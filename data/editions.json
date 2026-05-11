@@ -1,9 +1,23 @@
 {
   "editions": [
     {
-      "id": "BAY-EXP-2026",
-      "cityId": "BAY",
-      "feteId": "BAY-EXP",
+      "id": "PAM-SFM-2026",
+      "cityId": "PAM",
+      "feteId": "PAM-SFM",
+      "isAvailable": true,
+      "isDisplay": true
+    },
+    {
+      "id": "MDM-MAD-2026",
+      "cityId": "MDM",
+      "feteId": "MDM-MAD",
+      "isAvailable": true,
+      "isDisplay": true
+    },
+    {
+      "id": "DAX-FER-2026",
+      "cityId": "DAX",
+      "feteId": "DAX-FER",
       "isAvailable": true,
       "isDisplay": true
     },
@@ -19,13 +33,6 @@
       "cityId": "BAY",
       "feteId": "BAY-FDB",
       "isAvailable": true,
-      "isDisplay": true
-    },
-    {
-      "id": "CON-BBC-2026",
-      "cityId": "CON",
-      "feteId": "CON-BBC",
-      "isAvailable": false,
       "isDisplay": true
     }
   ]

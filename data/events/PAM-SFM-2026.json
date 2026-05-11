@@ -1,0 +1,126 @@
+{
+  "editionId": "PAM-SFM-2026",
+  "feteId": "PAM-SFM",
+  "cityId": "PAM",
+  "events": [
+    {
+      "venueId": "plaza-consistorial",
+      "shortName": "Chupinazo",
+      "startTimestamp": "2026-07-06T12:00:00+02:00",
+      "endTimestamp": "2026-07-06T12:30:00+02:00",
+      "title": {
+        "fr": "Chupinazo – Ouverture des Sanfermines",
+        "es": "Chupinazo – Apertura de los Sanfermines",
+        "eu": "Txupinazo – San Ferminen hasiera"
+      },
+      "description": {
+        "fr": "Le coup de fusée emblématique qui lance officiellement les Fêtes de Pampelune depuis le balcon de l'Hôtel de Ville. Un déluge de rouge et blanc envahit les rues.",
+        "es": "El cohete emblemático que lanza oficialmente los Sanfermines desde el balcón del Ayuntamiento. Un diluvio de rojo y blanco invade las calles.",
+        "eu": "Udal Etxeko balkoitik San Ferminak ofizialki abiarazten dituen suziri enblematikoa."
+      },
+      "tags": ["gratuit", "tradition"]
+    },
+    {
+      "venueId": "estafeta",
+      "shortName": "Encierro",
+      "startTimestamp": "2026-07-07T08:00:00+02:00",
+      "endTimestamp": "2026-07-07T08:15:00+02:00",
+      "title": {
+        "fr": "Encierro – Lâcher de taureaux (Jour 1)",
+        "es": "Encierro – Día 1",
+        "eu": "Entzierroa – 1. eguna"
+      },
+      "description": {
+        "fr": "La course la plus célèbre du monde : 825 mètres de rues pavées, six taureaux de combat et des centaines de coureurs. Réservé aux adultes expérimentés.",
+        "es": "La carrera más famosa del mundo: 825 metros de calles adoquinadas, seis toros de lidia y cientos de corredores.",
+        "eu": "Munduko lasterketa ospetsuena: 825 metro harrizko kaleetan, sei borrokako zezen eta ehunka lasterlarien artean."
+      },
+      "tags": ["tradition", "payant"]
+    },
+    {
+      "venueId": "arenes-pam",
+      "shortName": "Corrida goyesque",
+      "startTimestamp": "2026-07-07T18:30:00+02:00",
+      "endTimestamp": "2026-07-07T21:30:00+02:00",
+      "title": {
+        "fr": "Corrida goyesque",
+        "es": "Corrida goyesca",
+        "eu": "Goyesco-ko zezenketa"
+      },
+      "description": {
+        "fr": "Corrida en costume d'époque goyesque dans la magnifique Plaza de Toros de Pamplona, l'une des plus grandes d'Espagne.",
+        "es": "Corrida en traje goyesco en la magnífica Plaza de Toros de Pamplona, una de las más grandes de España.",
+        "eu": "Jantzi goyeskoetan zezenketa Iruñeko Plaza de Torosean, Espainiako handienetan bat."
+      },
+      "tags": ["payant", "tradition"]
+    },
+    {
+      "venueId": "ciudadela",
+      "shortName": "Feux d'artifice",
+      "startTimestamp": "2026-07-09T22:30:00+02:00",
+      "endTimestamp": "2026-07-09T23:15:00+02:00",
+      "title": {
+        "fr": "Feux d'artifice de la Ciudadela",
+        "es": "Fuegos artificiales de la Ciudadela",
+        "eu": "Gotorlekuko su artificialak"
+      },
+      "description": {
+        "fr": "Un spectacle pyrotechnique grandiose depuis les remparts de la Ciudadela, véritable forteresse étoilée au cœur de Pampelune.",
+        "es": "Un espectáculo pirotécnico grandioso desde las murallas de la Ciudadela.",
+        "eu": "Ikuskizun pirotechniko izugarria Gotorlekuko harresitatik."
+      },
+      "tags": ["gratuit"]
+    },
+    {
+      "venueId": "plaza-castillo",
+      "shortName": "Concert Plaza del Castillo",
+      "startTimestamp": "2026-07-10T21:00:00+02:00",
+      "endTimestamp": "2026-07-10T23:30:00+02:00",
+      "title": {
+        "fr": "Concert en plein air – Plaza del Castillo",
+        "es": "Concierto al aire libre – Plaza del Castillo",
+        "eu": "Aire libreko kontzertua – Gazteluaren Plaza"
+      },
+      "description": {
+        "fr": "La Plaza del Castillo, cœur névralgique des Sanfermines, se transforme en scène de concert géante le temps d'une soirée inoubliable.",
+        "es": "La Plaza del Castillo, corazón de los Sanfermines, se convierte en un escenario gigante para una noche inolvidable.",
+        "eu": "Gazteluaren Plaza, San Ferminen bihotza, ahaztu ezineko gau batentzat eszena erraldoian bihurtzen da."
+      },
+      "tags": ["gratuit", "concert"]
+    },
+    {
+      "venueId": "estafeta",
+      "shortName": "Encierro",
+      "startTimestamp": "2026-07-14T08:00:00+02:00",
+      "endTimestamp": "2026-07-14T08:15:00+02:00",
+      "title": {
+        "fr": "Encierro – Lâcher de taureaux (Jour final)",
+        "es": "Encierro – Día final",
+        "eu": "Entzierroa – Azken eguna"
+      },
+      "description": {
+        "fr": "Le dernier encierro des Sanfermines 2026. L'émotion est à son comble avant la cérémonie de clôture du soir.",
+        "es": "El último encierro de los Sanfermines 2026. La emoción está a flor de piel antes de la ceremonia de cierre.",
+        "eu": "2026ko San Ferminen azken entzierroa. Emozioa gailurrean da gaueko itxiera zeremoniaaren aurretik."
+      },
+      "tags": ["tradition", "payant"]
+    },
+    {
+      "venueId": "plaza-consistorial",
+      "shortName": "Pobre de Mí",
+      "startTimestamp": "2026-07-14T24:00:00+02:00",
+      "endTimestamp": "2026-07-15T00:30:00+02:00",
+      "title": {
+        "fr": "Pobre de Mí – Clôture des Sanfermines",
+        "es": "Pobre de Mí – Cierre de los Sanfermines",
+        "eu": "Pobre de Mí – San Ferminen ixtea"
+      },
+      "description": {
+        "fr": "Minuit. Depuis le balcon de l'Hôtel de Ville, des milliers de participants, bougie à la main, chantent ensemble « Pobre de Mí » pour dire adieu aux fêtes jusqu'en 2027.",
+        "es": "Medianoche. Desde el balcón del Ayuntamiento, miles de participantes, vela en mano, cantan juntos « Pobre de Mí » para despedirse de las fiestas hasta 2027.",
+        "eu": "Gauerdian. Udal Etxeko balkoitik, milaka parte-hartzaile kandela eskuan « Pobre de Mí » abestuz jaiak agurtzen dituzte 2027ra arte."
+      },
+      "tags": ["gratuit", "tradition"]
+    }
+  ]
+}

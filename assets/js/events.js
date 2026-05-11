@@ -85,7 +85,10 @@ const Events = {
     const usedPlaceIds = new Set((eventsDoc.events ?? []).map(e => e.venueId).filter(Boolean));
     this.venues   = (placesDoc.places ?? []).filter(p => usedPlaceIds.has(p.id));
 
-    this.events   = eventsDoc.events ?? [];
+    this.events = (eventsDoc.events ?? []).map(e => ({
+      ...e,
+      id: e.id ?? Events._hashEvent(e),
+    }));
     this.services = fete.services    ?? [];
     this.anims    = fete.anims       ?? [];
 
@@ -178,5 +181,15 @@ const Events = {
     return this.events
       .filter(e => e.venueId === venueId && Time.dateStr(e.startTimestamp) === dateStr)
       .sort((a, b) => new Date(a.startTimestamp) - new Date(b.startTimestamp));
+  },
+
+  _hashEvent(e) {
+    const str = `${e.title?.fr ?? ''}|${e.venueId ?? ''}|${e.startTimestamp ?? ''}|${e.endTimestamp ?? ''}`;
+    let h = 2166136261;
+    for (let i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h = (h * 16777619) >>> 0;
+    }
+    return h.toString(16).padStart(8, '0');
   },
 };

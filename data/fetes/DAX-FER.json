@@ -1,0 +1,9 @@
+{
+  "id": "ferias-dax",
+  "cityId": "DAX",
+  "name": { "fr": "Ferias de Dax", "es": "Ferias de Dax", "eu": "Daxeko Feriak" },
+  "website": "https://www.ferias-dax.fr",
+  "theme": { "primary": "#e63012", "secondary": "#f5c400" },
+  "services": [],
+  "anims": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "san-fermin",
+  "cityId": "PAM",
+  "name": { "fr": "Fêtes de Pampelune", "es": "Sanfermines", "eu": "San Ferminak" },
+  "website": "https://www.sanfermin.com",
+  "theme": { "primary": "#e63012", "secondary": "#ffffff" },
+  "services": [],
+  "anims": []
+}

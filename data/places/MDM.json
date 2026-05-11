@@ -1,0 +1,50 @@
+{
+  "cityId": "MDM",
+  "places": [
+    {
+      "id": "arenes-mdm",
+      "cityId": "MDM",
+      "name": { "fr": "Arènes de Mont-de-Marsan", "es": "Plaza de Toros de Mont-de-Marsan", "eu": "Mont-de-Marsango Zezenketa Plaza" },
+      "coords": { "lat": 43.8836, "lng": -0.4985 },
+      "type": "arena",
+      "address": "Allées Despiau, Mont-de-Marsan",
+      "go": "https://maps.app.goo.gl/arenesMontdeMarsan"
+    },
+    {
+      "id": "place-leclerc",
+      "cityId": "MDM",
+      "name": { "fr": "Place du Général Leclerc", "es": "Plaza del General Leclerc", "eu": "Leclerc Jeneralaren Plaza" },
+      "coords": { "lat": 43.8887, "lng": -0.5007 },
+      "type": "place",
+      "address": "Place du Général Leclerc, Mont-de-Marsan",
+      "go": "https://maps.app.goo.gl/placeLeclercMdM"
+    },
+    {
+      "id": "place-saint-roch",
+      "cityId": "MDM",
+      "name": { "fr": "Place Saint-Roch", "es": "Plaza San Roque", "eu": "San Roke Plaza" },
+      "coords": { "lat": 43.8875, "lng": -0.4992 },
+      "type": "place",
+      "address": "Place Saint-Roch, Mont-de-Marsan",
+      "go": "https://maps.app.goo.gl/placeSaintRoch"
+    },
+    {
+      "id": "parc-jean-rameau",
+      "cityId": "MDM",
+      "name": { "fr": "Parc Jean Rameau", "es": "Parque Jean Rameau", "eu": "Jean Rameau Parkea" },
+      "coords": { "lat": 43.8917, "lng": -0.4968 },
+      "type": "esplanade",
+      "address": "Parc Jean Rameau, Mont-de-Marsan",
+      "go": "https://maps.app.goo.gl/parcJeanRameau"
+    },
+    {
+      "id": "rues-mdm",
+      "cityId": "MDM",
+      "name": { "fr": "Centre-ville de Mont-de-Marsan", "es": "Centro de Mont-de-Marsan", "eu": "Mont-de-Marsango Erdigunea" },
+      "coords": { "lat": 43.8882, "lng": -0.5003 },
+      "type": "street",
+      "address": "Centre-ville, Mont-de-Marsan",
+      "go": "https://maps.app.goo.gl/centreMdM"
+    }
+  ]
+}

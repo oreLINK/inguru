@@ -134,8 +134,9 @@ class InguruFeriaPanel extends HTMLElement {
     list.forEach((f, i) => {
       const status    = this.#getStatus(f, today);
       const isCurrent = f.id === currentId;
-      const disabled  = !f.isAvailable || status === 'done';
-      const cityId    = (f.cityId ?? f.id.split('-')[0]).toLowerCase();
+      const isDone    = status === 'done';
+      const disabled  = !f.isAvailable || isDone;
+      const feteKey   = (f.feteId ?? f.id.slice(0, f.id.lastIndexOf('-'))).toLowerCase();
 
       const pc = f.theme?.primary   ?? '#666';
       const sc = f.theme?.secondary ?? '#fff';
@@ -172,16 +173,16 @@ class InguruFeriaPanel extends HTMLElement {
         badgeTxt = I18n.t('status_upcoming');
       }
 
-      const isBayonne = cityId === 'bay';
+      const isBayonne = (f.cityId ?? '').toUpperCase() === 'BAY';
 
       const card = document.createElement('button');
-      card.className = `fp-card${isCurrent ? ' fp-card-active' : ''}${disabled ? ' fp-card-disabled' : ''}`;
+      card.className = `fp-card${isCurrent ? ' fp-card-active' : ''}${isDone ? ' fp-card-done' : ''}${disabled ? ' fp-card-disabled' : ''}`;
       card.dataset.id = f.id;
       if (disabled) card.setAttribute('disabled', '');
       card.style.cssText = `--card-p:${pc};--card-s:${sc};--card-p-rgb:${pr},${pg},${pb};--delay:${i * 0.07}s`;
 
       card.innerHTML = `
-        <div class="fp-card-img" style="background-image:url(assets/img/cities/${cityId}.jpg);
+        <div class="fp-card-img" style="background-image:url(assets/img/fetes/${feteKey}.jpg);
           background-color:rgba(${pr},${pg},${pb},0.18)"></div>
         ${isBayonne ? `<div class="fp-card-landmark">${_SVG_CATHEDRAL}</div>` : ''}
         <div class="fp-card-content">

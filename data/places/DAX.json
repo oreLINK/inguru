@@ -1,0 +1,50 @@
+{
+  "cityId": "DAX",
+  "places": [
+    {
+      "id": "arenes-dax",
+      "cityId": "DAX",
+      "name": { "fr": "Arènes de Dax", "es": "Plaza de Toros de Dax", "eu": "Daxeko Zezenketa Plaza" },
+      "coords": { "lat": 43.7096, "lng": -1.0506 },
+      "type": "arena",
+      "address": "Rue des Arènes, Dax",
+      "go": "https://maps.app.goo.gl/arenesDax"
+    },
+    {
+      "id": "place-thiers",
+      "cityId": "DAX",
+      "name": { "fr": "Place Thiers", "es": "Plaza Thiers", "eu": "Thiers Plaza" },
+      "coords": { "lat": 43.7099, "lng": -1.0538 },
+      "type": "place",
+      "address": "Place Thiers, Dax",
+      "go": "https://maps.app.goo.gl/placeThiersDax"
+    },
+    {
+      "id": "fontaine-chaude",
+      "cityId": "DAX",
+      "name": { "fr": "La Fontaine Chaude", "es": "La Fuente Caliente", "eu": "Iturri Beroa" },
+      "coords": { "lat": 43.7091, "lng": -1.0527 },
+      "type": "monument",
+      "address": "Place Thiers, Dax",
+      "go": "https://maps.app.goo.gl/fontaineChaude"
+    },
+    {
+      "id": "place-roger-ducos",
+      "cityId": "DAX",
+      "name": { "fr": "Place Roger Ducos", "es": "Plaza Roger Ducos", "eu": "Roger Ducos Plaza" },
+      "coords": { "lat": 43.7089, "lng": -1.0497 },
+      "type": "place",
+      "address": "Place Roger Ducos, Dax",
+      "go": "https://maps.app.goo.gl/placeRogerDucos"
+    },
+    {
+      "id": "rues-dax",
+      "cityId": "DAX",
+      "name": { "fr": "Centre-ville de Dax", "es": "Centro de Dax", "eu": "Daxeko Erdigunea" },
+      "coords": { "lat": 43.7094, "lng": -1.0515 },
+      "type": "street",
+      "address": "Centre-ville, Dax",
+      "go": "https://maps.app.goo.gl/centreDax"
+    }
+  ]
+}

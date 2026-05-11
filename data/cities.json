@@ -27,13 +27,6 @@
       "country": "FR",
       "center": { "lat": 43.7102, "lng": -1.0548 },
       "category": "medium"
-    },
-    {
-      "id": "CON",
-      "name": { "fr": "Condom", "es": "Condom", "eu": "Condom" },
-      "country": "FR",
-      "center": { "lat": 43.9607, "lng": 0.372 },
-      "category": "medium"
     }
   ]
 }

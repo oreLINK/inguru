@@ -3,7 +3,7 @@
   "cityId": "BAY",
   "name": { "fr": "Foire au Jambon", "es": "Feria del Jamón", "eu": "Urdaiazpiko Azoka" },
   "website": "https://bayonne-tourisme.com",
-  "theme": { "primary": "#8b1a1a", "secondary": "#f5c400" },
+  "theme": { "primary": "#BB59A8", "secondary": "#ffffff" },
   "services": [
     {
       "id": "fjb-toilettes-001",

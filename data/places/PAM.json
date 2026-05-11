@@ -1,0 +1,59 @@
+{
+  "cityId": "PAM",
+  "places": [
+    {
+      "id": "plaza-castillo",
+      "cityId": "PAM",
+      "name": { "fr": "Plaza del Castillo", "es": "Plaza del Castillo", "eu": "Gazteluaren Plaza" },
+      "coords": { "lat": 42.8188, "lng": -1.6437 },
+      "type": "place",
+      "address": "Plaza del Castillo, Pamplona",
+      "go": "https://maps.app.goo.gl/plazaCastilloPamplona"
+    },
+    {
+      "id": "arenes-pam",
+      "cityId": "PAM",
+      "name": { "fr": "Plaza de Toros de Pamplona", "es": "Plaza de Toros de Pamplona", "eu": "Iruñeko Zezenketa Plaza" },
+      "coords": { "lat": 42.8099, "lng": -1.6459 },
+      "type": "arena",
+      "address": "Paseo de Hemingway, Pamplona",
+      "go": "https://maps.app.goo.gl/arenesPamplona"
+    },
+    {
+      "id": "estafeta",
+      "cityId": "PAM",
+      "name": { "fr": "Calle Estafeta", "es": "Calle Estafeta", "eu": "Estafeta Kalea" },
+      "coords": { "lat": 42.8214, "lng": -1.6401 },
+      "type": "street",
+      "address": "Calle Estafeta, Pamplona",
+      "go": "https://maps.app.goo.gl/calleEstafeta"
+    },
+    {
+      "id": "ciudadela",
+      "cityId": "PAM",
+      "name": { "fr": "Ciudadela de Pamplona", "es": "Ciudadela de Pamplona", "eu": "Iruñeko Gotorlekua" },
+      "coords": { "lat": 42.8153, "lng": -1.6561 },
+      "type": "esplanade",
+      "address": "Avenida del Ejército, Pamplona",
+      "go": "https://maps.app.goo.gl/ciudadelaPamplona"
+    },
+    {
+      "id": "plaza-consistorial",
+      "cityId": "PAM",
+      "name": { "fr": "Plaza Consistorial", "es": "Plaza Consistorial", "eu": "Plaza Kontsistoriala" },
+      "coords": { "lat": 42.8208, "lng": -1.6418 },
+      "type": "place",
+      "address": "Plaza Consistorial, Pamplona",
+      "go": "https://maps.app.goo.gl/plazaConsistorial"
+    },
+    {
+      "id": "casco-antiguo-pam",
+      "cityId": "PAM",
+      "name": { "fr": "Casco Antiguo", "es": "Casco Antiguo", "eu": "Alde Zaharra" },
+      "coords": { "lat": 42.8200, "lng": -1.6420 },
+      "type": "street",
+      "address": "Casco Antiguo, Pamplona",
+      "go": "https://maps.app.goo.gl/cascoAntiguoPamplona"
+    }
+  ]
+}

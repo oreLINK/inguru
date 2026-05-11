@@ -4,7 +4,6 @@
   "cityId": "BAY",
   "events": [
     {
-      "id": "fjb26-0001",
       "category": "gastronomie",
       "venueId": "carreau-halles",
       "shortName": "Concours du jambon fermi",
@@ -21,7 +20,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0002",
       "category": "traditions",
       "venueId": "esplanade-roland-barthes",
       "shortName": "Inauguration officielle",
@@ -37,7 +35,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0003",
       "category": "sport",
       "venueId": "trinquet-saint-andre",
       "shortName": "Pelote basque main nue",
@@ -53,7 +50,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0004",
       "category": "musique",
       "venueId": "carreau-halles",
       "shortName": "Transfert en musique",
@@ -71,7 +67,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0005",
       "category": "gastronomie",
       "venueId": "esplanade-roland-barthes",
       "shortName": "Remise des prix concours",
@@ -87,7 +82,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0006",
       "category": "sport",
       "venueId": "trinquet-saint-andre",
       "shortName": "Open de pelote basque",
@@ -103,7 +97,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0007",
       "category": "gastronomie",
       "venueId": "rue-pelletier",
       "shortName": "Atelier découpe cochon",
@@ -120,7 +113,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0008",
       "category": "gastronomie",
       "venueId": "allee-platanes",
       "shortName": "Marché traditionnel",
@@ -137,7 +129,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0009",
       "category": "traditions",
       "venueId": "maison-associations",
       "shortName": "Intronisations Confrérie",
@@ -153,7 +144,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0010",
       "category": "gastronomie",
       "venueId": "esplanade-roland-barthes",
       "shortName": "Concours d'omelettes",
@@ -170,7 +160,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0011",
       "category": "sport",
       "venueId": "trinquet-saint-andre",
       "shortName": "Finale Open pelote",
@@ -186,7 +175,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0012",
       "category": "traditions",
       "venueId": "rues-bayonne",
       "shortName": "Défilé de la Confrérie",
@@ -202,7 +190,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0013",
       "category": "gastronomie",
       "venueId": "esplanade-roland-barthes",
       "shortName": "Visite des stands",
@@ -218,7 +205,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0014",
       "category": "traditions",
       "venueId": "rues-bayonne",
       "shortName": "Défilé Confrérie dimanche",
@@ -234,7 +220,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0015",
       "category": "traditions",
       "venueId": "cathedrale-sainte-marie",
       "shortName": "Messe des Confréries",
@@ -250,7 +235,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0016",
       "category": "traditions",
       "venueId": "carreau-halles",
       "shortName": "Mutxiko – Orai Bat",
@@ -266,7 +250,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0017",
       "category": "traditions",
       "venueId": "esplanade-roland-barthes",
       "shortName": "Retour des confréries",
@@ -282,7 +265,6 @@
       "tags": ["gratuit"]
     },
     {
-      "id": "fjb26-0018",
       "category": "gastronomie",
       "venueId": "maison-associations",
       "shortName": "Repas du Chapitre",

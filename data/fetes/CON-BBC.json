@@ -1,8 +1,0 @@
-{
-  "id": "bandas-condom",
-  "cityId": "CON",
-  "name": { "fr": "Festival de Bandas de Condom", "es": "Festival de Bandas de Condom", "eu": "Condom-eko Bandas Jaialdia" },
-  "theme": { "primary": "#CE161D", "secondary": "#ffffff" },
-  "services": [],
-  "anims": []
-}

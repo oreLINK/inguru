@@ -1,0 +1,9 @@
+{
+  "id": "fete-madeleine",
+  "cityId": "MDM",
+  "name": { "fr": "Fêtes de la Madeleine", "es": "Ferias de la Madeleine", "eu": "Madeleine jaialdiak" },
+  "website": "https://www.mont-de-marsan.fr",
+  "theme": { "primary": "#2255af", "secondary": "#ffffff" },
+  "services": [],
+  "anims": []
+}

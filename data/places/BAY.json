@@ -124,6 +124,15 @@
       "name": { "fr": "Rue Pelletier", "es": "Calle Pelletier", "eu": "Pelletier Kalea" },
       "coords": { "lat": 43.488923, "lng": -1.472932 },
       "type": "street"
+    },
+    {
+      "id": "cote-des-basques",
+      "cityId": "BAY",
+      "name": { "fr": "Côte des Basques", "es": "Costa de los Vascos", "eu": "Euskal Lurraldea" },
+      "coords": { "lat": 43.47678, "lng": -1.566952 },
+      "type": "plage",
+      "address": "Cote des Basques",
+      "go": "https://maps.app.goo.gl/5jf1JxqPqY2pjpDR9"
     }
   ]
 }
