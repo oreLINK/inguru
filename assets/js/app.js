@@ -97,7 +97,6 @@ const App = {
       await this._loadFeria(active, false);
 
       this._setupEventListeners();
-      this._setupHeaderHide();
       this._requestGeolocation();
 
       clearTimeout(timeout);
@@ -323,7 +322,6 @@ const App = {
   // ─── Panneau feria ───────────────────────────────────────────────
   _openPanel() {
     this._panelOpen = true;
-    this._showHeader();
     this.$panel?.open();
     this.$header?.setPanelOpen(true);
     document.getElementById('scrim')?.classList.add('visible');
@@ -340,7 +338,6 @@ const App = {
   // ─── Menu multi-vues ─────────────────────────────────────────────
   _openMenu() {
     this._menuOpen = true;
-    this._showHeader();
     this.$viewMenu?.setActiveView(this._currentView);
     this.$viewMenu?.open();
     this.$fabs?.setMenuOpen(true);
@@ -352,43 +349,12 @@ const App = {
     this.$fabs?.setMenuOpen(false);
   },
 
-  // ─── Header auto-hide on scroll/drag ────────────────────────────
-  _hideHeader() { document.querySelector('#header')?.classList.add('header-hidden'); },
-  _showHeader()  { document.querySelector('#header')?.classList.remove('header-hidden'); },
-
-  _setupHeaderHide() {
-    let startY = 0;
-    const onStart = (e) => { startY = e.touches[0].clientY; };
-    const onMove  = (e) => {
-      const delta = startY - e.touches[0].clientY;
-      if (Math.abs(delta) < 10) return;
-      delta > 0 ? this._hideHeader() : this._showHeader();
-    };
-    const mapEl = document.getElementById('map');
-    mapEl?.addEventListener('touchstart', onStart, { passive: true, capture: true });
-    mapEl?.addEventListener('touchmove',  onMove,  { passive: true, capture: true });
-  },
-
-  _setupProgScroll() {
-    const prog = document.querySelector('#prog-scroll');
-    if (!prog || prog._hhBound) return;
-    prog._hhBound = true;
-    let lastY = 0;
-    prog.addEventListener('scroll', () => {
-      const delta = prog.scrollTop - lastY;
-      lastY = prog.scrollTop;
-      if (Math.abs(delta) < 4) return;
-      delta > 0 ? this._hideHeader() : this._showHeader();
-    }, { passive: true });
-  },
-
   _switchView(view) {
     if (view === this._currentView) return;
     this._currentView = view;
     if (view === 'programme') {
       this.$programme?.render(this.lang);
       this.$programme?.show();
-      this._setupProgScroll();
     } else {
       this.$programme?.hide();
       this.closePopup();
