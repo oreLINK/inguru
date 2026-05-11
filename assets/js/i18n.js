@@ -50,6 +50,9 @@ const I18n = {
       ticket_required:   'Ticket obligatoire',
       ticketing:         'Billetterie',
       ticketing_onsite:  'Billetterie sur place',
+      view_map:          'Carte',
+      view_programme:    'Programme',
+      locate:            'Se localiser',
     },
     es: {
       loading:           'Cargando…',
@@ -96,6 +99,9 @@ const I18n = {
       ticket_required:   'Entrada obligatoria',
       ticketing:         'Billettería',
       ticketing_onsite:  'Taquilla en el sitio',
+      view_map:          'Mapa',
+      view_programme:    'Programa',
+      locate:            'Localizarme',
     },
     eu: {
       loading:           'Kargatzen…',
@@ -142,6 +148,9 @@ const I18n = {
       ticket_required:   'Txartela beharrezkoa',
       ticketing:         'Txarteldegia',
       ticketing_onsite:  'Tokiko txarteldegia',
+      view_map:          'Mapa',
+      view_programme:    'Programa',
+      locate:            'Kokatu',
     },
   },
 

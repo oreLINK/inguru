@@ -1,0 +1,301 @@
+{
+  "editionId": "BAY-FJB-2026",
+  "feteId": "BAY-FJB",
+  "cityId": "BAY",
+  "events": [
+    {
+      "id": "fjb26-0001",
+      "category": "gastronomie",
+      "venueId": "carreau-halles",
+      "shortName": "Concours du jambon fermi",
+      "startTimestamp": "2026-04-23T09:30:00+02:00",
+      "endTimestamp": "2026-04-23T11:30:00+02:00",
+      "title": { "fr": "Concours du jambon fermier", "es": "Concurso del jamón de granja", "eus": "Baserri urdaiazpiko lehiaketa" },
+      "title_short": { "fr": "Concours Jambon Fermier", "es": "Concurso Jamón de Granja", "eus": "Baserri Urdaiazpiko Lehiaketa" },
+      "description": {
+        "fr": "Les producteurs de jambon fermier s'affrontent pour décrocher le titre du meilleur jambon de l'année, jugé par un jury de professionnels.",
+        "es": "Los productores de jamón de granja compiten por el título del mejor jamón del año, evaluado por un jurado de profesionales.",
+        "eus": "Baserri urdaiazpiko ekoizleek urte honetako urdaiazpikorik onenaren titulua lortzeko lehiatzen dute, profesionalen epaimahai batek epaitzen duela."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": "https://google.fr" },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0002",
+      "category": "traditions",
+      "venueId": "esplanade-roland-barthes",
+      "shortName": "Inauguration officielle",
+      "startTimestamp": "2026-04-23T10:30:00+02:00",
+      "title": { "fr": "Inauguration officielle de la 563e Foire au jambon de Bayonne", "es": "Inauguración oficial de la 563ª Feria del Jamón de Bayona", "eus": "Baionako 563. Urdaiazpiko Azokaren inaugurazio ofiziala" },
+      "title_short": { "fr": "Inauguration Foire", "es": "Inauguración Feria", "eus": "Azokaren Inaugurazioa" },
+      "description": {
+        "fr": "Cérémonie d'ouverture officielle de la 563e édition de la Foire au jambon, en présence des élus, de la Confrérie et des bandas.",
+        "es": "Ceremonia de apertura oficial de la 563ª edición de la Feria del Jamón, con la presencia de los cargos electos, la Cofradía y las bandas.",
+        "eus": "Urdaiazpiko Azokaren 563. edizioaren irekiera ekitaldi ofiziala, hautetsi, Kofradiako kide eta banden presentziarekin."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0003",
+      "category": "sport",
+      "venueId": "trinquet-saint-andre",
+      "shortName": "Pelote basque main nue",
+      "startTimestamp": "2026-04-23T11:00:00+02:00",
+      "title": { "fr": "Pelote basque main nue – ½ finale A", "es": "Pelota vasca a mano desnuda – ½ final A", "eus": "Esku pilota – A erdi-finala" },
+      "title_short": { "fr": "Pelote basque", "es": "Pelota vasca", "eus": "Esku pilota" },
+      "description": {
+        "fr": "Demi-finale A de l'Open de pelote basque main nue, discipline reine pratiquée au trinquet Saint-André.",
+        "es": "Semifinal A del Open de pelota vasca a mano desnuda, disciplina reina practicada en el frontón cubierto Saint-André.",
+        "eus": "Esku pilotako Open-eko A erdi-finala, Saint-André trinketean jokatzen den errege-diziplina."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0004",
+      "category": "musique",
+      "venueId": "carreau-halles",
+      "shortName": "Transfert en musique",
+      "startTimestamp": "2026-04-23T11:30:00+02:00",
+      "title": { "fr": "Transfert en musique", "es": "Traslado en música", "eus": "Musika laguntzarekin lekualdatzea" },
+      "title_short": { "fr": "Transfert en musique", "es": "Traslado en música", "eus": "Musika lekualdatzea" },
+      "description": {
+        "fr": "Déambulation musicale des bandas et txarangas accompagnant le cortège officiel à travers les rues de Bayonne.",
+        "es": "Deambulación musical de las bandas y txarangas acompañando el cortejo oficial por las calles de Bayona.",
+        "eus": "Bandetako eta txarangen musika-deambulazio Baionako kaleetatik zehar, kortejo ofiziala lagunduz."
+      },
+      "artistName": "Calvin Harris",
+      "listenArtist": { "spotify": true, "appleMusic": true, "youtube": true, "soundcloud": true },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0005",
+      "category": "gastronomie",
+      "venueId": "esplanade-roland-barthes",
+      "shortName": "Remise des prix concours",
+      "startTimestamp": "2026-04-23T12:00:00+02:00",
+      "title": { "fr": "Remise des prix concours jambon fermier et vente aux enchères du jambon primé", "es": "Entrega de premios del concurso de jamón de granja y subasta del jamón premiado", "eus": "Baserri urdaiazpiko lehiaketako sariak ematea eta saritutako urdaiazpikoaren enkantea" },
+      "title_short": { "fr": "Remise des Prix", "es": "Entrega de Premios", "eus": "Sarien Banaketa" },
+      "description": {
+        "fr": "Palmarès du concours du meilleur jambon fermier, suivi de la vente aux enchères du jambon primé au profit d'une association.",
+        "es": "Palmarés del concurso del mejor jamón de granja, seguido de la subasta del jamón premiado en beneficio de una asociación.",
+        "eus": "Baserri urdaiazpikorik onenaren lehiaketako sailkapen ofiziala, jarraian saritutako urdaiazpikoaren enkantea elkarte baten alde."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0006",
+      "category": "sport",
+      "venueId": "trinquet-saint-andre",
+      "shortName": "Open de pelote basque",
+      "startTimestamp": "2026-04-23T16:30:00+02:00",
+      "title": { "fr": "Open de pelote basque main nue – ½ finales B", "es": "Open de pelota vasca a mano desnuda – ½ finales B", "eus": "Esku pilotako Open-a – B erdi-finalak" },
+      "title_short": { "fr": "Open de pelote basque", "es": "Open de pelota vasca", "eus": "Esku pilotako Open-a" },
+      "description": {
+        "fr": "Demi-finale B de l'Open de pelote basque main nue. Les meilleurs joueurs du Pays Basque s'affrontent pour une place en finale.",
+        "es": "Semifinal B del Open de pelota vasca a mano desnuda. Los mejores jugadores del País Vasco se enfrentan por un puesto en la final.",
+        "eus": "Esku pilotako Open-eko B erdi-finala. Euskal Herriko jokalari onenek finalerako plaza lortzeko lehiatzen dute."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0007",
+      "category": "gastronomie",
+      "venueId": "rue-pelletier",
+      "shortName": "Atelier découpe cochon",
+      "startTimestamp": "2026-04-24T09:30:00+02:00",
+      "endTimestamp": "2026-04-24T11:30:00+02:00",
+      "title": { "fr": "Atelier découpe et transformation du cochon — dégustation txistorra au jambon de Bayonne", "es": "Taller de despiece y transformación del cerdo — degustación txistorra con jamón de Bayona", "eus": "Txerriki mozketaren eta transformazioaren tailerra — txistorra eta Baionako urdaiazpikoaren dastaketa" },
+      "title_short": { "fr": "Atelier découpe cochon", "es": "Taller despiece cerdo", "eus": "Txerriki mozketa tailerra" },
+      "description": {
+        "fr": "Démonstration de découpe et de transformation du cochon par des artisans charcutiers, suivie d'une dégustation de txistorra et de jambon de Bayonne.",
+        "es": "Demostración de despiece y transformación del cerdo por artesanos charcuteros, seguida de una degustación de txistorra y jamón de Bayona.",
+        "eus": "Haragigintzako artisauek txerrikiaren mozketaren eta transformazioaren erakusketa, jarraian txistorra eta Baionako urdaiazpikoaren dastaketa."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0008",
+      "category": "gastronomie",
+      "venueId": "allee-platanes",
+      "shortName": "Marché traditionnel",
+      "startTimestamp": "2026-04-25T06:00:00+02:00",
+      "endTimestamp": "2026-04-25T13:00:00+02:00",
+      "title": { "fr": "Marché traditionnel", "es": "Mercado tradicional", "eus": "Merkataritza tradizionala" },
+      "title_short": { "fr": "Marché traditionnel", "es": "Mercado tradicional", "eus": "Merkataritza tradizionala" },
+      "description": {
+        "fr": "Grand marché traditionnel avec producteurs locaux, artisans et exposants régionaux tout au long de la matinée sous les platanes.",
+        "es": "Gran mercado tradicional con productores locales, artesanos y expositores regionales durante toda la mañana bajo los plátanos.",
+        "eus": "Ekoizle lokalekin, artisauekin eta eskualdeko erakusgaiekin osatutako merkataritza tradizionala goizean zehar platanopean."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0009",
+      "category": "traditions",
+      "venueId": "maison-associations",
+      "shortName": "Intronisations Confrérie",
+      "startTimestamp": "2026-04-25T10:00:00+02:00",
+      "title": { "fr": "Intronisations des nouveaux membres de la Confrérie du Jambon de Bayonne", "es": "Intronizaciones de los nuevos miembros de la Cofradía del Jamón de Bayona", "eus": "Baionako Urdaiazpiko Kofradiaren kide berrien sarraldiak" },
+      "title_short": { "fr": "Intronisations Confrérie", "es": "Intronizaciones Cofradía", "eus": "Kofradiaren Sarraldiak" },
+      "description": {
+        "fr": "Cérémonie d'intronisation des nouveaux membres de la Confrérie du Jambon de Bayonne, gardienne des traditions de la charcuterie basque.",
+        "es": "Ceremonia de intronización de los nuevos miembros de la Cofradía del Jamón de Bayona, guardiana de las tradiciones de la charcutería vasca.",
+        "eus": "Baionako Urdaiazpiko Kofradiaren kide berrien sarraldiaren ekitaldia, euskal haragigintza-tradizioen zaintzailea."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0010",
+      "category": "gastronomie",
+      "venueId": "esplanade-roland-barthes",
+      "shortName": "Concours d'omelettes",
+      "startTimestamp": "2026-04-25T10:00:00+02:00",
+      "endTimestamp": "2026-04-25T13:00:00+02:00",
+      "title": { "fr": "Concours d'omelettes au Jambon de Bayonne avec les associations bayonnaises", "es": "Concurso de tortillas al Jamón de Bayona con las asociaciones bayonesas", "eus": "Baionako urdaiazpikodun tortilla-lehiaketa Baionako elkarteekin" },
+      "title_short": { "fr": "Concours d'Omelettes", "es": "Concurso de Tortillas", "eus": "Tortilla Lehiaketa" },
+      "description": {
+        "fr": "Les peñas et associations de Bayonne s'affrontent à la poêle pour réaliser la meilleure omelette au jambon de Bayonne, sous le regard du public.",
+        "es": "Las peñas y asociaciones de Bayona se enfrentan en la sartén para elaborar la mejor tortilla al jamón de Bayona, ante la mirada del público.",
+        "eus": "Baionako peñak eta elkarteak txartaginean aritzen dira Baionako urdaiazpikodun omeleterik onena egiteko, ikusleen aurrean."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0011",
+      "category": "sport",
+      "venueId": "trinquet-saint-andre",
+      "shortName": "Finale Open pelote",
+      "startTimestamp": "2026-04-25T11:00:00+02:00",
+      "title": { "fr": "Finale Open de pelote basque main nue", "es": "Final del Open de pelota vasca a mano desnuda", "eus": "Esku pilotako Open-eko finala" },
+      "title_short": { "fr": "Finale Pelote Basque", "es": "Final Pelota Vasca", "eus": "Esku Pilota Finala" },
+      "description": {
+        "fr": "Grande finale de l'Open de pelote basque main nue, point d'orgue sportif de la Foire, avec les meilleurs joueurs de la discipline.",
+        "es": "Gran final del Open de pelota vasca a mano desnuda, punto culminante deportivo de la Feria, con los mejores jugadores de la disciplina.",
+        "eus": "Esku pilotako Open-eko gran finala, Azokako gailur kirolaria, diziplinako jokalari onenekin."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0012",
+      "category": "traditions",
+      "venueId": "rues-bayonne",
+      "shortName": "Défilé de la Confrérie",
+      "startTimestamp": "2026-04-25T11:00:00+02:00",
+      "title": { "fr": "Défilé de la Confrérie et de ses invités à travers les rues de la Ville", "es": "Desfile de la Cofradía y sus invitados por las calles de la Ciudad", "eus": "Kofradiaren eta bere gonbidatuen desfilea Hiriko kaleetatik zehar" },
+      "title_short": { "fr": "Défilé Confrérie", "es": "Desfile Cofradía", "eus": "Kofradiaren Desfilea" },
+      "description": {
+        "fr": "Cortège coloré de la Confrérie du Jambon et de ses confréries invitées à travers le centre historique de Bayonne, en tenue d'apparat.",
+        "es": "Colorido cortejo de la Cofradía del Jamón y sus cofradías invitadas a través del centro histórico de Bayona, con trajes de gala.",
+        "eus": "Urdaiazpiko Kofradiaren eta gonbidatutako kofradien kortejo koloretsu bat Baionako gune historikotik zehar, janzkera ofizialarekin."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0013",
+      "category": "gastronomie",
+      "venueId": "esplanade-roland-barthes",
+      "shortName": "Visite des stands",
+      "startTimestamp": "2026-04-25T12:00:00+02:00",
+      "title": { "fr": "Visite des stands des charcutiers-salaisonniers", "es": "Visita a los puestos de los charcuteros y salazioneros", "eus": "Haragigin eta gazitegiaren standeetan bisita" },
+      "title_short": { "fr": "Stands Charcutiers", "es": "Puestos Charcuteros", "eus": "Haragiginen Standeak" },
+      "description": {
+        "fr": "Parcours des stands des charcutiers et salaisonniers de la région pour découvrir et déguster les meilleurs produits du terroir basque.",
+        "es": "Recorrido por los puestos de charcuteros y salazioneros de la región para descubrir y degustar los mejores productos del terruño vasco.",
+        "eus": "Eskualdeko haragigin eta gazitegiaren standeetan zehar ibilaldi bat euskal lurreko produktu onenak ezagutu eta dastatzeko."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0014",
+      "category": "traditions",
+      "venueId": "rues-bayonne",
+      "shortName": "Défilé Confrérie dimanche",
+      "startTimestamp": "2026-04-26T10:00:00+02:00",
+      "title": { "fr": "Défilé de la Confrérie à travers les rues de Bayonne", "es": "Desfile de la Cofradía por las calles de Bayona", "eus": "Kofradiaren desfilea Baionako kaleetatik zehar" },
+      "title_short": { "fr": "Défilé Confrérie", "es": "Desfile Cofradía", "eus": "Kofradiaren Desfilea" },
+      "description": {
+        "fr": "Procession solennelle de la Confrérie du Jambon de Bayonne à travers les ruelles du quartier historique, en direction de la cathédrale.",
+        "es": "Procesión solemne de la Cofradía del Jamón de Bayona por las callejuelas del barrio histórico, en dirección a la catedral.",
+        "eus": "Baionako Urdaiazpiko Kofradiaren prozesio solemnea auzo historikoaren kalexketan zehar, katedraleranzko bidean."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0015",
+      "category": "traditions",
+      "venueId": "cathedrale-sainte-marie",
+      "shortName": "Messe des Confréries",
+      "startTimestamp": "2026-04-26T10:30:00+02:00",
+      "title": { "fr": "Messe des Confréries", "es": "Misa de las Cofradías", "eus": "Kofradien Meza" },
+      "title_short": { "fr": "Messe des Confréries", "es": "Misa de las Cofradías", "eus": "Kofradien Meza" },
+      "description": {
+        "fr": "Messe célébrée à la cathédrale Sainte-Marie en présence des membres des confréries réunies, moment de recueillement avant le repas du Chapitre.",
+        "es": "Misa celebrada en la catedral de Santa María en presencia de los miembros de las cofradías reunidas, momento de recogimiento antes del banquete del Capítulo.",
+        "eus": "Santa Maria katedralean bildutako kofradietako kideen presentziarekin ospatutako meza, Kapituluko bazkalaurretiko bilketa unea."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0016",
+      "category": "traditions",
+      "venueId": "carreau-halles",
+      "shortName": "Mutxiko – Orai Bat",
+      "startTimestamp": "2026-04-26T11:00:00+02:00",
+      "title": { "fr": "Mutxiko (danse basque) avec Orai Bat", "es": "Mutxiko (danza vasca) con Orai Bat", "eus": "Mutxikoa Orai Bat taldearekin" },
+      "title_short": { "fr": "Mutxiko – Orai Bat", "es": "Mutxiko – Orai Bat", "eus": "Mutxikoa – Orai Bat" },
+      "description": {
+        "fr": "Danses traditionnelles basques en cercle (mutxiko) animées par le groupe Orai Bat, ouvertes à tous les participants.",
+        "es": "Danzas tradicionales vascas en círculo (mutxiko) animadas por el grupo Orai Bat, abiertas a todos los participantes.",
+        "eus": "Orai Bat taldeak antolatutako euskal dantza tradizionalak zirkuluan (mutxikoa), parte hartzaile guztientzat irekiak."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0017",
+      "category": "traditions",
+      "venueId": "esplanade-roland-barthes",
+      "shortName": "Retour des confréries",
+      "startTimestamp": "2026-04-26T12:00:00+02:00",
+      "title": { "fr": "Retour des confréries sur la foire", "es": "Regreso de las cofradías a la feria", "eus": "Kofradien itzulera azokara" },
+      "title_short": { "fr": "Retour Confréries", "es": "Regreso Cofradías", "eus": "Kofradien Itzulera" },
+      "description": {
+        "fr": "Retour festif des confréries sur l'esplanade, marquant la clôture des cérémonies officielles avant le repas du Chapitre.",
+        "es": "Regreso festivo de las cofradías a la explanada, marcando el cierre de las ceremonias oficiales antes del banquete del Capítulo.",
+        "eus": "Kofradien itzulera festiboa esplanadara, Kapituluko bazkalaurretiko ekitaldi ofizialen amaiera adieraziz."
+      },
+      "payment": { "isPaid": false, "isTicketMandatory": false, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["gratuit"]
+    },
+    {
+      "id": "fjb26-0018",
+      "category": "gastronomie",
+      "venueId": "maison-associations",
+      "shortName": "Repas du Chapitre",
+      "startTimestamp": "2026-04-26T13:30:00+02:00",
+      "title": { "fr": "Repas du 63e Chapitre de la Confrérie — ouvert à tous sur réservation", "es": "Banquete del 63º Capítulo de la Cofradía — abierto a todos con reserva", "eus": "Kofradiaren 63. Kapituluko bazkaria — erreserbarekin guztientzat irekia" },
+      "title_short": { "fr": "Repas du Chapitre", "es": "Banquete del Capítulo", "eus": "Kapituluko Bazkaria" },
+      "description": {
+        "fr": "Repas de gala du 63e Chapitre de la Confrérie du Jambon de Bayonne, ouvert au public sur réservation préalable. Menu autour des produits du terroir basque.",
+        "es": "Banquete de gala del 63º Capítulo de la Cofradía del Jamón de Bayona, abierto al público con reserva previa. Menú basado en los productos del terruño vasco.",
+        "eus": "Baionako Urdaiazpiko Kofradiaren 63. Kapituluko gala-bazkaria, aldez aurretiko erreserbarekin publikoarentzat irekia. Euskal lurreko produktuetan oinarritutako menua."
+      },
+      "payment": { "isPaid": true, "isTicketMandatory": true, "isTicketOnline": false, "linkTicket": null },
+      "tags": ["payant"]
+    }
+  ]
+}

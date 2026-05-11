@@ -1,0 +1,7 @@
+{
+  "defaultZoom": 17,
+  "markerRefreshInterval": 60,
+  "walkingSpeedMpm": 75,
+  "geolocationMaxAge": 10000,
+  "sunsetBufferMinutes": 0
+}
