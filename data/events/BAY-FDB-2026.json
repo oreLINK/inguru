@@ -21,16 +21,10 @@
       "payment": {
         "isPaid": true,
         "isTicketMandatory": true,
-        "isTicketOnline": true,
+        "isTicketOnline": false,
         "linkTicket": "https://lafouleedufestayre.fr/inscription-foulee-du-festayre/#fouleedufestayre-inscription"
       },
-      "artistName": "",
-      "listenArtist": {
-        "spotify": false,
-        "appleMusic": false,
-        "youtube": false,
-        "soundcloud": false
-      }
+      "artistName": "Calvin Harris"
     },
     {
       "venueId": "place-liberte",

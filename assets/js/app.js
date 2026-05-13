@@ -479,11 +479,10 @@ const App = {
     }
 
     let streamingHtml = '';
-    const artistName = event.artistName ?? null;
+    const artistName = event.artistName || null;
     if (artistName && f('streaming.enabled')) {
-      const listen = event.listenArtist ?? {};
       const icons = _STREAM_SERVICES
-        .filter(s => listen[s.key] === true && f(`streaming.${s.key}`))
+        .filter(s => f(`streaming.${s.key}`))
         .map(s => `<a href="${Utils.escHtml(s.buildUrl(artistName))}" target="_blank" rel="noopener" class="stream-btn" style="background:${s.color}" aria-label="${s.label}">${s.svg}</a>`)
         .join('');
       if (icons) streamingHtml = `<div class="popup-streaming">${icons}</div>`;
