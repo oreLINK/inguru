@@ -29,10 +29,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": "https://google.fr"
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "traditions",
@@ -59,10 +56,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "sport",
@@ -89,10 +83,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "musique",
@@ -120,10 +111,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "gastronomie",
@@ -150,10 +138,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "sport",
@@ -180,10 +165,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "gastronomie",
@@ -211,10 +193,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "gastronomie",
@@ -242,10 +221,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "traditions",
@@ -272,10 +248,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "gastronomie",
@@ -303,10 +276,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "sport",
@@ -333,10 +303,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "traditions",
@@ -363,10 +330,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "gastronomie",
@@ -393,10 +357,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "traditions",
@@ -423,10 +384,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "traditions",
@@ -453,10 +411,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "traditions",
@@ -483,10 +438,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "traditions",
@@ -513,10 +465,7 @@
         "isTicketMandatory": false,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "category": "gastronomie",
@@ -543,10 +492,7 @@
         "isTicketMandatory": true,
         "isTicketOnline": false,
         "linkTicket": null
-      },
-      "tags": [
-        "payant"
-      ]
+      }
     }
   ]
 }

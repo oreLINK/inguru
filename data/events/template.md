@@ -48,7 +48,6 @@ Structure racine :
 | `description.fr` | ✅ | | | ✅ doit figurer dans la source |
 | `description.es` | | ✅ | ✅ copie de `description.fr` si absent | |
 | `description.eu` | | ✅ | ✅ copie de `description.fr` si absent | |
-| `tags` | | ✅ | | tableau de chaînes libres |
 | `payment` | | ✅ | | présent seulement si `isPaid: true` |
 | `artistName` | | ✅ | | nom de l'artiste ou groupe |
 
@@ -72,7 +71,6 @@ Structure racine :
     "es": "La vaca landesa hace su entrada para el inicio de las fiestas.",
     "eu": "Landako behia hasten du festen hasiera."
   },
-  "tags": ["gratuit", "tradition"]
 }
 ```
 
@@ -125,26 +123,6 @@ Libellé court affiché dans les listes et cartes de l'app.
 
 ---
 
-### `tags`
-
-Tableau de chaînes libres pour filtrer les événements. Valeurs courantes :
-
-| Tag | Usage |
-|-----|-------|
-| `"gratuit"` | accès libre |
-| `"payant"` | accès payant (sans détail billet) |
-| `"tradition"` | événement traditionnel/emblématique |
-| `"concert"` | spectacle musical |
-| `"musique"` | animation musicale (banda, ambiance) |
-| `"musique basque"` | musique à identité basque |
-| `"sport"` | compétition ou démonstration sportive |
-| `"danse"` | bal, danse traditionnelle |
-| `"famille"` | public familial |
-| `"enfants"` | dédié aux enfants |
-| `"rock"` | concert rock |
-
----
-
 ### `payment` (facultatif)
 
 Présent uniquement si l'événement est payant avec des détails de billetterie.
@@ -164,8 +142,6 @@ Présent uniquement si l'événement est payant avec des détails de billetterie
 | `isTicketMandatory` | boolean | billet obligatoire pour entrer |
 | `isTicketOnline` | boolean | achat en ligne disponible |
 | `linkTicket` | string | URL d'achat ou d'inscription |
-
-> Si l'événement est simplement payant sans détail : utiliser `"tags": ["payant"]` plutôt que le bloc `payment`.
 
 ---
 

@@ -521,7 +521,7 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
 .popup-dist-icon{font-size:1.2rem;flex-shrink:0;}
 .popup-dist-main{font-weight:700;color:var(--ink);font-size:0.9rem;}
 .popup-dist-sub{font-size:0.74rem;color:var(--ink-3);}
-.popup-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:13px;}
+
 .popup-divider{height:1px;background:rgba(255,255,255,0.07);margin:12px 0;}
 
 .popup-btn-row{display:flex;gap:9px;align-items:center;}
@@ -556,8 +556,6 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
 .badge-now {background:var(--popup-p);color:var(--popup-s);box-shadow:0 2px 12px var(--popup-p-a60);}
 .badge-next{background:rgba(245,166,35,0.15);color:var(--amber);border:1px solid rgba(245,166,35,0.3);}
 .badge-done{background:rgba(255,255,255,0.05);color:var(--ink-3);border:1px solid var(--glass-border);}
-.tag      {padding:5px 12px;border-radius:20px;font-size:0.8rem;font-weight:600;background:rgba(255,255,255,0.05);color:var(--ink-3);border:1px solid var(--glass-border);}
-.tag-free {background:rgba(34,200,122,0.12);color:var(--green);border-color:rgba(34,200,122,0.28);}
 .countdown        {color:var(--amber);font-weight:700;}
 .countdown-running{color:var(--red-soft);font-weight:700;}
 .schedule-label{font-size:0.68rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin:4px 0 10px;}

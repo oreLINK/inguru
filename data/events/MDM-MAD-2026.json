@@ -17,11 +17,7 @@
         "fr": "Le coup d'envoi des fêtes avec le lancement de la fusée d'ouverture depuis la Place du Général Leclerc. Les bandas envahissent le centre-ville.",
         "es": "El inicio de las fiestas con el lanzamiento del cohete de apertura desde la Plaza del General Leclerc. Las bandas invaden el centro.",
         "eu": "Jaiaren hasiera Leclerc Jeneralaren Plazatik abiatutako suziria jaurti ondoren. Bandak erdigunea hartzen du."
-      },
-      "tags": [
-        "gratuit",
-        "tradition"
-      ]
+      }
     },
     {
       "venueId": "MDM-ARENES-MDM",
@@ -37,11 +33,7 @@
         "fr": "La course landaise est l'art landais de l'esquive devant la vache. Spectacle traditionnel du Sud-Ouest, avec les écarteurs et les sauteurs.",
         "es": "La course landesa es el arte de esquivar a la vaca. Espectáculo tradicional del Suroeste francés.",
         "eu": "Landako behien lasterketa beha aurrean saihestearen artea da. Hego-mendebaldeko ikuskizun tradizionala."
-      },
-      "tags": [
-        "payant",
-        "tradition"
-      ]
+      }
     },
     {
       "venueId": "MDM-PLACE-SAINT-ROCH",
@@ -57,10 +49,7 @@
         "fr": "Les bandas de toute la région défilent dans les rues de Mont-de-Marsan, créant une ambiance festive incomparable au son des cuivres et des percussions.",
         "es": "Las bandas de toda la región desfilan por las calles de Mont-de-Marsan al ritmo de cobres y percusiones.",
         "eu": "Eskualdeko banda guztiak Mont-de-Marsango kaleetatik igarotzen dira, kobreezko eta perkusioen soinuarekin."
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "venueId": "MDM-ARENES-MDM",
@@ -76,11 +65,7 @@
         "fr": "La corrida principale de la Fête de la Madeleine réunit les plus grands matadors dans les arènes de Mont-de-Marsan, réputées parmi les meilleures de France.",
         "es": "La corrida principal de la Fiesta de la Magdalena reúne a los mejores matadores en la plaza de Mont-de-Marsan.",
         "eu": "Madalenaren Jaiaren zezenketa nagusiak matadore onenak biltzen ditu Mont-de-Marsango plazan."
-      },
-      "tags": [
-        "payant",
-        "tradition"
-      ]
+      }
     },
     {
       "venueId": "MDM-PARC-JEAN-RAMEAU",
@@ -96,11 +81,7 @@
         "fr": "Sous les étoiles du Parc Jean Rameau, concert en plein air mêlant musiques de la région et artistes invités.",
         "es": "Bajo las estrellas del Parque Jean Rameau, concierto al aire libre con música de la región.",
         "eu": "Jean Rameau Parkeko izarren azpian, aire libreko kontzertua eskualdeko musikarekin."
-      },
-      "tags": [
-        "gratuit",
-        "concert"
-      ]
+      }
     },
     {
       "venueId": "MDM-PLACE-LECLERC",
@@ -116,10 +97,7 @@
         "fr": "Le feu d'artifice de la Fête de la Madeleine illumine le ciel de Mont-de-Marsan pour l'une des soirées les plus spectaculaires de l'année.",
         "es": "Los fuegos artificiales de la Fiesta de la Magdalena iluminan el cielo de Mont-de-Marsan.",
         "eu": "Madalenaren Jaiaren su artificialak Mont-de-Marsango zerua argiztatzen du."
-      },
-      "tags": [
-        "gratuit"
-      ]
+      }
     },
     {
       "venueId": "MDM-PLACE-SAINT-ROCH",
@@ -135,11 +113,7 @@
         "fr": "La cérémonie de clôture marque la fin des festivités. Les bandas jouent une dernière fois avant que Pampelune ne s'éteigne jusqu'en 2027.",
         "es": "La ceremonia de clausura marca el fin de las fiestas. Las bandas tocan una última vez antes de que se apaguen las luces.",
         "eu": "Itxiera zeremoniaren ondoren, festak amaitu eta argiak itzaltzen dira 2027ra arte."
-      },
-      "tags": [
-        "gratuit",
-        "tradition"
-      ]
+      }
     }
   ]
 }
