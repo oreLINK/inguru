@@ -225,6 +225,7 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--ink);
 .fp-card:active{transform:scale(0.97);}
 .fp-card-active{border-color:var(--card-p,var(--p)) !important;box-shadow:0 0 0 1px var(--card-p,var(--p-a35));}
 .fp-card-done .fp-card-img{filter:grayscale(1) brightness(0.7);}
+.fp-card-done .fp-card-logo{filter:grayscale(1) brightness(0.7);}
 .fp-card-disabled{opacity:0.40;cursor:default;pointer-events:none;}
 
 /* Logo d'édition */

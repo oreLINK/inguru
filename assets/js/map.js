@@ -155,7 +155,7 @@ const MapModule = {
       toRemove.delete(venue.id);
 
       const { event, status } = result;
-      const line1 = Utils.loc(event.title_short, lang) ?? event.shortName ?? Utils.shortText(Utils.loc(event.title, lang), 20);
+      const line1 = Utils.loc(event.title_short, lang) || event.shortName || Utils.shortText(Utils.loc(event.title, lang), 20);
       const line2 = this._formatMarkerTime(result, lang);
       const color = Events.categories[event.category] ?? null;
       const icon  = this._makeIcon(line1, line2, status, color);
