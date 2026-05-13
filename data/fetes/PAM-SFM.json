@@ -3,7 +3,7 @@
   "cityId": "PAM",
   "name": { "fr": "Fêtes de San Fermín", "es": "Sanfermines", "eu": "San Ferminak" },
   "website": "https://www.sanfermin.com",
-  "theme": { "primary": "#e63012", "secondary": "#ffffff" },
+  "theme": { "primary": "#E30613", "secondary": "#ffffff" },
   "services": [],
   "anims": []
 }
