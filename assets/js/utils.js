@@ -34,28 +34,6 @@ const Utils = {
   },
 
   /**
-   * Ouvre l'itinéraire piéton.
-   * Si goUrl (event.go) est fourni → ouvre ce lien directement.
-   * Sinon → construit un lien Google Maps / Apple Maps depuis les coords.
-   */
-  openDirections(lat, lng, venueName, goUrl = null) {
-    if (goUrl) {
-      window.open(goUrl, '_blank');
-      return;
-    }
-    const label = encodeURIComponent(venueName || '');
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-    if (isIOS) {
-      window.open(`maps://maps.apple.com/?daddr=${lat},${lng}&dirflg=w`);
-    } else {
-      window.open(
-        `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=walking`,
-        '_blank'
-      );
-    }
-  },
-
-  /**
    * Récupère la valeur localisée d'un champ (string ou { fr, es, eu })
    */
   loc(field, lang) {

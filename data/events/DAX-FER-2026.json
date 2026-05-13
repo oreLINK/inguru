@@ -4,7 +4,7 @@
   "cityId": "DAX",
   "events": [
     {
-      "venueId": "place-thiers",
+      "venueId": "DAX-PLACE-THIERS",
       "shortName": "Ouverture officielle",
       "startTimestamp": "2026-08-04T18:00:00+02:00",
       "endTimestamp": "2026-08-04T19:30:00+02:00",
@@ -18,10 +18,13 @@
         "es": "El cohete de apertura retumba desde la Plaza Thiers y las calles de Dax se inflaman. La ciudad del agua entra en feria.",
         "eu": "Irekieraren suziria Thiers Plazatik ozen entzuten da eta Daxeko kaleak pizteko prest daude."
       },
-      "tags": ["gratuit", "tradition"]
+      "tags": [
+        "gratuit",
+        "tradition"
+      ]
     },
     {
-      "venueId": "rues-dax",
+      "venueId": "DAX-RUES-DAX",
       "shortName": "Encierro",
       "startTimestamp": "2026-08-05T07:30:00+02:00",
       "endTimestamp": "2026-08-05T08:00:00+02:00",
@@ -35,10 +38,13 @@
         "es": "El encierro daxois: los toros recorren las calles del centro de Dax al amanecer, seguidos por cientos de corredores.",
         "eu": "Daxeko entzierroa: zezenak goizean Daxeko kale nagusietatik igarotzen dira, ehunka lasterkari jarraituz."
       },
-      "tags": ["gratuit", "tradition"]
+      "tags": [
+        "gratuit",
+        "tradition"
+      ]
     },
     {
-      "venueId": "arenes-dax",
+      "venueId": "DAX-ARENES-DAX",
       "shortName": "Corrida",
       "startTimestamp": "2026-08-05T17:00:00+02:00",
       "endTimestamp": "2026-08-05T20:00:00+02:00",
@@ -52,10 +58,13 @@
         "es": "Primera gran corrida en las arenas de Dax, una de las más reputadas del circuito landés.",
         "eu": "Daxeko arenetan lehen zezenketa handia, Landako zirkuituko ospetsuenetarikoa."
       },
-      "tags": ["payant", "tradition"]
+      "tags": [
+        "payant",
+        "tradition"
+      ]
     },
     {
-      "venueId": "place-thiers",
+      "venueId": "DAX-PLACE-THIERS",
       "shortName": "Bodega",
       "startTimestamp": "2026-08-06T11:00:00+02:00",
       "endTimestamp": "2026-08-06T14:00:00+02:00",
@@ -69,10 +78,12 @@
         "es": "La bodega daxoise reúne a lugareños y visitantes alrededor de un vaso de vino local. Ambiente incomparable.",
         "eu": "Daxeko bodegak bertakoak eta bisitariak batzen ditu bertako ardo baten inguruan."
       },
-      "tags": ["gratuit"]
+      "tags": [
+        "gratuit"
+      ]
     },
     {
-      "venueId": "fontaine-chaude",
+      "venueId": "DAX-FONTAINE-CHAUDE",
       "shortName": "Feux d'artifice",
       "startTimestamp": "2026-08-07T23:00:00+02:00",
       "endTimestamp": "2026-08-07T23:45:00+02:00",
@@ -86,10 +97,12 @@
         "es": "El espectáculo pirotécnico de las Ferias se refleja en las aguas del Adour, creando un cuadro mágico.",
         "eu": "Ferien ikuskizun pirotechnikoa Aturri ibaiaren uretan islatzen da, irudi magikoa sortuz."
       },
-      "tags": ["gratuit"]
+      "tags": [
+        "gratuit"
+      ]
     },
     {
-      "venueId": "arenes-dax",
+      "venueId": "DAX-ARENES-DAX",
       "shortName": "Corrida finale",
       "startTimestamp": "2026-08-09T17:00:00+02:00",
       "endTimestamp": "2026-08-09T20:00:00+02:00",
@@ -103,7 +116,10 @@
         "es": "La última corrida de las Ferias de Dax 2026 cierra cinco días de pasión y fiesta.",
         "eu": "2026ko Daxeko Ferien azken zezenketak bost egun pasio eta jai bururatzen ditu."
       },
-      "tags": ["payant", "tradition"]
+      "tags": [
+        "payant",
+        "tradition"
+      ]
     }
   ]
 }

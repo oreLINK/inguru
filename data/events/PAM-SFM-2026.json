@@ -4,7 +4,7 @@
   "cityId": "PAM",
   "events": [
     {
-      "venueId": "plaza-consistorial",
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
       "shortName": "Chupinazo",
       "startTimestamp": "2026-07-06T12:00:00+02:00",
       "endTimestamp": "2026-07-06T12:30:00+02:00",
@@ -18,10 +18,13 @@
         "es": "El cohete emblemático que lanza oficialmente los Sanfermines desde el balcón del Ayuntamiento. Un diluvio de rojo y blanco invade las calles.",
         "eu": "Udal Etxeko balkoitik San Ferminak ofizialki abiarazten dituen suziri enblematikoa."
       },
-      "tags": ["gratuit", "tradition"]
+      "tags": [
+        "gratuit",
+        "tradition"
+      ]
     },
     {
-      "venueId": "estafeta",
+      "venueId": "PAM-ESTAFETA",
       "shortName": "Encierro",
       "startTimestamp": "2026-07-07T08:00:00+02:00",
       "endTimestamp": "2026-07-07T08:15:00+02:00",
@@ -35,10 +38,13 @@
         "es": "La carrera más famosa del mundo: 825 metros de calles adoquinadas, seis toros de lidia y cientos de corredores.",
         "eu": "Munduko lasterketa ospetsuena: 825 metro harrizko kaleetan, sei borrokako zezen eta ehunka lasterlarien artean."
       },
-      "tags": ["tradition", "payant"]
+      "tags": [
+        "tradition",
+        "payant"
+      ]
     },
     {
-      "venueId": "arenes-pam",
+      "venueId": "PAM-ARENES-PAM",
       "shortName": "Corrida goyesque",
       "startTimestamp": "2026-07-07T18:30:00+02:00",
       "endTimestamp": "2026-07-07T21:30:00+02:00",
@@ -52,10 +58,13 @@
         "es": "Corrida en traje goyesco en la magnífica Plaza de Toros de Pamplona, una de las más grandes de España.",
         "eu": "Jantzi goyeskoetan zezenketa Iruñeko Plaza de Torosean, Espainiako handienetan bat."
       },
-      "tags": ["payant", "tradition"]
+      "tags": [
+        "payant",
+        "tradition"
+      ]
     },
     {
-      "venueId": "ciudadela",
+      "venueId": "PAM-CIUDADELA",
       "shortName": "Feux d'artifice",
       "startTimestamp": "2026-07-09T22:30:00+02:00",
       "endTimestamp": "2026-07-09T23:15:00+02:00",
@@ -69,10 +78,12 @@
         "es": "Un espectáculo pirotécnico grandioso desde las murallas de la Ciudadela.",
         "eu": "Ikuskizun pirotechniko izugarria Gotorlekuko harresitatik."
       },
-      "tags": ["gratuit"]
+      "tags": [
+        "gratuit"
+      ]
     },
     {
-      "venueId": "plaza-castillo",
+      "venueId": "PAM-PLAZA-CASTILLO",
       "shortName": "Concert Plaza del Castillo",
       "startTimestamp": "2026-07-10T21:00:00+02:00",
       "endTimestamp": "2026-07-10T23:30:00+02:00",
@@ -86,10 +97,13 @@
         "es": "La Plaza del Castillo, corazón de los Sanfermines, se convierte en un escenario gigante para una noche inolvidable.",
         "eu": "Gazteluaren Plaza, San Ferminen bihotza, ahaztu ezineko gau batentzat eszena erraldoian bihurtzen da."
       },
-      "tags": ["gratuit", "concert"]
+      "tags": [
+        "gratuit",
+        "concert"
+      ]
     },
     {
-      "venueId": "estafeta",
+      "venueId": "PAM-ESTAFETA",
       "shortName": "Encierro",
       "startTimestamp": "2026-07-14T08:00:00+02:00",
       "endTimestamp": "2026-07-14T08:15:00+02:00",
@@ -103,10 +117,13 @@
         "es": "El último encierro de los Sanfermines 2026. La emoción está a flor de piel antes de la ceremonia de cierre.",
         "eu": "2026ko San Ferminen azken entzierroa. Emozioa gailurrean da gaueko itxiera zeremoniaaren aurretik."
       },
-      "tags": ["tradition", "payant"]
+      "tags": [
+        "tradition",
+        "payant"
+      ]
     },
     {
-      "venueId": "plaza-consistorial",
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
       "shortName": "Pobre de Mí",
       "startTimestamp": "2026-07-14T24:00:00+02:00",
       "endTimestamp": "2026-07-15T00:30:00+02:00",
@@ -120,7 +137,10 @@
         "es": "Medianoche. Desde el balcón del Ayuntamiento, miles de participantes, vela en mano, cantan juntos « Pobre de Mí » para despedirse de las fiestas hasta 2027.",
         "eu": "Gauerdian. Udal Etxeko balkoitik, milaka parte-hartzaile kandela eskuan « Pobre de Mí » abestuz jaiak agurtzen dituzte 2027ra arte."
       },
-      "tags": ["gratuit", "tradition"]
+      "tags": [
+        "gratuit",
+        "tradition"
+      ]
     }
   ]
 }

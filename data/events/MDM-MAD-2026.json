@@ -4,7 +4,7 @@
   "cityId": "MDM",
   "events": [
     {
-      "venueId": "place-leclerc",
+      "venueId": "MDM-PLACE-LECLERC",
       "shortName": "Ouverture officielle",
       "startTimestamp": "2026-07-22T19:00:00+02:00",
       "endTimestamp": "2026-07-22T20:30:00+02:00",
@@ -18,10 +18,13 @@
         "es": "El inicio de las fiestas con el lanzamiento del cohete de apertura desde la Plaza del General Leclerc. Las bandas invaden el centro.",
         "eu": "Jaiaren hasiera Leclerc Jeneralaren Plazatik abiatutako suziria jaurti ondoren. Bandak erdigunea hartzen du."
       },
-      "tags": ["gratuit", "tradition"]
+      "tags": [
+        "gratuit",
+        "tradition"
+      ]
     },
     {
-      "venueId": "arenes-mdm",
+      "venueId": "MDM-ARENES-MDM",
       "shortName": "Course de vaches landaises",
       "startTimestamp": "2026-07-23T17:00:00+02:00",
       "endTimestamp": "2026-07-23T19:00:00+02:00",
@@ -35,10 +38,13 @@
         "es": "La course landesa es el arte de esquivar a la vaca. Espectáculo tradicional del Suroeste francés.",
         "eu": "Landako behien lasterketa beha aurrean saihestearen artea da. Hego-mendebaldeko ikuskizun tradizionala."
       },
-      "tags": ["payant", "tradition"]
+      "tags": [
+        "payant",
+        "tradition"
+      ]
     },
     {
-      "venueId": "place-saint-roch",
+      "venueId": "MDM-PLACE-SAINT-ROCH",
       "shortName": "Défilé de bandas",
       "startTimestamp": "2026-07-23T20:30:00+02:00",
       "endTimestamp": "2026-07-23T22:30:00+02:00",
@@ -52,10 +58,12 @@
         "es": "Las bandas de toda la región desfilan por las calles de Mont-de-Marsan al ritmo de cobres y percusiones.",
         "eu": "Eskualdeko banda guztiak Mont-de-Marsango kaleetatik igarotzen dira, kobreezko eta perkusioen soinuarekin."
       },
-      "tags": ["gratuit"]
+      "tags": [
+        "gratuit"
+      ]
     },
     {
-      "venueId": "arenes-mdm",
+      "venueId": "MDM-ARENES-MDM",
       "shortName": "Corrida",
       "startTimestamp": "2026-07-24T17:30:00+02:00",
       "endTimestamp": "2026-07-24T20:00:00+02:00",
@@ -69,10 +77,13 @@
         "es": "La corrida principal de la Fiesta de la Magdalena reúne a los mejores matadores en la plaza de Mont-de-Marsan.",
         "eu": "Madalenaren Jaiaren zezenketa nagusiak matadore onenak biltzen ditu Mont-de-Marsango plazan."
       },
-      "tags": ["payant", "tradition"]
+      "tags": [
+        "payant",
+        "tradition"
+      ]
     },
     {
-      "venueId": "parc-jean-rameau",
+      "venueId": "MDM-PARC-JEAN-RAMEAU",
       "shortName": "Concert",
       "startTimestamp": "2026-07-24T21:30:00+02:00",
       "endTimestamp": "2026-07-24T23:59:00+02:00",
@@ -86,10 +97,13 @@
         "es": "Bajo las estrellas del Parque Jean Rameau, concierto al aire libre con música de la región.",
         "eu": "Jean Rameau Parkeko izarren azpian, aire libreko kontzertua eskualdeko musikarekin."
       },
-      "tags": ["gratuit", "concert"]
+      "tags": [
+        "gratuit",
+        "concert"
+      ]
     },
     {
-      "venueId": "place-leclerc",
+      "venueId": "MDM-PLACE-LECLERC",
       "shortName": "Feu d'artifice",
       "startTimestamp": "2026-07-25T23:00:00+02:00",
       "endTimestamp": "2026-07-25T23:45:00+02:00",
@@ -103,10 +117,12 @@
         "es": "Los fuegos artificiales de la Fiesta de la Magdalena iluminan el cielo de Mont-de-Marsan.",
         "eu": "Madalenaren Jaiaren su artificialak Mont-de-Marsango zerua argiztatzen du."
       },
-      "tags": ["gratuit"]
+      "tags": [
+        "gratuit"
+      ]
     },
     {
-      "venueId": "place-saint-roch",
+      "venueId": "MDM-PLACE-SAINT-ROCH",
       "shortName": "Clôture",
       "startTimestamp": "2026-07-26T19:00:00+02:00",
       "endTimestamp": "2026-07-26T20:00:00+02:00",
@@ -120,7 +136,10 @@
         "es": "La ceremonia de clausura marca el fin de las fiestas. Las bandas tocan una última vez antes de que se apaguen las luces.",
         "eu": "Itxiera zeremoniaren ondoren, festak amaitu eta argiak itzaltzen dira 2027ra arte."
       },
-      "tags": ["gratuit", "tradition"]
+      "tags": [
+        "gratuit",
+        "tradition"
+      ]
     }
   ]
 }

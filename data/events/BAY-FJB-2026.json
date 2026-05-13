@@ -5,7 +5,7 @@
   "events": [
     {
       "category": "gastronomie",
-      "venueId": "carreau-halles",
+      "venueId": "BAY-CARREAU-HALLES",
       "shortName": "Concours du jambon fermi",
       "startTimestamp": "2026-04-23T09:30:00+02:00",
       "endTimestamp": "2026-04-23T11:30:00+02:00",
@@ -36,7 +36,7 @@
     },
     {
       "category": "traditions",
-      "venueId": "esplanade-roland-barthes",
+      "venueId": "BAY-ESPLANADE-ROLAND-BARTHES",
       "shortName": "Inauguration officielle",
       "startTimestamp": "2026-04-23T10:30:00+02:00",
       "title": {
@@ -66,7 +66,7 @@
     },
     {
       "category": "sport",
-      "venueId": "trinquet-saint-andre",
+      "venueId": "BAY-TRINQUET-SAINT-ANDRE",
       "shortName": "Pelote basque main nue",
       "startTimestamp": "2026-04-23T11:00:00+02:00",
       "title": {
@@ -96,7 +96,7 @@
     },
     {
       "category": "musique",
-      "venueId": "carreau-halles",
+      "venueId": "BAY-CARREAU-HALLES",
       "shortName": "Transfert en musique",
       "startTimestamp": "2026-04-23T11:30:00+02:00",
       "title": {
@@ -127,7 +127,7 @@
     },
     {
       "category": "gastronomie",
-      "venueId": "esplanade-roland-barthes",
+      "venueId": "BAY-ESPLANADE-ROLAND-BARTHES",
       "shortName": "Remise des prix concours",
       "startTimestamp": "2026-04-23T12:00:00+02:00",
       "title": {
@@ -157,7 +157,7 @@
     },
     {
       "category": "sport",
-      "venueId": "trinquet-saint-andre",
+      "venueId": "BAY-TRINQUET-SAINT-ANDRE",
       "shortName": "Open de pelote basque",
       "startTimestamp": "2026-04-23T16:30:00+02:00",
       "title": {
@@ -187,7 +187,7 @@
     },
     {
       "category": "gastronomie",
-      "venueId": "rue-pelletier",
+      "venueId": "BAY-RUE-PELLETIER",
       "shortName": "Atelier découpe cochon",
       "startTimestamp": "2026-04-24T09:30:00+02:00",
       "endTimestamp": "2026-04-24T11:30:00+02:00",
@@ -218,7 +218,7 @@
     },
     {
       "category": "gastronomie",
-      "venueId": "allee-platanes",
+      "venueId": "BAY-ALLEE-PLATANES",
       "shortName": "Marché traditionnel",
       "startTimestamp": "2026-04-25T06:00:00+02:00",
       "endTimestamp": "2026-04-25T13:00:00+02:00",
@@ -249,7 +249,7 @@
     },
     {
       "category": "traditions",
-      "venueId": "maison-associations",
+      "venueId": "BAY-MAISON-ASSOCIATIONS",
       "shortName": "Intronisations Confrérie",
       "startTimestamp": "2026-04-25T10:00:00+02:00",
       "title": {
@@ -279,7 +279,7 @@
     },
     {
       "category": "gastronomie",
-      "venueId": "esplanade-roland-barthes",
+      "venueId": "BAY-ESPLANADE-ROLAND-BARTHES",
       "shortName": "Concours d'omelettes",
       "startTimestamp": "2026-04-25T10:00:00+02:00",
       "endTimestamp": "2026-04-25T13:00:00+02:00",
@@ -310,7 +310,7 @@
     },
     {
       "category": "sport",
-      "venueId": "trinquet-saint-andre",
+      "venueId": "BAY-TRINQUET-SAINT-ANDRE",
       "shortName": "Finale Open pelote",
       "startTimestamp": "2026-04-25T11:00:00+02:00",
       "title": {
@@ -340,7 +340,7 @@
     },
     {
       "category": "traditions",
-      "venueId": "rues-bayonne",
+      "venueId": "BAY-RUES-BAYONNE",
       "shortName": "Défilé de la Confrérie",
       "startTimestamp": "2026-04-25T11:00:00+02:00",
       "title": {
@@ -370,7 +370,7 @@
     },
     {
       "category": "gastronomie",
-      "venueId": "esplanade-roland-barthes",
+      "venueId": "BAY-ESPLANADE-ROLAND-BARTHES",
       "shortName": "Visite des stands",
       "startTimestamp": "2026-04-25T12:00:00+02:00",
       "title": {
@@ -400,7 +400,7 @@
     },
     {
       "category": "traditions",
-      "venueId": "rues-bayonne",
+      "venueId": "BAY-RUES-BAYONNE",
       "shortName": "Défilé Confrérie dimanche",
       "startTimestamp": "2026-04-26T10:00:00+02:00",
       "title": {
@@ -430,7 +430,7 @@
     },
     {
       "category": "traditions",
-      "venueId": "cathedrale-sainte-marie",
+      "venueId": "BAY-CATHEDRALE-SAINTE-MARIE",
       "shortName": "Messe des Confréries",
       "startTimestamp": "2026-04-26T10:30:00+02:00",
       "title": {
@@ -460,7 +460,7 @@
     },
     {
       "category": "traditions",
-      "venueId": "carreau-halles",
+      "venueId": "BAY-CARREAU-HALLES",
       "shortName": "Mutxiko – Orai Bat",
       "startTimestamp": "2026-04-26T11:00:00+02:00",
       "title": {
@@ -490,7 +490,7 @@
     },
     {
       "category": "traditions",
-      "venueId": "esplanade-roland-barthes",
+      "venueId": "BAY-ESPLANADE-ROLAND-BARTHES",
       "shortName": "Retour des confréries",
       "startTimestamp": "2026-04-26T12:00:00+02:00",
       "title": {
@@ -520,7 +520,7 @@
     },
     {
       "category": "gastronomie",
-      "venueId": "maison-associations",
+      "venueId": "BAY-MAISON-ASSOCIATIONS",
       "shortName": "Repas du Chapitre",
       "startTimestamp": "2026-04-26T13:30:00+02:00",
       "title": {

@@ -2,58 +2,270 @@
   "cityId": "PAM",
   "places": [
     {
-      "id": "plaza-castillo",
-      "cityId": "PAM",
-      "name": { "fr": "Plaza del Castillo", "es": "Plaza del Castillo", "eu": "Gazteluaren Plaza" },
-      "coords": { "lat": 42.8188, "lng": -1.6437 },
-      "type": "place",
-      "address": "Plaza del Castillo, Pamplona",
-      "go": "https://maps.app.goo.gl/plazaCastilloPamplona"
+      "id": "PAM-PASEO-SARASATE",
+      "name": {
+        "fr": "Paseo de Sarasate",
+        "es": "Paseo de Sarasate",
+        "eu": "Sarasate Pasealekua"
+      },
+      "coords": {
+        "lat": 42.8160,
+        "lng": -1.6441
+      }
     },
     {
-      "id": "arenes-pam",
-      "cityId": "PAM",
-      "name": { "fr": "Plaza de Toros de Pamplona", "es": "Plaza de Toros de Pamplona", "eu": "Iruñeko Zezenketa Plaza" },
-      "coords": { "lat": 42.8099, "lng": -1.6459 },
-      "type": "arena",
-      "address": "Paseo de Hemingway, Pamplona",
-      "go": "https://maps.app.goo.gl/arenesPamplona"
+      "id": "PAM-PLAZA-FUEROS",
+      "name": {
+        "fr": "Plaza de los Fueros",
+        "es": "Plaza de los Fueros",
+        "eu": "Foruen Plaza"
+      },
+      "coords": {
+        "lat": 42.8167,
+        "lng": -1.6416
+      }
     },
     {
-      "id": "estafeta",
-      "cityId": "PAM",
-      "name": { "fr": "Calle Estafeta", "es": "Calle Estafeta", "eu": "Estafeta Kalea" },
-      "coords": { "lat": 42.8214, "lng": -1.6401 },
-      "type": "street",
-      "address": "Calle Estafeta, Pamplona",
-      "go": "https://maps.app.goo.gl/calleEstafeta"
+      "id": "PAM-ESTACION-AUTOBUSES",
+      "name": {
+        "fr": "Estación de Autobuses",
+        "es": "Estación de Autobuses",
+        "eu": "Autobus Geltokia"
+      },
+      "coords": {
+        "lat": 42.8097,
+        "lng": -1.6368
+      }
     },
     {
-      "id": "ciudadela",
-      "cityId": "PAM",
-      "name": { "fr": "Ciudadela de Pamplona", "es": "Ciudadela de Pamplona", "eu": "Iruñeko Gotorlekua" },
-      "coords": { "lat": 42.8153, "lng": -1.6561 },
-      "type": "esplanade",
-      "address": "Avenida del Ejército, Pamplona",
-      "go": "https://maps.app.goo.gl/ciudadelaPamplona"
+      "id": "PAM-TACONERA",
+      "name": {
+        "fr": "Parque de la Taconera",
+        "es": "Parque de la Taconera",
+        "eu": "Takonerako Parkea"
+      },
+      "coords": {
+        "lat": 42.8197,
+        "lng": -1.6499
+      }
     },
     {
-      "id": "plaza-consistorial",
-      "cityId": "PAM",
-      "name": { "fr": "Plaza Consistorial", "es": "Plaza Consistorial", "eu": "Plaza Kontsistoriala" },
-      "coords": { "lat": 42.8208, "lng": -1.6418 },
-      "type": "place",
-      "address": "Plaza Consistorial, Pamplona",
-      "go": "https://maps.app.goo.gl/plazaConsistorial"
+      "id": "PAM-PLAZA-LIBERTAD",
+      "name": {
+        "fr": "Plaza de la Libertad",
+        "es": "Plaza de la Libertad",
+        "eu": "Askatasunaren Plaza"
+      },
+      "coords": {
+        "lat": 42.8188,
+        "lng": -1.6402
+      }
     },
     {
-      "id": "casco-antiguo-pam",
-      "cityId": "PAM",
-      "name": { "fr": "Casco Antiguo", "es": "Casco Antiguo", "eu": "Alde Zaharra" },
-      "coords": { "lat": 42.8200, "lng": -1.6420 },
-      "type": "street",
-      "address": "Casco Antiguo, Pamplona",
-      "go": "https://maps.app.goo.gl/cascoAntiguoPamplona"
+      "id": "PAM-ANTONIUTTI",
+      "name": {
+        "fr": "Parque de Antoniutti",
+        "es": "Parque de Antoniutti",
+        "eu": "Antoniutti Parkea"
+      },
+      "coords": {
+        "lat": 42.7970,
+        "lng": -1.6460
+      }
+    },
+    {
+      "id": "PAM-PLAZA-COMPANIA",
+      "name": {
+        "fr": "Plaza de la Compañía",
+        "es": "Plaza de la Compañía",
+        "eu": "Konpainiaren Plaza"
+      },
+      "coords": {
+        "lat": 42.8196,
+        "lng": -1.6437
+      }
+    },
+    {
+      "id": "PAM-SAN-LORENZO",
+      "name": {
+        "fr": "Capilla de San Fermín - Iglesia de San Lorenzo",
+        "es": "Capilla de San Fermín - Iglesia de San Lorenzo",
+        "eu": "San Fermin Kapera - San Lorentzo Eliza"
+      },
+      "coords": {
+        "lat": 42.8186,
+        "lng": -1.6420
+      }
+    },
+    {
+      "id": "PAM-PLAZA-CRUZ",
+      "name": {
+        "fr": "Plaza de la Cruz",
+        "es": "Plaza de la Cruz",
+        "eu": "Gurutzearen Plaza"
+      },
+      "coords": {
+        "lat": 42.8139,
+        "lng": -1.6458
+      }
+    },
+    {
+      "id": "PAM-AVENIDA-CARLOS-III",
+      "name": {
+        "fr": "Avenida Carlos III",
+        "es": "Avenida Carlos III",
+        "eu": "Karlos III. Etorbidea"
+      },
+      "coords": {
+        "lat": 42.8162,
+        "lng": -1.6478
+      }
+    },
+    {
+      "id": "PAM-CUESTA-SANTO-DOMINGO",
+      "name": {
+        "fr": "Cuesta de Santo Domingo",
+        "es": "Cuesta de Santo Domingo",
+        "eu": "Santo Domingo Solaspartea"
+      },
+      "coords": {
+        "lat": 42.8221,
+        "lng": -1.6408
+      }
+    },
+    {
+      "id": "PAM-TEATRO-GAYARRE",
+      "name": {
+        "fr": "Teatro Gayarre",
+        "es": "Teatro Gayarre",
+        "eu": "Gayarre Antzokia"
+      },
+      "coords": {
+        "lat": 42.8178,
+        "lng": -1.6461
+      }
+    },
+    {
+      "id": "PAM-FRONTON-LABRIT",
+      "name": {
+        "fr": "Frontón Labrit",
+        "es": "Frontón Labrit",
+        "eu": "Labrit Frontoia"
+      },
+      "coords": {
+        "lat": 42.8243,
+        "lng": -1.6391
+      }
+    },
+    {
+      "id": "PAM-PARQUE-MEDIA-LUNA",
+      "name": {
+        "fr": "Parque Media Luna",
+        "es": "Parque Media Luna",
+        "eu": "Erdi Ilargi Parkea"
+      },
+      "coords": {
+        "lat": 42.7960,
+        "lng": -1.6308
+      }
+    },
+    {
+      "id": "PAM-AVENIDA-RONCESVALLES",
+      "name": {
+        "fr": "Avenida Roncesvalles",
+        "es": "Avenida Roncesvalles",
+        "eu": "Orreagako Etorbidea"
+      },
+      "coords": {
+        "lat": 42.8154,
+        "lng": -1.6421
+      }
+    },
+    {
+      "id": "PAM-PLAZA-SAN-FRANCISCO",
+      "name": {
+        "fr": "Plaza San Francisco",
+        "es": "Plaza San Francisco",
+        "eu": "San Frantzisko Plaza"
+      },
+      "coords": {
+        "lat": 42.8199,
+        "lng": -1.6457
+      }
+    },
+    {
+      "id": "PAM-CATEDRAL",
+      "name": {
+        "fr": "Catedral de Pamplona",
+        "es": "Catedral de Pamplona",
+        "eu": "Iruñeko Katedrala"
+      },
+      "coords": {
+        "lat": 42.8233,
+        "lng": -1.6434
+      }
+    },
+    {
+    "id": "PAM-PALACIO-EZPELETA",
+    "name": {
+      "fr": "Palacio de Ezpeleta (calle Mayor)",
+      "es": "Palacio de Ezpeleta (calle Mayor)",
+      "eu": ""
+    },
+    "coords": {
+      "lat": 42.817442,
+      "lng": -1.647822
+    },
+    "_source": "Pampelune — data/raw/pam-sfm-2026.md",
+    "_reason": "Bâtiment spécifique sur calle Mayor — coords absentes du fichier source, géolocalisation insuffisamment fiable"
+  },
+  {
+    "id": "PAM-PLAZA-SAN-JOSE",
+    "name": {
+      "fr": "Plaza San José",
+      "es": "Plaza San José",
+      "eu": ""
+    },
+    "coords": {
+      "lat": 42.819907,
+      "lng": -1.641306
     }
+  },
+  {
+    "id": "PAM-RINCON-ADUANA",
+    "name": {
+      "fr": "Rincón de la Aduana",
+      "es": "Rincón de la Aduana",
+      "eu": ""
+    },
+    "coords": {
+      "lat": 42.816154,
+      "lng": -1.648061
+    }
+  },
+  {
+    "id": "PAM-PLAZA-SANTA-MARIA",
+    "name": {
+      "fr": "Plaza Santa María la Real",
+      "es": "Plaza Santa María la Real",
+      "eu": ""
+    },
+    "coords": {
+      "lat": 42.817892,
+      "lng": -1.639108
+    }
+  },
+  {
+    "id": "PAM-CALLE-ARALAR",
+    "name": {
+      "fr": "Calle Aralar",
+      "es": "Calle Aralar",
+      "eu": ""
+    },
+    "coords": {
+      "lat": 42.811897,
+      "lng": -1.633608
+    }
+  }
   ]
 }
