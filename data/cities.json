@@ -4,28 +4,28 @@
       "id": "BAY",
       "name": { "fr": "Bayonne", "es": "Bayona", "eu": "Baiona" },
       "country": "FR",
-      "center": { "lat": 43.4929, "lng": -1.4748 },
+      "center": { "lat": 43.49064640740325, "lng": -1.4747775583410783 },
       "category": "large"
     },
     {
       "id": "PAM",
       "name": { "fr": "Pampelune", "es": "Pamplona", "eu": "Iruñea" },
       "country": "ES",
-      "center": { "lat": 42.8169, "lng": -1.6432 },
+      "center": { "lat": 42.81668178458655, "lng": -1.6428816493222742 },
       "category": "large"
     },
     {
       "id": "MDM",
       "name": { "fr": "Mont-de-Marsan", "es": "Mont-de-Marsan", "eu": "Mont-de-Marsan" },
       "country": "FR",
-      "center": { "lat": 43.8882, "lng": -0.5003 },
+      "center": { "lat": 43.88958465349366, "lng": -0.5002615336970773 },
       "category": "medium"
     },
     {
       "id": "DAX",
       "name": { "fr": "Dax", "es": "Dax", "eu": "Dax" },
       "country": "FR",
-      "center": { "lat": 43.7102, "lng": -1.0548 },
+      "center": { "lat": 43.70957772407813, "lng": -1.0524015447208512 },
       "category": "medium"
     }
   ]
