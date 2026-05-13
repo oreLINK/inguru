@@ -206,66 +206,64 @@
       }
     },
     {
-    "id": "PAM-PALACIO-EZPELETA",
-    "name": {
-      "fr": "Palacio de Ezpeleta (calle Mayor)",
-      "es": "Palacio de Ezpeleta (calle Mayor)",
-      "eu": ""
+      "id": "PAM-PALACIO-EZPELETA",
+      "name": {
+        "fr": "Palacio de Ezpeleta (calle Mayor)",
+        "es": "Palacio de Ezpeleta (calle Mayor)",
+        "eu": "Palacio de Ezpeleta (calle Mayor)"
+      },
+      "coords": {
+        "lat": 42.817442,
+        "lng": -1.647822
+      }
     },
-    "coords": {
-      "lat": 42.817442,
-      "lng": -1.647822
+    {
+      "id": "PAM-PLAZA-SAN-JOSE",
+      "name": {
+        "fr": "Plaza San José",
+        "es": "Plaza San José",
+        "eu": "Plaza San José"
+      },
+      "coords": {
+        "lat": 42.819907,
+        "lng": -1.641306
+      }
     },
-    "_source": "Pampelune — data/raw/pam-sfm-2026.md",
-    "_reason": "Bâtiment spécifique sur calle Mayor — coords absentes du fichier source, géolocalisation insuffisamment fiable"
-  },
-  {
-    "id": "PAM-PLAZA-SAN-JOSE",
-    "name": {
-      "fr": "Plaza San José",
-      "es": "Plaza San José",
-      "eu": ""
+    {
+      "id": "PAM-RINCON-ADUANA",
+      "name": {
+        "fr": "Rincón de la Aduana",
+        "es": "Rincón de la Aduana",
+        "eu": "Rincón de la Aduana"
+      },
+      "coords": {
+        "lat": 42.816154,
+        "lng": -1.648061
+      }
     },
-    "coords": {
-      "lat": 42.819907,
-      "lng": -1.641306
+    {
+      "id": "PAM-PLAZA-SANTA-MARIA",
+      "name": {
+        "fr": "Plaza Santa María la Real",
+        "es": "Plaza Santa María la Real",
+        "eu": "Plaza Santa María la Real"
+      },
+      "coords": {
+        "lat": 42.817892,
+        "lng": -1.639108
+      }
+    },
+    {
+      "id": "PAM-CALLE-ARALAR",
+      "name": {
+        "fr": "Calle Aralar",
+        "es": "Calle Aralar",
+        "eu": "Calle Aralar"
+      },
+      "coords": {
+        "lat": 42.811897,
+        "lng": -1.633608
+      }
     }
-  },
-  {
-    "id": "PAM-RINCON-ADUANA",
-    "name": {
-      "fr": "Rincón de la Aduana",
-      "es": "Rincón de la Aduana",
-      "eu": ""
-    },
-    "coords": {
-      "lat": 42.816154,
-      "lng": -1.648061
-    }
-  },
-  {
-    "id": "PAM-PLAZA-SANTA-MARIA",
-    "name": {
-      "fr": "Plaza Santa María la Real",
-      "es": "Plaza Santa María la Real",
-      "eu": ""
-    },
-    "coords": {
-      "lat": 42.817892,
-      "lng": -1.639108
-    }
-  },
-  {
-    "id": "PAM-CALLE-ARALAR",
-    "name": {
-      "fr": "Calle Aralar",
-      "es": "Calle Aralar",
-      "eu": ""
-    },
-    "coords": {
-      "lat": 42.811897,
-      "lng": -1.633608
-    }
-  }
   ]
 }
