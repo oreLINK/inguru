@@ -173,7 +173,9 @@ class InguruFeriaPanel extends HTMLElement {
         badgeTxt = I18n.t('status_upcoming');
       }
 
-      const isBayonne = (f.cityId ?? '').toUpperCase() === 'BAY';
+      const isBayonne  = (f.cityId ?? '').toUpperCase() === 'BAY';
+      const editionKey = f.id.toLowerCase();
+      const logoBase   = `assets/img/editions/${editionKey}`;
 
       const card = document.createElement('button');
       card.className = `fp-card${isCurrent ? ' fp-card-active' : ''}${isDone ? ' fp-card-done' : ''}${disabled ? ' fp-card-disabled' : ''}`;
@@ -186,10 +188,21 @@ class InguruFeriaPanel extends HTMLElement {
           background-color:rgba(${pr},${pg},${pb},0.18)"></div>
         ${isBayonne ? `<div class="fp-card-landmark">${_SVG_CATHEDRAL}</div>` : ''}
         <div class="fp-card-content">
-          <div class="fp-card-name">${Utils.escHtml(Utils.loc(f.name, lang))}</div>
-          <div class="fp-card-dates">${dates}</div>
-          ${distLabel}
-          <span class="fp-badge ${badgeCls}">${badgeTxt}</span>
+          <img class="fp-card-logo"
+            src="${logoBase}.svg"
+            data-base="${logoBase}"
+            data-fi="0"
+            onload="this.closest('.fp-card').classList.add('fp-card-has-logo')"
+            onerror="var idx=+this.dataset.fi+1,fmts=['svg','png','jpg','jpeg'];if(idx<fmts.length){this.dataset.fi=idx;this.src=this.dataset.base+'.'+fmts[idx];}else{this.remove();}"
+            alt="">
+          <div class="fp-card-info">
+            <div class="fp-card-name">${Utils.escHtml(Utils.loc(f.name, lang))}</div>
+            <div class="fp-card-dates-row">
+              <span class="fp-card-dates">${dates}</span>
+              <span class="fp-badge ${badgeCls}">${badgeTxt}</span>
+            </div>
+            ${distLabel}
+          </div>
         </div>`;
 
       if (!disabled) {
