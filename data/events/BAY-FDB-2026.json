@@ -5,7 +5,11 @@
   "events": [
     {
       "venueId": "BAY-COTE-DES-BASQUES",
-      "shortName": "Foulée du Festayre",
+      "shortName": {
+        "fr": "Foulée du Festayre",
+        "es": "Foulée du Festayre",
+        "eu": "Foulée du Festayre"
+      },
       "startTimestamp": "2026-07-15T08:30:00+02:00",
       "endTimestamp": "",
       "title": {
@@ -28,7 +32,11 @@
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
-      "shortName": "Lâcher de vaches",
+      "shortName": {
+        "fr": "Lâcher de vaches",
+        "es": "Lâcher de vaches",
+        "eu": "Lâcher de vaches"
+      },
       "startTimestamp": "2026-03-19T17:00:00+01:00",
       "endTimestamp": "2026-03-19T18:30:00+01:00",
       "title": {
@@ -44,7 +52,11 @@
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
-      "shortName": "Concert ouverture",
+      "shortName": {
+        "fr": "Concert ouverture",
+        "es": "Concert ouverture",
+        "eu": "Concert ouverture"
+      },
       "startTimestamp": "2026-03-19T21:00:00+01:00",
       "endTimestamp": "2026-03-19T23:30:00+01:00",
       "title": {
@@ -60,7 +72,11 @@
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
-      "shortName": "Lâcher de vaches",
+      "shortName": {
+        "fr": "Lâcher de vaches",
+        "es": "Lâcher de vaches",
+        "eu": "Lâcher de vaches"
+      },
       "startTimestamp": "2026-03-20T19:00:00+01:00",
       "endTimestamp": "2026-03-20T20:30:00+01:00",
       "title": {
@@ -76,7 +92,11 @@
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
-      "shortName": "Oreka TX",
+      "shortName": {
+        "fr": "Oreka TX",
+        "es": "Oreka TX",
+        "eu": "Oreka TX"
+      },
       "startTimestamp": "2026-03-20T22:00:00+01:00",
       "endTimestamp": "2026-03-21T00:00:00+01:00",
       "title": {
@@ -92,7 +112,11 @@
     },
     {
       "venueId": "BAY-ARENES",
-      "shortName": "Corrida landaise",
+      "shortName": {
+        "fr": "Corrida landaise",
+        "es": "Corrida landaise",
+        "eu": "Corrida landaise"
+      },
       "startTimestamp": "2026-03-19T15:00:00+01:00",
       "endTimestamp": "2026-03-19T17:00:00+01:00",
       "title": {
@@ -108,7 +132,11 @@
     },
     {
       "venueId": "BAY-ARENES",
-      "shortName": "Course de vaches",
+      "shortName": {
+        "fr": "Course de vaches",
+        "es": "Course de vaches",
+        "eu": "Course de vaches"
+      },
       "startTimestamp": "2026-03-20T17:00:00+01:00",
       "endTimestamp": "2026-03-20T19:30:00+01:00",
       "title": {
@@ -124,7 +152,11 @@
     },
     {
       "venueId": "BAY-ARENES",
-      "shortName": "Petit déjeuner",
+      "shortName": {
+        "fr": "Petit déjeuner",
+        "es": "Petit déjeuner",
+        "eu": "Petit déjeuner"
+      },
       "startTimestamp": "2026-03-21T10:30:00+01:00",
       "endTimestamp": "2026-03-21T12:30:00+01:00",
       "title": {
@@ -140,7 +172,11 @@
     },
     {
       "venueId": "BAY-QUAI-NIVE",
-      "shortName": "Bandas Nive",
+      "shortName": {
+        "fr": "Bandas Nive",
+        "es": "Bandas Nive",
+        "eu": "Bandas Nive"
+      },
       "startTimestamp": "2026-03-19T19:00:00+01:00",
       "endTimestamp": "2026-03-19T20:30:00+01:00",
       "title": {
@@ -156,7 +192,11 @@
     },
     {
       "venueId": "BAY-QUAI-NIVE",
-      "shortName": "Concert Txi-Txi",
+      "shortName": {
+        "fr": "Concert Txi-Txi",
+        "es": "Concert Txi-Txi",
+        "eu": "Concert Txi-Txi"
+      },
       "startTimestamp": "2026-03-19T22:00:00+01:00",
       "endTimestamp": "2026-03-20T00:00:00+01:00",
       "title": {
@@ -172,7 +212,11 @@
     },
     {
       "venueId": "BAY-QUAI-NIVE",
-      "shortName": "Feu d'artifice",
+      "shortName": {
+        "fr": "Feu d'artifice",
+        "es": "Feu d'artifice",
+        "eu": "Feu d'artifice"
+      },
       "startTimestamp": "2026-03-20T21:30:00+01:00",
       "endTimestamp": "2026-03-20T23:30:00+01:00",
       "title": {
@@ -188,7 +232,11 @@
     },
     {
       "venueId": "BAY-PLACE-GASCONS",
-      "shortName": "Anim. familles",
+      "shortName": {
+        "fr": "Anim. familles",
+        "es": "Anim. familles",
+        "eu": "Anim. familles"
+      },
       "startTimestamp": "2026-03-19T15:00:00+01:00",
       "endTimestamp": "2026-03-19T18:00:00+01:00",
       "title": {
@@ -204,7 +252,11 @@
     },
     {
       "venueId": "BAY-PLACE-GASCONS",
-      "shortName": "Pelote basque",
+      "shortName": {
+        "fr": "Pelote basque",
+        "es": "Pelote basque",
+        "eu": "Pelote basque"
+      },
       "startTimestamp": "2026-03-20T14:00:00+01:00",
       "endTimestamp": "2026-03-20T17:00:00+01:00",
       "title": {
@@ -220,7 +272,11 @@
     },
     {
       "venueId": "BAY-PLACE-GASCONS",
-      "shortName": "Marché artisanal",
+      "shortName": {
+        "fr": "Marché artisanal",
+        "es": "Marché artisanal",
+        "eu": "Marché artisanal"
+      },
       "startTimestamp": "2026-03-21T11:00:00+01:00",
       "endTimestamp": "2026-03-21T13:00:00+01:00",
       "title": {
@@ -236,7 +292,11 @@
     },
     {
       "venueId": "BAY-REMPARTS",
-      "shortName": "Txalaparta electro",
+      "shortName": {
+        "fr": "Txalaparta electro",
+        "es": "Txalaparta electro",
+        "eu": "Txalaparta electro"
+      },
       "startTimestamp": "2026-03-19T20:30:00+01:00",
       "endTimestamp": "2026-03-19T22:30:00+01:00",
       "title": {
@@ -252,7 +312,11 @@
     },
     {
       "venueId": "BAY-REMPARTS",
-      "shortName": "Bal basque",
+      "shortName": {
+        "fr": "Bal basque",
+        "es": "Bal basque",
+        "eu": "Bal basque"
+      },
       "startTimestamp": "2026-03-20T19:00:00+01:00",
       "endTimestamp": "2026-03-20T21:00:00+01:00",
       "title": {
@@ -268,7 +332,11 @@
     },
     {
       "venueId": "BAY-REMPARTS",
-      "shortName": "Fid Mella Rock",
+      "shortName": {
+        "fr": "Fid Mella Rock",
+        "es": "Fid Mella Rock",
+        "eu": "Fid Mella Rock"
+      },
       "startTimestamp": "2026-03-21T21:00:00+01:00",
       "endTimestamp": "2026-03-21T23:00:00+01:00",
       "title": {
@@ -284,7 +352,11 @@
     },
     {
       "venueId": "BAY-GRAND-BAYONNE",
-      "shortName": "Bandas du matin",
+      "shortName": {
+        "fr": "Bandas du matin",
+        "es": "Bandas du matin",
+        "eu": "Bandas du matin"
+      },
       "startTimestamp": "2026-03-19T11:00:00+01:00",
       "endTimestamp": "2026-03-19T14:00:00+01:00",
       "title": {
@@ -300,7 +372,11 @@
     },
     {
       "venueId": "BAY-GRAND-BAYONNE",
-      "shortName": "Cortège des géants",
+      "shortName": {
+        "fr": "Cortège des géants",
+        "es": "Cortège des géants",
+        "eu": "Cortège des géants"
+      },
       "startTimestamp": "2026-03-19T16:00:00+01:00",
       "endTimestamp": "2026-03-19T19:00:00+01:00",
       "title": {
@@ -316,7 +392,11 @@
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
-      "shortName": "Bandas de midi",
+      "shortName": {
+        "fr": "Bandas de midi",
+        "es": "Bandas de midi",
+        "eu": "Bandas de midi"
+      },
       "startTimestamp": "2026-03-20T11:00:00+01:00",
       "endTimestamp": "2026-03-20T14:00:00+01:00",
       "title": {
@@ -332,7 +412,11 @@
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
-      "shortName": "Dernier lâcher",
+      "shortName": {
+        "fr": "Dernier lâcher",
+        "es": "Dernier lâcher",
+        "eu": "Dernier lâcher"
+      },
       "startTimestamp": "2026-03-23T19:00:00+01:00",
       "endTimestamp": "2026-03-23T20:30:00+01:00",
       "title": {
@@ -348,7 +432,11 @@
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
-      "shortName": "Adieu aux fêtes",
+      "shortName": {
+        "fr": "Adieu aux fêtes",
+        "es": "Adieu aux fêtes",
+        "eu": "Adieu aux fêtes"
+      },
       "startTimestamp": "2026-03-23T23:30:00+01:00",
       "endTimestamp": "2026-03-24T01:00:00+01:00",
       "title": {

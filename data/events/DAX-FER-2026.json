@@ -5,7 +5,11 @@
   "events": [
     {
       "venueId": "DAX-PLACE-THIERS",
-      "shortName": "Ouverture officielle",
+      "shortName": {
+        "fr": "Ouverture officielle",
+        "es": "Ouverture officielle",
+        "eu": "Ouverture officielle"
+      },
       "startTimestamp": "2026-08-04T18:00:00+02:00",
       "endTimestamp": "2026-08-04T19:30:00+02:00",
       "title": {
@@ -21,7 +25,11 @@
     },
     {
       "venueId": "DAX-RUES-DAX",
-      "shortName": "Encierro",
+      "shortName": {
+        "fr": "Encierro",
+        "es": "Encierro",
+        "eu": "Encierro"
+      },
       "startTimestamp": "2026-08-05T07:30:00+02:00",
       "endTimestamp": "2026-08-05T08:00:00+02:00",
       "title": {
@@ -37,7 +45,11 @@
     },
     {
       "venueId": "DAX-ARENES-DAX",
-      "shortName": "Corrida",
+      "shortName": {
+        "fr": "Corrida",
+        "es": "Corrida",
+        "eu": "Corrida"
+      },
       "startTimestamp": "2026-08-05T17:00:00+02:00",
       "endTimestamp": "2026-08-05T20:00:00+02:00",
       "title": {
@@ -53,7 +65,11 @@
     },
     {
       "venueId": "DAX-PLACE-THIERS",
-      "shortName": "Bodega",
+      "shortName": {
+        "fr": "Bodega",
+        "es": "Bodega",
+        "eu": "Bodega"
+      },
       "startTimestamp": "2026-08-06T11:00:00+02:00",
       "endTimestamp": "2026-08-06T14:00:00+02:00",
       "title": {
@@ -69,7 +85,11 @@
     },
     {
       "venueId": "DAX-FONTAINE-CHAUDE",
-      "shortName": "Feux d'artifice",
+      "shortName": {
+        "fr": "Feux d'artifice",
+        "es": "Feux d'artifice",
+        "eu": "Feux d'artifice"
+      },
       "startTimestamp": "2026-08-07T23:00:00+02:00",
       "endTimestamp": "2026-08-07T23:45:00+02:00",
       "title": {
@@ -85,7 +105,11 @@
     },
     {
       "venueId": "DAX-ARENES-DAX",
-      "shortName": "Corrida finale",
+      "shortName": {
+        "fr": "Corrida finale",
+        "es": "Corrida finale",
+        "eu": "Corrida finale"
+      },
       "startTimestamp": "2026-08-09T17:00:00+02:00",
       "endTimestamp": "2026-08-09T20:00:00+02:00",
       "title": {

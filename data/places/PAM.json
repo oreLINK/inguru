@@ -14,6 +14,150 @@
       }
     },
     {
+      "id": "PAM-CALLE-CHAPITELA",
+      "name": {
+        "fr": "Calle Chapitela",
+        "es": "Calle Chapitela",
+        "eu": "Calle Chapitela"
+      },
+      "coords": {
+        "lat": 42.81762817247486,
+        "lng": -1.6428774886746877
+      }
+    },
+    {
+      "id": "PAM-MONUMENTO-ENCIERRO",
+      "name": {
+        "fr": "Monumento al Encierro",
+        "es": "Monumento al Encierro",
+        "eu": "Monumento al Encierro"
+      },
+      "coords": {
+        "lat": 42.814724485399886,
+        "lng": -1.641338635689149
+      }
+    },
+    {
+      "id": "PAM-CALLE-DESCALZOS",
+      "name": {
+        "fr": "Calle Descalzos",
+        "es": "Calle Descalzos",
+        "eu": "Calle Descalzos"
+      },
+      "coords": {
+        "lat": 42.819028445007355,
+        "lng": -1.6477665612524128
+      }
+    },
+    {
+      "id": "PAM-CALLE-MERCADERES",
+      "name": {
+        "fr": "Calle Mercaderes",
+        "es": "Calle Mercaderes",
+        "eu": "Calle Mercaderes"
+      },
+      "coords": {
+        "lat": 42.81835345484354,
+        "lng": -1.6434713490948671
+      }
+    },
+    {
+      "id": "PAM-CALLE-SAN-SATURNINO",
+      "name": {
+        "fr": "Calle San Saturnino",
+        "es": "Calle San Saturnino",
+        "eu": "Calle San Saturnino"
+      },
+      "coords": {
+        "lat": 42.818326871436625,
+        "lng": -1.6446016277827913
+      }
+    },
+    {
+      "id": "PAM-CALLE-ESTAFETA",
+      "name": {
+        "fr": "Calle Estafeta",
+        "es": "Calle Estafeta",
+        "eu": "Calle Estafeta"
+      },
+      "coords": {
+        "lat": 42.81737823058416,
+        "lng": -1.6421047112148845
+      }
+    },
+    {
+      "id": "PAM-POLIGONO-AGUSTINOS",
+      "name": {
+        "fr": "Polígono Agustinos",
+        "es": "Polígono Agustinos",
+        "eu": "Polígono Agustinos"
+      },
+      "coords": {
+        "lat": 42.83602571881057,
+        "lng": -1.6831639054205305
+      }
+    },
+    {
+      "id": "PAM-PLAZA-CONSISTORIAL",
+      "name": {
+        "fr": "Plaza Consistorial",
+        "es": "Plaza Consistorial",
+        "eu": "Plaza Consistorial"
+      },
+      "coords": {
+        "lat": 42.818309520219856,
+        "lng": -1.6440165732511902
+      }
+    },
+    {
+      "id": "PAM-CIUDADELA",
+      "name": {
+        "fr": "Ciudadela",
+        "es": "Ciudadela",
+        "eu": "Ciudadela"
+      },
+      "coords": {
+        "lat": 42.811764477930986,
+        "lng": -1.6494766435064157
+      }
+    },
+    {
+      "id": "PAM-PLAZA-DEL-CASTILLO",
+      "name": {
+        "fr": "Plaza del Castillo",
+        "es": "Plaza del Castillo",
+        "eu": "Plaza del Castillo"
+      },
+      "coords": {
+        "lat": 42.81668219037766,
+        "lng": -1.6428825352144538
+      }
+    },
+    {
+      "id": "PAM-PLAZA-DE-TOROS",
+      "name": {
+        "fr": "Plaza de Toros",
+        "es": "Plaza de Toros",
+        "eu": "Plaza de Toros"
+      },
+      "coords": {
+        "lat": 42.8159125293709,
+        "lng": -1.6394732274682378
+      }
+    },
+    {
+      "id": "PAM-CASA-CONSORCIAL",
+      "name": {
+        "fr": "Casa Consistorial",
+        "es": "Casa Consistorial",
+        "eu": "Casa Consistorial"
+      },
+      "coords": {
+        "lat": 42.8184689531232,
+        "lng": -1.6442524224809163
+      }
+    },
+    {
       "id": "PAM-PLAZA-FUEROS",
       "name": {
         "fr": "Plaza de los Fueros",

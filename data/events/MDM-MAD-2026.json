@@ -5,7 +5,11 @@
   "events": [
     {
       "venueId": "MDM-PLACE-LECLERC",
-      "shortName": "Ouverture officielle",
+      "shortName": {
+        "fr": "Ouverture officielle",
+        "es": "Ouverture officielle",
+        "eu": "Ouverture officielle"
+      },
       "startTimestamp": "2026-07-22T19:00:00+02:00",
       "endTimestamp": "2026-07-22T20:30:00+02:00",
       "title": {
@@ -21,7 +25,11 @@
     },
     {
       "venueId": "MDM-ARENES-MDM",
-      "shortName": "Course de vaches landaises",
+      "shortName": {
+        "fr": "Course de vaches…",
+        "es": "Course de vaches…",
+        "eu": "Course de vaches…"
+      },
       "startTimestamp": "2026-07-23T17:00:00+02:00",
       "endTimestamp": "2026-07-23T19:00:00+02:00",
       "title": {
@@ -37,7 +45,11 @@
     },
     {
       "venueId": "MDM-PLACE-SAINT-ROCH",
-      "shortName": "Défilé de bandas",
+      "shortName": {
+        "fr": "Défilé de bandas",
+        "es": "Défilé de bandas",
+        "eu": "Défilé de bandas"
+      },
       "startTimestamp": "2026-07-23T20:30:00+02:00",
       "endTimestamp": "2026-07-23T22:30:00+02:00",
       "title": {
@@ -53,7 +65,11 @@
     },
     {
       "venueId": "MDM-ARENES-MDM",
-      "shortName": "Corrida",
+      "shortName": {
+        "fr": "Corrida",
+        "es": "Corrida",
+        "eu": "Corrida"
+      },
       "startTimestamp": "2026-07-24T17:30:00+02:00",
       "endTimestamp": "2026-07-24T20:00:00+02:00",
       "title": {
@@ -69,7 +85,11 @@
     },
     {
       "venueId": "MDM-PARC-JEAN-RAMEAU",
-      "shortName": "Concert",
+      "shortName": {
+        "fr": "Concert",
+        "es": "Concert",
+        "eu": "Concert"
+      },
       "startTimestamp": "2026-07-24T21:30:00+02:00",
       "endTimestamp": "2026-07-24T23:59:00+02:00",
       "title": {
@@ -85,7 +105,11 @@
     },
     {
       "venueId": "MDM-PLACE-LECLERC",
-      "shortName": "Feu d'artifice",
+      "shortName": {
+        "fr": "Feu d'artifice",
+        "es": "Feu d'artifice",
+        "eu": "Feu d'artifice"
+      },
       "startTimestamp": "2026-07-25T23:00:00+02:00",
       "endTimestamp": "2026-07-25T23:45:00+02:00",
       "title": {
@@ -101,7 +125,11 @@
     },
     {
       "venueId": "MDM-PLACE-SAINT-ROCH",
-      "shortName": "Clôture",
+      "shortName": {
+        "fr": "Clôture",
+        "es": "Clôture",
+        "eu": "Clôture"
+      },
       "startTimestamp": "2026-07-26T19:00:00+02:00",
       "endTimestamp": "2026-07-26T20:00:00+02:00",
       "title": {

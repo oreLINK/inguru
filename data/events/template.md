@@ -39,13 +39,13 @@ Structure racine :
 | Champ | Obligatoire | Facultatif | Devinable | Non devinable |
 |-------|-------------|------------|-----------|---------------|
 | `venueId` | ✅ | | | ✅ ref vers `data/places/{cityId}.json` |
-| `shortName` | ✅ | | | ✅ libellé court pour l'UI |
+| `shortName` | ✅ | | | ✅ libellé court pour l'UI (objet multilingue, max 23 chars par langue) |
 | `startTimestamp` | ✅ | | | ✅ doit figurer dans la source |
 | `endTimestamp` | | ✅ | | chaîne vide `""` si inconnue |
 | `title.fr` | ✅ | | | ✅ doit figurer dans la source |
 | `title.es` | | ✅ | ✅ copie de `title.fr` si absent | |
 | `title.eu` | | ✅ | ✅ copie de `title.fr` si absent | |
-| `description.fr` | ✅ | | | ✅ doit figurer dans la source |
+| `description.fr` | | ✅ | | ✅ doit figurer dans la source |
 | `description.es` | | ✅ | ✅ copie de `description.fr` si absent | |
 | `description.eu` | | ✅ | ✅ copie de `description.fr` si absent | |
 | `payment` | | ✅ | | présent seulement si `isPaid: true` |
@@ -58,7 +58,11 @@ Structure racine :
 ```json
 {
   "venueId": "BAY-PLACE-LIBERTE",
-  "shortName": "Lâcher de vaches",
+  "shortName": {
+    "fr": "Lâcher de vaches",
+    "es": "Suelta de vacas",
+    "eu": "Behiak askatzea"
+  },
   "startTimestamp": "2026-07-15T17:00:00+02:00",
   "endTimestamp": "2026-07-15T18:30:00+02:00",
   "title": {
@@ -87,16 +91,23 @@ Structure racine :
 
 ### `shortName`
 
-Libellé court affiché dans les listes et cartes de l'app.
+Libellé court affiché dans les bulles de la carte et les listes de l'app.
 
-- Longueur recommandée : ≤ 30 caractères
-- Pas de traduction (langue unique, généralement le nom usuel)
+- Format : objet multilingue `{ "fr": "...", "es": "...", "eu": "..." }`
+- Longueur maximale : **23 caractères** par langue
+- Si une traduction est introuvable : répéter la valeur `fr`
 
-```
-"shortName": "Chupinazo"
-"shortName": "Encierro"
-"shortName": "Lâcher de vaches"
-"shortName": "Feu d'artifice"
+```json
+"shortName": {
+  "fr": "Lâcher de vaches",
+  "es": "Suelta de vacas",
+  "eu": "Behiak askatzea"
+}
+"shortName": {
+  "fr": "Chupinazo",
+  "es": "Chupinazo",
+  "eu": "Chupinazo"
+}
 ```
 
 ---

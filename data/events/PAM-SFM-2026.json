@@ -4,115 +4,5726 @@
   "cityId": "PAM",
   "events": [
     {
-      "venueId": "PAM-PLAZA-CONSISTORIAL",
-      "shortName": "Chupinazo",
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
       "startTimestamp": "2026-07-06T12:00:00+02:00",
-      "endTimestamp": "2026-07-06T12:30:00+02:00",
+      "endTimestamp": "",
       "title": {
-        "fr": "Chupinazo – Ouverture des Sanfermines",
-        "es": "Chupinazo – Apertura de los Sanfermines",
-        "eu": "Txupinazo – San Ferminen hasiera"
-      },
-      "description": {
-        "fr": "Le coup de fusée emblématique qui lance officiellement les Fêtes de Pampelune depuis le balcon de l'Hôtel de Ville. Un déluge de rouge et blanc envahit les rues.",
-        "es": "El cohete emblemático que lanza oficialmente los Sanfermines desde el balcón del Ayuntamiento. Un diluvio de rojo y blanco invade las calles.",
-        "eu": "Udal Etxeko balkoitik San Ferminak ofizialki abiarazten dituen suziri enblematikoa."
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
       }
     },
     {
-      "venueId": "PAM-ESTAFETA",
-      "shortName": "Encierro",
+      "venueId": "PAM-CASA-CONSORCIAL",
+      "shortName": {
+        "fr": "Chupinazo",
+        "es": "Chupinazo",
+        "eu": "Chupinazo"
+      },
+      "startTimestamp": "2026-07-06T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Chupinazo",
+        "es": "Chupinazo",
+        "eu": "Chupinazo"
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-06T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-06T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Festival Folklorique",
+        "es": "Festival Folclórico",
+        "eu": "Folklore jaialdia"
+      },
+      "startTimestamp": "2026-07-06T13:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Festival Folklorique",
+        "es": "Festival Folclórico",
+        "eu": "Folklore Jaialdia"
+      },
+      "description": {
+        "fr": "Cycle d'Otsagabia et Laburdi. Groupes : Amaiur, Ardantzeta, Basakaitz, DanTXaldi, Duguna, Eluntze, Harizti, Iruña Taldea, Larratz, Mikelats, Muthiko Alaiak, Oberena, Ortzadar, Txori Zuri.",
+        "es": "Ciclo de Otsagabia y Laburdi. Grupos: Amaiur, Ardantzeta, Basakaitz, DanTXaldi, Duguna, Eluntze, Harizti, Iruña Taldea, Larratz, Mikelats, Muthiko Alaiak, Oberena, Ortzadar, Txori Zuri.",
+        "eu": "Otsagabia eta Lapurdiko zikloa. Taldeak: Amaiur, Ardantzeta, Basakaitz, DanTXaldi, Duguna, Eluntze, Harizti, Iruña Taldea, Larratz, Mikelats, Muthiko Alaiak, Oberena, Ortzadar, Txori Zuri."
+      }
+    },
+    {
+      "venueId": "PAM-ESTACION-AUTOBUSES",
+      "shortName": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoi eta Kabezudoak"
+      },
+      "startTimestamp": "2026-07-06T17:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoiak eta Kabezudoak"
+      },
+      "description": {
+        "fr": "Sortie de la comparsa.",
+        "es": "Salida de la comparsa.",
+        "eu": "Konpartsaren irteera."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-RONCESVALLES",
+      "shortName": {
+        "fr": "Ronde de Jotas",
+        "es": "Ronda de Jotas",
+        "eu": "Joten erronda"
+      },
+      "startTimestamp": "2026-07-06T18:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Ronde de Jotas",
+        "es": "Ronda de Jotas",
+        "eu": "Joten erronda"
+      },
+      "description": {
+        "fr": "École de jotas Manuel Turrillas (Monumento al Encierro).",
+        "es": "Escuela de jotas Manuel Turrillas (Monumento al Encierro).",
+        "eu": "Manuel Turrillas Jota Eskola (Entzierroaren Monumentua)."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-06T18:00:00+02:00",
+      "endTimestamp": "2026-07-06T21:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 21h00.",
+        "es": "Actividades infantiles. Hasta las 21:00 h.",
+        "eu": "Haurrentzako jarduerak. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-06T18:00:00+02:00",
+      "endTimestamp": "2026-07-06T21:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 21h00.",
+        "es": "Espacio de juego infantil. Hasta las 21:00 h.",
+        "eu": "Haurrentzako jolastokia. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Corrida de rejones",
+        "es": "Corrida de rejones",
+        "eu": "Rejoi korrida"
+      },
+      "startTimestamp": "2026-07-06T18:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Corrida de rejones",
+        "es": "Corrida de rejones",
+        "eu": "Rejoi-korrida"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Adrien Body",
+        "es": "Adrien Body",
+        "eu": "Adrien Body"
+      },
+      "startTimestamp": "2026-07-06T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert d'Adrien Body",
+        "es": "Concierto de Adrien Body",
+        "eu": "Adrien Body-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Adrien Body"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-06T20:00:00+02:00",
+      "endTimestamp": "2026-07-06T22:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Meteoro 2.0. Jusqu'à 22h00.",
+        "es": "Verbena con la Orquesta Meteoro 2.0. Hasta las 22:00.",
+        "eu": "Verbena Orquesta Meteoro 2.0-rekin. 22:00ak arte."
+      },
+      "artistName": "Orquesta Meteoro 2.0"
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Marionnettes",
+        "es": "Títeres",
+        "eu": "Txotxongiloak"
+      },
+      "startTimestamp": "2026-07-06T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Marionnettes : Ipuin Magikoak",
+        "es": "Títeres: Ipuin Magikoak",
+        "eu": "Txotxongiloak: Ipuin Magikoak"
+      },
+      "description": {
+        "fr": "Ipuin Magikoak. Bihar Taldea (basque).",
+        "es": "Ipuin Magikoak. Bihar Taldea (euskera).",
+        "eu": "Ipuin Magikoak. Bihar Taldea (euskaraz)."
+      },
+      "artistName": "Bihar Taldea"
+    },
+    {
+      "venueId": "PAM-SAN-LORENZO",
+      "shortName": {
+        "fr": "Vêpres de San Fermín",
+        "es": "Vísperas de San Fermín",
+        "eu": "San Ferminen Bezperak"
+      },
+      "startTimestamp": "2026-07-06T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Vêpres Solennelles de San Fermín",
+        "es": "Vísperas Solemnes de San Fermín",
+        "eu": "San Ferminen Bezpera Nagusiak"
+      },
+      "description": {
+        "fr": "Vêpres chantées par la Capilla de Música de la Catedral et l'Orquesta Sinfónica de Navarra. Direction : Ricardo Zoco Lampreabe.",
+        "es": "Vísperas cantadas por la Capilla de Música de la Catedral y la Orquesta Sinfónica de Navarra. Dirige Ricardo Zoco Lampreabe.",
+        "eu": "Bezperak abestuta Katedraleko Musika Kapera eta Nafarroako Orkestra Sinfonikoak. Zuzendaria: Ricardo Zoco Lampreabe."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-RONCESVALLES",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-06T20:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "description": {
+        "fr": "Bouge, viens et danse (Monumento al Encierro).",
+        "es": "Muévete, ven y baila (Monumento al Encierro).",
+        "eu": "Mugitu, etorri eta dantzatu (Entzierroaren Monumentua)."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Rapha Mundi",
+        "es": "Rapha Mundi",
+        "eu": "Rapha Mundi"
+      },
+      "startTimestamp": "2026-07-06T20:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Rapha Mundi",
+        "es": "Concierto de Rapha Mundi",
+        "eu": "Rapha Mundi-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Rapha Mundi"
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "startTimestamp": "2026-07-06T21:00:00+02:00",
+      "endTimestamp": "2026-07-06T23:00:00+02:00",
+      "title": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "description": {
+        "fr": "Musique dans le Parque de Antoniutti. Jusqu'à 23h00.",
+        "es": "Música en el Parque de Antoniutti. Hasta las 23:00.",
+        "eu": "Musika Antoniutti Parkean. 23:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-CARLOS-III",
+      "shortName": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "startTimestamp": "2026-07-06T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "description": {
+        "fr": "Pingouins. Compagnie : Boneca Lareta.",
+        "es": "Pingüinos. Compañía: Boneca Lareta.",
+        "eu": "Pinguinoak. Konpainia: Boneca Lareta."
+      },
+      "artistName": "Boneca Lareta"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      },
+      "startTimestamp": "2026-07-06T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-06T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-06T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Zombies in Miami",
+        "es": "Zombies in Miami",
+        "eu": "Zombies in Miami"
+      },
+      "startTimestamp": "2026-07-06T22:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Zombies in Miami",
+        "es": "Concierto de Zombies in Miami",
+        "eu": "Zombies in Miami-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Zombies in Miami"
+    },
+    {
+      "venueId": "PAM-CIUDADELA",
+      "shortName": {
+        "fr": "Concours Feux d'Artif.",
+        "es": "Concurso Fuegos Artific",
+        "eu": "Su artif. lehiaketa"
+      },
+      "startTimestamp": "2026-07-06T23:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "XXIV Concours Int. Feux d'Artifice",
+        "es": "XXIV Concurso Int. Fuegos Artificiales",
+        "eu": "XXIV. Naz. Art. Su Artif. Lehiaketa"
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-06T23:30:00+02:00",
+      "endTimestamp": "2026-07-07T03:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Sonido. Jusqu'à 3h00.",
+        "es": "Verbena con la Orquesta Sonido. Hasta las 3:00.",
+        "eu": "Verbena Orquesta Sonido-rekin. 3:00ak arte."
+      },
+      "artistName": "Orquesta Sonido"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "startTimestamp": "2026-07-06T23:30:00+02:00",
+      "endTimestamp": "2026-07-07T01:45:00+02:00",
+      "title": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "description": {
+        "fr": "Sound Fermín avec In Between. Jusqu'à 1h45.",
+        "es": "Sound Fermín con In Between. Hasta la 1:45.",
+        "eu": "Sound Fermín In Between-ekin. 1:45ak arte."
+      },
+      "artistName": "In Between"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Bulego",
+        "es": "Concierto Bulego",
+        "eu": "Bulego kontzertua"
+      },
+      "startTimestamp": "2026-07-06T23:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Bulego",
+        "es": "Concierto de Bulego",
+        "eu": "Bulego-ren kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-07T00:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-POLIGONO-AGUSTINOS",
+      "shortName": {
+        "fr": "Foire aux chevaux",
+        "es": "Feria de ganado equino",
+        "eu": "Zaldi azoka"
+      },
+      "startTimestamp": "2026-07-07T07:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Foire aux chevaux",
+        "es": "Feria de ganado equino",
+        "eu": "Zaldi azoka"
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Premier encierro",
+        "es": "Primer encierro",
+        "eu": "Lehen entzierroa"
+      },
       "startTimestamp": "2026-07-07T08:00:00+02:00",
-      "endTimestamp": "2026-07-07T08:15:00+02:00",
+      "endTimestamp": "",
       "title": {
-        "fr": "Encierro – Lâcher de taureaux (Jour 1)",
-        "es": "Encierro – Día 1",
-        "eu": "Entzierroa – 1. eguna"
+        "fr": "Premier encierro",
+        "es": "Primer encierro",
+        "eu": "Lehen entzierroa"
       },
       "description": {
-        "fr": "La course la plus célèbre du monde : 825 mètres de rues pavées, six taureaux de combat et des centaines de coureurs. Réservé aux adultes expérimentés.",
-        "es": "La carrera más famosa del mundo: 825 metros de calles adoquinadas, seis toros de lidia y cientos de corredores.",
-        "eu": "Munduko lasterketa ospetsuena: 825 metro harrizko kaleetan, sei borrokako zezen eta ehunka lasterlarien artean."
+        "fr": "Six taureaux de Fuente Ymbro.",
+        "es": "Seis toros de Fuente Ymbro.",
+        "eu": "Fuente Ymbro-ko sei zezena."
       }
     },
     {
-      "venueId": "PAM-ARENES-PAM",
-      "shortName": "Corrida goyesque",
-      "startTimestamp": "2026-07-07T18:30:00+02:00",
-      "endTimestamp": "2026-07-07T21:30:00+02:00",
+      "venueId": "PAM-PALACIO-EZPELETA",
+      "shortName": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoi eta Kabezudoak"
+      },
+      "startTimestamp": "2026-07-07T09:30:00+02:00",
+      "endTimestamp": "",
       "title": {
-        "fr": "Corrida goyesque",
-        "es": "Corrida goyesca",
-        "eu": "Goyesco-ko zezenketa"
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoiak eta Kabezudoak"
       },
       "description": {
-        "fr": "Corrida en costume d'époque goyesque dans la magnifique Plaza de Toros de Pamplona, l'une des plus grandes d'Espagne.",
-        "es": "Corrida en traje goyesco en la magnífica Plaza de Toros de Pamplona, una de las más grandes de España.",
-        "eu": "Jantzi goyeskoetan zezenketa Iruñeko Plaza de Torosean, Espainiako handienetan bat."
+        "fr": "Sortie de la comparsa.",
+        "es": "Salida de la comparsa.",
+        "eu": "Konpartsaren irteera."
+      }
+    },
+    {
+      "venueId": "PAM-CATEDRAL",
+      "shortName": {
+        "fr": "Procession et Messe",
+        "es": "Procesión y Misa de Sa",
+        "eu": "Prozesioa eta Meza"
+      },
+      "startTimestamp": "2026-07-07T10:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Procession et Messe de San Fermín",
+        "es": "Procesión y Misa de San Fermín",
+        "eu": "San Ferminen Prozesioa eta Meza"
+      }
+    },
+    {
+      "venueId": "PAM-SAN-LORENZO",
+      "shortName": {
+        "fr": "Procession et Messe",
+        "es": "Procesión y Misa de Sa",
+        "eu": "Prozesioa eta Meza"
+      },
+      "startTimestamp": "2026-07-07T10:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Procession et Messe de San Fermín",
+        "es": "Procesión y Misa de San Fermín",
+        "eu": "San Ferminen Prozesioa eta Meza"
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "startTimestamp": "2026-07-07T11:00:00+02:00",
+      "endTimestamp": "2026-07-07T13:30:00+02:00",
+      "title": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 13h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 13:30.",
+        "eu": "Kirol eta aisialdi eremua. 13:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-07T11:30:00+02:00",
+      "endTimestamp": "2026-07-07T14:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 14h00.",
+        "es": "Actividades infantiles. Hasta las 14:00.",
+        "eu": "Haurrentzako jarduerak. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-07T11:30:00+02:00",
+      "endTimestamp": "2026-07-07T14:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 14h00.",
+        "es": "Espacio de juego infantil. Hasta las 14:00.",
+        "eu": "Haurrentzako jolastokia. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-FRONTON-LABRIT",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-07T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      },
+      "startTimestamp": "2026-07-07T17:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "startTimestamp": "2026-07-07T18:00:00+02:00",
+      "endTimestamp": "2026-07-07T20:30:00+02:00",
+      "title": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 20h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 20:30.",
+        "eu": "Kirol eta aisialdi eremua. 20:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-07T18:00:00+02:00",
+      "endTimestamp": "2026-07-07T21:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 21h00.",
+        "es": "Actividades infantiles. Hasta las 21:00.",
+        "eu": "Haurrentzako jarduerak. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-07T18:00:00+02:00",
+      "endTimestamp": "2026-07-07T21:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 21h00.",
+        "es": "Espacio de juego infantil. Hasta las 21:00.",
+        "eu": "Haurrentzako jolastokia. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Première corrida",
+        "es": "Primera corrida Feria d",
+        "eu": "Lehen korrida"
+      },
+      "startTimestamp": "2026-07-07T18:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Première corrida Feria del Toro",
+        "es": "Primera corrida Feria del Toro",
+        "eu": "Lehen korrida Toro Azokan"
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Bertsolaris",
+        "es": "Bertsolaris",
+        "eu": "Bertsolaris"
+      },
+      "startTimestamp": "2026-07-07T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Bertsolaris",
+        "es": "Bertsolaris",
+        "eu": "Bertsolaris"
+      },
+      "description": {
+        "fr": "Alaia Martin, Endika Legarra, Joanes Illarregi et Maider Arregi.",
+        "es": "Alaia Martin, Endika Legarra, Joanes Illarregi y Maider Arregi.",
+        "eu": "Alaia Martin, Endika Legarra, Joanes Illarregi eta Maider Arregi."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "startTimestamp": "2026-07-07T19:00:00+02:00",
+      "endTimestamp": "2026-07-07T22:30:00+02:00",
+      "title": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "description": {
+        "fr": "Animations, jeux, ateliers et musique. Jusqu'à 22h30.",
+        "es": "Animaciones, juegos, talleres y música. Hasta las 22:30.",
+        "eu": "Animazioak, jolasak, tailerrak eta musika. 22:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Janus Lester",
+        "es": "Janus Lester",
+        "eu": "Janus Lester"
+      },
+      "startTimestamp": "2026-07-07T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Janus Lester",
+        "es": "Concierto de Janus Lester",
+        "eu": "Janus Lester-en kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Janus Lester"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-07T20:00:00+02:00",
+      "endTimestamp": "2026-07-07T22:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Mediterránea. Jusqu'à 22h00.",
+        "es": "Verbena con la Orquesta Mediterránea. Hasta las 22:00.",
+        "eu": "Verbena Orquesta Mediterránea-rekin. 22:00ak arte."
+      },
+      "artistName": "Orquesta Mediterránea"
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Marionnettes",
+        "es": "Títeres",
+        "eu": "Txotxongiloak"
+      },
+      "startTimestamp": "2026-07-07T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Marionnettes : Gorgorito au pays des souris",
+        "es": "Títeres: Gorgorito en el país de los ratones",
+        "eu": "Txotxongiloak: Gorgorito sagutegiaren herrialdean"
+      },
+      "description": {
+        "fr": "Gorgorito au pays des souris (castillan).",
+        "es": "Gorgorito en el país de los ratones (castellano).",
+        "eu": "Gorgorito sagutegiaren herrialdean (gaztelaniaz)."
+      }
+    },
+    {
+      "venueId": "PAM-SAN-LORENZO",
+      "shortName": {
+        "fr": "Vêpres Solennelles",
+        "es": "Vísperas Solemnes",
+        "eu": "Bezpera Nagusiak"
+      },
+      "startTimestamp": "2026-07-07T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Vêpres Solennelles",
+        "es": "Vísperas Solemnes",
+        "eu": "Bezpera Nagusiak"
+      },
+      "description": {
+        "fr": "Vêpres chantées par la Capilla de Música et l'Orquesta Sinfónica de Navarra.",
+        "es": "Vísperas cantadas por la Capilla de Música y la Orquesta Sinfónica de Navarra.",
+        "eu": "Bezperak abestuta Musika Kapera eta Nafarroako Orkestra Sinfonikoak."
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "startTimestamp": "2026-07-07T21:00:00+02:00",
+      "endTimestamp": "2026-07-07T23:00:00+02:00",
+      "title": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "description": {
+        "fr": "Musique dans le Parque de Antoniutti. Jusqu'à 23h00.",
+        "es": "Música en el Parque de Antoniutti. Hasta las 23:00.",
+        "eu": "Musika Antoniutti Parkean. 23:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-CARLOS-III",
+      "shortName": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "startTimestamp": "2026-07-07T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "description": {
+        "fr": "The magic brother. Compagnie : Boneca Lareta.",
+        "es": "The magic brother. Compañía: Boneca Lareta.",
+        "eu": "The magic brother. Konpainia: Boneca Lareta."
+      },
+      "artistName": "Boneca Lareta"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      },
+      "startTimestamp": "2026-07-07T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Concert Jeunes",
+        "es": "Concierto Joven",
+        "eu": "Gazte kontzertua"
+      },
+      "startTimestamp": "2026-07-07T21:00:00+02:00",
+      "endTimestamp": "2026-07-07T22:30:00+02:00",
+      "title": {
+        "fr": "Concert Jeunes : Orquesta Aliados",
+        "es": "Concierto Joven: Orquesta Aliados",
+        "eu": "Gazte kontzertua: Orquesta Aliados"
+      },
+      "description": {
+        "fr": "Concert Jeunes avec l'Orquesta Aliados. Jusqu'à 22h30.",
+        "es": "Concierto Joven con la Orquesta Aliados. Hasta las 22:30.",
+        "eu": "Gazte kontzertua Orquesta Aliados-ekin. 22:30ak arte."
+      },
+      "artistName": "Orquesta Aliados"
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-07T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-07T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
       }
     },
     {
       "venueId": "PAM-CIUDADELA",
-      "shortName": "Feux d'artifice",
-      "startTimestamp": "2026-07-09T22:30:00+02:00",
-      "endTimestamp": "2026-07-09T23:15:00+02:00",
-      "title": {
-        "fr": "Feux d'artifice de la Ciudadela",
-        "es": "Fuegos artificiales de la Ciudadela",
-        "eu": "Gotorlekuko su artificialak"
+      "shortName": {
+        "fr": "Concours Feux d'Artif.",
+        "es": "Concurso Fuegos Artific",
+        "eu": "Su artif. lehiaketa"
       },
-      "description": {
-        "fr": "Un spectacle pyrotechnique grandiose depuis les remparts de la Ciudadela, véritable forteresse étoilée au cœur de Pampelune.",
-        "es": "Un espectáculo pirotécnico grandioso desde las murallas de la Ciudadela.",
-        "eu": "Ikuskizun pirotechniko izugarria Gotorlekuko harresitatik."
+      "startTimestamp": "2026-07-07T23:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "XXIV Concours Int. Feux d'Artifice",
+        "es": "XXIV Concurso Int. Fuegos Artificiales",
+        "eu": "XXIV. Naz. Art. Su Artif. Lehiaketa"
       }
     },
     {
-      "venueId": "PAM-PLAZA-CASTILLO",
-      "shortName": "Concert Plaza del Castillo",
-      "startTimestamp": "2026-07-10T21:00:00+02:00",
-      "endTimestamp": "2026-07-10T23:30:00+02:00",
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Puro Relajo",
+        "es": "Puro Relajo",
+        "eu": "Puro Relajo"
+      },
+      "startTimestamp": "2026-07-07T23:30:00+02:00",
+      "endTimestamp": "2026-07-08T03:00:00+02:00",
       "title": {
-        "fr": "Concert en plein air – Plaza del Castillo",
-        "es": "Concierto al aire libre – Plaza del Castillo",
-        "eu": "Aire libreko kontzertua – Gazteluaren Plaza"
+        "fr": "Concert de Puro Relajo",
+        "es": "Concierto de Puro Relajo",
+        "eu": "Puro Relajo-ren kontzertua"
       },
       "description": {
-        "fr": "La Plaza del Castillo, cœur névralgique des Sanfermines, se transforme en scène de concert géante le temps d'une soirée inoubliable.",
-        "es": "La Plaza del Castillo, corazón de los Sanfermines, se convierte en un escenario gigante para una noche inolvidable.",
-        "eu": "Gazteluaren Plaza, San Ferminen bihotza, ahaztu ezineko gau batentzat eszena erraldoian bihurtzen da."
-      }
+        "fr": "Concert dans le Parque de Antoniutti. Jusqu'à 3h00.",
+        "es": "Concierto en el Parque de Antoniutti. Hasta las 3:00.",
+        "eu": "Kontzertua Antoniutti Parkean. 3:00ak arte."
+      },
+      "artistName": "Puro Relajo"
     },
     {
-      "venueId": "PAM-ESTAFETA",
-      "shortName": "Encierro",
-      "startTimestamp": "2026-07-14T08:00:00+02:00",
-      "endTimestamp": "2026-07-14T08:15:00+02:00",
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "BCUC",
+        "es": "BCUC",
+        "eu": "BCUC"
+      },
+      "startTimestamp": "2026-07-07T23:30:00+02:00",
+      "endTimestamp": "",
       "title": {
-        "fr": "Encierro – Lâcher de taureaux (Jour final)",
-        "es": "Encierro – Día final",
-        "eu": "Entzierroa – Azken eguna"
+        "fr": "Concert de BCUC",
+        "es": "Concierto de BCUC",
+        "eu": "BCUC-en kontzertua"
       },
       "description": {
-        "fr": "Le dernier encierro des Sanfermines 2026. L'émotion est à son comble avant la cérémonie de clôture du soir.",
-        "es": "El último encierro de los Sanfermines 2026. La emoción está a flor de piel antes de la ceremonia de cierre.",
-        "eu": "2026ko San Ferminen azken entzierroa. Emozioa gailurrean da gaueko itxiera zeremoniaaren aurretik."
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "BCUC"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-07T23:30:00+02:00",
+      "endTimestamp": "2026-07-08T01:30:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Mediterránea. Jusqu'à 1h30.",
+        "es": "Verbena con la Orquesta Mediterránea. Hasta la 1:30.",
+        "eu": "Verbena Orquesta Mediterránea-rekin. 1:30ak arte."
+      },
+      "artistName": "Orquesta Mediterránea"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "startTimestamp": "2026-07-07T23:30:00+02:00",
+      "endTimestamp": "2026-07-08T01:45:00+02:00",
+      "title": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "description": {
+        "fr": "Fiesta Europa FM avec Roger Freedom. Jusqu'à 1h45.",
+        "es": "Fiesta Europa FM con Roger Freedom. Hasta la 1:45.",
+        "eu": "Fiesta Europa FM Roger Freedom-ekin. 1:45ak arte."
+      },
+      "artistName": "Roger Freedom"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Tatxers",
+        "es": "Concierto Tatxers",
+        "eu": "Tatxers kontzertua"
+      },
+      "startTimestamp": "2026-07-07T23:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Tatxers",
+        "es": "Concierto de Tatxers",
+        "eu": "Tatxers-en kontzertua"
       }
     },
     {
       "venueId": "PAM-PLAZA-CONSISTORIAL",
-      "shortName": "Pobre de Mí",
-      "startTimestamp": "2026-07-14T24:00:00+02:00",
-      "endTimestamp": "2026-07-15T00:30:00+02:00",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-08T00:00:00+02:00",
+      "endTimestamp": "",
       "title": {
-        "fr": "Pobre de Mí – Clôture des Sanfermines",
-        "es": "Pobre de Mí – Cierre de los Sanfermines",
-        "eu": "Pobre de Mí – San Ferminen ixtea"
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Kaotiko",
+        "es": "Concierto Kaotiko",
+        "eu": "Kaotiko kontzertua"
+      },
+      "startTimestamp": "2026-07-08T00:50:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Kaotiko",
+        "es": "Concierto de Kaotiko",
+        "eu": "Kaotiko-ren kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Musique de fanfare",
+        "es": "Música de banda",
+        "eu": "Banda musika"
+      },
+      "startTimestamp": "2026-07-08T07:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique de fanfare",
+        "es": "Música de banda",
+        "eu": "Banda musika"
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Deuxième encierro",
+        "es": "Segundo encierro",
+        "eu": "Bigarren entzierroa"
+      },
+      "startTimestamp": "2026-07-08T08:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Deuxième encierro",
+        "es": "Segundo encierro",
+        "eu": "Bigarren entzierroa"
       },
       "description": {
-        "fr": "Minuit. Depuis le balcon de l'Hôtel de Ville, des milliers de participants, bougie à la main, chantent ensemble « Pobre de Mí » pour dire adieu aux fêtes jusqu'en 2027.",
-        "es": "Medianoche. Desde el balcón del Ayuntamiento, miles de participantes, vela en mano, cantan juntos « Pobre de Mí » para despedirse de las fiestas hasta 2027.",
-        "eu": "Gauerdian. Udal Etxeko balkoitik, milaka parte-hartzaile kandela eskuan « Pobre de Mí » abestuz jaiak agurtzen dituzte 2027ra arte."
+        "fr": "Six taureaux des Hros. de D. José Cebada Gago.",
+        "es": "Seis toros de Hros. de D. José Cebada Gago.",
+        "eu": "D. José Cebada Gago-ren Oinordekoen sei zezena."
+      }
+    },
+    {
+      "venueId": "PAM-PALACIO-EZPELETA",
+      "shortName": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoi eta Kabezudoak"
+      },
+      "startTimestamp": "2026-07-08T09:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoiak eta Kabezudoak"
+      },
+      "description": {
+        "fr": "Sortie de la comparsa.",
+        "es": "Salida de la comparsa.",
+        "eu": "Konpartsaren irteera."
+      }
+    },
+    {
+      "shortName": {
+        "fr": "Ronde de jotas",
+        "es": "Ronda jotera",
+        "eu": "Jota erronda"
+      },
+      "startTimestamp": "2026-07-08T11:00:00+02:00",
+      "title": {
+        "fr": "Ronde de jotas",
+        "es": "Ronda jotera",
+        "eu": "Jota erronda"
+      },
+      "venueId": "PAM-CALLE-CHAPITELA",
+      "endTimestamp": ""
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "startTimestamp": "2026-07-08T11:00:00+02:00",
+      "endTimestamp": "2026-07-08T13:30:00+02:00",
+      "title": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 13h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 13:30.",
+        "eu": "Kirol eta aisialdi eremua. 13:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-SAN-FRANCISCO",
+      "shortName": {
+        "fr": "Activité enfantine",
+        "es": "Actividad infantil",
+        "eu": "Haurrentzako jarduera"
+      },
+      "startTimestamp": "2026-07-08T11:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Activité enfantine : Loperucita y Caperulobo",
+        "es": "Actividad infantil: Loperucita y Caperulobo",
+        "eu": "Haurrentzako jarduera: Loperucita y Caperulobo"
+      },
+      "description": {
+        "fr": "Loperucita y Caperulobo. Dans la pause de la Comparsa.",
+        "es": "Loperucita y Caperulobo. En el descanso de la Comparsa.",
+        "eu": "Loperucita y Caperulobo. Konpartsaren atsedenaldian."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-08T11:30:00+02:00",
+      "endTimestamp": "2026-07-08T14:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 14h00.",
+        "es": "Actividades infantiles. Hasta las 14:00.",
+        "eu": "Haurrentzako jarduerak. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-08T11:30:00+02:00",
+      "endTimestamp": "2026-07-08T14:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 14h00.",
+        "es": "Espacio de juego infantil. Hasta las 14:00.",
+        "eu": "Haurrentzako jolastokia. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "startTimestamp": "2026-07-08T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "description": {
+        "fr": "Ça sonne jota avec Alegría Ribera.",
+        "es": "Suena a jota con Alegría Ribera.",
+        "eu": "Jota soinua Alegría Ribera-rekin."
+      },
+      "artistName": "Alegría Ribera"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "startTimestamp": "2026-07-08T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "description": {
+        "fr": "Championnats et exhibitions.",
+        "es": "Campeonatos y exhibiciones.",
+        "eu": "Txapelketak eta erakustaldia."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-RONCESVALLES",
+      "shortName": {
+        "fr": "Ronde de jotas",
+        "es": "Ronda jotera",
+        "eu": "Jota erronda"
+      },
+      "startTimestamp": "2026-07-08T12:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Ronde de jotas",
+        "es": "Ronda jotera",
+        "eu": "Jota erronda"
+      },
+      "description": {
+        "fr": "Ronde de jotas avec le Conjunto Gracia Navarra.",
+        "es": "Ronda jotera con el Conjunto Gracia Navarra.",
+        "eu": "Jota erronda Gracia Navarra Multzoarekin."
+      },
+      "artistName": "Conjunto Gracia Navarra"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "startTimestamp": "2026-07-08T13:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "description": {
+        "fr": "Concert de la Banda municipal de música de Zizur Mayor.",
+        "es": "Concierto de la Banda municipal de música de Zizur Mayor.",
+        "eu": "Zizur Nagusiko Udal Musika Bandaren kontzertua."
+      },
+      "artistName": "Banda municipal de música de Zizur Mayor"
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      },
+      "startTimestamp": "2026-07-08T17:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "startTimestamp": "2026-07-08T18:00:00+02:00",
+      "endTimestamp": "2026-07-08T20:30:00+02:00",
+      "title": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 20h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 20:30.",
+        "eu": "Kirol eta aisialdi eremua. 20:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-08T18:00:00+02:00",
+      "endTimestamp": "2026-07-08T21:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 21h00.",
+        "es": "Actividades infantiles. Hasta las 21:00.",
+        "eu": "Haurrentzako jarduerak. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-08T18:00:00+02:00",
+      "endTimestamp": "2026-07-08T21:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 21h00.",
+        "es": "Espacio de juego infantil. Hasta las 21:00.",
+        "eu": "Haurrentzako jolastokia. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Deuxième corrida",
+        "es": "Segunda corrida Feria d",
+        "eu": "Bigarren korrida"
+      },
+      "startTimestamp": "2026-07-08T18:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Deuxième corrida Feria del Toro",
+        "es": "Segunda corrida Feria del Toro",
+        "eu": "Bigarren korrida Toro Azokan"
+      }
+    },
+    {
+      "venueId": "PAM-CALLE-ESTAFETA",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-08T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Rondalla El Salvador",
+        "es": "Rondalla El Salvador",
+        "eu": "Rondalla El Salvador"
+      },
+      "startTimestamp": "2026-07-08T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de la Rondalla El Salvador",
+        "es": "Concierto de la Rondalla El Salvador",
+        "eu": "El Salvador Rondalla-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur le Paseo de Sarasate.",
+        "es": "Concierto en el Paseo de Sarasate.",
+        "eu": "Kontzertua Sarasate Pasealekuan."
+      },
+      "artistName": "Rondalla El Salvador"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "startTimestamp": "2026-07-08T19:00:00+02:00",
+      "endTimestamp": "2026-07-08T22:30:00+02:00",
+      "title": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "description": {
+        "fr": "Animations, jeux, ateliers. Jusqu'à 22h30.",
+        "es": "Animaciones, juegos, talleres. Hasta las 22:30.",
+        "eu": "Animazioak, jolasak, tailerrak. 22:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Kokoshca",
+        "es": "Kokoshca",
+        "eu": "Kokoshca"
+      },
+      "startTimestamp": "2026-07-08T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Kokoshca",
+        "es": "Concierto de Kokoshca",
+        "eu": "Kokoshca-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Kokoshca"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-08T20:00:00+02:00",
+      "endTimestamp": "2026-07-08T22:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Dolche. Jusqu'à 22h00.",
+        "es": "Verbena con la Orquesta Dolche. Hasta las 22:00.",
+        "eu": "Verbena Orquesta Dolche-rekin. 22:00ak arte."
+      },
+      "artistName": "Orquesta Dolche"
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Marionnettes",
+        "es": "Títeres",
+        "eu": "Txotxongiloak"
+      },
+      "startTimestamp": "2026-07-08T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Marionnettes : Gorgorito contre les Indios Machakao",
+        "es": "Títeres: Gorgorito contra los indios Machakao",
+        "eu": "Txotxongiloak: Gorgorito Machakao indiarren kontra"
+      },
+      "description": {
+        "fr": "Gorgorito contre les indios Machakao (castillan).",
+        "es": "Gorgorito contra los indios Machakao (castellano).",
+        "eu": "Gorgorito Machakao indiarren kontra (gaztelaniaz)."
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "startTimestamp": "2026-07-08T21:00:00+02:00",
+      "endTimestamp": "2026-07-08T23:00:00+02:00",
+      "title": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "description": {
+        "fr": "Musique dans le Parque de Antoniutti. Jusqu'à 23h00.",
+        "es": "Música en el Parque de Antoniutti. Hasta las 23:00.",
+        "eu": "Musika Antoniutti Parkean. 23:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-CARLOS-III",
+      "shortName": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "startTimestamp": "2026-07-08T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "description": {
+        "fr": "Ludinautes. Compagnie : Produccions Scura.",
+        "es": "Ludinautes. Compañía: Produccions Scura.",
+        "eu": "Ludinautes. Konpainia: Produccions Scura."
+      },
+      "artistName": "Produccions Scura"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      },
+      "startTimestamp": "2026-07-08T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Concert Jeunes",
+        "es": "Concierto Joven",
+        "eu": "Gazte kontzertua"
+      },
+      "startTimestamp": "2026-07-08T21:00:00+02:00",
+      "endTimestamp": "2026-07-08T22:30:00+02:00",
+      "title": {
+        "fr": "Concert Jeunes : DJ Mikel Sevillano",
+        "es": "Concierto Joven: DJ Mikel Sevillano",
+        "eu": "Gazte kontzertua: DJ Mikel Sevillano"
+      },
+      "description": {
+        "fr": "Concert Jeunes avec DJ Mikel Sevillano. Jusqu'à 22h30.",
+        "es": "Concierto Joven con DJ Mikel Sevillano. Hasta las 22:30.",
+        "eu": "Gazte kontzertua DJ Mikel Sevillano-rekin. 22:30ak arte."
+      },
+      "artistName": "DJ Mikel Sevillano"
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-08T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-08T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-CIUDADELA",
+      "shortName": {
+        "fr": "Concours Feux d'Artif.",
+        "es": "Concurso Fuegos Artific",
+        "eu": "Su artif. lehiaketa"
+      },
+      "startTimestamp": "2026-07-08T23:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "XXIV Concours Int. Feux d'Artifice",
+        "es": "XXIV Concurso Int. Fuegos Artificiales",
+        "eu": "XXIV. Naz. Art. Su Artif. Lehiaketa"
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-08T23:30:00+02:00",
+      "endTimestamp": "2026-07-09T03:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Meteoro. Jusqu'à 3h00.",
+        "es": "Verbena con la Orquesta Meteoro. Hasta las 03:00.",
+        "eu": "Verbena Orquesta Meteoro-rekin. 03:00ak arte."
+      },
+      "artistName": "Orquesta Meteoro"
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Mystery Lights",
+        "es": "Mystery Lights",
+        "eu": "Mystery Lights"
+      },
+      "startTimestamp": "2026-07-08T23:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Mystery Lights",
+        "es": "Concierto de Mystery Lights",
+        "eu": "Mystery Lights-en kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Mystery Lights"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-08T23:30:00+02:00",
+      "endTimestamp": "2026-07-09T01:30:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Dolche. Jusqu'à 1h30.",
+        "es": "Verbena con la Orquesta Dolche. Hasta la 1:30.",
+        "eu": "Verbena Orquesta Dolche-rekin. 1:30ak arte."
+      },
+      "artistName": "Orquesta Dolche"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "startTimestamp": "2026-07-08T23:30:00+02:00",
+      "endTimestamp": "2026-07-09T01:45:00+02:00",
+      "title": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "description": {
+        "fr": "Sound Fermín avec Michenlo. Jusqu'à 1h45.",
+        "es": "Sound Fermín con Michenlo. Hasta la 1:45.",
+        "eu": "Sound Fermín Michenlo-rekin. 1:45ak arte."
+      },
+      "artistName": "Michenlo"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Rozalén",
+        "es": "Concierto Rozalén",
+        "eu": "Rozalén kontzertua"
+      },
+      "startTimestamp": "2026-07-08T23:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Rozalén",
+        "es": "Concierto de Rozalén",
+        "eu": "Rozalén-en kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Musique de fanfare",
+        "es": "Música de banda",
+        "eu": "Banda musika"
+      },
+      "startTimestamp": "2026-07-09T06:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique de fanfare",
+        "es": "Música de banda",
+        "eu": "Banda musika"
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Troisième encierro",
+        "es": "Tercer encierro",
+        "eu": "Hirugarren entzierroa"
+      },
+      "startTimestamp": "2026-07-09T08:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Troisième encierro",
+        "es": "Tercer encierro",
+        "eu": "Hirugarren entzierroa"
+      },
+      "description": {
+        "fr": "Six taureaux de Álvaro Núñez.",
+        "es": "Seis toros de Álvaro Núñez.",
+        "eu": "Álvaro Núñez-en sei zezena."
+      }
+    },
+    {
+      "venueId": "PAM-PALACIO-EZPELETA",
+      "shortName": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoi eta Kabezudoak"
+      },
+      "startTimestamp": "2026-07-09T09:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoiak eta Kabezudoak"
+      },
+      "description": {
+        "fr": "Sortie de la comparsa.",
+        "es": "Salida de la comparsa.",
+        "eu": "Konpartsaren irteera."
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "startTimestamp": "2026-07-09T11:00:00+02:00",
+      "endTimestamp": "2026-07-09T13:30:00+02:00",
+      "title": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 13h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 13:30.",
+        "eu": "Kirol eta aisialdi eremua. 13:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Encierro Txiki",
+        "es": "Encierro Txiki",
+        "eu": "Entzierro Txiki"
+      },
+      "startTimestamp": "2026-07-09T11:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Encierro Txiki",
+        "es": "Encierro Txiki",
+        "eu": "Entzierro Txiki"
+      },
+      "description": {
+        "fr": "Encierro infantile dans la Cuesta de Santo Domingo.",
+        "es": "Encierro infantil en la Cuesta de Santo Domingo.",
+        "eu": "Haur entzierroa Santo Domingo Solaspartean."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-09T11:30:00+02:00",
+      "endTimestamp": "2026-07-09T14:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 14h00.",
+        "es": "Actividades infantiles. Hasta las 14:00.",
+        "eu": "Haurrentzako jarduerak. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Activité enfantine",
+        "es": "Actividad infantil",
+        "eu": "Haurrentzako jarduera"
+      },
+      "startTimestamp": "2026-07-09T11:30:00+02:00",
+      "endTimestamp": "2026-07-09T14:00:00+02:00",
+      "title": {
+        "fr": "Activité enfantine",
+        "es": "Actividad infantil",
+        "eu": "Haurrentzako jarduera"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 14h00.",
+        "es": "Actividades infantiles. Hasta las 14:00.",
+        "eu": "Haurrentzako jarduerak. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-SAN-JOSE",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-09T11:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Birjolastu : Mingo, le géant",
+        "es": "Birjolastu Juego Rejuego: Mingo, el gigante",
+        "eu": "Birjolastu: Mingo, erraldoia"
+      },
+      "description": {
+        "fr": "Mingo, le géant. Dans la pause de la Comparsa.",
+        "es": "Mingo, el gigante. En el descanso de la Comparsa.",
+        "eu": "Mingo, erraldoia. Konpartsaren atsedenaldian."
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Défilé de Txistularis",
+        "es": "Alarde de Txistularis",
+        "eu": "Txistularien alardea"
+      },
+      "startTimestamp": "2026-07-09T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "66e Défilé de Txistularis",
+        "es": "66º Alarde de Txistularis",
+        "eu": "Txistularien 66. Alardea"
+      },
+      "description": {
+        "fr": "66e défilé de txistularis. Euskal Herriko Txistulari Elkartea Nafarroa.",
+        "es": "66º Alarde de Txistularis. Euskal Herriko Txistulari Elkartea Nafarroa.",
+        "eu": "66. Txistularien Alardea. Euskal Herriko Txistulari Elkartea Nafarroa."
+      },
+      "artistName": "Euskal Herriko Txistulari Elkartea Nafarroa"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "startTimestamp": "2026-07-09T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "description": {
+        "fr": "Championnats et exhibitions.",
+        "es": "Campeonatos y exhibiciones.",
+        "eu": "Txapelketak eta erakustaldia."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "startTimestamp": "2026-07-09T13:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "description": {
+        "fr": "Concert de la Banda de música de Cadreita.",
+        "es": "Concierto de la Banda de música de Cadreita.",
+        "eu": "Cadreita-ko Musika Bandaren kontzertua."
+      },
+      "artistName": "Banda de música de Cadreita"
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      },
+      "startTimestamp": "2026-07-09T17:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "startTimestamp": "2026-07-09T18:00:00+02:00",
+      "endTimestamp": "2026-07-09T20:30:00+02:00",
+      "title": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 20h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 20:30.",
+        "eu": "Kirol eta aisialdi eremua. 20:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-09T18:00:00+02:00",
+      "endTimestamp": "2026-07-09T21:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 21h00.",
+        "es": "Actividades infantiles. Hasta las 21:00.",
+        "eu": "Haurrentzako jarduerak. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-09T18:00:00+02:00",
+      "endTimestamp": "2026-07-09T21:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 21h00.",
+        "es": "Espacio de juego infantil. Hasta las 21:00.",
+        "eu": "Haurrentzako jolastokia. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Ronde de jotas",
+        "es": "Ronda jotera",
+        "eu": "Jota erronda"
+      },
+      "startTimestamp": "2026-07-09T18:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Ronde de jotas",
+        "es": "Ronda jotera",
+        "eu": "Jota erronda"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Troisième corrida",
+        "es": "Tercera corrida Feria d",
+        "eu": "Hirugarren korrida"
+      },
+      "startTimestamp": "2026-07-09T18:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Troisième corrida Feria del Toro",
+        "es": "Tercera corrida Feria del Toro",
+        "eu": "Hirugarren korrida Toro Azokan"
+      }
+    },
+    {
+      "venueId": "PAM-CALLE-SAN-SATURNINO",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-09T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Danses",
+        "es": "Danzas",
+        "eu": "Dantzak"
+      },
+      "startTimestamp": "2026-07-09T19:00:00+02:00",
+      "endTimestamp": "2026-07-09T20:00:00+02:00",
+      "title": {
+        "fr": "Danses",
+        "es": "Danzas",
+        "eu": "Dantzak"
+      },
+      "description": {
+        "fr": "Danses avec DanTXaldi Dantza Taldea. Jusqu'à 20h00.",
+        "es": "Danzas con DanTXaldi Dantza Taldea. Hasta las 20:00.",
+        "eu": "Dantzak DanTXaldi Dantza Taldearekin. 20:00ak arte."
+      },
+      "artistName": "DanTXaldi Dantza Taldea"
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Original Sistah",
+        "es": "Original Sistah",
+        "eu": "Original Sistah"
+      },
+      "startTimestamp": "2026-07-09T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert d'Original Sistah",
+        "es": "Concierto de Original Sistah",
+        "eu": "Original Sistah-en kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Original Sistah"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "startTimestamp": "2026-07-09T19:00:00+02:00",
+      "endTimestamp": "2026-07-09T22:30:00+02:00",
+      "title": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "description": {
+        "fr": "Animations, jeux, ateliers. Jusqu'à 22h30.",
+        "es": "Animaciones, juegos, talleres. Hasta las 22:30.",
+        "eu": "Animazioak, jolasak, tailerrak. 22:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TEATRO-GAYARRE",
+      "shortName": {
+        "fr": "Les talons de papa",
+        "es": "Los tacones de papá",
+        "eu": "Aitaren takoiak"
+      },
+      "startTimestamp": "2026-07-09T19:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Théâtre : Los tacones de papá",
+        "es": "Teatro: Los tacones de papá",
+        "eu": "Antzerkia: Los tacones de papá"
+      },
+      "description": {
+        "fr": "Pièce de théâtre au Teatro Gayarre.",
+        "es": "Obra de teatro en el Teatro Gayarre.",
+        "eu": "Antzezlana Gayarre Antzokian."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-09T20:00:00+02:00",
+      "endTimestamp": "2026-07-09T22:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Magia Negra. Jusqu'à 22h00.",
+        "es": "Verbena con la Orquesta Magia Negra. Hasta las 22:00.",
+        "eu": "Verbena Orquesta Magia Negra-rekin. 22:00ak arte."
+      },
+      "artistName": "Orquesta Magia Negra"
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Marionnettes",
+        "es": "Títeres",
+        "eu": "Txotxongiloak"
+      },
+      "startTimestamp": "2026-07-09T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Marionnettes : Gorgorito et la petite souris Pérez",
+        "es": "Títeres: Gorgorito y el ratoncito Pérez",
+        "eu": "Txotxongiloak: Gorgorito eta Perez sagua"
+      },
+      "description": {
+        "fr": "Gorgorito et le petit souris Pérez (castillan).",
+        "es": "Gorgorito y el ratoncito Pérez (castellano).",
+        "eu": "Gorgorito eta Perez sagua (gaztelaniaz)."
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "startTimestamp": "2026-07-09T21:00:00+02:00",
+      "endTimestamp": "2026-07-09T23:00:00+02:00",
+      "title": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "description": {
+        "fr": "Musique dans le Parque de Antoniutti. Jusqu'à 23h00.",
+        "es": "Música en el Parque de Antoniutti. Hasta las 23:00.",
+        "eu": "Musika Antoniutti Parkean. 23:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-CARLOS-III",
+      "shortName": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "startTimestamp": "2026-07-09T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "description": {
+        "fr": "Le char de la joie. Compagnie : Producciones Kinser.",
+        "es": "El carro de la alegría. Compañía: Producciones Kinser.",
+        "eu": "Alaitasunaren gurdia. Konpainia: Producciones Kinser."
+      },
+      "artistName": "Producciones Kinser"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      },
+      "startTimestamp": "2026-07-09T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Concert Jeunes",
+        "es": "Concierto Joven",
+        "eu": "Gazte kontzertua"
+      },
+      "startTimestamp": "2026-07-09T21:00:00+02:00",
+      "endTimestamp": "2026-07-09T22:30:00+02:00",
+      "title": {
+        "fr": "Concert Jeunes : Hagoan",
+        "es": "Concierto Joven: Hagoan",
+        "eu": "Gazte kontzertua: Hagoan"
+      },
+      "description": {
+        "fr": "Concert Jeunes avec Hagoan. Jusqu'à 22h30.",
+        "es": "Concierto Joven con Hagoan. Hasta las 22:30.",
+        "eu": "Gazte kontzertua Hagoan-ekin. 22:30ak arte."
+      },
+      "artistName": "Hagoan"
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-09T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-09T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-CIUDADELA",
+      "shortName": {
+        "fr": "Concours Feux d'Artif.",
+        "es": "Concurso Fuegos Artific",
+        "eu": "Su artif. lehiaketa"
+      },
+      "startTimestamp": "2026-07-09T23:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "XXIV Concours Int. Feux d'Artifice",
+        "es": "XXIV Concurso Int. Fuegos Artificiales",
+        "eu": "XXIV. Naz. Art. Su Artif. Lehiaketa"
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-09T23:30:00+02:00",
+      "endTimestamp": "2026-07-10T03:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Jamaica Show. Jusqu'à 3h00.",
+        "es": "Verbena con la Orquesta Jamaica Show. Hasta las 03:00.",
+        "eu": "Verbena Orquesta Jamaica Show-rekin. 03:00ak arte."
+      },
+      "artistName": "Orquesta Jamaica Show"
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Seun Kuti & Egypt 80",
+        "es": "Seun Kuti & Egypt 80",
+        "eu": "Seun Kuti & Egypt 80"
+      },
+      "startTimestamp": "2026-07-09T23:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Seun Kuti & Egypt 80",
+        "es": "Concierto de Seun Kuti & Egypt 80",
+        "eu": "Seun Kuti & Egypt 80-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Seun Kuti & Egypt 80"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-09T23:30:00+02:00",
+      "endTimestamp": "2026-07-10T01:30:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Magia Negra. Jusqu'à 1h30.",
+        "es": "Verbena con la Orquesta Magia Negra. Hasta la 1:30.",
+        "eu": "Verbena Orquesta Magia Negra-rekin. 1:30ak arte."
+      },
+      "artistName": "Orquesta Magia Negra"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "startTimestamp": "2026-07-09T23:30:00+02:00",
+      "endTimestamp": "2026-07-10T01:45:00+02:00",
+      "title": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "description": {
+        "fr": "Los 40 Dance. José Manuel Duro. Jusqu'à 1h45.",
+        "es": "Los 40 Dance. José Manuel Duro. Hasta la 1:45.",
+        "eu": "Los 40 Dance. José Manuel Duro. 1:45ak arte."
+      },
+      "artistName": "José Manuel Duro"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Leire Martínez",
+        "es": "Concierto Leire Martíne",
+        "eu": "Leire Martínez kontz."
+      },
+      "startTimestamp": "2026-07-09T23:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Leire Martínez",
+        "es": "Concierto de Leire Martínez",
+        "eu": "Leire Martínez-en kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Musique de fanfare",
+        "es": "Música de banda",
+        "eu": "Banda musika"
+      },
+      "startTimestamp": "2026-07-10T06:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique de fanfare",
+        "es": "Música de banda",
+        "eu": "Banda musika"
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Quatrième encierro",
+        "es": "Cuarto encierro",
+        "eu": "Laugarren entzierroa"
+      },
+      "startTimestamp": "2026-07-10T08:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Quatrième encierro",
+        "es": "Cuarto encierro",
+        "eu": "Laugarren entzierroa"
+      },
+      "description": {
+        "fr": "Six taureaux de D. Victoriano del Río Cortés.",
+        "es": "Seis toros de D. Victoriano del Río Cortés.",
+        "eu": "D. Victoriano del Río Cortés-en sei zezena."
+      }
+    },
+    {
+      "venueId": "PAM-PALACIO-EZPELETA",
+      "shortName": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoi eta Kabezudoak"
+      },
+      "startTimestamp": "2026-07-10T09:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoiak eta Kabezudoak"
+      },
+      "description": {
+        "fr": "Sortie de la comparsa.",
+        "es": "Salida de la comparsa.",
+        "eu": "Konpartsaren irteera."
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "startTimestamp": "2026-07-10T11:00:00+02:00",
+      "endTimestamp": "2026-07-10T13:30:00+02:00",
+      "title": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 13h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 13:30.",
+        "eu": "Kirol eta aisialdi eremua. 13:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-10T11:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-SAN-FRANCISCO",
+      "shortName": {
+        "fr": "Activité enfantine",
+        "es": "Actividad infantil",
+        "eu": "Haurrentzako jarduera"
+      },
+      "startTimestamp": "2026-07-10T11:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Activité enfantine : Toros de agua",
+        "es": "Actividad infantil: Toros de agua",
+        "eu": "Haurrentzako jarduera: Ur-zezenak"
+      },
+      "description": {
+        "fr": "Toros de agua. Dans la pause de la Comparsa.",
+        "es": "Toros de agua. En el descanso de la Comparsa.",
+        "eu": "Ur-zezenak. Konpartsaren atsedenaldian."
+      }
+    },
+    {
+      "venueId": "PAM-RINCON-ADUANA",
+      "shortName": {
+        "fr": "Offrande Enfantine",
+        "es": "Ofrenda Infantil",
+        "eu": "Haur eskaintza"
+      },
+      "startTimestamp": "2026-07-10T11:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Offrande Enfantine à San Fermín",
+        "es": "Ofrenda Infantil a San Fermín",
+        "eu": "Haur Eskaintza San Ferminari"
+      },
+      "description": {
+        "fr": "Offrande enfantine à San Fermín au Rincón de la Aduana.",
+        "es": "Ofrenda infantil a San Fermín en el Rincón de la Aduana.",
+        "eu": "Haur eskaintza San Ferminari Aduana Txokoan."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-10T11:30:00+02:00",
+      "endTimestamp": "2026-07-10T14:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 14h00.",
+        "es": "Actividades infantiles. Hasta las 14:00.",
+        "eu": "Haurrentzako jarduerak. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-10T11:30:00+02:00",
+      "endTimestamp": "2026-07-10T14:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 14h00.",
+        "es": "Espacio de juego infantil. Hasta las 14:00.",
+        "eu": "Haurrentzako jolastokia. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-ESTACION-AUTOBUSES",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-10T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PALACIO-EZPELETA",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-10T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "startTimestamp": "2026-07-10T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "description": {
+        "fr": "Ça sonne jota avec Orgullo Navarro.",
+        "es": "Suena a jota con Orgullo Navarro.",
+        "eu": "Jota soinua Orgullo Navarro-rekin."
+      },
+      "artistName": "Orgullo Navarro"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "startTimestamp": "2026-07-10T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "description": {
+        "fr": "Championnats et exhibitions.",
+        "es": "Campeonatos y exhibiciones.",
+        "eu": "Txapelketak eta erakustaldia."
+      }
+    },
+    {
+      "venueId": "PAM-CALLE-MERCADERES",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-10T12:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Cabaret",
+        "es": "Cabaret",
+        "eu": "Kabareta"
+      },
+      "startTimestamp": "2026-07-10T12:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Cabaret : Travéstika",
+        "es": "Cabaret: Travéstika",
+        "eu": "Kabareta: Travéstika"
+      },
+      "description": {
+        "fr": "Cabaret avec Travéstika sur la Plaza de la Compañía.",
+        "es": "Cabaret con Travéstika en la Plaza de la Compañía.",
+        "eu": "Travéstika-rekin kabareta Konpainiaren Plazan."
+      },
+      "artistName": "Travéstika"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Festival Enfantin Danse",
+        "es": "Festival Infantil de Da",
+        "eu": "Dantza Haur Jaialdia"
+      },
+      "startTimestamp": "2026-07-10T12:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Festival Enfantin de Danse",
+        "es": "Festival Infantil de Danza",
+        "eu": "Dantza Haur Jaialdia"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "startTimestamp": "2026-07-10T13:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "description": {
+        "fr": "Concert de la Banda de Música de Olite.",
+        "es": "Concierto de la Banda de Música de Olite.",
+        "eu": "Oliete-ko Musika Bandaren kontzertua."
+      },
+      "artistName": "Banda de Música de Olite"
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Rassembl. gaiteros",
+        "es": "Concentración de Gaiter",
+        "eu": "Gaiteroen bilkura"
+      },
+      "startTimestamp": "2026-07-10T13:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Rassemblement de gaiteros",
+        "es": "Concentración de Gaiteros",
+        "eu": "Gaiteroen bilkura"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      },
+      "startTimestamp": "2026-07-10T17:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "startTimestamp": "2026-07-10T18:00:00+02:00",
+      "endTimestamp": "2026-07-10T20:30:00+02:00",
+      "title": {
+        "fr": "Kirolari SPORT Kids",
+        "es": "Kirolari SPORT Kids",
+        "eu": "Kirolari SPORT Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 20h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 20:30.",
+        "eu": "Kirol eta aisialdi eremua. 20:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-10T18:00:00+02:00",
+      "endTimestamp": "2026-07-10T21:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 21h00.",
+        "es": "Actividades infantiles. Hasta las 21:00.",
+        "eu": "Haurrentzako jarduerak. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-10T18:00:00+02:00",
+      "endTimestamp": "2026-07-10T21:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 21h00.",
+        "es": "Espacio de juego infantil. Hasta las 21:00.",
+        "eu": "Haurrentzako jolastokia. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Quatrième corrida",
+        "es": "Cuarta corrida Feria de",
+        "eu": "Laugarren korrida"
+      },
+      "startTimestamp": "2026-07-10T18:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Quatrième corrida Feria del Toro",
+        "es": "Cuarta corrida Feria del Toro",
+        "eu": "Laugarren korrida Toro Azokan"
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Bertsolaris",
+        "es": "Bertsolaris",
+        "eu": "Bertsolaris"
+      },
+      "startTimestamp": "2026-07-10T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Bertsolaris",
+        "es": "Bertsolaris",
+        "eu": "Bertsolaris"
+      },
+      "description": {
+        "fr": "Amets Arzallus, Bittori Elizalde, Saats Karasatorre et Saioa Alkaiza.",
+        "es": "Amets Arzallus, Bittori Elizalde, Saats Karasatorre y Saioa Alkaiza.",
+        "eu": "Amets Arzallus, Bittori Elizalde, Saats Karasatorre eta Saioa Alkaiza."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "startTimestamp": "2026-07-10T19:00:00+02:00",
+      "endTimestamp": "2026-07-10T22:30:00+02:00",
+      "title": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "description": {
+        "fr": "Animations, jeux, ateliers. Jusqu'à 22h30.",
+        "es": "Animaciones, juegos, talleres. Hasta las 22:30.",
+        "eu": "Animazioak, jolasak, tailerrak. 22:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TEATRO-GAYARRE",
+      "shortName": {
+        "fr": "Les talons de papa",
+        "es": "Los tacones de papá",
+        "eu": "Aitaren takoiak"
+      },
+      "startTimestamp": "2026-07-10T19:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Théâtre : Los tacones de papá",
+        "es": "Teatro: Los tacones de papá",
+        "eu": "Antzerkia: Los tacones de papá"
+      },
+      "description": {
+        "fr": "Pièce de théâtre au Teatro Gayarre.",
+        "es": "Obra de teatro en el Teatro Gayarre.",
+        "eu": "Antzezlana Gayarre Antzokian."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Kiliki",
+        "es": "Kiliki",
+        "eu": "Kiliki"
+      },
+      "startTimestamp": "2026-07-10T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Kiliki",
+        "es": "Concierto de Kiliki",
+        "eu": "Kiliki-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Kiliki"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-10T20:00:00+02:00",
+      "endTimestamp": "2026-07-10T22:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta La Fania Perfect. Jusqu'à 22h00.",
+        "es": "Verbena con la Orquesta La Fania Perfect. Hasta las 22:00.",
+        "eu": "Verbena Orquesta La Fania Perfect-ekin. 22:00ak arte."
+      },
+      "artistName": "Orquesta La Fania Perfect"
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Marionnettes",
+        "es": "Títeres",
+        "eu": "Txotxongiloak"
+      },
+      "startTimestamp": "2026-07-10T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Marionnettes : Gorgorito et Rosalinda",
+        "es": "Títeres: Gorgorito y Rosalinda",
+        "eu": "Txotxongiloak: Gorgorito eta Rosalinda"
+      },
+      "description": {
+        "fr": "Gorgorito et Rosalinda : les livres de l'école (castillan).",
+        "es": "Gorgorito y Rosalinda: los libros del colegio (castellano).",
+        "eu": "Gorgorito eta Rosalinda: eskola-liburuak (gaztelaniaz)."
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "startTimestamp": "2026-07-10T21:00:00+02:00",
+      "endTimestamp": "2026-07-10T23:00:00+02:00",
+      "title": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "description": {
+        "fr": "Musique dans le Parque de Antoniutti. Jusqu'à 23h00.",
+        "es": "Música en el Parque de Antoniutti. Hasta las 23:00.",
+        "eu": "Musika Antoniutti Parkean. 23:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-CARLOS-III",
+      "shortName": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "startTimestamp": "2026-07-10T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "description": {
+        "fr": "Les Dieux du temps. Compagnie : K de Calle.",
+        "es": "Los Dioses del clima. Compañía: K de Calle.",
+        "eu": "Klimaren Jainkoak. Konpainia: K de Calle."
+      },
+      "artistName": "K de Calle"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      },
+      "startTimestamp": "2026-07-10T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Concert jeunes",
+        "es": "Concierto joven",
+        "eu": "Gazte kontzertua"
+      },
+      "startTimestamp": "2026-07-10T21:00:00+02:00",
+      "endTimestamp": "2026-07-10T22:30:00+02:00",
+      "title": {
+        "fr": "Concert jeunes : DJ Muffins",
+        "es": "Concierto joven: DJ Muffins",
+        "eu": "Gazte kontzertua: DJ Muffins"
+      },
+      "description": {
+        "fr": "DJ Muffins et animation. Jusqu'à 22h30.",
+        "es": "DJ Muffins y animación. Hasta las 22:30.",
+        "eu": "DJ Muffins eta animazioa. 22:30ak arte."
+      },
+      "artistName": "DJ Muffins"
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-10T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-10T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-CIUDADELA",
+      "shortName": {
+        "fr": "Concours Feux d'Artif.",
+        "es": "Concurso Fuegos Artific",
+        "eu": "Su artif. lehiaketa"
+      },
+      "startTimestamp": "2026-07-10T23:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "XXIV Concours Int. Feux d'Artifice",
+        "es": "XXIV Concurso Int. Fuegos Artificiales",
+        "eu": "XXIV. Naz. Art. Su Artif. Lehiaketa"
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Los Tenampas",
+        "es": "Los Tenampas",
+        "eu": "Los Tenampas"
+      },
+      "startTimestamp": "2026-07-10T23:30:00+02:00",
+      "endTimestamp": "2026-07-11T03:00:00+02:00",
+      "title": {
+        "fr": "Concert de Los Tenampas",
+        "es": "Concierto de Los Tenampas",
+        "eu": "Los Tenampas-en kontzertua"
+      },
+      "description": {
+        "fr": "Concert dans le Parque de Antoniutti. Jusqu'à 3h00.",
+        "es": "Concierto en el Parque de Antoniutti. Hasta las 3:00.",
+        "eu": "Kontzertua Antoniutti Parkean. 3:00ak arte."
+      },
+      "artistName": "Los Tenampas"
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Bombino",
+        "es": "Bombino",
+        "eu": "Bombino"
+      },
+      "startTimestamp": "2026-07-10T23:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Bombino",
+        "es": "Concierto de Bombino",
+        "eu": "Bombino-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Bombino"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-10T23:30:00+02:00",
+      "endTimestamp": "2026-07-11T01:30:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta La Fania Perfect. Jusqu'à 1h30.",
+        "es": "Verbena con la Orquesta La Fania Perfect. Hasta la 1:30.",
+        "eu": "Verbena Orquesta La Fania Perfect-ekin. 1:30ak arte."
+      },
+      "artistName": "Orquesta La Fania Perfect"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "startTimestamp": "2026-07-10T23:30:00+02:00",
+      "endTimestamp": "2026-07-11T01:45:00+02:00",
+      "title": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "description": {
+        "fr": "Sound Fermín avec Violetta Arriaza. Jusqu'à 1h45.",
+        "es": "Sound Fermín con Violetta Arriaza. Hasta la 1:45.",
+        "eu": "Sound Fermín Violetta Arriaza-rekin. 1:45ak arte."
+      },
+      "artistName": "Violetta Arriaza"
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-11T00:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Ladilla Rusa",
+        "es": "Concierto Ladilla Rusa",
+        "eu": "Ladilla Rusa kontz."
+      },
+      "startTimestamp": "2026-07-11T01:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Ladilla Rusa",
+        "es": "Concierto de Ladilla Rusa",
+        "eu": "Ladilla Rusa-ren kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Musique de fanfare",
+        "es": "Música de banda",
+        "eu": "Banda musika"
+      },
+      "startTimestamp": "2026-07-11T06:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique de fanfare",
+        "es": "Música de banda",
+        "eu": "Banda musika"
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Cinquième encierro",
+        "es": "Quinto encierro",
+        "eu": "Bosgarren entzierroa"
+      },
+      "startTimestamp": "2026-07-11T08:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Cinquième encierro",
+        "es": "Quinto encierro",
+        "eu": "Bosgarren entzierroa"
+      },
+      "description": {
+        "fr": "Six taureaux de Jandilla.",
+        "es": "Seis toros de Jandilla.",
+        "eu": "Jandilla-ko sei zezena."
+      }
+    },
+    {
+      "venueId": "PAM-PALACIO-EZPELETA",
+      "shortName": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoi eta Kabezudoak"
+      },
+      "startTimestamp": "2026-07-11T09:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoiak eta Kabezudoak"
+      },
+      "description": {
+        "fr": "Sortie de la comparsa.",
+        "es": "Salida de la comparsa.",
+        "eu": "Konpartsaren irteera."
+      }
+    },
+    {
+      "venueId": "PAM-SAN-LORENZO",
+      "shortName": {
+        "fr": "Messe des Aînés",
+        "es": "Misa de Mayores",
+        "eu": "Helduen meza"
+      },
+      "startTimestamp": "2026-07-11T10:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Messe des Aînés",
+        "es": "Misa de Mayores",
+        "eu": "Helduen meza"
+      },
+      "description": {
+        "fr": "Messe des Aînés avec la Rondalla Jus la Rocha.",
+        "es": "Misa de Mayores con la Rondalla Jus la Rocha.",
+        "eu": "Helduen meza Jus la Rocha Rondalla-rekin."
+      },
+      "artistName": "Rondalla Jus la Rocha"
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "startTimestamp": "2026-07-11T11:00:00+02:00",
+      "endTimestamp": "2026-07-11T13:30:00+02:00",
+      "title": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 13h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 13:30.",
+        "eu": "Kirol eta aisialdi eremua. 13:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-11T11:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Encierro Txiki",
+        "es": "Encierro Txiki",
+        "eu": "Entzierro Txiki"
+      },
+      "startTimestamp": "2026-07-11T11:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Encierro Txiki",
+        "es": "Encierro Txiki",
+        "eu": "Entzierro Txiki"
+      },
+      "description": {
+        "fr": "Encierro infantile dans la Cuesta de Santo Domingo.",
+        "es": "Encierro infantil en la Cuesta de Santo Domingo.",
+        "eu": "Haur entzierroa Santo Domingo Solaspartean."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-11T11:30:00+02:00",
+      "endTimestamp": "2026-07-11T14:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 14h00.",
+        "es": "Actividades infantiles. Hasta las 14:00.",
+        "eu": "Haurrentzako jarduerak. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-SANTA-MARIA",
+      "shortName": {
+        "fr": "Activité enfantine",
+        "es": "Actividad infantil",
+        "eu": "Haurrentzako jarduera"
+      },
+      "startTimestamp": "2026-07-11T11:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Activité enfantine : Toros de Agua",
+        "es": "Actividad infantil: Toros de Agua",
+        "eu": "Haurrentzako jarduera: Ur-zezenak"
+      },
+      "description": {
+        "fr": "Toros de Agua. Dans la pause de la Comparsa.",
+        "es": "Toros de Agua. En el descanso de la Comparsa.",
+        "eu": "Ur-zezenak. Konpartsaren atsedenaldian."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-11T11:30:00+02:00",
+      "endTimestamp": "2026-07-11T14:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 14h00.",
+        "es": "Espacio de juego infantil. Hasta las 14:00.",
+        "eu": "Haurrentzako jolastokia. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "startTimestamp": "2026-07-11T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "description": {
+        "fr": "Ça sonne jota avec les Rondallas Yoar et Armonía.",
+        "es": "Suena a jota con las Rondallas Yoar y Armonía.",
+        "eu": "Jota soinua Yoar eta Armonía Rondalla-rekin."
+      },
+      "artistName": "Rondallas Yoar y Armonía"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "startTimestamp": "2026-07-11T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "description": {
+        "fr": "Championnats et exhibitions.",
+        "es": "Campeonatos y exhibiciones.",
+        "eu": "Txapelketak eta erakustaldia."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "startTimestamp": "2026-07-11T13:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "description": {
+        "fr": "Concert de la Banda de música de San Adrián.",
+        "es": "Concierto de la Banda de música de San Adrián.",
+        "eu": "San Adriango Musika Bandaren kontzertua."
+      },
+      "artistName": "Banda de música de San Adrián"
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      },
+      "startTimestamp": "2026-07-11T17:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "startTimestamp": "2026-07-11T18:00:00+02:00",
+      "endTimestamp": "2026-07-11T20:30:00+02:00",
+      "title": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 20h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 20:30.",
+        "eu": "Kirol eta aisialdi eremua. 20:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-11T18:00:00+02:00",
+      "endTimestamp": "2026-07-11T21:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 21h00.",
+        "es": "Actividades infantiles. Hasta las 21:00.",
+        "eu": "Haurrentzako jarduerak. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-11T18:00:00+02:00",
+      "endTimestamp": "2026-07-11T21:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 21h00.",
+        "es": "Espacio de juego infantil. Hasta las 21:00.",
+        "eu": "Haurrentzako jolastokia. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Cinquième corrida",
+        "es": "Quinta corrida Feria de",
+        "eu": "Bosgarren korrida"
+      },
+      "startTimestamp": "2026-07-11T18:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Cinquième corrida Feria del Toro",
+        "es": "Quinta corrida Feria del Toro",
+        "eu": "Bosgarren korrida Toro Azokan"
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Danses",
+        "es": "Danzas",
+        "eu": "Dantzak"
+      },
+      "startTimestamp": "2026-07-11T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Danses",
+        "es": "Danzas",
+        "eu": "Dantzak"
+      },
+      "description": {
+        "fr": "Danses avec Ardantzeta Dantza Taldea.",
+        "es": "Danzas con Ardantzeta Dantza Taldea.",
+        "eu": "Dantzak Ardantzeta Dantza Taldearekin."
+      },
+      "artistName": "Ardantzeta Dantza Taldea"
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-11T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "startTimestamp": "2026-07-11T19:00:00+02:00",
+      "endTimestamp": "2026-07-11T22:30:00+02:00",
+      "title": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "description": {
+        "fr": "Animations, jeux, ateliers. Jusqu'à 22h30.",
+        "es": "Animaciones, juegos, talleres. Hasta las 22:30.",
+        "eu": "Animazioak, jolasak, tailerrak. 22:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TEATRO-GAYARRE",
+      "shortName": {
+        "fr": "Les talons de papa",
+        "es": "Los tacones de papá",
+        "eu": "Aitaren takoiak"
+      },
+      "startTimestamp": "2026-07-11T19:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Théâtre : Los tacones de papá",
+        "es": "Teatro: Los tacones de papá",
+        "eu": "Antzerkia: Los tacones de papá"
+      },
+      "description": {
+        "fr": "Pièce de théâtre au Teatro Gayarre.",
+        "es": "Obra de teatro en el Teatro Gayarre.",
+        "eu": "Antzezlana Gayarre Antzokian."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Mirari",
+        "es": "Mirari",
+        "eu": "Mirari"
+      },
+      "startTimestamp": "2026-07-11T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Mirari",
+        "es": "Concierto de Mirari",
+        "eu": "Mirari-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Mirari"
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Marionnettes",
+        "es": "Títeres",
+        "eu": "Txotxongiloak"
+      },
+      "startTimestamp": "2026-07-11T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Marionnettes : Ovidio Bidaiaria",
+        "es": "Títeres: Ovidio Bidaiaria",
+        "eu": "Txotxongiloak: Ovidio Bidaiaria"
+      },
+      "description": {
+        "fr": "Ovidio Bidaiaria. Teatro Firulete (basque).",
+        "es": "Ovidio Bidaiaria. Teatro Firulete (euskera).",
+        "eu": "Ovidio Bidaiaria. Teatro Firulete (euskaraz)."
+      },
+      "artistName": "Teatro Firulete"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Manu Tenorio",
+        "es": "Manu Tenorio",
+        "eu": "Manu Tenorio"
+      },
+      "startTimestamp": "2026-07-11T20:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Manu Tenorio",
+        "es": "Concierto de Manu Tenorio",
+        "eu": "Manu Tenorio-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert de Manu Tenorio sur la Plaza de la Cruz.",
+        "es": "Concierto de Manu Tenorio en la Plaza de la Cruz.",
+        "eu": "Manu Tenorio-ren kontzertua Cruz Plazan."
+      },
+      "artistName": "Manu Tenorio"
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "startTimestamp": "2026-07-11T21:00:00+02:00",
+      "endTimestamp": "2026-07-11T23:00:00+02:00",
+      "title": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "description": {
+        "fr": "Musique dans le Parque de Antoniutti. Jusqu'à 23h00.",
+        "es": "Música en el Parque de Antoniutti. Hasta las 23:00.",
+        "eu": "Musika Antoniutti Parkean. 23:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-CARLOS-III",
+      "shortName": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "startTimestamp": "2026-07-11T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "description": {
+        "fr": "Dragonada. Compagnie : Hipocampus Eventos.",
+        "es": "Dragonada. Compañía: Hipocampus Eventos.",
+        "eu": "Dragonada. Konpainia: Hipocampus Eventos."
+      },
+      "artistName": "Hipocampus Eventos"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      },
+      "startTimestamp": "2026-07-11T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Bals dansants",
+        "es": "Bailables",
+        "eu": "Dantzaldiak"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Concert jeunes",
+        "es": "Concierto joven",
+        "eu": "Gazte kontzertua"
+      },
+      "startTimestamp": "2026-07-11T21:00:00+02:00",
+      "endTimestamp": "2026-07-11T22:30:00+02:00",
+      "title": {
+        "fr": "Concert jeunes : Spectacle Drag",
+        "es": "Concierto joven: Espectáculo Drag",
+        "eu": "Gazte kontzertua: Drag ikuskizuna"
+      },
+      "description": {
+        "fr": "Spectacle Drag : Donatella Mani et Albina Stardust. Jusqu'à 22h30.",
+        "es": "Espectáculo Drag: Donatella Mani y Albina Stardust. Hasta las 22:30.",
+        "eu": "Drag ikuskizuna: Donatella Mani eta Albina Stardust. 22:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-11T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-11T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-CIUDADELA",
+      "shortName": {
+        "fr": "Concours Feux d'Artif.",
+        "es": "Concurso Fuegos Artific",
+        "eu": "Su artif. lehiaketa"
+      },
+      "startTimestamp": "2026-07-11T23:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "XXIV Concours Int. Feux d'Artifice",
+        "es": "XXIV Concurso Int. Fuegos Artificiales",
+        "eu": "XXIV. Naz. Art. Su Artif. Lehiaketa"
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Orquesta Kapitana",
+        "es": "Orquesta Kapitana",
+        "eu": "Orquesta Kapitana"
+      },
+      "startTimestamp": "2026-07-11T23:30:00+02:00",
+      "endTimestamp": "2026-07-12T03:00:00+02:00",
+      "title": {
+        "fr": "Concert de l'Orquesta Kapitana",
+        "es": "Concierto de la Orquesta Kapitana",
+        "eu": "Orquesta Kapitana-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert de l'Orquesta Kapitana. Jusqu'à 3h00.",
+        "es": "Concierto de la Orquesta Kapitana. Hasta las 3:00.",
+        "eu": "Orquesta Kapitana-ren kontzertua. 3:00ak arte."
+      },
+      "artistName": "Orquesta Kapitana"
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Chocolate Remix",
+        "es": "Chocolate Remix",
+        "eu": "Chocolate Remix"
+      },
+      "startTimestamp": "2026-07-11T23:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Chocolate Remix",
+        "es": "Concierto de Chocolate Remix",
+        "eu": "Chocolate Remix-en kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Chocolate Remix"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-11T23:30:00+02:00",
+      "endTimestamp": "2026-07-12T01:30:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Azabache. Jusqu'à 1h30.",
+        "es": "Verbena con la Orquesta Azabache. Hasta la 1:30.",
+        "eu": "Verbena Orquesta Azabache-rekin. 1:30ak arte."
+      },
+      "artistName": "Orquesta Azabache"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "startTimestamp": "2026-07-11T23:30:00+02:00",
+      "endTimestamp": "2026-07-12T01:45:00+02:00",
+      "title": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "description": {
+        "fr": "Fiestazo MEGASTAR avec Nía Caro. Jusqu'à 1h45.",
+        "es": "Fiestazo MEGASTAR con Nía Caro. Hasta la 1:45.",
+        "eu": "Fiestazo MEGASTAR Nía Caro-rekin. 1:45ak arte."
+      },
+      "artistName": "Nía Caro"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Dupla",
+        "es": "Concierto Dupla",
+        "eu": "Dupla kontzertua"
+      },
+      "startTimestamp": "2026-07-12T00:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Dupla",
+        "es": "Concierto de Dupla",
+        "eu": "Dupla-ren kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Zea Mays",
+        "es": "Concierto Zea Mays",
+        "eu": "Zea Mays kontzertua"
+      },
+      "startTimestamp": "2026-07-12T00:50:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Zea Mays",
+        "es": "Concierto de Zea Mays",
+        "eu": "Zea Mays-en kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Sixième encierro",
+        "es": "Sexto encierro",
+        "eu": "Seigarren entzierroa"
+      },
+      "startTimestamp": "2026-07-12T08:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Sixième encierro",
+        "es": "Sexto encierro",
+        "eu": "Seigarren entzierroa"
+      },
+      "description": {
+        "fr": "Six taureaux de D. José Escolar Gil.",
+        "es": "Seis toros de D. José Escolar Gil.",
+        "eu": "D. José Escolar Gil-en sei zezena."
+      }
+    },
+    {
+      "venueId": "PAM-ESTACION-AUTOBUSES",
+      "shortName": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoi eta Kabezudoak"
+      },
+      "startTimestamp": "2026-07-12T09:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoiak eta Kabezudoak"
+      },
+      "description": {
+        "fr": "Sortie de la comparsa.",
+        "es": "Salida de la comparsa.",
+        "eu": "Konpartsaren irteera."
+      }
+    },
+    {
+      "venueId": "PAM-CALLE-ARALAR",
+      "shortName": {
+        "fr": "Activité enfantine",
+        "es": "Actividad infantil",
+        "eu": "Haurrentzako jarduera"
+      },
+      "startTimestamp": "2026-07-12T11:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Activité enfantine : Toros de Agua",
+        "es": "Actividad infantil: Toros de Agua",
+        "eu": "Haurrentzako jarduera: Ur-zezenak"
+      },
+      "description": {
+        "fr": "Toros de Agua. Dans la pause de la Comparsa.",
+        "es": "Toros de Agua. En el descanso de la Comparsa.",
+        "eu": "Ur-zezenak. Konpartsaren atsedenaldian."
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "startTimestamp": "2026-07-12T11:00:00+02:00",
+      "endTimestamp": "2026-07-12T13:30:00+02:00",
+      "title": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 13h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 13:30.",
+        "eu": "Kirol eta aisialdi eremua. 13:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-12T11:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-12T11:30:00+02:00",
+      "endTimestamp": "2026-07-12T14:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 14h00.",
+        "es": "Actividades infantiles. Hasta las 14:00.",
+        "eu": "Haurrentzako jarduerak. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-12T11:30:00+02:00",
+      "endTimestamp": "2026-07-12T14:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 14h00.",
+        "es": "Espacio de juego infantil. Hasta las 14:00.",
+        "eu": "Haurrentzako jolastokia. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "startTimestamp": "2026-07-12T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "description": {
+        "fr": "Ça sonne jota avec les Rondallas Yoar et Armonía.",
+        "es": "Suena a jota con las Rondallas Yoar y Armonía.",
+        "eu": "Jota soinua Yoar eta Armonía Rondalla-rekin."
+      },
+      "artistName": "Rondallas Yoar y Armonía"
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-12T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "startTimestamp": "2026-07-12T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "description": {
+        "fr": "Championnats et exhibitions.",
+        "es": "Campeonatos y exhibiciones.",
+        "eu": "Txapelketak eta erakustaldia."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "startTimestamp": "2026-07-12T13:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "description": {
+        "fr": "Concert de la Banda de música Cirbonera.",
+        "es": "Concierto de la Banda de música Cirbonera.",
+        "eu": "Cirbonera Musika Bandaren kontzertua."
+      },
+      "artistName": "Banda de música Cirbonera"
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      },
+      "startTimestamp": "2026-07-12T17:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "startTimestamp": "2026-07-12T18:00:00+02:00",
+      "endTimestamp": "2026-07-12T20:30:00+02:00",
+      "title": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 20h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 20:30.",
+        "eu": "Kirol eta aisialdi eremua. 20:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-12T18:00:00+02:00",
+      "endTimestamp": "2026-07-12T21:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 21h00.",
+        "es": "Actividades infantiles. Hasta las 21:00.",
+        "eu": "Haurrentzako jarduerak. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-12T18:00:00+02:00",
+      "endTimestamp": "2026-07-12T21:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 21h00.",
+        "es": "Espacio de juego infantil. Hasta las 21:00.",
+        "eu": "Haurrentzako jolastokia. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Sixième corrida",
+        "es": "Sexta corrida Feria del",
+        "eu": "Seigarren korrida"
+      },
+      "startTimestamp": "2026-07-12T18:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Sixième corrida Feria del Toro",
+        "es": "Sexta corrida Feria del Toro",
+        "eu": "Seigarren korrida Toro Azokan"
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Bertsolaris",
+        "es": "Bertsolaris",
+        "eu": "Bertsolaris"
+      },
+      "startTimestamp": "2026-07-12T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Bertsolaris",
+        "es": "Bertsolaris",
+        "eu": "Bertsolaris"
+      },
+      "description": {
+        "fr": "Irati Majuelo, Julio Soto et Oihana Iguaran.",
+        "es": "Irati Majuelo, Julio Soto y Oihana Iguaran.",
+        "eu": "Irati Majuelo, Julio Soto eta Oihana Iguaran."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "startTimestamp": "2026-07-12T19:00:00+02:00",
+      "endTimestamp": "2026-07-12T22:30:00+02:00",
+      "title": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "description": {
+        "fr": "Animations, jeux, ateliers. Jusqu'à 22h30.",
+        "es": "Animaciones, juegos, talleres. Hasta las 22:30.",
+        "eu": "Animazioak, jolasak, tailerrak. 22:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Naxker",
+        "es": "Naxker",
+        "eu": "Naxker"
+      },
+      "startTimestamp": "2026-07-12T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Naxker",
+        "es": "Concierto de Naxker",
+        "eu": "Naxker-en kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Naxker"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-12T20:00:00+02:00",
+      "endTimestamp": "2026-07-12T22:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Euro. Jusqu'à 22h00.",
+        "es": "Verbena con la Orquesta Euro. Hasta las 22:00.",
+        "eu": "Verbena Orquesta Euro-rekin. 22:00ak arte."
+      },
+      "artistName": "Orquesta Euro"
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Marionnettes",
+        "es": "Títeres",
+        "eu": "Txotxongiloak"
+      },
+      "startTimestamp": "2026-07-12T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Marionnettes : La Flor de la Esperanza",
+        "es": "Títeres: La Flor de la Esperanza",
+        "eu": "Txotxongiloak: Esperantzaren Lorea"
+      },
+      "description": {
+        "fr": "La Fleur de l'Espoir (castillan).",
+        "es": "La Flor de la Esperanza (castellano).",
+        "eu": "Esperantzaren Lorea (gaztelaniaz)."
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "startTimestamp": "2026-07-12T21:00:00+02:00",
+      "endTimestamp": "2026-07-12T23:00:00+02:00",
+      "title": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "description": {
+        "fr": "Musique dans le Parque de Antoniutti. Jusqu'à 23h00.",
+        "es": "Música en el Parque de Antoniutti. Hasta las 23:00.",
+        "eu": "Musika Antoniutti Parkean. 23:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-CARLOS-III",
+      "shortName": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "startTimestamp": "2026-07-12T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "description": {
+        "fr": "Nómades. Compagnie : Actua Produccions.",
+        "es": "Nomades. Compañía: Actua Produccions.",
+        "eu": "Nomadak. Konpainia: Actua Produccions."
+      },
+      "artistName": "Actua Produccions"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Concert jeunes",
+        "es": "Concierto joven",
+        "eu": "Gazte kontzertua"
+      },
+      "startTimestamp": "2026-07-12T21:00:00+02:00",
+      "endTimestamp": "2026-07-12T22:30:00+02:00",
+      "title": {
+        "fr": "Concert jeunes : DJ Txurru",
+        "es": "Concierto joven: DJ Txurru",
+        "eu": "Gazte kontzertua: DJ Txurru"
+      },
+      "description": {
+        "fr": "DJ Txurru. Jusqu'à 22h30.",
+        "es": "DJ Txurru. Hasta las 22:30.",
+        "eu": "DJ Txurru. 22:30ak arte."
+      },
+      "artistName": "DJ Txurru"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Sara Socas",
+        "es": "Concierto Sara Socas",
+        "eu": "Sara Socas kontz."
+      },
+      "startTimestamp": "2026-07-12T22:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Sara Socas",
+        "es": "Concierto de Sara Socas",
+        "eu": "Sara Socas-en kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-CIUDADELA",
+      "shortName": {
+        "fr": "Concours Feux d'Artif.",
+        "es": "Concurso Fuegos Artific",
+        "eu": "Su artif. lehiaketa"
+      },
+      "startTimestamp": "2026-07-12T23:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "XXIV Concours Int. Feux d'Artifice",
+        "es": "XXIV Concurso Int. Fuegos Artificiales",
+        "eu": "XXIV. Naz. Art. Su Artif. Lehiaketa"
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-12T23:30:00+02:00",
+      "endTimestamp": "2026-07-13T03:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta La Invasión. Jusqu'à 3h00.",
+        "es": "Verbena con la Orquesta La Invasión. Hasta las 3:00.",
+        "eu": "Verbena Orquesta La Invasión-ekin. 3:00ak arte."
+      },
+      "artistName": "Orquesta La Invasión"
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Omar Souleyman",
+        "es": "Omar Souleyman",
+        "eu": "Omar Souleyman"
+      },
+      "startTimestamp": "2026-07-12T23:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert d'Omar Souleyman",
+        "es": "Concierto de Omar Souleyman",
+        "eu": "Omar Souleyman-en kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Omar Souleyman"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-12T23:30:00+02:00",
+      "endTimestamp": "2026-07-13T01:30:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Euro. Jusqu'à 1h30.",
+        "es": "Verbena con la Orquesta Euro. Hasta la 1:30.",
+        "eu": "Verbena Orquesta Euro-rekin. 1:30ak arte."
+      },
+      "artistName": "Orquesta Euro"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "startTimestamp": "2026-07-12T23:30:00+02:00",
+      "endTimestamp": "2026-07-13T01:45:00+02:00",
+      "title": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "description": {
+        "fr": "Fiestazo LOCA URBAN. Jusqu'à 1h45.",
+        "es": "Fiestazo LOCA URBAN. Hasta la 1:45.",
+        "eu": "Fiestazo LOCA URBAN. 1:45ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Cali y el Dan",
+        "es": "Concierto Cali y el Dan",
+        "eu": "Cali y el Dan kontz."
+      },
+      "startTimestamp": "2026-07-12T23:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Cali y el Dandee",
+        "es": "Concierto de Cali y el Dandee",
+        "eu": "Cali y el Dandee-ren kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Septième encierro",
+        "es": "Séptimo encierro",
+        "eu": "Zazpigarren entzierro"
+      },
+      "startTimestamp": "2026-07-13T08:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Septième encierro",
+        "es": "Séptimo encierro",
+        "eu": "Zazpigarren entzierroa"
+      },
+      "description": {
+        "fr": "Six taureaux de La Palmosilla.",
+        "es": "Seis toros de La Palmosilla.",
+        "eu": "La Palmosilla-ko sei zezena."
+      }
+    },
+    {
+      "venueId": "PAM-ESTACION-AUTOBUSES",
+      "shortName": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoi eta Kabezudoak"
+      },
+      "startTimestamp": "2026-07-13T09:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoiak eta Kabezudoak"
+      },
+      "description": {
+        "fr": "Sortie de la comparsa.",
+        "es": "Salida de la comparsa.",
+        "eu": "Konpartsaren irteera."
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "startTimestamp": "2026-07-13T11:00:00+02:00",
+      "endTimestamp": "2026-07-13T13:30:00+02:00",
+      "title": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 13h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 13:30.",
+        "eu": "Kirol eta aisialdi eremua. 13:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Fête du Jauzi",
+        "es": "Fiesta del Jauzi",
+        "eu": "Jauzi jaia"
+      },
+      "startTimestamp": "2026-07-13T11:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Fête du Jauzi",
+        "es": "Fiesta del Jauzi",
+        "eu": "Jauzi Jaia"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-SAN-FRANCISCO",
+      "shortName": {
+        "fr": "Activité enfantine",
+        "es": "Actividad infantil",
+        "eu": "Haurrentzako jarduera"
+      },
+      "startTimestamp": "2026-07-13T11:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Activité enfantine : Histoires d'animaux",
+        "es": "Actividad infantil: Historias de animales",
+        "eu": "Haurrentzako jarduera: Animalien istorioak"
+      },
+      "description": {
+        "fr": "Histoires d'animaux. Dans la pause de la Comparsa.",
+        "es": "Historias de animales. En el descanso de la Comparsa.",
+        "eu": "Animalien istorioak. Konpartsaren atsedenaldian."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-13T11:30:00+02:00",
+      "endTimestamp": "2026-07-13T14:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 14h00.",
+        "es": "Actividades infantiles. Hasta las 14:00.",
+        "eu": "Haurrentzako jarduerak. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-13T11:30:00+02:00",
+      "endTimestamp": "2026-07-13T14:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 14h00.",
+        "es": "Espacio de juego infantil. Hasta las 14:00.",
+        "eu": "Haurrentzako jolastokia. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "startTimestamp": "2026-07-13T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "description": {
+        "fr": "Ça sonne jota avec l'Escuela de Jotas Raimundo Lanas.",
+        "es": "Suena a jota con la Escuela de Jotas Raimundo Lanas.",
+        "eu": "Jota soinua Raimundo Lanas Jota Eskola-rekin."
+      },
+      "artistName": "Escuela de Jotas Raimundo Lanas"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "startTimestamp": "2026-07-13T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "description": {
+        "fr": "Championnats et exhibitions.",
+        "es": "Campeonatos y exhibiciones.",
+        "eu": "Txapelketak eta erakustaldia."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-CARLOS-III",
+      "shortName": {
+        "fr": "Ronde de jotas",
+        "es": "Ronda jotera",
+        "eu": "Jota erronda"
+      },
+      "startTimestamp": "2026-07-13T13:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Ronde de jotas",
+        "es": "Ronda jotera",
+        "eu": "Jota erronda"
+      },
+      "description": {
+        "fr": "Ronde de jotas avec l'Escuela de Jotas Irabia – Izaga.",
+        "es": "Ronda jotera con la Escuela de Jotas Irabia – Izaga.",
+        "eu": "Jota erronda Irabia – Izaga Jota Eskola-rekin."
+      },
+      "artistName": "Escuela de Jotas Irabia – Izaga"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "startTimestamp": "2026-07-13T13:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "description": {
+        "fr": "Concert de la Banda municipal de música de Valtierra.",
+        "es": "Concierto de la Banda municipal de música de Valtierra.",
+        "eu": "Valtierra-ko Udal Musika Bandaren kontzertua."
+      },
+      "artistName": "Banda municipal de música de Valtierra"
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      },
+      "startTimestamp": "2026-07-13T17:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "startTimestamp": "2026-07-13T18:00:00+02:00",
+      "endTimestamp": "2026-07-13T20:30:00+02:00",
+      "title": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 20h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 20:30.",
+        "eu": "Kirol eta aisialdi eremua. 20:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-13T18:00:00+02:00",
+      "endTimestamp": "2026-07-13T21:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 21h00.",
+        "es": "Actividades infantiles. Hasta las 21:00.",
+        "eu": "Haurrentzako jarduerak. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-13T18:00:00+02:00",
+      "endTimestamp": "2026-07-13T21:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 21h00.",
+        "es": "Espacio de juego infantil. Hasta las 21:00.",
+        "eu": "Haurrentzako jolastokia. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Septième corrida",
+        "es": "Séptima corrida Feria d",
+        "eu": "Zazpigarren korrida"
+      },
+      "startTimestamp": "2026-07-13T18:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Septième corrida Feria del Toro",
+        "es": "Séptima corrida Feria del Toro",
+        "eu": "Zazpigarren korrida Toro Azokan"
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Danses",
+        "es": "Danzas",
+        "eu": "Dantzak"
+      },
+      "startTimestamp": "2026-07-13T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Danses",
+        "es": "Danzas",
+        "eu": "Dantzak"
+      },
+      "description": {
+        "fr": "Danses avec Agoitz Dantzari Taldea.",
+        "es": "Danzas con Agoitz Dantzari Taldea.",
+        "eu": "Dantzak Agoitz Dantzari Taldearekin."
+      },
+      "artistName": "Agoitz Dantzari Taldea"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "startTimestamp": "2026-07-13T19:00:00+02:00",
+      "endTimestamp": "2026-07-13T22:30:00+02:00",
+      "title": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "description": {
+        "fr": "Animations, jeux, ateliers. Jusqu'à 22h30.",
+        "es": "Animaciones, juegos, talleres. Hasta las 22:30.",
+        "eu": "Animazioak, jolasak, tailerrak. 22:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Bourbon Kings",
+        "es": "Bourbon Kings",
+        "eu": "Bourbon Kings"
+      },
+      "startTimestamp": "2026-07-13T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Bourbon Kings",
+        "es": "Concierto de Bourbon Kings",
+        "eu": "Bourbon Kings-en kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Bourbon Kings"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-13T20:00:00+02:00",
+      "endTimestamp": "2026-07-13T22:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Kapitana Dance. Jusqu'à 22h00.",
+        "es": "Verbena con la Orquesta Kapitana Dance. Hasta las 22:00.",
+        "eu": "Verbena Orquesta Kapitana Dance-rekin. 22:00ak arte."
+      },
+      "artistName": "Orquesta Kapitana Dance"
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Marionnettes",
+        "es": "Títeres",
+        "eu": "Txotxongiloak"
+      },
+      "startTimestamp": "2026-07-13T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Marionnettes : Martxelo, estralurtarra",
+        "es": "Títeres: Martxelo, estralurtarra",
+        "eu": "Txotxongiloak: Martxelo, estralurtarra"
+      },
+      "description": {
+        "fr": "Martxelo, estralurtarra (basque).",
+        "es": "Martxelo, estralurtarra (euskera).",
+        "eu": "Martxelo, estralurtarra (euskaraz)."
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "startTimestamp": "2026-07-13T21:00:00+02:00",
+      "endTimestamp": "2026-07-13T23:00:00+02:00",
+      "title": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "description": {
+        "fr": "Musique dans le Parque de Antoniutti. Jusqu'à 23h00.",
+        "es": "Música en el Parque de Antoniutti. Hasta las 23:00.",
+        "eu": "Musika Antoniutti Parkean. 23:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-CARLOS-III",
+      "shortName": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "startTimestamp": "2026-07-13T21:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Pasacalles",
+        "es": "Pasacalles",
+        "eu": "Pasakaleak"
+      },
+      "description": {
+        "fr": "Elipsión. Compagnie : El Carromato.",
+        "es": "Elipsión. Compañía: El Carromato.",
+        "eu": "Elipsión. Konpainia: El Carromato."
+      },
+      "artistName": "El Carromato"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Concert jeunes",
+        "es": "Concierto joven",
+        "eu": "Gazte kontzertua"
+      },
+      "startTimestamp": "2026-07-13T21:00:00+02:00",
+      "endTimestamp": "2026-07-13T22:30:00+02:00",
+      "title": {
+        "fr": "Concert jeunes : Nakama Planet",
+        "es": "Concierto joven: Nakama Planet",
+        "eu": "Gazte kontzertua: Nakama Planet"
+      },
+      "description": {
+        "fr": "Concert jeunes avec Nakama Planet. Jusqu'à 22h30.",
+        "es": "Concierto joven con Nakama Planet. Hasta las 22:30.",
+        "eu": "Gazte kontzertua Nakama Planet-ekin. 22:30ak arte."
+      },
+      "artistName": "Nakama Planet"
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-13T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-13T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-CIUDADELA",
+      "shortName": {
+        "fr": "Concours Feux d'Artif.",
+        "es": "Concurso Fuegos Artific",
+        "eu": "Su artif. lehiaketa"
+      },
+      "startTimestamp": "2026-07-13T23:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "XXIV Concours Int. Feux d'Artifice",
+        "es": "XXIV Concurso Int. Fuegos Artificiales",
+        "eu": "XXIV. Naz. Art. Su Artif. Lehiaketa"
+      }
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-13T23:30:00+02:00",
+      "endTimestamp": "2026-07-14T03:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta La Invasión. Jusqu'à 3h00.",
+        "es": "Verbena con la Orquesta La Invasión. Hasta las 03:00.",
+        "eu": "Verbena Orquesta La Invasión-ekin. 03:00ak arte."
+      },
+      "artistName": "Orquesta La Invasión"
+    },
+    {
+      "venueId": "PAM-PLAZA-COMPANIA",
+      "shortName": {
+        "fr": "Eri Yamamoto Trio",
+        "es": "Eri Yamamoto Trio",
+        "eu": "Eri Yamamoto Trio"
+      },
+      "startTimestamp": "2026-07-13T23:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert du Eri Yamamoto Trio",
+        "es": "Concierto del Eri Yamamoto Trio",
+        "eu": "Eri Yamamoto Trio-ren kontzertua"
+      },
+      "description": {
+        "fr": "Concert sur la Plaza de la Compañía.",
+        "es": "Concierto en la Plaza de la Compañía.",
+        "eu": "Kontzertua Konpainiaren Plazan."
+      },
+      "artistName": "Eri Yamamoto Trio"
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-13T23:30:00+02:00",
+      "endTimestamp": "2026-07-14T01:30:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec l'Orquesta Kapitana Dance. Jusqu'à 1h30.",
+        "es": "Verbena con la Orquesta Kapitana Dance. Hasta la 1:30.",
+        "eu": "Verbena Orquesta Kapitana Dance-rekin. 1:30ak arte."
+      },
+      "artistName": "Orquesta Kapitana Dance"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "startTimestamp": "2026-07-13T23:30:00+02:00",
+      "endTimestamp": "2026-07-14T01:45:00+02:00",
+      "title": {
+        "fr": "Sound Fermín",
+        "es": "Sound Fermín",
+        "eu": "Sound Fermín"
+      },
+      "description": {
+        "fr": "Euskadi Gaztea. Oihan Vega. Jusqu'à 1h45.",
+        "es": "Euskadi Gaztea. Oihan Vega. Hasta la 1:45.",
+        "eu": "Euskadi Gaztea. Oihan Vega. 1:45ak arte."
+      },
+      "artistName": "Oihan Vega"
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Villano Antill.",
+        "es": "Concierto Villano Antil",
+        "eu": "Villano Antillano kontz"
+      },
+      "startTimestamp": "2026-07-13T23:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Villano Antillano",
+        "es": "Concierto de Villano Antillano",
+        "eu": "Villano Antillano-ren kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Lia Kali",
+        "es": "Concierto Lia Kali",
+        "eu": "Lia Kali kontzertua"
+      },
+      "startTimestamp": "2026-07-14T01:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Lia Kali",
+        "es": "Concierto de Lia Kali",
+        "eu": "Lia Kali-ren kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Musique de fanfare",
+        "es": "Música de banda",
+        "eu": "Banda musika"
+      },
+      "startTimestamp": "2026-07-14T06:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique de fanfare",
+        "es": "Música de banda",
+        "eu": "Banda musika"
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Huitième encierro",
+        "es": "Octavo encierro",
+        "eu": "Zortzigarren entzierro"
+      },
+      "startTimestamp": "2026-07-14T08:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Huitième encierro",
+        "es": "Octavo encierro",
+        "eu": "Zortzigarren entzierroa"
+      },
+      "description": {
+        "fr": "Six taureaux de Miura.",
+        "es": "Seis toros de Miura.",
+        "eu": "Miura-ko sei zezena."
+      }
+    },
+    {
+      "venueId": "PAM-PALACIO-EZPELETA",
+      "shortName": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoi eta Kabezudoak"
+      },
+      "startTimestamp": "2026-07-14T09:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Géants et Cabezudos",
+        "es": "Gigantes y Cabezudos",
+        "eu": "Erraldoiak eta Kabezudoak"
+      },
+      "description": {
+        "fr": "Sortie de la comparsa.",
+        "es": "Salida de la comparsa.",
+        "eu": "Konpartsaren irteera."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Octave de San Fermín",
+        "es": "Octava de San Fermín",
+        "eu": "San Fermin Zortzigarren"
+      },
+      "startTimestamp": "2026-07-14T10:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Octave de San Fermín",
+        "es": "Octava de San Fermín",
+        "eu": "San Ferminen Zortzigarrena"
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "startTimestamp": "2026-07-14T11:00:00+02:00",
+      "endTimestamp": "2026-07-14T13:30:00+02:00",
+      "title": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 13h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 13:30.",
+        "eu": "Kirol eta aisialdi eremua. 13:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-14T11:30:00+02:00",
+      "endTimestamp": "2026-07-14T14:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 14h00.",
+        "es": "Actividades infantiles. Hasta las 14:00.",
+        "eu": "Haurrentzako jarduerak. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-14T11:30:00+02:00",
+      "endTimestamp": "2026-07-14T14:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 14h00.",
+        "es": "Espacio de juego infantil. Hasta las 14:00.",
+        "eu": "Haurrentzako jolastokia. 14:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-CALLE-DESCALZOS",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-14T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-MONUMENTO-ENCIERRO",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-14T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      }
+    },
+    {
+      "venueId": "PAM-PASEO-SARASATE",
+      "shortName": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "startTimestamp": "2026-07-14T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Ça sonne jota",
+        "es": "Suena a jota",
+        "eu": "Jota soinua"
+      },
+      "description": {
+        "fr": "Ça sonne jota avec Los de la Ribera.",
+        "es": "Suena a jota con Los de la Ribera.",
+        "eu": "Jota soinua Los de la Ribera-rekin."
+      },
+      "artistName": "Los de la Ribera"
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "startTimestamp": "2026-07-14T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Sport rural",
+        "es": "Deporte rural",
+        "eu": "Herri kirolak"
+      },
+      "description": {
+        "fr": "Championnats et exhibitions.",
+        "es": "Campeonatos y exhibiciones.",
+        "eu": "Txapelketak eta erakustaldia."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Adieu Comparsa",
+        "es": "Despedida Comparsa",
+        "eu": "Konpartsa agurra"
+      },
+      "startTimestamp": "2026-07-14T13:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Adieu Comparsa Géants et Cabezudos",
+        "es": "Despedida Comparsa Gigantes y Cabezudos",
+        "eu": "Erraldoi eta Kabezudoen Konpartsa agurra"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "startTimestamp": "2026-07-14T13:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Fanfares",
+        "es": "Bandas de música",
+        "eu": "Musika bandak"
+      },
+      "description": {
+        "fr": "Concert de la Banda de música de Añorbe.",
+        "es": "Concierto de la Banda de música de Añorbe.",
+        "eu": "Añorbe-ko Musika Bandaren kontzertua."
+      },
+      "artistName": "Banda de música de Añorbe"
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      },
+      "startTimestamp": "2026-07-14T17:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Défilé de Cavaliers",
+        "es": "Desfile de Caballeros",
+        "eu": "Zaldizko desfilea"
+      }
+    },
+    {
+      "venueId": "PAM-PARQUE-MEDIA-LUNA",
+      "shortName": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "startTimestamp": "2026-07-14T18:00:00+02:00",
+      "endTimestamp": "2026-07-14T20:30:00+02:00",
+      "title": {
+        "fr": "Kirolari Sport Kids",
+        "es": "Kirolari Sport Kids",
+        "eu": "Kirolari Sport Kids"
+      },
+      "description": {
+        "fr": "Espace sportif et récréatif. Jusqu'à 20h30.",
+        "es": "Espacio deportivo y recreativo. Hasta las 20:30.",
+        "eu": "Kirol eta aisialdi eremua. 20:30ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "startTimestamp": "2026-07-14T18:00:00+02:00",
+      "endTimestamp": "2026-07-14T21:00:00+02:00",
+      "title": {
+        "fr": "Super Fêtes !",
+        "es": "¡Menudas Fiestas!",
+        "eu": "Ze Festak !"
+      },
+      "description": {
+        "fr": "Activités pour enfants. Jusqu'à 21h00.",
+        "es": "Actividades infantiles. Hasta las 21:00.",
+        "eu": "Haurrentzako jarduerak. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-TACONERA",
+      "shortName": {
+        "fr": "Birjolastu Jeu…",
+        "es": "Birjolastu Juego…",
+        "eu": "Birjolastu Jolasa…"
+      },
+      "startTimestamp": "2026-07-14T18:00:00+02:00",
+      "endTimestamp": "2026-07-14T21:00:00+02:00",
+      "title": {
+        "fr": "Birjolastu Jeu Rejeu",
+        "es": "Birjolastu Juego Rejuego",
+        "eu": "Birjolastu Jolas Berjolas"
+      },
+      "description": {
+        "fr": "Espace de jeu pour enfants. Jusqu'à 21h00.",
+        "es": "Espacio de juego infantil. Hasta las 21:00.",
+        "eu": "Haurrentzako jolastokia. 21:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DE-TOROS",
+      "shortName": {
+        "fr": "Huitième corrida",
+        "es": "Octava corrida Feria de",
+        "eu": "Zortzigarren korrida"
+      },
+      "startTimestamp": "2026-07-14T18:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Huitième corrida Feria del Toro",
+        "es": "Octava corrida Feria del Toro",
+        "eu": "Zortzigarren korrida Toro Azokan"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "startTimestamp": "2026-07-14T19:00:00+02:00",
+      "endTimestamp": "2026-07-14T22:00:00+02:00",
+      "title": {
+        "fr": "Zone Jeunes",
+        "es": "Zona Joven",
+        "eu": "Gazte Gunea"
+      },
+      "description": {
+        "fr": "Animations, jeux, ateliers. Jusqu'à 22h00.",
+        "es": "Animaciones, juegos, talleres. Hasta las 22:00.",
+        "eu": "Animazioak, jolasak, tailerrak. 22:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CRUZ",
+      "shortName": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "startTimestamp": "2026-07-14T20:00:00+02:00",
+      "endTimestamp": "2026-07-14T22:00:00+02:00",
+      "title": {
+        "fr": "Verbena",
+        "es": "Verbena",
+        "eu": "Verbena"
+      },
+      "description": {
+        "fr": "Verbena avec le Mariachi Internacional Principal de México. Jusqu'à 22h00.",
+        "es": "Verbena con el Mariachi Internacional Principal de México. Hasta las 22:00.",
+        "eu": "Verbena Mariachi Internacional Principal de México-rekin. 22:00ak arte."
+      },
+      "artistName": "Mariachi Internacional Principal de México"
+    },
+    {
+      "venueId": "PAM-PLAZA-LIBERTAD",
+      "shortName": {
+        "fr": "Marionnettes",
+        "es": "Títeres",
+        "eu": "Txotxongiloak"
+      },
+      "startTimestamp": "2026-07-14T20:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Marionnettes : Le mystère de la maison hantée",
+        "es": "Títeres: El misterio de la casa encantada",
+        "eu": "Txotxongiloak: Etxe Sorginduaren Misterioa"
+      },
+      "description": {
+        "fr": "Le mystère de la maison hantée (castillan).",
+        "es": "El misterio de la casa encantada (castellano).",
+        "eu": "Etxe sorginduaren misterioa (gaztelaniaz)."
+      }
+    },
+    {
+      "venueId": "PAM-AVENIDA-RONCESVALLES",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-14T20:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "description": {
+        "fr": "Bouge, viens et danse (Monumento al Encierro).",
+        "es": "Muévete, ven y baila (Monumento al Encierro).",
+        "eu": "Mugitu, etorri eta dantzatu (Entzierroaren Monumentua)."
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-FUEROS",
+      "shortName": {
+        "fr": "Concert Jeunes",
+        "es": "Concierto Joven",
+        "eu": "Gazte kontzertua"
+      },
+      "startTimestamp": "2026-07-14T20:30:00+02:00",
+      "endTimestamp": "2026-07-14T22:00:00+02:00",
+      "title": {
+        "fr": "Concert Jeunes : Fiesta Holi",
+        "es": "Concierto Joven: Fiesta Holi",
+        "eu": "Gazte kontzertua: Fiesta Holi"
+      },
+      "description": {
+        "fr": "Fiesta Holi et DJ. Sangalo. Jusqu'à 22h00.",
+        "es": "Fiesta Holi y DJ. Sangalo. Hasta las 22:00.",
+        "eu": "Holi jaia eta DJ. Sangalo. 22:00ak arte."
+      },
+      "artistName": "Sangalo"
+    },
+    {
+      "venueId": "PAM-ANTONIUTTI",
+      "shortName": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "startTimestamp": "2026-07-14T21:00:00+02:00",
+      "endTimestamp": "2026-07-14T23:00:00+02:00",
+      "title": {
+        "fr": "Musique",
+        "es": "Música",
+        "eu": "Musika"
+      },
+      "description": {
+        "fr": "Musique dans le Parque de Antoniutti. Jusqu'à 23h00.",
+        "es": "Música en el Parque de Antoniutti. Hasta las 23:00.",
+        "eu": "Musika Antoniutti Parkean. 23:00ak arte."
+      }
+    },
+    {
+      "venueId": "PAM-CUESTA-SANTO-DOMINGO",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-14T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      },
+      "startTimestamp": "2026-07-14T21:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Taureau de feu",
+        "es": "Toro de fuego",
+        "eu": "Su-zezena"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-DEL-CASTILLO",
+      "shortName": {
+        "fr": "Concert Sorotan Bele",
+        "es": "Concierto Sorotan Bele ",
+        "eu": "Sorotan Bele kontz."
+      },
+      "startTimestamp": "2026-07-14T22:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert de Sorotan Bele Gogoan",
+        "es": "Concierto de Sorotan Bele Gogoan",
+        "eu": "Sorotan Bele Gogoan-en kontzertua"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-SAN-FRANCISCO",
+      "shortName": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "startTimestamp": "2026-07-14T22:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Musique dans la rue",
+        "es": "Música en la calle",
+        "eu": "Musika kalean"
+      },
+      "description": {
+        "fr": "Musique dans la rue avec la Txaranga Gauerdi.",
+        "es": "Música en la calle con la Txaranga Gauerdi.",
+        "eu": "Musika kalean Gauerdi Txarangarekin."
+      },
+      "artistName": "Txaranga Gauerdi"
+    },
+    {
+      "venueId": "PAM-CIUDADELA",
+      "shortName": {
+        "fr": "Concours Feux d'Artif.",
+        "es": "Concurso Fuegos Artific",
+        "eu": "Su artif. lehiaketa"
+      },
+      "startTimestamp": "2026-07-14T23:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "XXIV Concours Int. Feux d'Artifice",
+        "es": "XXIV Concurso Int. Fuegos Artificiales",
+        "eu": "XXIV. Naz. Art. Su Artif. Lehiaketa"
+      }
+    },
+    {
+      "venueId": "PAM-PLAZA-CONSISTORIAL",
+      "shortName": {
+        "fr": "¡Pobre de mí!",
+        "es": "¡Pobre de mí!",
+        "eu": "¡Pobre de mí!"
+      },
+      "startTimestamp": "2026-07-15T00:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "¡Pobre de mí!",
+        "es": "¡Pobre de mí!",
+        "eu": "¡Pobre de mí!"
       }
     }
   ]

@@ -6,7 +6,11 @@
     {
       "category": "gastronomie",
       "venueId": "BAY-CARREAU-HALLES",
-      "shortName": "Concours du jambon fermi",
+      "shortName": {
+        "fr": "Concours du jambon…",
+        "es": "Concours du jambon…",
+        "eu": "Concours du jambon…"
+      },
       "startTimestamp": "2026-04-23T09:30:00+02:00",
       "endTimestamp": "2026-04-23T11:30:00+02:00",
       "title": {
@@ -34,7 +38,11 @@
     {
       "category": "traditions",
       "venueId": "BAY-ESPLANADE-ROLAND-BARTHES",
-      "shortName": "Inauguration officielle",
+      "shortName": {
+        "fr": "Inauguration officielle",
+        "es": "Inauguration officielle",
+        "eu": "Inauguration officielle"
+      },
       "startTimestamp": "2026-04-23T10:30:00+02:00",
       "title": {
         "fr": "Inauguration officielle de la 563e Foire au jambon de Bayonne",
@@ -61,7 +69,11 @@
     {
       "category": "sport",
       "venueId": "BAY-TRINQUET-SAINT-ANDRE",
-      "shortName": "Pelote basque main nue",
+      "shortName": {
+        "fr": "Pelote basque main nue",
+        "es": "Pelote basque main nue",
+        "eu": "Pelote basque main nue"
+      },
       "startTimestamp": "2026-04-23T11:00:00+02:00",
       "title": {
         "fr": "Pelote basque main nue – ½ finale A",
@@ -88,7 +100,11 @@
     {
       "category": "musique",
       "venueId": "BAY-CARREAU-HALLES",
-      "shortName": "Transfert en musique",
+      "shortName": {
+        "fr": "Transfert en musique",
+        "es": "Transfert en musique",
+        "eu": "Transfert en musique"
+      },
       "startTimestamp": "2026-04-23T11:30:00+02:00",
       "title": {
         "fr": "Transfert en musique",
@@ -116,7 +132,11 @@
     {
       "category": "gastronomie",
       "venueId": "BAY-ESPLANADE-ROLAND-BARTHES",
-      "shortName": "Remise des prix concours",
+      "shortName": {
+        "fr": "Remise des prix…",
+        "es": "Remise des prix…",
+        "eu": "Remise des prix…"
+      },
       "startTimestamp": "2026-04-23T12:00:00+02:00",
       "title": {
         "fr": "Remise des prix concours jambon fermier et vente aux enchères du jambon primé",
@@ -143,7 +163,11 @@
     {
       "category": "sport",
       "venueId": "BAY-TRINQUET-SAINT-ANDRE",
-      "shortName": "Open de pelote basque",
+      "shortName": {
+        "fr": "Open de pelote basque",
+        "es": "Open de pelote basque",
+        "eu": "Open de pelote basque"
+      },
       "startTimestamp": "2026-04-23T16:30:00+02:00",
       "title": {
         "fr": "Open de pelote basque main nue – ½ finales B",
@@ -170,7 +194,11 @@
     {
       "category": "gastronomie",
       "venueId": "BAY-RUE-PELLETIER",
-      "shortName": "Atelier découpe cochon",
+      "shortName": {
+        "fr": "Atelier découpe cochon",
+        "es": "Atelier découpe cochon",
+        "eu": "Atelier découpe cochon"
+      },
       "startTimestamp": "2026-04-24T09:30:00+02:00",
       "endTimestamp": "2026-04-24T11:30:00+02:00",
       "title": {
@@ -198,7 +226,11 @@
     {
       "category": "gastronomie",
       "venueId": "BAY-ALLEE-PLATANES",
-      "shortName": "Marché traditionnel",
+      "shortName": {
+        "fr": "Marché traditionnel",
+        "es": "Marché traditionnel",
+        "eu": "Marché traditionnel"
+      },
       "startTimestamp": "2026-04-25T06:00:00+02:00",
       "endTimestamp": "2026-04-25T13:00:00+02:00",
       "title": {
@@ -226,7 +258,11 @@
     {
       "category": "traditions",
       "venueId": "BAY-MAISON-ASSOCIATIONS",
-      "shortName": "Intronisations Confrérie",
+      "shortName": {
+        "fr": "Intronisations…",
+        "es": "Intronisations…",
+        "eu": "Intronisations…"
+      },
       "startTimestamp": "2026-04-25T10:00:00+02:00",
       "title": {
         "fr": "Intronisations des nouveaux membres de la Confrérie du Jambon de Bayonne",
@@ -253,7 +289,11 @@
     {
       "category": "gastronomie",
       "venueId": "BAY-ESPLANADE-ROLAND-BARTHES",
-      "shortName": "Concours d'omelettes",
+      "shortName": {
+        "fr": "Concours d'omelettes",
+        "es": "Concours d'omelettes",
+        "eu": "Concours d'omelettes"
+      },
       "startTimestamp": "2026-04-25T10:00:00+02:00",
       "endTimestamp": "2026-04-25T13:00:00+02:00",
       "title": {
@@ -281,7 +321,11 @@
     {
       "category": "sport",
       "venueId": "BAY-TRINQUET-SAINT-ANDRE",
-      "shortName": "Finale Open pelote",
+      "shortName": {
+        "fr": "Finale Open pelote",
+        "es": "Finale Open pelote",
+        "eu": "Finale Open pelote"
+      },
       "startTimestamp": "2026-04-25T11:00:00+02:00",
       "title": {
         "fr": "Finale Open de pelote basque main nue",
@@ -308,7 +352,11 @@
     {
       "category": "traditions",
       "venueId": "BAY-RUES-BAYONNE",
-      "shortName": "Défilé de la Confrérie",
+      "shortName": {
+        "fr": "Défilé de la Confrérie",
+        "es": "Défilé de la Confrérie",
+        "eu": "Défilé de la Confrérie"
+      },
       "startTimestamp": "2026-04-25T11:00:00+02:00",
       "title": {
         "fr": "Défilé de la Confrérie et de ses invités à travers les rues de la Ville",
@@ -335,7 +383,11 @@
     {
       "category": "gastronomie",
       "venueId": "BAY-ESPLANADE-ROLAND-BARTHES",
-      "shortName": "Visite des stands",
+      "shortName": {
+        "fr": "Visite des stands",
+        "es": "Visite des stands",
+        "eu": "Visite des stands"
+      },
       "startTimestamp": "2026-04-25T12:00:00+02:00",
       "title": {
         "fr": "Visite des stands des charcutiers-salaisonniers",
@@ -362,7 +414,11 @@
     {
       "category": "traditions",
       "venueId": "BAY-RUES-BAYONNE",
-      "shortName": "Défilé Confrérie dimanche",
+      "shortName": {
+        "fr": "Défilé Confrérie…",
+        "es": "Défilé Confrérie…",
+        "eu": "Défilé Confrérie…"
+      },
       "startTimestamp": "2026-04-26T10:00:00+02:00",
       "title": {
         "fr": "Défilé de la Confrérie à travers les rues de Bayonne",
@@ -389,7 +445,11 @@
     {
       "category": "traditions",
       "venueId": "BAY-CATHEDRALE-SAINTE-MARIE",
-      "shortName": "Messe des Confréries",
+      "shortName": {
+        "fr": "Messe des Confréries",
+        "es": "Messe des Confréries",
+        "eu": "Messe des Confréries"
+      },
       "startTimestamp": "2026-04-26T10:30:00+02:00",
       "title": {
         "fr": "Messe des Confréries",
@@ -416,7 +476,11 @@
     {
       "category": "traditions",
       "venueId": "BAY-CARREAU-HALLES",
-      "shortName": "Mutxiko – Orai Bat",
+      "shortName": {
+        "fr": "Mutxiko – Orai Bat",
+        "es": "Mutxiko – Orai Bat",
+        "eu": "Mutxiko – Orai Bat"
+      },
       "startTimestamp": "2026-04-26T11:00:00+02:00",
       "title": {
         "fr": "Mutxiko (danse basque) avec Orai Bat",
@@ -443,7 +507,11 @@
     {
       "category": "traditions",
       "venueId": "BAY-ESPLANADE-ROLAND-BARTHES",
-      "shortName": "Retour des confréries",
+      "shortName": {
+        "fr": "Retour des confréries",
+        "es": "Retour des confréries",
+        "eu": "Retour des confréries"
+      },
       "startTimestamp": "2026-04-26T12:00:00+02:00",
       "title": {
         "fr": "Retour des confréries sur la foire",
@@ -470,7 +538,11 @@
     {
       "category": "gastronomie",
       "venueId": "BAY-MAISON-ASSOCIATIONS",
-      "shortName": "Repas du Chapitre",
+      "shortName": {
+        "fr": "Repas du Chapitre",
+        "es": "Repas du Chapitre",
+        "eu": "Repas du Chapitre"
+      },
       "startTimestamp": "2026-04-26T13:30:00+02:00",
       "title": {
         "fr": "Repas du 63e Chapitre de la Confrérie — ouvert à tous sur réservation",
