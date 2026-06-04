@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [develop]
+  pull_request:
+    branches: [develop]
+
+jobs:
+  validate:
+    name: Validate JSON
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate JSON files
+        run: |
+          echo "Validating JSON files..."
+          find . \
+            -not -path './node_modules/*' \
+            -not -path './.git/*' \
+            -name '*.json' \
+            -not -name 'package*.json' | while read file; do
+              node -e "JSON.parse(require('fs').readFileSync('$file','utf8'))" \
+                && echo "  ✓ $file" \
+                || { echo "  ✗ $file — JSON invalide"; exit 1; }
+          done
+          echo "Tous les fichiers JSON sont valides."

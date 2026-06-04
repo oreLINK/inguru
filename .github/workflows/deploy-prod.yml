@@ -1,0 +1,40 @@
+name: Deploy Production
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    name: Deploy → inguru.fr
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.OVH_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.OVH_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy via rsync
+        run: |
+          rsync -avz --delete \
+            --exclude='.git/' \
+            --exclude='node_modules/' \
+            --exclude='.claude/' \
+            --exclude='.idea/' \
+            --exclude='.vscode/' \
+            --exclude='.DS_Store' \
+            --exclude='.gitignore' \
+            --exclude='package*.json' \
+            --exclude='CLAUDE.md' \
+            --exclude='README.md' \
+            --exclude='data/raw/' \
+            --exclude='data/protected.md' \
+            . ${{ secrets.OVH_USER }}@${{ secrets.OVH_HOST }}:${{ secrets.OVH_PROD_PATH }}/
+
+      - name: Notify success
+        run: echo "Déployé sur inguru.fr avec succès."
