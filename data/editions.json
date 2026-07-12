@@ -4,29 +4,29 @@
       "id": "PAM-SFM-2026",
       "cityId": "PAM",
       "feteId": "PAM-SFM",
-      "isAvailable": true,
-      "isDisplay": true
+      "isAvailable": false,
+      "isDisplay": false
     },
     {
       "id": "MDM-MAD-2026",
       "cityId": "MDM",
       "feteId": "MDM-MAD",
       "isAvailable": true,
-      "isDisplay": true
+      "isDisplay": false
     },
     {
       "id": "DAX-FER-2026",
       "cityId": "DAX",
       "feteId": "DAX-FER",
-      "isAvailable": true,
-      "isDisplay": true
+      "isAvailable": false,
+      "isDisplay": false
     },
     {
       "id": "BAY-FJB-2026",
       "cityId": "BAY",
       "feteId": "BAY-FJB",
-      "isAvailable": true,
-      "isDisplay": true
+      "isAvailable": false,
+      "isDisplay": false
     },
     {
       "id": "BAY-FDB-2026",

@@ -2,139 +2,472 @@
   "cityId": "BAY",
   "places": [
     {
-      "id": "BAY-PLACE-LIBERTE",
-      "name": {
-        "fr": "Place de la Liberté",
-        "es": "Plaza de la Libertad",
-        "eu": "Askatasun Plaza"
+      "coords": {
+        "lat": 43.489079,
+        "lng": -1.476398
       },
-      "coords": { "lat": 43.4927, "lng": -1.4743 }
+      "id": "BAY-10-RUE-GOSSE",
+      "name": {
+        "es": "Calle Gosse 10",
+        "eu": "Gosse kalea 10",
+        "fr": "10 rue Gosse"
+      }
     },
     {
-      "id": "BAY-ARENES",
-      "name": {
-        "fr": "Arènes de Bayonne",
-        "es": "Plaza de toros de Bayona",
-        "eu": "Baionako Zezenketa Plaza"
+      "coords": {
+        "lat": 43.495049,
+        "lng": -1.468575
       },
-      "coords": { "lat": 43.4897, "lng": -1.4822 }
+      "id": "BAY-4-RUE-DU-MOULIN",
+      "name": {
+        "es": "Calle del Molino 4",
+        "eu": "Errota kalea 4",
+        "fr": "4 rue du Moulin"
+      }
     },
     {
-      "id": "BAY-QUAI-NIVE",
-      "name": {
-        "fr": "Quai Galuperie – Scène Nive",
-        "es": "Muelle Galuperie – Escenario Nive",
-        "eu": "Galuperie Kaia – Nibi Agertokia"
+      "coords": {
+        "lat": 43.488083,
+        "lng": -1.473171
       },
-      "coords": { "lat": 43.4938, "lng": -1.4723 }
-    },
-    {
-      "id": "BAY-PLACE-GASCONS",
-      "name": {
-        "fr": "Place des Gascons",
-        "es": "Plaza de los Gascones",
-        "eu": "Gaskoinien Plaza"
-      },
-      "coords": { "lat": 43.4948, "lng": -1.4718 }
-    },
-    {
-      "id": "BAY-REMPARTS",
-      "name": {
-        "fr": "Scène des Remparts",
-        "es": "Escenario de las Murallas",
-        "eu": "Harresietako Agertokia"
-      },
-      "coords": { "lat": 43.4915, "lng": -1.4775 }
-    },
-    {
-      "id": "BAY-GRAND-BAYONNE",
-      "name": {
-        "fr": "Grand Bayonne – Rue Port Neuf",
-        "es": "Gran Bayona – Calle Port Neuf",
-        "eu": "Baiona Handia – Port Neuf Kalea"
-      },
-      "coords": { "lat": 43.492, "lng": -1.476 }
-    },
-    {
-      "id": "BAY-ESPLANADE-ROLAND-BARTHES",
-      "name": {
-        "fr": "Esplanade Roland-Barthes",
-        "es": "Explanada Roland-Barthes",
-        "eu": "Roland-Barthes Esplanada"
-      },
-      "coords": { "lat": 43.4924, "lng": -1.4751 }
-    },
-    {
-      "id": "BAY-CARREAU-HALLES",
-      "name": {
-        "fr": "Carreau des Halles",
-        "es": "Patio de los Mercados",
-        "eu": "Halletako Karrea"
-      },
-      "coords": { "lat": 43.4932, "lng": -1.4735 }
-    },
-    {
-      "id": "BAY-TRINQUET-SAINT-ANDRE",
-      "name": {
-        "fr": "Trinquet Saint-André",
-        "es": "Trinquete San Andrés",
-        "eu": "Doneandre Trinketea"
-      },
-      "coords": { "lat": 43.4918, "lng": -1.4762 }
-    },
-    {
-      "id": "BAY-CATHEDRALE-SAINTE-MARIE",
-      "name": {
-        "fr": "Cathédrale Sainte-Marie",
-        "es": "Catedral Santa María",
-        "eu": "Santa Maria Katedrala"
-      },
-      "coords": { "lat": 43.4916, "lng": -1.4744 }
-    },
-    {
-      "id": "BAY-MAISON-ASSOCIATIONS",
-      "name": {
-        "fr": "Maison des Associations",
-        "es": "Casa de las Asociaciones",
-        "eu": "Elkarte Etxea"
-      },
-      "coords": { "lat": 43.493, "lng": -1.4758 }
-    },
-    {
       "id": "BAY-ALLEE-PLATANES",
       "name": {
-        "fr": "Allée des Platanes",
         "es": "Alameda de los Plátanos",
-        "eu": "Platanondoen Hiribidea"
-      },
-      "coords": { "lat": 43.4905, "lng": -1.483 }
+        "eu": "Platanondoen Hiribidea",
+        "fr": "Allée des Platanes"
+      }
     },
     {
-      "id": "BAY-RUES-BAYONNE",
+      "coords": {
+        "lat": 43.494929,
+        "lng": -1.488674
+      },
+      "id": "BAY-ARENES",
       "name": {
-        "fr": "Rues de Bayonne",
-        "es": "Calles de Bayona",
-        "eu": "Baionako Kaleak"
-      },
-      "coords": { "lat": 43.4921, "lng": -1.475 }
+        "es": "Plaza de toros de Bayona",
+        "eu": "Baionako Zezenketa Plaza",
+        "fr": "Arènes de Bayonne"
+      }
     },
     {
-      "id": "BAY-RUE-PELLETIER",
+      "coords": {
+        "lat": 43.50002,
+        "lng": -1.452674
+      },
+      "id": "BAY-AVENUE-ANDRE-MALRAUX",
       "name": {
-        "fr": "Rue Pelletier",
-        "es": "Calle Pelletier",
-        "eu": "Pelletier Kalea"
-      },
-      "coords": { "lat": 43.488923, "lng": -1.472932 }
+        "es": "Avenida André Malraux",
+        "eu": "André Malraux Etorbidea",
+        "fr": "Avenue André Malraux"
+      }
     },
     {
+      "coords": {
+        "lat": 43.493239,
+        "lng": -1.466239
+      },
+      "id": "BAY-BOULEVARD-ALSACE-LORRAINE",
+      "name": {
+        "es": "Bulevar Alsacia-Lorena",
+        "eu": "Alsazia-Lorena Etorbidea",
+        "fr": "Boulevard Alsace-Lorraine"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.490443,
+        "lng": -1.475023
+      },
+      "id": "BAY-CARREAU-HALLES",
+      "name": {
+        "es": "Patio de los Mercados",
+        "eu": "Halletako Karrea",
+        "fr": "Carreau des Halles"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.490796,
+        "lng": -1.477719
+      },
+      "id": "BAY-CATHEDRALE-SAINTE-MARIE",
+      "name": {
+        "es": "Catedral Santa María",
+        "eu": "Santa Maria Katedrala",
+        "fr": "Cathédrale Sainte-Marie"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.496078,
+        "lng": -1.470177
+      },
+      "id": "BAY-COLLEGIALE-SAINT-ESPRIT",
+      "name": {
+        "es": "Colegiata del Espíritu Santo",
+        "eu": "Espiritu Santuko Kolegiata",
+        "fr": "Collégiale Saint-Esprit"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.475402,
+        "lng": -1.568029
+      },
       "id": "BAY-COTE-DES-BASQUES",
       "name": {
-        "fr": "Côte des Basques",
         "es": "Costa de los Vascos",
-        "eu": "Euskal Lurraldea"
+        "eu": "Euskal Lurraldea",
+        "fr": "Côte des Basques"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.495783,
+        "lng": -1.47195
       },
-      "coords": { "lat": 43.47678, "lng": -1.566952 }
+      "id": "BAY-DIDAM",
+      "name": {
+        "es": "DIDAM",
+        "eu": "DIDAM",
+        "fr": "DIDAM"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.490502,
+        "lng": -1.471306
+      },
+      "id": "BAY-EGLISE-SAINT-ANDRE",
+      "name": {
+        "es": "Iglesia de San Andrés",
+        "eu": "Doneandre Eliza",
+        "fr": "Église Saint-André"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.488408,
+        "lng": -1.473459
+      },
+      "id": "BAY-ESPLANADE-ROLAND-BARTHES",
+      "name": {
+        "es": "Esplanada Roland-Barthes - Plaza Verde",
+        "eu": "Roland-Barthes Esplanada – Berde Plaza",
+        "fr": "Esplanade Roland-Barthes - Place Verte"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.496227,
+        "lng": -1.468365
+      },
+      "id": "BAY-FRONTON-RAIL-BAYONNAIS",
+      "name": {
+        "es": "Frontón del Rail Bayonnais",
+        "eu": "Rail Bayonnais Frontoia",
+        "fr": "Fronton du Rail Bayonnais"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.485019,
+        "lng": -1.478358
+      },
+      "id": "BAY-FRONTON-STADE-JEAN-DAUGER",
+      "name": {
+        "es": "Frontón del estadio Jean-Dauger",
+        "eu": "Jean-Dauger Zelaiko Frontoia",
+        "fr": "Fronton du stade Jean-Dauger"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.492273,
+        "lng": -1.47575
+      },
+      "id": "BAY-GRAND-BAYONNE",
+      "name": {
+        "es": "Gran Bayona – Calle Port Neuf",
+        "eu": "Baiona Handia – Port Neuf Kalea",
+        "fr": "Grand Bayonne – Rue Port Neuf"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.491014,
+        "lng": -1.47433
+      },
+      "id": "BAY-LA-NIVE",
+      "name": {
+        "es": "El Nive",
+        "eu": "Errobi",
+        "fr": "La Nive"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.491643,
+        "lng": -1.478587
+      },
+      "id": "BAY-LA-POTERNE",
+      "name": {
+        "es": "La Poterna",
+        "eu": "Harresietako Atea",
+        "fr": "La Poterne"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.484153,
+        "lng": -1.471728
+      },
+      "id": "BAY-MAISON-ASSOCIATIONS",
+      "name": {
+        "es": "Casa de las Asociaciones",
+        "eu": "Elkarte Etxea",
+        "fr": "Maison des Associations"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.491121,
+        "lng": -1.473903
+      },
+      "id": "BAY-MUSEE-BASQUE",
+      "name": {
+        "es": "Museo Vasco",
+        "eu": "Euskal Museoa",
+        "fr": "Musée Basque"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.495596,
+        "lng": -1.469716
+      },
+      "id": "BAY-PLACE-DE-LA-REPUBLIQUE",
+      "name": {
+        "es": "Plaza de la República",
+        "eu": "Errepublika Plaza",
+        "fr": "Place de la République"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.499076,
+        "lng": -1.456309
+      },
+      "id": "BAY-PLACE-GASCONS",
+      "name": {
+        "es": "Plaza de los Gascones",
+        "eu": "Gaskoinien Plaza",
+        "fr": "Place des Gascons"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.492127,
+        "lng": -1.477718
+      },
+      "id": "BAY-PLACE-JACQUES-PORTES",
+      "name": {
+        "es": "Plaza Jacques Portes",
+        "eu": "Jacques Portes Plaza",
+        "fr": "Place Jacques Portes"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.492978,
+        "lng": -1.474753
+      },
+      "id": "BAY-PLACE-LIBERTE",
+      "name": {
+        "es": "Plaza de la Libertad",
+        "eu": "Askatasun Plaza",
+        "fr": "Place de la Liberté"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.490419,
+        "lng": -1.476623
+      },
+      "id": "BAY-PLACE-PASTEUR",
+      "name": {
+        "es": "Plaza Pasteur",
+        "eu": "Pasteur Plaza",
+        "fr": "Place Pasteur"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.490174,
+        "lng": -1.472187
+      },
+      "id": "BAY-PLACE-PATXA",
+      "name": {
+        "es": "Plaza Patxa",
+        "eu": "Patxa Plaza",
+        "fr": "Place Patxa"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.490225,
+        "lng": -1.471078
+      },
+      "id": "BAY-PLACE-PAUL-BERT",
+      "name": {
+        "es": "Plaza Paul-Bert",
+        "eu": "Paul-Bert Plaza",
+        "fr": "Place Paul-Bert"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.489749,
+        "lng": -1.471291
+      },
+      "id": "BAY-PLACE-SAINT-ANDRE",
+      "name": {
+        "es": "Plaza San Andrés",
+        "eu": "Doneandre Plaza",
+        "fr": "Place Saint-André"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.49075,
+        "lng": -1.469193
+      },
+      "id": "BAY-PORTE-DE-MOUSSEROLLES",
+      "name": {
+        "es": "Puerta de Mousserolles",
+        "eu": "Mousserolles Atea",
+        "fr": "Porte de Mousserolles"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.488286,
+        "lng": -1.478161
+      },
+      "id": "BAY-PORTE-ESPAGNE",
+      "name": {
+        "es": "Puerta de España",
+        "eu": "Espainiako Atea",
+        "fr": "Porte d'Espagne"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.490289,
+        "lng": -1.47416
+      },
+      "id": "BAY-QUAI-NIVE",
+      "name": {
+        "es": "Muelle Galuperie – Escenario Nive",
+        "eu": "Galuperie Kaia – Nibi Agertokia",
+        "fr": "Quai Galuperie – Scène Nive"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.4915,
+        "lng": -1.4775
+      },
+      "id": "BAY-REMPARTS",
+      "name": {
+        "es": "Escenario de las Murallas",
+        "eu": "Harresietako Agertokia",
+        "fr": "Scène des Remparts"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.491742,
+        "lng": -1.472556
+      },
+      "id": "BAY-RUE-JACQUES-LAFFITTE",
+      "name": {
+        "es": "Calle Jacques Laffitte",
+        "eu": "Jacques Laffitte Kalea",
+        "fr": "Rue Jacques Laffitte"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.488888,
+        "lng": -1.473409
+      },
+      "id": "BAY-RUE-PELLETIER",
+      "name": {
+        "es": "Calle Pelletier",
+        "eu": "Pelletier Kalea",
+        "fr": "Rue Pelletier"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.489676,
+        "lng": -1.475895
+      },
+      "id": "BAY-RUES-BAYONNE",
+      "name": {
+        "es": "Calles de Bayona",
+        "eu": "Baionako Kaleak",
+        "fr": "Rues de Bayonne"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.496815,
+        "lng": -1.468779
+      },
+      "id": "BAY-SYNAGOGUE",
+      "name": {
+        "es": "Sinagoga",
+        "eu": "Sinagoga",
+        "fr": "Synagogue"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.492847,
+        "lng": -1.477387
+      },
+      "id": "BAY-TEMPLE-PROTESTANT",
+      "name": {
+        "es": "Templo Protestante",
+        "eu": "Tenplu Protestantea",
+        "fr": "Temple Protestant"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.491195,
+        "lng": -1.486945
+      },
+      "id": "BAY-TRINQUET-JEAN-MARIE-MAILHARRO",
+      "name": {
+        "es": "Trinquete Jean-Marie Mailharro",
+        "eu": "Jean-Marie Mailharro Trinketa",
+        "fr": "Trinquet Jean-Marie Mailharro"
+      }
+    },
+    {
+      "coords": {
+        "lat": 43.490004,
+        "lng": -1.471868
+      },
+      "id": "BAY-TRINQUET-SAINT-ANDRE",
+      "name": {
+        "es": "Trinquete San Andrés",
+        "eu": "Doneandre Trinketea",
+        "fr": "Trinquet Saint-André"
+      }
     }
   ]
 }

@@ -4,450 +4,2846 @@
   "cityId": "BAY",
   "events": [
     {
-      "venueId": "BAY-COTE-DES-BASQUES",
+      "venueId": "BAY-LA-NIVE",
       "shortName": {
-        "fr": "Foulée du Festayre",
-        "es": "Foulée du Festayre",
-        "eu": "Foulée du Festayre"
+        "fr": "La pirogue en fêtes",
+        "es": "La pirogue en fêtes",
+        "eu": "La pirogue en fêtes"
       },
-      "startTimestamp": "2026-07-15T08:30:00+02:00",
+      "startTimestamp": "2026-07-15T09:00:00+02:00",
+      "endTimestamp": "2026-07-15T17:30:00+02:00",
+      "title": {
+        "fr": "La pirogue en fêtes",
+        "es": "La pirogue en fêtes",
+        "eu": "La pirogue en fêtes"
+      },
+      "description": {
+        "fr": "Défilé et animations de pirogues sur la Nive, dans une ambiance conviviale.",
+        "es": "Défilé et animations de pirogues sur la Nive, dans une ambiance conviviale.",
+        "eu": "Défilé et animations de pirogues sur la Nive, dans une ambiance conviviale."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Omelette aux piments",
+        "es": "Omelette aux piments",
+        "eu": "Omelette aux piments"
+      },
+      "startTimestamp": "2026-07-15T09:30:00+02:00",
+      "endTimestamp": "2026-07-15T12:30:00+02:00",
+      "title": {
+        "fr": "Championnat du monde d'omelette aux piments",
+        "es": "Championnat du monde d'omelette aux piments",
+        "eu": "Championnat du monde d'omelette aux piments"
+      },
+      "description": {
+        "fr": "Concours convivial de préparation d'omelettes aux piments, Place Paul-Bert.",
+        "es": "Concours convivial de préparation d'omelettes aux piments, Place Paul-Bert.",
+        "eu": "Concours convivial de préparation d'omelettes aux piments, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-DIDAM",
+      "shortName": {
+        "fr": "Zazpi Jauziak danse",
+        "es": "Zazpi Jauziak danse",
+        "eu": "Zazpi Jauziak danse"
+      },
+      "startTimestamp": "2026-07-15T11:00:00+02:00",
+      "endTimestamp": "2026-07-15T12:00:00+02:00",
+      "title": {
+        "fr": "« Zazpi Jauziak » initiation à la danse",
+        "es": "« Zazpi Jauziak » initiation à la danse",
+        "eu": "« Zazpi Jauziak » initiation à la danse"
+      },
+      "description": {
+        "fr": "Initiation aux danses basques traditionnelles, Didam.",
+        "es": "Initiation aux danses basques traditionnelles, Didam.",
+        "eu": "Initiation aux danses basques traditionnelles, Didam."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Ouverture Fêtes Bayonne",
+        "es": "Ouverture Fêtes Bayonne",
+        "eu": "Ouverture Fêtes Bayonne"
+      },
+      "startTimestamp": "2026-07-15T16:45:00+02:00",
       "endTimestamp": "",
       "title": {
-        "fr": "La Foulée du Festayre",
-        "es": "El Paso de Festayre",
-        "eu": "Festayreko Fola"
+        "fr": "Cérémonie d'ouverture des Fêtes de Bayonne",
+        "es": "Cérémonie d'ouverture des Fêtes de Bayonne",
+        "eu": "Cérémonie d'ouverture des Fêtes de Bayonne"
       },
       "description": {
-        "fr": "...",
-        "es": "...",
-        "eu": "..."
-      },
-      "payment": {
-        "isPaid": true,
-        "isTicketMandatory": true,
-        "isTicketOnline": false,
-        "linkTicket": "https://lafouleedufestayre.fr/inscription-foulee-du-festayre/#fouleedufestayre-inscription"
-      },
-      "artistName": "Calvin Harris"
+        "fr": "Ouverture officielle place de la Liberté : 16h00 Harmonie bayonnaise et Baionako Tamborrada, 17h00 cérémonie d'ouverture et lancer des clés, 17h10 mascleta, 17h15 Harmonie bayonnaise et Baionako Tamborrada.",
+        "es": "Ouverture officielle place de la Liberté : 16h00 Harmonie bayonnaise et Baionako Tamborrada, 17h00 cérémonie d'ouverture et lancer des clés, 17h10 mascleta, 17h15 Harmonie bayonnaise et Baionako Tamborrada.",
+        "eu": "Ouverture officielle place de la Liberté : 16h00 Harmonie bayonnaise et Baionako Tamborrada, 17h00 cérémonie d'ouverture et lancer des clés, 17h10 mascleta, 17h15 Harmonie bayonnaise et Baionako Tamborrada."
+      }
     },
     {
-      "venueId": "BAY-PLACE-LIBERTE",
+      "venueId": "BAY-PORTE-DE-MOUSSEROLLES",
       "shortName": {
-        "fr": "Lâcher de vaches",
-        "es": "Lâcher de vaches",
-        "eu": "Lâcher de vaches"
+        "fr": "Mouss'Roll",
+        "es": "Mouss'Roll",
+        "eu": "Mouss'Roll"
       },
-      "startTimestamp": "2026-03-19T17:00:00+01:00",
-      "endTimestamp": "2026-03-19T18:30:00+01:00",
+      "startTimestamp": "2026-07-15T17:30:00+02:00",
+      "endTimestamp": "2026-07-16T02:30:00+02:00",
       "title": {
-        "fr": "Ouverture officielle – Lâcher de vaches",
-        "es": "Apertura oficial – Suelta de vacas",
-        "eu": "Irekiera ofiziala – Behiak askatzea"
+        "fr": "Mouss'Roll (animations diverses, concerts, restauration)",
+        "es": "Mouss'Roll (animations diverses, concerts, restauration)",
+        "eu": "Mouss'Roll (animations diverses, concerts, restauration)"
       },
       "description": {
-        "fr": "La vache landaise fait son entrée pour le coup d'envoi des fêtes. Moment emblématique, ambiance garantie !",
-        "es": "La vaca landesa hace su entrada para el inicio de las fiestas. ¡Momento emblemático!",
-        "eu": "Landako behia hasten du festen hasiera. Une enblematikoena!"
+        "fr": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne.",
+        "es": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne.",
+        "eu": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne."
+      }
+    },
+    {
+      "venueId": "BAY-FRONTON-RAIL-BAYONNAIS",
+      "shortName": {
+        "fr": "Demi-finales paleta",
+        "es": "Demi-finales paleta",
+        "eu": "Demi-finales paleta"
+      },
+      "startTimestamp": "2026-07-15T18:00:00+02:00",
+      "endTimestamp": "2026-07-15T20:00:00+02:00",
+      "title": {
+        "fr": "Open Cacao Dendary : demi-finales paleta pelote de gomme pleine 1re série homme",
+        "es": "Open Cacao Dendary : demi-finales paleta pelote de gomme pleine 1re série homme",
+        "eu": "Open Cacao Dendary : demi-finales paleta pelote de gomme pleine 1re série homme"
+      },
+      "description": {
+        "fr": "Rencontre de pelote basque, Fronton du Rail Bayonnais.",
+        "es": "Rencontre de pelote basque, Fronton du Rail Bayonnais.",
+        "eu": "Rencontre de pelote basque, Fronton du Rail Bayonnais."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Musik'Halles",
+        "es": "Musik'Halles",
+        "eu": "Musik'Halles"
+      },
+      "startTimestamp": "2026-07-15T18:00:00+02:00",
+      "endTimestamp": "2026-07-15T23:00:00+02:00",
+      "title": {
+        "fr": "Soirée Musik'Halles : musiques de rue",
+        "es": "Soirée Musik'Halles : musiques de rue",
+        "eu": "Soirée Musik'Halles : musiques de rue"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "es": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-JACQUES-PORTES",
+      "shortName": {
+        "fr": "Karrikaldi",
+        "es": "Karrikaldi",
+        "eu": "Karrikaldi"
+      },
+      "startTimestamp": "2026-07-15T19:00:00+02:00",
+      "endTimestamp": "2026-07-15T23:00:00+02:00",
+      "title": {
+        "fr": "Karrikaldi",
+        "es": "Karrikaldi",
+        "eu": "Karrikaldi"
+      },
+      "description": {
+        "fr": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "es": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "eu": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi."
       }
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
       "shortName": {
-        "fr": "Concert ouverture",
-        "es": "Concert ouverture",
-        "eu": "Concert ouverture"
+        "fr": "Zumba du roi Léon",
+        "es": "Zumba du roi Léon",
+        "eu": "Zumba du roi Léon"
       },
-      "startTimestamp": "2026-03-19T21:00:00+01:00",
-      "endTimestamp": "2026-03-19T23:30:00+01:00",
+      "startTimestamp": "2026-07-15T19:30:00+02:00",
+      "endTimestamp": "",
       "title": {
-        "fr": "Concert d'ouverture",
-        "es": "Concierto de apertura",
-        "eu": "Irekiera kontzertua"
+        "fr": "Zumba du roi Léon",
+        "es": "Zumba du roi Léon",
+        "eu": "Zumba du roi Léon"
       },
       "description": {
-        "fr": "Grand concert en plein air pour lancer les festivités. Artistes locaux et invités surprise au programme.",
-        "es": "Gran concierto al aire libre. Artistas locales e invitados sorpresa.",
-        "eu": "Aire libreko kontzertu handia. Bertako artistak eta ustekabeko gonbidatuak."
+        "fr": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté.",
+        "es": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté.",
+        "eu": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-PORTE-ESPAGNE",
+      "shortName": {
+        "fr": "Concert Tamborrada",
+        "es": "Concert Tamborrada",
+        "eu": "Concert Tamborrada"
+      },
+      "startTimestamp": "2026-07-15T19:30:00+02:00",
+      "endTimestamp": "2026-07-15T20:00:00+02:00",
+      "title": {
+        "fr": "Concert de la Baionako Tamborrada et concours de bandas",
+        "es": "Concert de la Baionako Tamborrada et concours de bandas",
+        "eu": "Concert de la Baionako Tamborrada et concours de bandas"
+      },
+      "description": {
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Porte d'Espagne.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Porte d'Espagne.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Porte d'Espagne."
+      }
+    },
+    {
+      "venueId": "BAY-TRINQUET-JEAN-MARIE-MAILHARRO",
+      "shortName": {
+        "fr": "1/2 finale main nue",
+        "es": "1/2 finale main nue",
+        "eu": "1/2 finale main nue"
+      },
+      "startTimestamp": "2026-07-15T19:30:00+02:00",
+      "endTimestamp": "2026-07-15T23:00:00+02:00",
+      "title": {
+        "fr": "Masters des Fêtes : 1/2 finale de pelote de main nue",
+        "es": "Masters des Fêtes : 1/2 finale de pelote de main nue",
+        "eu": "Masters des Fêtes : 1/2 finale de pelote de main nue"
+      },
+      "description": {
+        "fr": "Rencontre de pelote basque, Trinquet Jean-Marie Mailharro.",
+        "es": "Rencontre de pelote basque, Trinquet Jean-Marie Mailharro.",
+        "eu": "Rencontre de pelote basque, Trinquet Jean-Marie Mailharro."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PATXA",
+      "shortName": {
+        "fr": "Kontzertuak / concerts",
+        "es": "Kontzertuak / concerts",
+        "eu": "Kontzertuak / concerts"
+      },
+      "startTimestamp": "2026-07-15T20:00:00+02:00",
+      "endTimestamp": "2026-07-16T02:30:00+02:00",
+      "title": {
+        "fr": "Kontzertuak / concerts",
+        "es": "Kontzertuak / concerts",
+        "eu": "Kontzertuak / concerts"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place Patxa.",
+        "es": "Concert et ambiance musicale, Place Patxa.",
+        "eu": "Concert et ambiance musicale, Place Patxa."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Concerts et DJ",
+        "es": "Concerts et DJ",
+        "eu": "Concerts et DJ"
+      },
+      "startTimestamp": "2026-07-15T20:00:00+02:00",
+      "endTimestamp": "2026-07-16T02:30:00+02:00",
+      "title": {
+        "fr": "Concerts et DJ",
+        "es": "Concerts et DJ",
+        "eu": "Concerts et DJ"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place Paul-Bert.",
+        "es": "Concert et ambiance musicale, Place Paul-Bert.",
+        "eu": "Concert et ambiance musicale, Place Paul-Bert."
       }
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
       "shortName": {
-        "fr": "Lâcher de vaches",
-        "es": "Lâcher de vaches",
-        "eu": "Lâcher de vaches"
+        "fr": "Concerts et DJ",
+        "es": "Concerts et DJ",
+        "eu": "Concerts et DJ"
       },
-      "startTimestamp": "2026-03-20T19:00:00+01:00",
-      "endTimestamp": "2026-03-20T20:30:00+01:00",
+      "startTimestamp": "2026-07-15T20:00:00+02:00",
+      "endTimestamp": "2026-07-16T02:30:00+02:00",
       "title": {
-        "fr": "Lâcher de vaches – Jour 2",
-        "es": "Suelta de vacas – Día 2",
-        "eu": "Behiak askatzea – 2. eguna"
+        "fr": "Concerts et DJ place de la Liberté",
+        "es": "Concerts et DJ place de la Liberté",
+        "eu": "Concerts et DJ place de la Liberté"
       },
       "description": {
-        "fr": "Le rendez-vous quotidien que tout le monde attend.",
-        "es": "La cita diaria que todos esperan.",
-        "eu": "Egunero itxaroten den hitzordua."
+        "fr": "Concert et ambiance musicale, Place de la Liberté.",
+        "es": "Concert et ambiance musicale, Place de la Liberté.",
+        "eu": "Concert et ambiance musicale, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PATXA",
+      "shortName": {
+        "fr": "Kontzertuak / Concerts",
+        "es": "Kontzertuak / Concerts",
+        "eu": "Kontzertuak / Concerts"
+      },
+      "startTimestamp": "2026-07-15T20:00:00+02:00",
+      "endTimestamp": "2026-07-16T02:30:00+02:00",
+      "title": {
+        "fr": "Kontzertuak / Concerts",
+        "es": "Kontzertuak / Concerts",
+        "eu": "Kontzertuak / Concerts"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place Patxa.",
+        "es": "Concert et ambiance musicale, Place Patxa.",
+        "eu": "Concert et ambiance musicale, Place Patxa."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "DJ Balpores et MixLive",
+        "es": "DJ Balpores et MixLive",
+        "eu": "DJ Balpores et MixLive"
+      },
+      "startTimestamp": "2026-07-15T20:30:00+02:00",
+      "endTimestamp": "2026-07-16T02:30:00+02:00",
+      "title": {
+        "fr": "DJ Balpores et MixLive",
+        "es": "DJ Balpores et MixLive",
+        "eu": "DJ Balpores et MixLive"
+      },
+      "description": {
+        "fr": "Bal populaire en plein air dans une ambiance guinguette, Carreau des Halles.",
+        "es": "Bal populaire en plein air dans une ambiance guinguette, Carreau des Halles.",
+        "eu": "Bal populaire en plein air dans une ambiance guinguette, Carreau des Halles."
+      },
+      "artistName": "DJ Balpores"
+    },
+    {
+      "venueId": "BAY-RUE-JACQUES-LAFFITTE",
+      "shortName": {
+        "fr": "Soirée cabaret années",
+        "es": "Soirée cabaret années",
+        "eu": "Soirée cabaret années"
+      },
+      "startTimestamp": "2026-07-15T22:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Soirée cabaret années 80",
+        "es": "Soirée cabaret années 80",
+        "eu": "Soirée cabaret années 80"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Rue Jacques Laffitte.",
+        "es": "Animation des Fêtes de Bayonne 2026, Rue Jacques Laffitte.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Rue Jacques Laffitte."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-DE-LA-REPUBLIQUE",
+      "shortName": {
+        "fr": "Orchestre Pick up",
+        "es": "Orchestre Pick up",
+        "eu": "Orchestre Pick up"
+      },
+      "startTimestamp": "2026-07-15T22:00:00+02:00",
+      "endTimestamp": "2026-07-16T02:00:00+02:00",
+      "title": {
+        "fr": "Orchestre Pick up",
+        "es": "Orchestre Pick up",
+        "eu": "Orchestre Pick up"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la République.",
+        "es": "Concert et ambiance musicale, Place de la République.",
+        "eu": "Concert et ambiance musicale, Place de la République."
+      },
+      "artistName": "Orchestre Pick up"
+    },
+    {
+      "venueId": "BAY-PORTE-DE-MOUSSEROLLES",
+      "shortName": {
+        "fr": "Mouss'Roll",
+        "es": "Mouss'Roll",
+        "eu": "Mouss'Roll"
+      },
+      "startTimestamp": "2026-07-16T09:00:00+02:00",
+      "endTimestamp": "2026-07-17T01:00:00+02:00",
+      "title": {
+        "fr": "Mouss'Roll (animations diverses, concerts, restauration)",
+        "es": "Mouss'Roll (animations diverses, concerts, restauration)",
+        "eu": "Mouss'Roll (animations diverses, concerts, restauration)"
+      },
+      "description": {
+        "fr": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne.",
+        "es": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne.",
+        "eu": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne."
+      }
+    },
+    {
+      "venueId": "BAY-MUSEE-BASQUE",
+      "shortName": {
+        "fr": "Jeu de piste en famille",
+        "es": "Jeu de piste en famille",
+        "eu": "Jeu de piste en famille"
+      },
+      "startTimestamp": "2026-07-16T10:00:00+02:00",
+      "endTimestamp": "2026-07-16T16:00:00+02:00",
+      "title": {
+        "fr": "Jeu de piste en famille",
+        "es": "Jeu de piste en famille",
+        "eu": "Jeu de piste en famille"
+      },
+      "description": {
+        "fr": "Jeu de piste en famille à travers les collections du Musée Basque.",
+        "es": "Jeu de piste en famille à travers les collections du Musée Basque.",
+        "eu": "Jeu de piste en famille à travers les collections du Musée Basque."
+      }
+    },
+    {
+      "venueId": "BAY-10-RUE-GOSSE",
+      "shortName": {
+        "fr": "Matinée Choco Yamboun",
+        "es": "Matinée Choco Yamboun",
+        "eu": "Matinée Choco Yamboun"
+      },
+      "startTimestamp": "2026-07-16T10:00:00+02:00",
+      "endTimestamp": "2026-07-16T11:30:00+02:00",
+      "title": {
+        "fr": "Matinée Choco Yamboun de Betisoak",
+        "es": "Matinée Choco Yamboun de Betisoak",
+        "eu": "Matinée Choco Yamboun de Betisoak"
+      },
+      "description": {
+        "fr": "Chocolat chaud et animations matinales offertes par Betisoak, 10 rue Gosse.",
+        "es": "Chocolat chaud et animations matinales offertes par Betisoak, 10 rue Gosse.",
+        "eu": "Chocolat chaud et animations matinales offertes par Betisoak, 10 rue Gosse."
       }
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
       "shortName": {
-        "fr": "Oreka TX",
-        "es": "Oreka TX",
-        "eu": "Oreka TX"
+        "fr": "QI Gong des Fêtes",
+        "es": "QI Gong des Fêtes",
+        "eu": "QI Gong des Fêtes"
       },
-      "startTimestamp": "2026-03-20T22:00:00+01:00",
-      "endTimestamp": "2026-03-21T00:00:00+01:00",
+      "startTimestamp": "2026-07-16T10:00:00+02:00",
+      "endTimestamp": "2026-07-16T11:00:00+02:00",
       "title": {
-        "fr": "Concert – Oreka TX",
-        "es": "Concierto – Oreka TX",
-        "eu": "Kontzertua – Oreka TX"
+        "fr": "QI Gong des Fêtes",
+        "es": "QI Gong des Fêtes",
+        "eu": "QI Gong des Fêtes"
       },
       "description": {
-        "fr": "Le duo de txalaparta invite le public à un voyage sonore entre tradition et modernité.",
-        "es": "El dúo de txalaparta invita al público a un viaje sonoro.",
-        "eu": "Txalaparta duoa entzuleei soinu bidaia eskaintzen die."
+        "fr": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté.",
+        "es": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté.",
+        "eu": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-SAINT-ANDRE",
+      "shortName": {
+        "fr": "Défilé tamborrada",
+        "es": "Défilé tamborrada",
+        "eu": "Défilé tamborrada"
+      },
+      "startTimestamp": "2026-07-16T10:30:00+02:00",
+      "endTimestamp": "2026-07-16T12:00:00+02:00",
+      "title": {
+        "fr": "Défilé de la tamborrada et des petits géants de Besteak",
+        "es": "Défilé de la tamborrada et des petits géants de Besteak",
+        "eu": "Défilé de la tamborrada et des petits géants de Besteak"
+      },
+      "description": {
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Place Saint-André.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Place Saint-André.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Place Saint-André."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-SAINT-ANDRE",
+      "shortName": {
+        "fr": "Encierro txiki",
+        "es": "Encierro txiki",
+        "eu": "Encierro txiki"
+      },
+      "startTimestamp": "2026-07-16T10:45:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Encierro txiki",
+        "es": "Encierro txiki",
+        "eu": "Encierro txiki"
+      },
+      "description": {
+        "fr": "Petit encierro pour enfants dans une ambiance bon enfant, Place Saint-André.",
+        "es": "Petit encierro pour enfants dans une ambiance bon enfant, Place Saint-André.",
+        "eu": "Petit encierro pour enfants dans une ambiance bon enfant, Place Saint-André."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Aubade et réveil du",
+        "es": "Aubade et réveil du",
+        "eu": "Aubade et réveil du"
+      },
+      "startTimestamp": "2026-07-16T11:00:00+02:00",
+      "endTimestamp": "2026-07-16T12:30:00+02:00",
+      "title": {
+        "fr": "Aubade et réveil du roi Léon",
+        "es": "Aubade et réveil du roi Léon",
+        "eu": "Aubade et réveil du roi Léon"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "es": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Halles'Apero avec les",
+        "es": "Halles'Apero avec les",
+        "eu": "Halles'Apero avec les"
+      },
+      "startTimestamp": "2026-07-16T11:00:00+02:00",
+      "endTimestamp": "2026-07-16T13:00:00+02:00",
+      "title": {
+        "fr": "Halles'Apero avec les bandas",
+        "es": "Halles'Apero avec les bandas",
+        "eu": "Halles'Apero avec les bandas"
+      },
+      "description": {
+        "fr": "Apéro animé par les bandas au Carreau des Halles.",
+        "es": "Apéro animé par les bandas au Carreau des Halles.",
+        "eu": "Apéro animé par les bandas au Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-4-RUE-DU-MOULIN",
+      "shortName": {
+        "fr": "Estanquet gascon",
+        "es": "Estanquet gascon",
+        "eu": "Estanquet gascon"
+      },
+      "startTimestamp": "2026-07-16T11:00:00+02:00",
+      "endTimestamp": "2026-07-16T23:59:00+02:00",
+      "title": {
+        "fr": "Estanquet gascon avec l'académie gasconne Bayonne Adour",
+        "es": "Estanquet gascon avec l'académie gasconne Bayonne Adour",
+        "eu": "Estanquet gascon avec l'académie gasconne Bayonne Adour"
+      },
+      "description": {
+        "fr": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin.",
+        "es": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin.",
+        "eu": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-JACQUES-PORTES",
+      "shortName": {
+        "fr": "Karrikaldi ttiki",
+        "es": "Karrikaldi ttiki",
+        "eu": "Karrikaldi ttiki"
+      },
+      "startTimestamp": "2026-07-16T12:00:00+02:00",
+      "endTimestamp": "2026-07-16T13:00:00+02:00",
+      "title": {
+        "fr": "Karrikaldi ttiki Oihanean dantzan",
+        "es": "Karrikaldi ttiki Oihanean dantzan",
+        "eu": "Karrikaldi ttiki Oihanean dantzan"
+      },
+      "description": {
+        "fr": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "es": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "eu": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Halles'Apero avec les",
+        "es": "Halles'Apero avec les",
+        "eu": "Halles'Apero avec les"
+      },
+      "startTimestamp": "2026-07-16T12:00:00+02:00",
+      "endTimestamp": "2026-07-16T14:00:00+02:00",
+      "title": {
+        "fr": "Halles'Apero avec les bandas",
+        "es": "Halles'Apero avec les bandas",
+        "eu": "Halles'Apero avec les bandas"
+      },
+      "description": {
+        "fr": "Apéro animé par les bandas au Carreau des Halles.",
+        "es": "Apéro animé par les bandas au Carreau des Halles.",
+        "eu": "Apéro animé par les bandas au Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-LA-POTERNE",
+      "shortName": {
+        "fr": "Journée des enfants",
+        "es": "Journée des enfants",
+        "eu": "Journée des enfants"
+      },
+      "startTimestamp": "2026-07-16T12:00:00+02:00",
+      "endTimestamp": "2026-07-16T18:00:00+02:00",
+      "title": {
+        "fr": "Journée des enfants",
+        "es": "Journée des enfants",
+        "eu": "Journée des enfants"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, La Poterne.",
+        "es": "Animation des Fêtes de Bayonne 2026, La Poterne.",
+        "eu": "Animation des Fêtes de Bayonne 2026, La Poterne."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PATXA",
+      "shortName": {
+        "fr": "Kontzertuak / concerts",
+        "es": "Kontzertuak / concerts",
+        "eu": "Kontzertuak / concerts"
+      },
+      "startTimestamp": "2026-07-16T12:00:00+02:00",
+      "endTimestamp": "2026-07-17T02:30:00+02:00",
+      "title": {
+        "fr": "Kontzertuak / concerts",
+        "es": "Kontzertuak / concerts",
+        "eu": "Kontzertuak / concerts"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place Patxa.",
+        "es": "Concert et ambiance musicale, Place Patxa.",
+        "eu": "Concert et ambiance musicale, Place Patxa."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-DE-LA-REPUBLIQUE",
+      "shortName": {
+        "fr": "Chœurs basques",
+        "es": "Chœurs basques",
+        "eu": "Chœurs basques"
+      },
+      "startTimestamp": "2026-07-16T12:30:00+02:00",
+      "endTimestamp": "2026-07-16T14:00:00+02:00",
+      "title": {
+        "fr": "Chœurs basques : Buhaminak et Haiz Egoa",
+        "es": "Chœurs basques : Buhaminak et Haiz Egoa",
+        "eu": "Chœurs basques : Buhaminak et Haiz Egoa"
+      },
+      "description": {
+        "fr": "Concert choral, Place de la République.",
+        "es": "Concert choral, Place de la République.",
+        "eu": "Concert choral, Place de la République."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-JACQUES-PORTES",
+      "shortName": {
+        "fr": "Karrikaldi",
+        "es": "Karrikaldi",
+        "eu": "Karrikaldi"
+      },
+      "startTimestamp": "2026-07-16T16:30:00+02:00",
+      "endTimestamp": "2026-07-16T23:00:00+02:00",
+      "title": {
+        "fr": "Karrikaldi",
+        "es": "Karrikaldi",
+        "eu": "Karrikaldi"
+      },
+      "description": {
+        "fr": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "es": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "eu": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Courses de vaches",
+        "es": "Courses de vaches",
+        "eu": "Courses de vaches"
+      },
+      "startTimestamp": "2026-07-16T17:00:00+02:00",
+      "endTimestamp": "2026-07-16T19:00:00+02:00",
+      "title": {
+        "fr": "Courses de vaches",
+        "es": "Courses de vaches",
+        "eu": "Courses de vaches"
+      },
+      "description": {
+        "fr": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert.",
+        "es": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert.",
+        "eu": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-COLLEGIALE-SAINT-ESPRIT",
+      "shortName": {
+        "fr": "Concert (a)typique",
+        "es": "Concert (a)typique",
+        "eu": "Concert (a)typique"
+      },
+      "startTimestamp": "2026-07-16T17:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert (a)typique : les Gaiteros du Roi Léon et la chorale Bestela",
+        "es": "Concert (a)typique : les Gaiteros du Roi Léon et la chorale Bestela",
+        "eu": "Concert (a)typique : les Gaiteros du Roi Léon et la chorale Bestela"
+      },
+      "description": {
+        "fr": "Concert choral, Collégiale Saint-Esprit.",
+        "es": "Concert choral, Collégiale Saint-Esprit.",
+        "eu": "Concert choral, Collégiale Saint-Esprit."
+      }
+    },
+    {
+      "venueId": "BAY-FRONTON-RAIL-BAYONNAIS",
+      "shortName": {
+        "fr": "Main nue Séniors",
+        "es": "Main nue Séniors",
+        "eu": "Main nue Séniors"
+      },
+      "startTimestamp": "2026-07-16T17:00:00+02:00",
+      "endTimestamp": "2026-07-16T18:00:00+02:00",
+      "title": {
+        "fr": "Main nue Séniors et démonstration de chistera grand gant",
+        "es": "Main nue Séniors et démonstration de chistera grand gant",
+        "eu": "Main nue Séniors et démonstration de chistera grand gant"
+      },
+      "description": {
+        "fr": "Rencontre de pelote basque, Fronton du Rail Bayonnais.",
+        "es": "Rencontre de pelote basque, Fronton du Rail Bayonnais.",
+        "eu": "Rencontre de pelote basque, Fronton du Rail Bayonnais."
+      }
+    },
+    {
+      "venueId": "BAY-PORTE-ESPAGNE",
+      "shortName": {
+        "fr": "Lancer d'espadrilles",
+        "es": "Lancer d'espadrilles",
+        "eu": "Lancer d'espadrilles"
+      },
+      "startTimestamp": "2026-07-16T17:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concours de lancer d'espadrilles avec Or Konpon",
+        "es": "Concours de lancer d'espadrilles avec Or Konpon",
+        "eu": "Concours de lancer d'espadrilles avec Or Konpon"
+      },
+      "description": {
+        "fr": "Concours populaire de lancer d'espadrilles avec Or Konpon, Porte d'Espagne.",
+        "es": "Concours populaire de lancer d'espadrilles avec Or Konpon, Porte d'Espagne.",
+        "eu": "Concours populaire de lancer d'espadrilles avec Or Konpon, Porte d'Espagne."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Soirée Musik'Halles",
+        "es": "Soirée Musik'Halles",
+        "eu": "Soirée Musik'Halles"
+      },
+      "startTimestamp": "2026-07-16T18:00:00+02:00",
+      "endTimestamp": "2026-07-16T20:30:00+02:00",
+      "title": {
+        "fr": "Soirée Musik'Halles",
+        "es": "Soirée Musik'Halles",
+        "eu": "Soirée Musik'Halles"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "es": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-FRONTON-STADE-JEAN-DAUGER",
+      "shortName": {
+        "fr": "Xistera joko garbi",
+        "es": "Xistera joko garbi",
+        "eu": "Xistera joko garbi"
+      },
+      "startTimestamp": "2026-07-16T18:00:00+02:00",
+      "endTimestamp": "2026-07-16T20:00:00+02:00",
+      "title": {
+        "fr": "Xistera et xistera joko garbi",
+        "es": "Xistera et xistera joko garbi",
+        "eu": "Xistera et xistera joko garbi"
+      },
+      "description": {
+        "fr": "Rencontre de pelote basque, Fronton du stade Jean-Dauger.",
+        "es": "Rencontre de pelote basque, Fronton du stade Jean-Dauger.",
+        "eu": "Rencontre de pelote basque, Fronton du stade Jean-Dauger."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Musik'Halles",
+        "es": "Musik'Halles",
+        "eu": "Musik'Halles"
+      },
+      "startTimestamp": "2026-07-16T18:00:00+02:00",
+      "endTimestamp": "2026-07-16T20:30:00+02:00",
+      "title": {
+        "fr": "Les Musik'Halles : musiques de rue",
+        "es": "Les Musik'Halles : musiques de rue",
+        "eu": "Les Musik'Halles : musiques de rue"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "es": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-AVENUE-ANDRE-MALRAUX",
+      "shortName": {
+        "fr": "Tournoi de pétanque",
+        "es": "Tournoi de pétanque",
+        "eu": "Tournoi de pétanque"
+      },
+      "startTimestamp": "2026-07-16T19:00:00+02:00",
+      "endTimestamp": "2026-07-16T23:00:00+02:00",
+      "title": {
+        "fr": "Tournoi de pétanque",
+        "es": "Tournoi de pétanque",
+        "eu": "Tournoi de pétanque"
+      },
+      "description": {
+        "fr": "Tournoi de pétanque convivial ouvert à tous, Avenue André Malraux.",
+        "es": "Tournoi de pétanque convivial ouvert à tous, Avenue André Malraux.",
+        "eu": "Tournoi de pétanque convivial ouvert à tous, Avenue André Malraux."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Zumba du roi Léon",
+        "es": "Zumba du roi Léon",
+        "eu": "Zumba du roi Léon"
+      },
+      "startTimestamp": "2026-07-16T19:30:00+02:00",
+      "endTimestamp": "2026-07-17T02:30:00+02:00",
+      "title": {
+        "fr": "Zumba du roi Léon",
+        "es": "Zumba du roi Léon",
+        "eu": "Zumba du roi Léon"
+      },
+      "description": {
+        "fr": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté.",
+        "es": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté.",
+        "eu": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-TRINQUET-JEAN-MARIE-MAILHARRO",
+      "shortName": {
+        "fr": "1/2 finale main nue",
+        "es": "1/2 finale main nue",
+        "eu": "1/2 finale main nue"
+      },
+      "startTimestamp": "2026-07-16T19:30:00+02:00",
+      "endTimestamp": "2026-07-16T23:00:00+02:00",
+      "title": {
+        "fr": "Masters des Fêtes : 1/2 finale de pelote de main nue",
+        "es": "Masters des Fêtes : 1/2 finale de pelote de main nue",
+        "eu": "Masters des Fêtes : 1/2 finale de pelote de main nue"
+      },
+      "description": {
+        "fr": "Rencontre de pelote basque, Trinquet Jean-Marie Mailharro.",
+        "es": "Rencontre de pelote basque, Trinquet Jean-Marie Mailharro.",
+        "eu": "Rencontre de pelote basque, Trinquet Jean-Marie Mailharro."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "P'tit apéro musical",
+        "es": "P'tit apéro musical",
+        "eu": "P'tit apéro musical"
+      },
+      "startTimestamp": "2026-07-16T20:00:00+02:00",
+      "endTimestamp": "2026-07-16T22:00:00+02:00",
+      "title": {
+        "fr": "P'tit apéro musical",
+        "es": "P'tit apéro musical",
+        "eu": "P'tit apéro musical"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Place Paul-Bert.",
+        "es": "Animation des Fêtes de Bayonne 2026, Place Paul-Bert.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Karaoké DJ",
+        "es": "Karaoké DJ",
+        "eu": "Karaoké DJ"
+      },
+      "startTimestamp": "2026-07-16T20:00:00+02:00",
+      "endTimestamp": "2026-07-16T21:30:00+02:00",
+      "title": {
+        "fr": "Karaoké DJ Philippe Casi",
+        "es": "Karaoké DJ Philippe Casi",
+        "eu": "Karaoké DJ Philippe Casi"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la Liberté.",
+        "es": "Concert et ambiance musicale, Place de la Liberté.",
+        "eu": "Concert et ambiance musicale, Place de la Liberté."
+      },
+      "artistName": "Philippe Casi"
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Eneko Artola",
+        "es": "Eneko Artola",
+        "eu": "Eneko Artola"
+      },
+      "startTimestamp": "2026-07-16T20:30:00+02:00",
+      "endTimestamp": "2026-07-16T23:59:00+02:00",
+      "title": {
+        "fr": "Eneko Artola",
+        "es": "Eneko Artola",
+        "eu": "Eneko Artola"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "es": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Carreau des Halles."
+      },
+      "artistName": "Eneko Artola"
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Txokolatin",
+        "es": "Txokolatin",
+        "eu": "Txokolatin"
+      },
+      "startTimestamp": "2026-07-16T21:30:00+02:00",
+      "endTimestamp": "2026-07-16T23:00:00+02:00",
+      "title": {
+        "fr": "Txokolatin",
+        "es": "Txokolatin",
+        "eu": "Txokolatin"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "es": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Sangria gratuite",
+        "es": "Sangria gratuite",
+        "eu": "Sangria gratuite"
+      },
+      "startTimestamp": "2026-07-16T22:00:00+02:00",
+      "endTimestamp": "2026-07-16T23:30:00+02:00",
+      "title": {
+        "fr": "Sangria gratuite",
+        "es": "Sangria gratuite",
+        "eu": "Sangria gratuite"
+      },
+      "description": {
+        "fr": "Sangria offerte dans une ambiance conviviale, Place Paul-Bert.",
+        "es": "Sangria offerte dans une ambiance conviviale, Place Paul-Bert.",
+        "eu": "Sangria offerte dans une ambiance conviviale, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-DE-LA-REPUBLIQUE",
+      "shortName": {
+        "fr": "Orchestre Miami",
+        "es": "Orchestre Miami",
+        "eu": "Orchestre Miami"
+      },
+      "startTimestamp": "2026-07-16T22:00:00+02:00",
+      "endTimestamp": "2026-07-17T02:30:00+02:00",
+      "title": {
+        "fr": "Orchestre Miami",
+        "es": "Orchestre Miami",
+        "eu": "Orchestre Miami"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la République.",
+        "es": "Concert et ambiance musicale, Place de la République.",
+        "eu": "Concert et ambiance musicale, Place de la République."
+      },
+      "artistName": "Orchestre Miami"
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Salsa Timbayonne",
+        "es": "Salsa Timbayonne",
+        "eu": "Salsa Timbayonne"
+      },
+      "startTimestamp": "2026-07-16T23:00:00+02:00",
+      "endTimestamp": "2026-07-17T02:30:00+02:00",
+      "title": {
+        "fr": "Salsa Timbayonne",
+        "es": "Salsa Timbayonne",
+        "eu": "Salsa Timbayonne"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la Liberté.",
+        "es": "Concert et ambiance musicale, Place de la Liberté.",
+        "eu": "Concert et ambiance musicale, Place de la Liberté."
+      },
+      "artistName": "Timbayonne"
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "MixLive",
+        "es": "MixLive",
+        "eu": "MixLive"
+      },
+      "startTimestamp": "2026-07-16T23:59:00+02:00",
+      "endTimestamp": "2026-07-17T02:30:00+02:00",
+      "title": {
+        "fr": "MixLive",
+        "es": "MixLive",
+        "eu": "MixLive"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Carreau des Halles.",
+        "es": "Concert et ambiance musicale, Carreau des Halles.",
+        "eu": "Concert et ambiance musicale, Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "DJ Mix Spécial Feria",
+        "es": "DJ Mix Spécial Feria",
+        "eu": "DJ Mix Spécial Feria"
+      },
+      "startTimestamp": "2026-07-16T23:59:00+02:00",
+      "endTimestamp": "2026-07-17T02:30:00+02:00",
+      "title": {
+        "fr": "DJ Mix Spécial Feria",
+        "es": "DJ Mix Spécial Feria",
+        "eu": "DJ Mix Spécial Feria"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place Paul-Bert.",
+        "es": "Concert et ambiance musicale, Place Paul-Bert.",
+        "eu": "Concert et ambiance musicale, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-DE-LA-REPUBLIQUE",
+      "shortName": {
+        "fr": "DJ Yossi",
+        "es": "DJ Yossi",
+        "eu": "DJ Yossi"
+      },
+      "startTimestamp": "2026-07-17T00:30:00+02:00",
+      "endTimestamp": "2026-07-17T02:30:00+02:00",
+      "title": {
+        "fr": "DJ Yossi",
+        "es": "DJ Yossi",
+        "eu": "DJ Yossi"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la République.",
+        "es": "Concert et ambiance musicale, Place de la République.",
+        "eu": "Concert et ambiance musicale, Place de la République."
+      },
+      "artistName": "DJ Yossi"
+    },
+    {
+      "venueId": "BAY-PORTE-DE-MOUSSEROLLES",
+      "shortName": {
+        "fr": "Mouss'Roll",
+        "es": "Mouss'Roll",
+        "eu": "Mouss'Roll"
+      },
+      "startTimestamp": "2026-07-17T09:00:00+02:00",
+      "endTimestamp": "2026-07-18T01:00:00+02:00",
+      "title": {
+        "fr": "Mouss'Roll (animations diverses, concerts, restauration)",
+        "es": "Mouss'Roll (animations diverses, concerts, restauration)",
+        "eu": "Mouss'Roll (animations diverses, concerts, restauration)"
+      },
+      "description": {
+        "fr": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne.",
+        "es": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne.",
+        "eu": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne."
+      }
+    },
+    {
+      "venueId": "BAY-10-RUE-GOSSE",
+      "shortName": {
+        "fr": "Matinée Choco Yamboun",
+        "es": "Matinée Choco Yamboun",
+        "eu": "Matinée Choco Yamboun"
+      },
+      "startTimestamp": "2026-07-17T10:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Matinée Choco Yamboun de Betisoak",
+        "es": "Matinée Choco Yamboun de Betisoak",
+        "eu": "Matinée Choco Yamboun de Betisoak"
+      },
+      "description": {
+        "fr": "Chocolat chaud et animations matinales offertes par Betisoak, 10 rue Gosse.",
+        "es": "Chocolat chaud et animations matinales offertes par Betisoak, 10 rue Gosse.",
+        "eu": "Chocolat chaud et animations matinales offertes par Betisoak, 10 rue Gosse."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-JACQUES-PORTES",
+      "shortName": {
+        "fr": "Défilé cour Roi Léon",
+        "es": "Défilé cour Roi Léon",
+        "eu": "Défilé cour Roi Léon"
+      },
+      "startTimestamp": "2026-07-17T10:00:00+02:00",
+      "endTimestamp": "2026-07-17T12:00:00+02:00",
+      "title": {
+        "fr": "Départ du défilé de la cour du Roi Léon avec Tipitapa",
+        "es": "Départ du défilé de la cour du Roi Léon avec Tipitapa",
+        "eu": "Départ du défilé de la cour du Roi Léon avec Tipitapa"
+      },
+      "description": {
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Place Jacques Portes.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Place Jacques Portes.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Place Jacques Portes."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Pilates",
+        "es": "Pilates",
+        "eu": "Pilates"
+      },
+      "startTimestamp": "2026-07-17T10:00:00+02:00",
+      "endTimestamp": "2026-07-17T11:00:00+02:00",
+      "title": {
+        "fr": "Pilates",
+        "es": "Pilates",
+        "eu": "Pilates"
+      },
+      "description": {
+        "fr": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté.",
+        "es": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté.",
+        "eu": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Halles'Apero avec les",
+        "es": "Halles'Apero avec les",
+        "eu": "Halles'Apero avec les"
+      },
+      "startTimestamp": "2026-07-17T11:00:00+02:00",
+      "endTimestamp": "2026-07-17T13:00:00+02:00",
+      "title": {
+        "fr": "Halles'Apero avec les bandas",
+        "es": "Halles'Apero avec les bandas",
+        "eu": "Halles'Apero avec les bandas"
+      },
+      "description": {
+        "fr": "Apéro animé par les bandas au Carreau des Halles.",
+        "es": "Apéro animé par les bandas au Carreau des Halles.",
+        "eu": "Apéro animé par les bandas au Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Aubade et réveil du",
+        "es": "Aubade et réveil du",
+        "eu": "Aubade et réveil du"
+      },
+      "startTimestamp": "2026-07-17T11:00:00+02:00",
+      "endTimestamp": "2026-07-17T12:00:00+02:00",
+      "title": {
+        "fr": "Aubade et réveil du roi Léon",
+        "es": "Aubade et réveil du roi Léon",
+        "eu": "Aubade et réveil du roi Léon"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "es": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-4-RUE-DU-MOULIN",
+      "shortName": {
+        "fr": "Estanquet gascon",
+        "es": "Estanquet gascon",
+        "eu": "Estanquet gascon"
+      },
+      "startTimestamp": "2026-07-17T11:00:00+02:00",
+      "endTimestamp": "2026-07-17T23:59:00+02:00",
+      "title": {
+        "fr": "Estanquet gascon avec l'académie gasconne Bayonne Adour",
+        "es": "Estanquet gascon avec l'académie gasconne Bayonne Adour",
+        "eu": "Estanquet gascon avec l'académie gasconne Bayonne Adour"
+      },
+      "description": {
+        "fr": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin.",
+        "es": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin.",
+        "eu": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Halles'Apero avec les",
+        "es": "Halles'Apero avec les",
+        "eu": "Halles'Apero avec les"
+      },
+      "startTimestamp": "2026-07-17T12:00:00+02:00",
+      "endTimestamp": "2026-07-17T14:00:00+02:00",
+      "title": {
+        "fr": "Halles'Apero avec les bandas",
+        "es": "Halles'Apero avec les bandas",
+        "eu": "Halles'Apero avec les bandas"
+      },
+      "description": {
+        "fr": "Apéro animé par les bandas au Carreau des Halles.",
+        "es": "Apéro animé par les bandas au Carreau des Halles.",
+        "eu": "Apéro animé par les bandas au Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-JACQUES-PORTES",
+      "shortName": {
+        "fr": "Karrikaldi",
+        "es": "Karrikaldi",
+        "eu": "Karrikaldi"
+      },
+      "startTimestamp": "2026-07-17T16:30:00+02:00",
+      "endTimestamp": "2026-07-17T23:00:00+02:00",
+      "title": {
+        "fr": "Karrikaldi",
+        "es": "Karrikaldi",
+        "eu": "Karrikaldi"
+      },
+      "description": {
+        "fr": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "es": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "eu": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Courses de vaches",
+        "es": "Courses de vaches",
+        "eu": "Courses de vaches"
+      },
+      "startTimestamp": "2026-07-17T17:00:00+02:00",
+      "endTimestamp": "2026-07-17T19:00:00+02:00",
+      "title": {
+        "fr": "Courses de vaches",
+        "es": "Courses de vaches",
+        "eu": "Courses de vaches"
+      },
+      "description": {
+        "fr": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert.",
+        "es": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert.",
+        "eu": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-SYNAGOGUE",
+      "shortName": {
+        "fr": "Concert (a)typique",
+        "es": "Concert (a)typique",
+        "eu": "Concert (a)typique"
+      },
+      "startTimestamp": "2026-07-17T17:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert (a)typique : Larre Alde Trikitilariak et le chœur Xaramela",
+        "es": "Concert (a)typique : Larre Alde Trikitilariak et le chœur Xaramela",
+        "eu": "Concert (a)typique : Larre Alde Trikitilariak et le chœur Xaramela"
+      },
+      "description": {
+        "fr": "Concert choral, Synagogue.",
+        "es": "Concert choral, Synagogue.",
+        "eu": "Concert choral, Synagogue."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Musik'Halles",
+        "es": "Musik'Halles",
+        "eu": "Musik'Halles"
+      },
+      "startTimestamp": "2026-07-17T18:00:00+02:00",
+      "endTimestamp": "2026-07-17T20:30:00+02:00",
+      "title": {
+        "fr": "Les Musik'Halles : musiques de rue",
+        "es": "Les Musik'Halles : musiques de rue",
+        "eu": "Les Musik'Halles : musiques de rue"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "es": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Carreau des Halles."
       }
     },
     {
       "venueId": "BAY-ARENES",
       "shortName": {
-        "fr": "Corrida landaise",
-        "es": "Corrida landaise",
-        "eu": "Corrida landaise"
+        "fr": "Corrida blanche",
+        "es": "Corrida blanche",
+        "eu": "Corrida blanche"
       },
-      "startTimestamp": "2026-03-19T15:00:00+01:00",
-      "endTimestamp": "2026-03-19T17:00:00+01:00",
+      "startTimestamp": "2026-07-17T18:30:00+02:00",
+      "endTimestamp": "",
       "title": {
-        "fr": "Corrida landaise",
-        "es": "Corrida landesa",
-        "eu": "Landes zezenketea"
+        "fr": "Corrida blanche en hommage aux toreros français",
+        "es": "Corrida blanche en hommage aux toreros français",
+        "eu": "Corrida blanche en hommage aux toreros français"
       },
       "description": {
-        "fr": "Tradition landaise au cœur des arènes. Un spectacle mélangeant agilité et élégance.",
-        "es": "Tradición landesa en el corazón de la plaza.",
-        "eu": "Landes tradizioa arenetan. Ikuskizun bakarra."
+        "fr": "Spectacle taurin traditionnel aux Arènes de Bayonne.",
+        "es": "Spectacle taurin traditionnel aux Arènes de Bayonne.",
+        "eu": "Spectacle taurin traditionnel aux Arènes de Bayonne."
+      }
+    },
+    {
+      "venueId": "BAY-PORTE-ESPAGNE",
+      "shortName": {
+        "fr": "Concerts Saint-Léon",
+        "es": "Concerts Saint-Léon",
+        "eu": "Concerts Saint-Léon"
+      },
+      "startTimestamp": "2026-07-17T19:00:00+02:00",
+      "endTimestamp": "2026-07-17T21:00:00+02:00",
+      "title": {
+        "fr": "Concerts organisés par l'Amicale Saint-Léon",
+        "es": "Concerts organisés par l'Amicale Saint-Léon",
+        "eu": "Concerts organisés par l'Amicale Saint-Léon"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Porte d'Espagne.",
+        "es": "Concert et ambiance musicale, Porte d'Espagne.",
+        "eu": "Concert et ambiance musicale, Porte d'Espagne."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Zumba du roi Léon",
+        "es": "Zumba du roi Léon",
+        "eu": "Zumba du roi Léon"
+      },
+      "startTimestamp": "2026-07-17T19:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Zumba du roi Léon",
+        "es": "Zumba du roi Léon",
+        "eu": "Zumba du roi Léon"
+      },
+      "description": {
+        "fr": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté.",
+        "es": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté.",
+        "eu": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Patxa Mama",
+        "es": "Patxa Mama",
+        "eu": "Patxa Mama"
+      },
+      "startTimestamp": "2026-07-17T20:00:00+02:00",
+      "endTimestamp": "2026-07-17T23:00:00+02:00",
+      "title": {
+        "fr": "Patxa Mama",
+        "es": "Patxa Mama",
+        "eu": "Patxa Mama"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place Paul-Bert.",
+        "es": "Concert et ambiance musicale, Place Paul-Bert.",
+        "eu": "Concert et ambiance musicale, Place Paul-Bert."
+      },
+      "artistName": "Patxa Mama"
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Eneko Artola",
+        "es": "Eneko Artola",
+        "eu": "Eneko Artola"
+      },
+      "startTimestamp": "2026-07-17T20:30:00+02:00",
+      "endTimestamp": "2026-07-17T23:59:00+02:00",
+      "title": {
+        "fr": "Eneko Artola",
+        "es": "Eneko Artola",
+        "eu": "Eneko Artola"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "es": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Carreau des Halles."
+      },
+      "artistName": "Eneko Artola"
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Julie Rouault",
+        "es": "Julie Rouault",
+        "eu": "Julie Rouault"
+      },
+      "startTimestamp": "2026-07-17T20:30:00+02:00",
+      "endTimestamp": "2026-07-17T21:30:00+02:00",
+      "title": {
+        "fr": "Julie Rouault",
+        "es": "Julie Rouault",
+        "eu": "Julie Rouault"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "es": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Place de la Liberté."
+      },
+      "artistName": "Julie Rouault"
+    },
+    {
+      "venueId": "BAY-RUE-JACQUES-LAFFITTE",
+      "shortName": {
+        "fr": "Soirée cabaret latino",
+        "es": "Soirée cabaret latino",
+        "eu": "Soirée cabaret latino"
+      },
+      "startTimestamp": "2026-07-17T22:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Soirée cabaret latino",
+        "es": "Soirée cabaret latino",
+        "eu": "Soirée cabaret latino"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Rue Jacques Laffitte.",
+        "es": "Animation des Fêtes de Bayonne 2026, Rue Jacques Laffitte.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Rue Jacques Laffitte."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-DE-LA-REPUBLIQUE",
+      "shortName": {
+        "fr": "All Apologies",
+        "es": "All Apologies",
+        "eu": "All Apologies"
+      },
+      "startTimestamp": "2026-07-17T22:00:00+02:00",
+      "endTimestamp": "2026-07-17T23:59:00+02:00",
+      "title": {
+        "fr": "All Apologies",
+        "es": "All Apologies",
+        "eu": "All Apologies"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la République.",
+        "es": "Concert et ambiance musicale, Place de la République.",
+        "eu": "Concert et ambiance musicale, Place de la République."
+      },
+      "artistName": "All Apologies"
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Concert En Tol",
+        "es": "Concert En Tol",
+        "eu": "Concert En Tol"
+      },
+      "startTimestamp": "2026-07-17T22:15:00+02:00",
+      "endTimestamp": "2026-07-17T23:30:00+02:00",
+      "title": {
+        "fr": "Concert En Tol Sarmiento",
+        "es": "Concert En Tol Sarmiento",
+        "eu": "Concert En Tol Sarmiento"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la Liberté.",
+        "es": "Concert et ambiance musicale, Place de la Liberté.",
+        "eu": "Concert et ambiance musicale, Place de la Liberté."
+      },
+      "artistName": "En Tol Sarmiento"
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Mix spécial Feria",
+        "es": "Mix spécial Feria",
+        "eu": "Mix spécial Feria"
+      },
+      "startTimestamp": "2026-07-17T23:30:00+02:00",
+      "endTimestamp": "2026-07-18T02:30:00+02:00",
+      "title": {
+        "fr": "Mix spécial Feria",
+        "es": "Mix spécial Feria",
+        "eu": "Mix spécial Feria"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place Paul-Bert.",
+        "es": "Concert et ambiance musicale, Place Paul-Bert.",
+        "eu": "Concert et ambiance musicale, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "MixLive",
+        "es": "MixLive",
+        "eu": "MixLive"
+      },
+      "startTimestamp": "2026-07-17T23:59:00+02:00",
+      "endTimestamp": "2026-07-18T02:30:00+02:00",
+      "title": {
+        "fr": "MixLive",
+        "es": "MixLive",
+        "eu": "MixLive"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Carreau des Halles.",
+        "es": "Concert et ambiance musicale, Carreau des Halles.",
+        "eu": "Concert et ambiance musicale, Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Orchestre Edantza",
+        "es": "Orchestre Edantza",
+        "eu": "Orchestre Edantza"
+      },
+      "startTimestamp": "2026-07-18T00:00:00+02:00",
+      "endTimestamp": "2026-07-18T02:30:00+02:00",
+      "title": {
+        "fr": "Orchestre Edantza",
+        "es": "Orchestre Edantza",
+        "eu": "Orchestre Edantza"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la Liberté.",
+        "es": "Concert et ambiance musicale, Place de la Liberté.",
+        "eu": "Concert et ambiance musicale, Place de la Liberté."
+      },
+      "artistName": "Orchestre Edantza"
+    },
+    {
+      "venueId": "BAY-PORTE-DE-MOUSSEROLLES",
+      "shortName": {
+        "fr": "Mouss'Roll",
+        "es": "Mouss'Roll",
+        "eu": "Mouss'Roll"
+      },
+      "startTimestamp": "2026-07-18T09:00:00+02:00",
+      "endTimestamp": "2026-07-19T01:00:00+02:00",
+      "title": {
+        "fr": "Mouss'Roll (animations diverses, concerts, restauration)",
+        "es": "Mouss'Roll (animations diverses, concerts, restauration)",
+        "eu": "Mouss'Roll (animations diverses, concerts, restauration)"
+      },
+      "description": {
+        "fr": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne.",
+        "es": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne.",
+        "eu": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-JACQUES-PORTES",
+      "shortName": {
+        "fr": "Défilé cour Roi Léon",
+        "es": "Défilé cour Roi Léon",
+        "eu": "Défilé cour Roi Léon"
+      },
+      "startTimestamp": "2026-07-18T10:00:00+02:00",
+      "endTimestamp": "2026-07-18T12:00:00+02:00",
+      "title": {
+        "fr": "Départ du défilé de la cour du Roi Léon avec Tipitapa",
+        "es": "Départ du défilé de la cour du Roi Léon avec Tipitapa",
+        "eu": "Départ du défilé de la cour du Roi Léon avec Tipitapa"
+      },
+      "description": {
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Place Jacques Portes.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Place Jacques Portes.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Place Jacques Portes."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Qi Gong des Fêtes",
+        "es": "Qi Gong des Fêtes",
+        "eu": "Qi Gong des Fêtes"
+      },
+      "startTimestamp": "2026-07-18T10:00:00+02:00",
+      "endTimestamp": "2026-07-18T11:00:00+02:00",
+      "title": {
+        "fr": "Qi Gong des Fêtes",
+        "es": "Qi Gong des Fêtes",
+        "eu": "Qi Gong des Fêtes"
+      },
+      "description": {
+        "fr": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté.",
+        "es": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté.",
+        "eu": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-JACQUES-PORTES",
+      "shortName": {
+        "fr": "Défilé cour Roi Léon",
+        "es": "Défilé cour Roi Léon",
+        "eu": "Défilé cour Roi Léon"
+      },
+      "startTimestamp": "2026-07-18T10:00:00+02:00",
+      "endTimestamp": "2026-07-18T12:00:00+02:00",
+      "title": {
+        "fr": "Défilé de la cour du Roi Léon avec Tipitapa",
+        "es": "Défilé de la cour du Roi Léon avec Tipitapa",
+        "eu": "Défilé de la cour du Roi Léon avec Tipitapa"
+      },
+      "description": {
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Place Jacques Portes.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Place Jacques Portes.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Place Jacques Portes."
+      }
+    },
+    {
+      "venueId": "BAY-FRONTON-RAIL-BAYONNAIS",
+      "shortName": {
+        "fr": "Finale pelote féminine",
+        "es": "Finale pelote féminine",
+        "eu": "Finale pelote féminine"
+      },
+      "startTimestamp": "2026-07-18T10:00:00+02:00",
+      "endTimestamp": "2026-07-18T12:00:00+02:00",
+      "title": {
+        "fr": "Pelote : finale féminine du tournoi et finale 1re série open Caco Dendary",
+        "es": "Pelote : finale féminine du tournoi et finale 1re série open Caco Dendary",
+        "eu": "Pelote : finale féminine du tournoi et finale 1re série open Caco Dendary"
+      },
+      "description": {
+        "fr": "Rencontre de pelote basque, Fronton du Rail Bayonnais.",
+        "es": "Rencontre de pelote basque, Fronton du Rail Bayonnais.",
+        "eu": "Rencontre de pelote basque, Fronton du Rail Bayonnais."
+      }
+    },
+    {
+      "venueId": "BAY-PORTE-ESPAGNE",
+      "shortName": {
+        "fr": "Défilé tamborrada",
+        "es": "Défilé tamborrada",
+        "eu": "Défilé tamborrada"
+      },
+      "startTimestamp": "2026-07-18T10:30:00+02:00",
+      "endTimestamp": "2026-07-18T13:30:00+02:00",
+      "title": {
+        "fr": "Défilé de la tamborrada avec Erro Bat",
+        "es": "Défilé de la tamborrada avec Erro Bat",
+        "eu": "Défilé de la tamborrada avec Erro Bat"
+      },
+      "description": {
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Porte d'Espagne.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Porte d'Espagne.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Porte d'Espagne."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Courses de vaches",
+        "es": "Courses de vaches",
+        "eu": "Courses de vaches"
+      },
+      "startTimestamp": "2026-07-18T11:00:00+02:00",
+      "endTimestamp": "2026-07-18T13:00:00+02:00",
+      "title": {
+        "fr": "Courses de vaches",
+        "es": "Courses de vaches",
+        "eu": "Courses de vaches"
+      },
+      "description": {
+        "fr": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert.",
+        "es": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert.",
+        "eu": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Démo aérienne RPIMa",
+        "es": "Démo aérienne RPIMa",
+        "eu": "Démo aérienne RPIMa"
+      },
+      "startTimestamp": "2026-07-18T11:00:00+02:00",
+      "endTimestamp": "2026-07-18T11:55:00+02:00",
+      "title": {
+        "fr": "Démonstrations aériennes du 1er RPIMa",
+        "es": "Démonstrations aériennes du 1er RPIMa",
+        "eu": "Démonstrations aériennes du 1er RPIMa"
+      },
+      "description": {
+        "fr": "Démonstration de voltige aérienne par le 1er RPIMa, Place de la Liberté.",
+        "es": "Démonstration de voltige aérienne par le 1er RPIMa, Place de la Liberté.",
+        "eu": "Démonstration de voltige aérienne par le 1er RPIMa, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-4-RUE-DU-MOULIN",
+      "shortName": {
+        "fr": "Estanquet gascon",
+        "es": "Estanquet gascon",
+        "eu": "Estanquet gascon"
+      },
+      "startTimestamp": "2026-07-18T11:00:00+02:00",
+      "endTimestamp": "2026-07-18T23:59:00+02:00",
+      "title": {
+        "fr": "Estanquet gascon avec l'académie gasconne Bayonne Adour",
+        "es": "Estanquet gascon avec l'académie gasconne Bayonne Adour",
+        "eu": "Estanquet gascon avec l'académie gasconne Bayonne Adour"
+      },
+      "description": {
+        "fr": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin.",
+        "es": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin.",
+        "eu": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Halles'Apero avec les",
+        "es": "Halles'Apero avec les",
+        "eu": "Halles'Apero avec les"
+      },
+      "startTimestamp": "2026-07-18T11:30:00+02:00",
+      "endTimestamp": "2026-07-18T23:59:00+02:00",
+      "title": {
+        "fr": "Halles'Apero avec les bandas",
+        "es": "Halles'Apero avec les bandas",
+        "eu": "Halles'Apero avec les bandas"
+      },
+      "description": {
+        "fr": "Apéro animé par les bandas au Carreau des Halles.",
+        "es": "Apéro animé par les bandas au Carreau des Halles.",
+        "eu": "Apéro animé par les bandas au Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PATXA",
+      "shortName": {
+        "fr": "Kontzertuak / Concerts",
+        "es": "Kontzertuak / Concerts",
+        "eu": "Kontzertuak / Concerts"
+      },
+      "startTimestamp": "2026-07-18T12:00:00+02:00",
+      "endTimestamp": "2026-07-19T02:30:00+02:00",
+      "title": {
+        "fr": "Kontzertuak / Concerts",
+        "es": "Kontzertuak / Concerts",
+        "eu": "Kontzertuak / Concerts"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place Patxa.",
+        "es": "Concert et ambiance musicale, Place Patxa.",
+        "eu": "Concert et ambiance musicale, Place Patxa."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Réveil du roi Léon",
+        "es": "Réveil du roi Léon",
+        "eu": "Réveil du roi Léon"
+      },
+      "startTimestamp": "2026-07-18T12:00:00+02:00",
+      "endTimestamp": "2026-07-18T12:30:00+02:00",
+      "title": {
+        "fr": "Réveil du roi Léon",
+        "es": "Réveil du roi Léon",
+        "eu": "Réveil du roi Léon"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "es": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-JACQUES-PORTES",
+      "shortName": {
+        "fr": "Karrikaldi",
+        "es": "Karrikaldi",
+        "eu": "Karrikaldi"
+      },
+      "startTimestamp": "2026-07-18T12:00:00+02:00",
+      "endTimestamp": "2026-07-18T23:00:00+02:00",
+      "title": {
+        "fr": "Karrikaldi",
+        "es": "Karrikaldi",
+        "eu": "Karrikaldi"
+      },
+      "description": {
+        "fr": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "es": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "eu": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi."
+      }
+    },
+    {
+      "venueId": "BAY-LA-POTERNE",
+      "shortName": {
+        "fr": "Repas, animations,",
+        "es": "Repas, animations,",
+        "eu": "Repas, animations,"
+      },
+      "startTimestamp": "2026-07-18T12:00:00+02:00",
+      "endTimestamp": "2026-07-19T02:30:00+02:00",
+      "title": {
+        "fr": "Repas, animations, concerts",
+        "es": "Repas, animations, concerts",
+        "eu": "Repas, animations, concerts"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, La Poterne.",
+        "es": "Concert et ambiance musicale, La Poterne.",
+        "eu": "Concert et ambiance musicale, La Poterne."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Chorale Séniors",
+        "es": "Chorale Séniors",
+        "eu": "Chorale Séniors"
+      },
+      "startTimestamp": "2026-07-18T12:15:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Chorale Génération Séniors",
+        "es": "Chorale Génération Séniors",
+        "eu": "Chorale Génération Séniors"
+      },
+      "description": {
+        "fr": "Concert choral, Place de la Liberté.",
+        "es": "Concert choral, Place de la Liberté.",
+        "eu": "Concert choral, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-AVENUE-ANDRE-MALRAUX",
+      "shortName": {
+        "fr": "Tournoi de pétanque",
+        "es": "Tournoi de pétanque",
+        "eu": "Tournoi de pétanque"
+      },
+      "startTimestamp": "2026-07-18T15:00:00+02:00",
+      "endTimestamp": "2026-07-18T22:00:00+02:00",
+      "title": {
+        "fr": "Tournoi de pétanque",
+        "es": "Tournoi de pétanque",
+        "eu": "Tournoi de pétanque"
+      },
+      "description": {
+        "fr": "Tournoi de pétanque convivial ouvert à tous, Avenue André Malraux.",
+        "es": "Tournoi de pétanque convivial ouvert à tous, Avenue André Malraux.",
+        "eu": "Tournoi de pétanque convivial ouvert à tous, Avenue André Malraux."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Courses de vaches",
+        "es": "Courses de vaches",
+        "eu": "Courses de vaches"
+      },
+      "startTimestamp": "2026-07-18T17:00:00+02:00",
+      "endTimestamp": "2026-07-18T19:00:00+02:00",
+      "title": {
+        "fr": "Courses de vaches",
+        "es": "Courses de vaches",
+        "eu": "Courses de vaches"
+      },
+      "description": {
+        "fr": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert.",
+        "es": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert.",
+        "eu": "Vachettes landaises et écarts spectaculaires devant le public, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-FRONTON-STADE-JEAN-DAUGER",
+      "shortName": {
+        "fr": "Lancer de bérets",
+        "es": "Lancer de bérets",
+        "eu": "Lancer de bérets"
+      },
+      "startTimestamp": "2026-07-18T17:00:00+02:00",
+      "endTimestamp": "2026-07-18T18:00:00+02:00",
+      "title": {
+        "fr": "Championnat des Fêtes du lancer de bérets",
+        "es": "Championnat des Fêtes du lancer de bérets",
+        "eu": "Championnat des Fêtes du lancer de bérets"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Fronton du stade Jean-Dauger.",
+        "es": "Animation des Fêtes de Bayonne 2026, Fronton du stade Jean-Dauger.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Fronton du stade Jean-Dauger."
+      }
+    },
+    {
+      "venueId": "BAY-TEMPLE-PROTESTANT",
+      "shortName": {
+        "fr": "Concert (a)typique",
+        "es": "Concert (a)typique",
+        "eu": "Concert (a)typique"
+      },
+      "startTimestamp": "2026-07-18T17:00:00+02:00",
+      "endTimestamp": "2026-07-18T18:30:00+02:00",
+      "title": {
+        "fr": "Concert (a)typique : Herri Etxeko Txistu Banda et chorale Montanhas e Ribèra",
+        "es": "Concert (a)typique : Herri Etxeko Txistu Banda et chorale Montanhas e Ribèra",
+        "eu": "Concert (a)typique : Herri Etxeko Txistu Banda et chorale Montanhas e Ribèra"
+      },
+      "description": {
+        "fr": "Concert choral, Temple Protestant.",
+        "es": "Concert choral, Temple Protestant.",
+        "eu": "Concert choral, Temple Protestant."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Musik'Halles",
+        "es": "Musik'Halles",
+        "eu": "Musik'Halles"
+      },
+      "startTimestamp": "2026-07-18T18:00:00+02:00",
+      "endTimestamp": "2026-07-18T20:30:00+02:00",
+      "title": {
+        "fr": "Les Musik'Halles : musiques de rue",
+        "es": "Les Musik'Halles : musiques de rue",
+        "eu": "Les Musik'Halles : musiques de rue"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "es": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-FRONTON-STADE-JEAN-DAUGER",
+      "shortName": {
+        "fr": "Partie de Grosse Pala",
+        "es": "Partie de Grosse Pala",
+        "eu": "Partie de Grosse Pala"
+      },
+      "startTimestamp": "2026-07-18T18:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Partie de Grosse Pala",
+        "es": "Partie de Grosse Pala",
+        "eu": "Partie de Grosse Pala"
+      },
+      "description": {
+        "fr": "Rencontre de pelote basque, Fronton du stade Jean-Dauger.",
+        "es": "Rencontre de pelote basque, Fronton du stade Jean-Dauger.",
+        "eu": "Rencontre de pelote basque, Fronton du stade Jean-Dauger."
+      }
+    },
+    {
+      "venueId": "BAY-BOULEVARD-ALSACE-LORRAINE",
+      "shortName": {
+        "fr": "Chars du corso",
+        "es": "Chars du corso",
+        "eu": "Chars du corso"
+      },
+      "startTimestamp": "2026-07-18T18:00:00+02:00",
+      "endTimestamp": "2026-07-18T22:00:00+02:00",
+      "title": {
+        "fr": "Exposition des chars du corso",
+        "es": "Exposition des chars du corso",
+        "eu": "Exposition des chars du corso"
+      },
+      "description": {
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Boulevard Alsace-Lorraine.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Boulevard Alsace-Lorraine.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Boulevard Alsace-Lorraine."
       }
     },
     {
       "venueId": "BAY-ARENES",
       "shortName": {
-        "fr": "Course de vaches",
-        "es": "Course de vaches",
-        "eu": "Course de vaches"
+        "fr": "Corrida à cheval",
+        "es": "Corrida à cheval",
+        "eu": "Corrida à cheval"
       },
-      "startTimestamp": "2026-03-20T17:00:00+01:00",
-      "endTimestamp": "2026-03-20T19:30:00+01:00",
+      "startTimestamp": "2026-07-18T18:30:00+02:00",
+      "endTimestamp": "",
       "title": {
-        "fr": "Course de vaches – Écarteurs landais",
-        "es": "Carrera de vacas – Écarteurs landeses",
-        "eu": "Behi lasterketa – Écarteurs landardarrak"
+        "fr": "Corrida à cheval",
+        "es": "Corrida à cheval",
+        "eu": "Corrida à cheval"
       },
       "description": {
-        "fr": "Démonstrations spectaculaires des écarteurs. Un art transmis de génération en génération.",
-        "es": "Demostraciones espectaculares.",
-        "eu": "Écarteurs-en erakustaldi ikusgarriak."
+        "fr": "Spectacle taurin traditionnel aux Arènes de Bayonne.",
+        "es": "Spectacle taurin traditionnel aux Arènes de Bayonne.",
+        "eu": "Spectacle taurin traditionnel aux Arènes de Bayonne."
+      }
+    },
+    {
+      "venueId": "BAY-PORTE-ESPAGNE",
+      "shortName": {
+        "fr": "Concerts Or Konpon",
+        "es": "Concerts Or Konpon",
+        "eu": "Concerts Or Konpon"
+      },
+      "startTimestamp": "2026-07-18T19:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concerts organisés par Or Konpon",
+        "es": "Concerts organisés par Or Konpon",
+        "eu": "Concerts organisés par Or Konpon"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Porte d'Espagne.",
+        "es": "Concert et ambiance musicale, Porte d'Espagne.",
+        "eu": "Concert et ambiance musicale, Porte d'Espagne."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Zumba du roi Léon",
+        "es": "Zumba du roi Léon",
+        "eu": "Zumba du roi Léon"
+      },
+      "startTimestamp": "2026-07-18T19:30:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Zumba du roi Léon",
+        "es": "Zumba du roi Léon",
+        "eu": "Zumba du roi Léon"
+      },
+      "description": {
+        "fr": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté.",
+        "es": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté.",
+        "eu": "Séance de zumba en musique animée avec le roi Léon, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "P'tit apéro musical",
+        "es": "P'tit apéro musical",
+        "eu": "P'tit apéro musical"
+      },
+      "startTimestamp": "2026-07-18T20:00:00+02:00",
+      "endTimestamp": "2026-07-18T22:00:00+02:00",
+      "title": {
+        "fr": "P'tit apéro musical",
+        "es": "P'tit apéro musical",
+        "eu": "P'tit apéro musical"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Place Paul-Bert.",
+        "es": "Animation des Fêtes de Bayonne 2026, Place Paul-Bert.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-DE-LA-REPUBLIQUE",
+      "shortName": {
+        "fr": "Take The Ska Train",
+        "es": "Take The Ska Train",
+        "eu": "Take The Ska Train"
+      },
+      "startTimestamp": "2026-07-18T20:00:00+02:00",
+      "endTimestamp": "2026-07-18T21:30:00+02:00",
+      "title": {
+        "fr": "Take The Ska Train",
+        "es": "Take The Ska Train",
+        "eu": "Take The Ska Train"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la République.",
+        "es": "Concert et ambiance musicale, Place de la République.",
+        "eu": "Concert et ambiance musicale, Place de la République."
+      },
+      "artistName": "Take The Ska Train"
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Orchestre Edantza",
+        "es": "Orchestre Edantza",
+        "eu": "Orchestre Edantza"
+      },
+      "startTimestamp": "2026-07-18T20:00:00+02:00",
+      "endTimestamp": "2026-07-18T22:00:00+02:00",
+      "title": {
+        "fr": "Orchestre Edantza",
+        "es": "Orchestre Edantza",
+        "eu": "Orchestre Edantza"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la Liberté.",
+        "es": "Concert et ambiance musicale, Place de la Liberté.",
+        "eu": "Concert et ambiance musicale, Place de la Liberté."
+      },
+      "artistName": "Orchestre Edantza"
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Philippe Casi et",
+        "es": "Philippe Casi et",
+        "eu": "Philippe Casi et"
+      },
+      "startTimestamp": "2026-07-18T20:30:00+02:00",
+      "endTimestamp": "2026-07-19T02:30:00+02:00",
+      "title": {
+        "fr": "Philippe Casi et MixLive",
+        "es": "Philippe Casi et MixLive",
+        "eu": "Philippe Casi et MixLive"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Carreau des Halles.",
+        "es": "Concert et ambiance musicale, Carreau des Halles.",
+        "eu": "Concert et ambiance musicale, Carreau des Halles."
+      },
+      "artistName": "Philippe Casi"
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Orchestre Katxi",
+        "es": "Orchestre Katxi",
+        "eu": "Orchestre Katxi"
+      },
+      "startTimestamp": "2026-07-18T22:00:00+02:00",
+      "endTimestamp": "2026-07-19T02:30:00+02:00",
+      "title": {
+        "fr": "Orchestre Katxi et DJ Mix Spécial Féria",
+        "es": "Orchestre Katxi et DJ Mix Spécial Féria",
+        "eu": "Orchestre Katxi et DJ Mix Spécial Féria"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place Paul-Bert.",
+        "es": "Concert et ambiance musicale, Place Paul-Bert.",
+        "eu": "Concert et ambiance musicale, Place Paul-Bert."
+      },
+      "artistName": "Orchestre Katxi"
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Défilé du Corso",
+        "es": "Défilé du Corso",
+        "eu": "Défilé du Corso"
+      },
+      "startTimestamp": "2026-07-18T22:00:00+02:00",
+      "endTimestamp": "2026-07-18T23:59:00+02:00",
+      "title": {
+        "fr": "Défilé du Corso",
+        "es": "Défilé du Corso",
+        "eu": "Défilé du Corso"
+      },
+      "description": {
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Place de la Liberté.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Place de la Liberté.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-DE-LA-REPUBLIQUE",
+      "shortName": {
+        "fr": "DJ Yossi",
+        "es": "DJ Yossi",
+        "eu": "DJ Yossi"
+      },
+      "startTimestamp": "2026-07-18T23:00:00+02:00",
+      "endTimestamp": "2026-07-19T02:30:00+02:00",
+      "title": {
+        "fr": "DJ Yossi",
+        "es": "DJ Yossi",
+        "eu": "DJ Yossi"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la République.",
+        "es": "Concert et ambiance musicale, Place de la République.",
+        "eu": "Concert et ambiance musicale, Place de la République."
+      },
+      "artistName": "DJ Yossi"
+    },
+    {
+      "venueId": "BAY-PORTE-DE-MOUSSEROLLES",
+      "shortName": {
+        "fr": "Mouss'Roll",
+        "es": "Mouss'Roll",
+        "eu": "Mouss'Roll"
+      },
+      "startTimestamp": "2026-07-19T09:00:00+02:00",
+      "endTimestamp": "2026-07-20T01:00:00+02:00",
+      "title": {
+        "fr": "Mouss'Roll (animations diverses, concerts, restauration)",
+        "es": "Mouss'Roll (animations diverses, concerts, restauration)",
+        "eu": "Mouss'Roll (animations diverses, concerts, restauration)"
+      },
+      "description": {
+        "fr": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne.",
+        "es": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne.",
+        "eu": "Animations, concerts et restauration en continu à la Porte de Mousserolles, l'un des hauts lieux festifs de Bayonne."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "QI Gong des Fêtes",
+        "es": "QI Gong des Fêtes",
+        "eu": "QI Gong des Fêtes"
+      },
+      "startTimestamp": "2026-07-19T10:00:00+02:00",
+      "endTimestamp": "2026-07-19T11:00:00+02:00",
+      "title": {
+        "fr": "QI Gong des Fêtes",
+        "es": "QI Gong des Fêtes",
+        "eu": "QI Gong des Fêtes"
+      },
+      "description": {
+        "fr": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté.",
+        "es": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté.",
+        "eu": "Réveil en douceur avec une séance collective en plein air, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-TRINQUET-JEAN-MARIE-MAILHARRO",
+      "shortName": {
+        "fr": "Finale Masters",
+        "es": "Finale Masters",
+        "eu": "Finale Masters"
+      },
+      "startTimestamp": "2026-07-19T10:00:00+02:00",
+      "endTimestamp": "2026-07-19T13:30:00+02:00",
+      "title": {
+        "fr": "Finale du Masters des Fêtes",
+        "es": "Finale du Masters des Fêtes",
+        "eu": "Finale du Masters des Fêtes"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Trinquet Jean-Marie Mailharro.",
+        "es": "Animation des Fêtes de Bayonne 2026, Trinquet Jean-Marie Mailharro.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Trinquet Jean-Marie Mailharro."
+      }
+    },
+    {
+      "venueId": "BAY-COLLEGIALE-SAINT-ESPRIT",
+      "shortName": {
+        "fr": "Messe des familles",
+        "es": "Messe des familles",
+        "eu": "Messe des familles"
+      },
+      "startTimestamp": "2026-07-19T10:30:00+02:00",
+      "endTimestamp": "2026-07-19T12:00:00+02:00",
+      "title": {
+        "fr": "Messe des familles",
+        "es": "Messe des familles",
+        "eu": "Messe des familles"
+      },
+      "description": {
+        "fr": "Célébration religieuse des Fêtes, Collégiale Saint-Esprit.",
+        "es": "Célébration religieuse des Fêtes, Collégiale Saint-Esprit.",
+        "eu": "Célébration religieuse des Fêtes, Collégiale Saint-Esprit."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PATXA",
+      "shortName": {
+        "fr": "Kontzertuak / Concerts",
+        "es": "Kontzertuak / Concerts",
+        "eu": "Kontzertuak / Concerts"
+      },
+      "startTimestamp": "2026-07-19T11:00:00+02:00",
+      "endTimestamp": "2026-07-20T01:30:00+02:00",
+      "title": {
+        "fr": "Kontzertuak / Concerts",
+        "es": "Kontzertuak / Concerts",
+        "eu": "Kontzertuak / Concerts"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place Patxa.",
+        "es": "Concert et ambiance musicale, Place Patxa.",
+        "eu": "Concert et ambiance musicale, Place Patxa."
+      }
+    },
+    {
+      "venueId": "BAY-4-RUE-DU-MOULIN",
+      "shortName": {
+        "fr": "Estanquet gascon",
+        "es": "Estanquet gascon",
+        "eu": "Estanquet gascon"
+      },
+      "startTimestamp": "2026-07-19T11:00:00+02:00",
+      "endTimestamp": "2026-07-19T23:59:00+02:00",
+      "title": {
+        "fr": "Estanquet gascon avec l'académie gasconne Bayonne Adour",
+        "es": "Estanquet gascon avec l'académie gasconne Bayonne Adour",
+        "eu": "Estanquet gascon avec l'académie gasconne Bayonne Adour"
+      },
+      "description": {
+        "fr": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin.",
+        "es": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin.",
+        "eu": "L'Estanquet gascon de l'académie gasconne Bayonne Adour propose ambiance et convivialité, 4 rue du Moulin."
+      }
+    },
+    {
+      "venueId": "BAY-EGLISE-SAINT-ANDRE",
+      "shortName": {
+        "fr": "Messe des Bandas",
+        "es": "Messe des Bandas",
+        "eu": "Messe des Bandas"
+      },
+      "startTimestamp": "2026-07-19T11:00:00+02:00",
+      "endTimestamp": "2026-07-19T12:30:00+02:00",
+      "title": {
+        "fr": "Messe des Bandas",
+        "es": "Messe des Bandas",
+        "eu": "Messe des Bandas"
+      },
+      "description": {
+        "fr": "Célébration religieuse des Fêtes, Église Saint-André.",
+        "es": "Célébration religieuse des Fêtes, Église Saint-André.",
+        "eu": "Célébration religieuse des Fêtes, Église Saint-André."
+      }
+    },
+    {
+      "venueId": "BAY-CATHEDRALE-SAINTE-MARIE",
+      "shortName": {
+        "fr": "Messe des Fêtes",
+        "es": "Messe des Fêtes",
+        "eu": "Messe des Fêtes"
+      },
+      "startTimestamp": "2026-07-19T11:00:00+02:00",
+      "endTimestamp": "2026-07-19T12:30:00+02:00",
+      "title": {
+        "fr": "Messe des Fêtes",
+        "es": "Messe des Fêtes",
+        "eu": "Messe des Fêtes"
+      },
+      "description": {
+        "fr": "Célébration religieuse des Fêtes, Cathédrale Sainte-Marie.",
+        "es": "Célébration religieuse des Fêtes, Cathédrale Sainte-Marie.",
+        "eu": "Célébration religieuse des Fêtes, Cathédrale Sainte-Marie."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Danse flamenco",
+        "es": "Danse flamenco",
+        "eu": "Danse flamenco"
+      },
+      "startTimestamp": "2026-07-19T11:00:00+02:00",
+      "endTimestamp": "2026-07-19T12:00:00+02:00",
+      "title": {
+        "fr": "Danse flamenco / école de Talia",
+        "es": "Danse flamenco / école de Talia",
+        "eu": "Danse flamenco / école de Talia"
+      },
+      "description": {
+        "fr": "Démonstration de danse flamenco par l'école de Talia, Place de la Liberté.",
+        "es": "Démonstration de danse flamenco par l'école de Talia, Place de la Liberté.",
+        "eu": "Démonstration de danse flamenco par l'école de Talia, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Réveil du roi Léon",
+        "es": "Réveil du roi Léon",
+        "eu": "Réveil du roi Léon"
+      },
+      "startTimestamp": "2026-07-19T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Réveil du roi Léon",
+        "es": "Réveil du roi Léon",
+        "eu": "Réveil du roi Léon"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "es": "Animation des Fêtes de Bayonne 2026, Place de la Liberté.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-JACQUES-PORTES",
+      "shortName": {
+        "fr": "Karrikaldi",
+        "es": "Karrikaldi",
+        "eu": "Karrikaldi"
+      },
+      "startTimestamp": "2026-07-19T12:00:00+02:00",
+      "endTimestamp": "2026-07-19T23:00:00+02:00",
+      "title": {
+        "fr": "Karrikaldi",
+        "es": "Karrikaldi",
+        "eu": "Karrikaldi"
+      },
+      "description": {
+        "fr": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "es": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi.",
+        "eu": "Rendez-vous festif et musical au cœur de Place Jacques Portes, dans l'esprit Karrikaldi."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-SAINT-ANDRE",
+      "shortName": {
+        "fr": "Défilé des géants",
+        "es": "Défilé des géants",
+        "eu": "Défilé des géants"
+      },
+      "startTimestamp": "2026-07-19T12:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Départ du défilé officiel des géants, des bandas et des groupes traditionnels",
+        "es": "Départ du défilé officiel des géants, des bandas et des groupes traditionnels",
+        "eu": "Départ du défilé officiel des géants, des bandas et des groupes traditionnels"
+      },
+      "description": {
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Place Saint-André.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Place Saint-André.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Place Saint-André."
+      }
+    },
+    {
+      "venueId": "BAY-LA-POTERNE",
+      "shortName": {
+        "fr": "Bertso-pintxo",
+        "es": "Bertso-pintxo",
+        "eu": "Bertso-pintxo"
+      },
+      "startTimestamp": "2026-07-19T12:00:00+02:00",
+      "endTimestamp": "2026-07-20T01:30:00+02:00",
+      "title": {
+        "fr": "Bertso-pintxo, animations, concerts",
+        "es": "Bertso-pintxo, animations, concerts",
+        "eu": "Bertso-pintxo, animations, concerts"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, La Poterne.",
+        "es": "Concert et ambiance musicale, La Poterne.",
+        "eu": "Concert et ambiance musicale, La Poterne."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PASTEUR",
+      "shortName": {
+        "fr": "Chœur Argileak",
+        "es": "Chœur Argileak",
+        "eu": "Chœur Argileak"
+      },
+      "startTimestamp": "2026-07-19T12:30:00+02:00",
+      "endTimestamp": "2026-07-19T13:30:00+02:00",
+      "title": {
+        "fr": "Chœur Argileak",
+        "es": "Chœur Argileak",
+        "eu": "Chœur Argileak"
+      },
+      "description": {
+        "fr": "Concert choral, Place Pasteur.",
+        "es": "Concert choral, Place Pasteur.",
+        "eu": "Concert choral, Place Pasteur."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Arrivée du défilé",
+        "es": "Arrivée du défilé",
+        "eu": "Arrivée du défilé"
+      },
+      "startTimestamp": "2026-07-19T13:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Arrivée du défilé",
+        "es": "Arrivée du défilé",
+        "eu": "Arrivée du défilé"
+      },
+      "description": {
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Place de la Liberté.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Place de la Liberté.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-RUE-JACQUES-LAFFITTE",
+      "shortName": {
+        "fr": "Guinguette pailletée",
+        "es": "Guinguette pailletée",
+        "eu": "Guinguette pailletée"
+      },
+      "startTimestamp": "2026-07-19T15:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Guinguette pailletée organisée par la peña Txalaparta",
+        "es": "Guinguette pailletée organisée par la peña Txalaparta",
+        "eu": "Guinguette pailletée organisée par la peña Txalaparta"
+      },
+      "description": {
+        "fr": "Bal populaire en plein air dans une ambiance guinguette, Rue Jacques Laffitte.",
+        "es": "Bal populaire en plein air dans une ambiance guinguette, Rue Jacques Laffitte.",
+        "eu": "Bal populaire en plein air dans une ambiance guinguette, Rue Jacques Laffitte."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-DE-LA-REPUBLIQUE",
+      "shortName": {
+        "fr": "Bal Guinguette",
+        "es": "Bal Guinguette",
+        "eu": "Bal Guinguette"
+      },
+      "startTimestamp": "2026-07-19T15:00:00+02:00",
+      "endTimestamp": "2026-07-19T17:00:00+02:00",
+      "title": {
+        "fr": "Bal Guinguette avec Gérard Luc",
+        "es": "Bal Guinguette avec Gérard Luc",
+        "eu": "Bal Guinguette avec Gérard Luc"
+      },
+      "description": {
+        "fr": "Bal populaire en plein air dans une ambiance guinguette, Place de la République.",
+        "es": "Bal populaire en plein air dans une ambiance guinguette, Place de la République.",
+        "eu": "Bal populaire en plein air dans une ambiance guinguette, Place de la République."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Force Basque",
+        "es": "Force Basque",
+        "eu": "Force Basque"
+      },
+      "startTimestamp": "2026-07-19T15:30:00+02:00",
+      "endTimestamp": "2026-07-19T17:30:00+02:00",
+      "title": {
+        "fr": "Force Basque",
+        "es": "Force Basque",
+        "eu": "Force Basque"
+      },
+      "description": {
+        "fr": "Démonstration de force basque traditionnelle, Place Paul-Bert.",
+        "es": "Démonstration de force basque traditionnelle, Place Paul-Bert.",
+        "eu": "Démonstration de force basque traditionnelle, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-LIBERTE",
+      "shortName": {
+        "fr": "Pong Orchestra",
+        "es": "Pong Orchestra",
+        "eu": "Pong Orchestra"
+      },
+      "startTimestamp": "2026-07-19T18:00:00+02:00",
+      "endTimestamp": "",
+      "title": {
+        "fr": "Concert Pong Orchestra et ses invités",
+        "es": "Concert Pong Orchestra et ses invités",
+        "eu": "Concert Pong Orchestra et ses invités"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la Liberté.",
+        "es": "Concert et ambiance musicale, Place de la Liberté.",
+        "eu": "Concert et ambiance musicale, Place de la Liberté."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "Musik'Halles",
+        "es": "Musik'Halles",
+        "eu": "Musik'Halles"
+      },
+      "startTimestamp": "2026-07-19T18:00:00+02:00",
+      "endTimestamp": "2026-07-19T19:30:00+02:00",
+      "title": {
+        "fr": "Les Musik'Halles : musiques de rue",
+        "es": "Les Musik'Halles : musiques de rue",
+        "eu": "Les Musik'Halles : musiques de rue"
+      },
+      "description": {
+        "fr": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "es": "Animation des Fêtes de Bayonne 2026, Carreau des Halles.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-BOULEVARD-ALSACE-LORRAINE",
+      "shortName": {
+        "fr": "Chars du corso",
+        "es": "Chars du corso",
+        "eu": "Chars du corso"
+      },
+      "startTimestamp": "2026-07-19T18:00:00+02:00",
+      "endTimestamp": "2026-07-19T22:00:00+02:00",
+      "title": {
+        "fr": "Exposition des chars du corso",
+        "es": "Exposition des chars du corso",
+        "eu": "Exposition des chars du corso"
+      },
+      "description": {
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Boulevard Alsace-Lorraine.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Boulevard Alsace-Lorraine.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Boulevard Alsace-Lorraine."
       }
     },
     {
       "venueId": "BAY-ARENES",
       "shortName": {
-        "fr": "Petit déjeuner",
-        "es": "Petit déjeuner",
-        "eu": "Petit déjeuner"
+        "fr": "Coupe de recorte",
+        "es": "Coupe de recorte",
+        "eu": "Coupe de recorte"
       },
-      "startTimestamp": "2026-03-21T10:30:00+01:00",
-      "endTimestamp": "2026-03-21T12:30:00+01:00",
+      "startTimestamp": "2026-07-19T18:00:00+02:00",
+      "endTimestamp": "",
       "title": {
-        "fr": "Petit déjeuner aux arènes",
-        "es": "Desayuno en la plaza de toros",
-        "eu": "Gosaria arenetan"
+        "fr": "Coupe de France de recorte",
+        "es": "Coupe de France de recorte",
+        "eu": "Coupe de France de recorte"
       },
       "description": {
-        "fr": "Tradition incontournable : chocolat chaud et tartines avec les amis.",
-        "es": "Tradición imprescindible: chocolate caliente y tostadas.",
-        "eu": "Ezinbesteko tradizioa: txokolate beroa eta opilak."
+        "fr": "Démonstration de recorte, art tauromachique acrobatique, aux Arènes de Bayonne.",
+        "es": "Démonstration de recorte, art tauromachique acrobatique, aux Arènes de Bayonne.",
+        "eu": "Démonstration de recorte, art tauromachique acrobatique, aux Arènes de Bayonne."
       }
     },
     {
-      "venueId": "BAY-QUAI-NIVE",
+      "venueId": "BAY-PORTE-ESPAGNE",
       "shortName": {
-        "fr": "Bandas Nive",
-        "es": "Bandas Nive",
-        "eu": "Bandas Nive"
+        "fr": "Soirée Porte d'Espagne",
+        "es": "Soirée Porte d'Espagne",
+        "eu": "Soirée Porte d'Espagne"
       },
-      "startTimestamp": "2026-03-19T19:00:00+01:00",
-      "endTimestamp": "2026-03-19T20:30:00+01:00",
+      "startTimestamp": "2026-07-19T19:00:00+02:00",
+      "endTimestamp": "",
       "title": {
-        "fr": "Bandas en bord de Nive",
-        "es": "Bandas a orillas del Nive",
-        "eu": "Bandak Nibi ertzean"
+        "fr": "Soirée de la porte d'Espagne avec l'association Haiz Egoa",
+        "es": "Soirée de la porte d'Espagne avec l'association Haiz Egoa",
+        "eu": "Soirée de la porte d'Espagne avec l'association Haiz Egoa"
       },
       "description": {
-        "fr": "Les fanfares défilent le long du quai dans une atmosphère festive et conviviale.",
-        "es": "Las bandas desfilan por el muelle en un ambiente festivo.",
-        "eu": "Bandak kaian zehar dabiltz giro festibo batean."
+        "fr": "Animation des Fêtes de Bayonne 2026, Porte d'Espagne.",
+        "es": "Animation des Fêtes de Bayonne 2026, Porte d'Espagne.",
+        "eu": "Animation des Fêtes de Bayonne 2026, Porte d'Espagne."
       }
     },
     {
-      "venueId": "BAY-QUAI-NIVE",
+      "venueId": "BAY-PLACE-PAUL-BERT",
       "shortName": {
-        "fr": "Concert Txi-Txi",
-        "es": "Concert Txi-Txi",
-        "eu": "Concert Txi-Txi"
+        "fr": "The Po-Liss Men",
+        "es": "The Po-Liss Men",
+        "eu": "The Po-Liss Men"
       },
-      "startTimestamp": "2026-03-19T22:00:00+01:00",
-      "endTimestamp": "2026-03-20T00:00:00+01:00",
+      "startTimestamp": "2026-07-19T19:00:00+02:00",
+      "endTimestamp": "2026-07-19T20:30:00+02:00",
       "title": {
-        "fr": "Concert Txi-Txi – Scène Nive",
-        "es": "Concierto Txi-Txi – Escenario Nive",
-        "eu": "Txi-Txi Kontzertua – Nibi Agertokia"
+        "fr": "The Po-Liss Men — Tribute The Police",
+        "es": "The Po-Liss Men — Tribute The Police",
+        "eu": "The Po-Liss Men — Tribute The Police"
       },
       "description": {
-        "fr": "Concert de musique basque contemporaine en bord de Nive.",
-        "es": "Concierto de música vasca contemporánea.",
-        "eu": "Musika baskoaren kontzertua Nibi ertzean."
-      }
+        "fr": "Concert et ambiance musicale, Place Paul-Bert.",
+        "es": "Concert et ambiance musicale, Place Paul-Bert.",
+        "eu": "Concert et ambiance musicale, Place Paul-Bert."
+      },
+      "artistName": "The Po-Liss Men"
     },
     {
-      "venueId": "BAY-QUAI-NIVE",
+      "venueId": "BAY-CARREAU-HALLES",
       "shortName": {
-        "fr": "Feu d'artifice",
-        "es": "Feu d'artifice",
-        "eu": "Feu d'artifice"
+        "fr": "Balpores",
+        "es": "Balpores",
+        "eu": "Balpores"
       },
-      "startTimestamp": "2026-03-20T21:30:00+01:00",
-      "endTimestamp": "2026-03-20T23:30:00+01:00",
+      "startTimestamp": "2026-07-19T19:30:00+02:00",
+      "endTimestamp": "2026-07-19T22:30:00+02:00",
       "title": {
-        "fr": "Feu d'artifice & Concert",
-        "es": "Fuegos artificiales & Concierto",
-        "eu": "Su artifizialak & Kontzertua"
+        "fr": "Balpores",
+        "es": "Balpores",
+        "eu": "Balpores"
       },
       "description": {
-        "fr": "Le grand feu d'artifice suivi d'un concert en bord de Nive.",
-        "es": "Los grandes fuegos artificiales seguidos de un concierto.",
-        "eu": "Su artifizial handiak eta ondoren kontzertua."
-      }
+        "fr": "Bal populaire en plein air dans une ambiance guinguette, Carreau des Halles.",
+        "es": "Bal populaire en plein air dans une ambiance guinguette, Carreau des Halles.",
+        "eu": "Bal populaire en plein air dans une ambiance guinguette, Carreau des Halles."
+      },
+      "artistName": "Balpores"
     },
     {
-      "venueId": "BAY-PLACE-GASCONS",
+      "venueId": "BAY-PLACE-PAUL-BERT",
       "shortName": {
-        "fr": "Anim. familles",
-        "es": "Anim. familles",
-        "eu": "Anim. familles"
+        "fr": "Big Daddy Rock Band",
+        "es": "Big Daddy Rock Band",
+        "eu": "Big Daddy Rock Band"
       },
-      "startTimestamp": "2026-03-19T15:00:00+01:00",
-      "endTimestamp": "2026-03-19T18:00:00+01:00",
+      "startTimestamp": "2026-07-19T20:30:00+02:00",
+      "endTimestamp": "2026-07-19T22:00:00+02:00",
       "title": {
-        "fr": "Animations jeunesse & familles",
-        "es": "Animaciones para jóvenes y familias",
-        "eu": "Gazteria eta familien animazioak"
+        "fr": "Big Daddy Rock Band",
+        "es": "Big Daddy Rock Band",
+        "eu": "Big Daddy Rock Band"
       },
       "description": {
-        "fr": "Jeux basques traditionnels, initiations aux danses folkloriques et maquillage.",
-        "es": "Juegos vascos, danzas folclóricas y pintacaras.",
-        "eu": "Pilota jokoak, dantza saioak eta margolanak."
-      }
-    },
-    {
-      "venueId": "BAY-PLACE-GASCONS",
-      "shortName": {
-        "fr": "Pelote basque",
-        "es": "Pelote basque",
-        "eu": "Pelote basque"
+        "fr": "Concert et ambiance musicale, Place Paul-Bert.",
+        "es": "Concert et ambiance musicale, Place Paul-Bert.",
+        "eu": "Concert et ambiance musicale, Place Paul-Bert."
       },
-      "startTimestamp": "2026-03-20T14:00:00+01:00",
-      "endTimestamp": "2026-03-20T17:00:00+01:00",
-      "title": {
-        "fr": "Pelote basque – Démonstration",
-        "es": "Pelota vasca – Demostración",
-        "eu": "Pilota jokoaren erakusketa"
-      },
-      "description": {
-        "fr": "Initiation et démonstration de pelote basque. Essayez la main nue, la pala ou le chistera !",
-        "es": "Iniciación y demostración. ¡Prueba la mano desnuda, la pala o el chistera!",
-        "eu": "Pilota jokoaren hasiera eta erakusketa."
-      }
-    },
-    {
-      "venueId": "BAY-PLACE-GASCONS",
-      "shortName": {
-        "fr": "Marché artisanal",
-        "es": "Marché artisanal",
-        "eu": "Marché artisanal"
-      },
-      "startTimestamp": "2026-03-21T11:00:00+01:00",
-      "endTimestamp": "2026-03-21T13:00:00+01:00",
-      "title": {
-        "fr": "Marché artisanal basque",
-        "es": "Mercado artesanal vasco",
-        "eu": "Euskal artisau azoka"
-      },
-      "description": {
-        "fr": "Artisans locaux : poteries, tissages, produits du terroir, bijoux.",
-        "es": "Artesanos locales: cerámica, tejidos, productos locales.",
-        "eu": "Bertako artisauak: zeramikazkoak, ehundutakoak."
-      }
-    },
-    {
-      "venueId": "BAY-REMPARTS",
-      "shortName": {
-        "fr": "Txalaparta electro",
-        "es": "Txalaparta electro",
-        "eu": "Txalaparta electro"
-      },
-      "startTimestamp": "2026-03-19T20:30:00+01:00",
-      "endTimestamp": "2026-03-19T22:30:00+01:00",
-      "title": {
-        "fr": "Txalaparta & électro",
-        "es": "Txalaparta & electro",
-        "eu": "Txalaparta & elektroa"
-      },
-      "description": {
-        "fr": "Fusion entre la txalaparta, instrument basque ancestral, et les sonorités électroniques.",
-        "es": "Fusión entre la txalaparta y la electrónica.",
-        "eu": "Txalaparta eta musika elektronikoaren fusio berezia."
-      }
-    },
-    {
-      "venueId": "BAY-REMPARTS",
-      "shortName": {
-        "fr": "Bal basque",
-        "es": "Bal basque",
-        "eu": "Bal basque"
-      },
-      "startTimestamp": "2026-03-20T19:00:00+01:00",
-      "endTimestamp": "2026-03-20T21:00:00+01:00",
-      "title": {
-        "fr": "Bal populaire basque",
-        "es": "Baile popular vasco",
-        "eu": "Euskal dantza herrikoia"
-      },
-      "description": {
-        "fr": "Danses traditionnelles basques ouvertes à tous.",
-        "es": "Danzas tradicionales vascas abiertas a todos.",
-        "eu": "Dantzaldi herrikoia denentzat irekia."
-      }
-    },
-    {
-      "venueId": "BAY-REMPARTS",
-      "shortName": {
-        "fr": "Fid Mella Rock",
-        "es": "Fid Mella Rock",
-        "eu": "Fid Mella Rock"
-      },
-      "startTimestamp": "2026-03-21T21:00:00+01:00",
-      "endTimestamp": "2026-03-21T23:00:00+01:00",
-      "title": {
-        "fr": "Rock basque – Fid Mella & guests",
-        "es": "Rock vasco – Fid Mella & invitados",
-        "eu": "Euskal rock – Fid Mella & gonbidatuak"
-      },
-      "description": {
-        "fr": "La scène des Remparts accueille le rock avec Fid Mella et groupes invités.",
-        "es": "El escenario de las Murallas con Fid Mella.",
-        "eu": "Harresietako agertokia Fid Mellarekin."
-      }
-    },
-    {
-      "venueId": "BAY-GRAND-BAYONNE",
-      "shortName": {
-        "fr": "Bandas du matin",
-        "es": "Bandas du matin",
-        "eu": "Bandas du matin"
-      },
-      "startTimestamp": "2026-03-19T11:00:00+01:00",
-      "endTimestamp": "2026-03-19T14:00:00+01:00",
-      "title": {
-        "fr": "Bandas dans les rues – Matin",
-        "es": "Bandas por las calles – Mañana",
-        "eu": "Bandak kaleetan – Goiza"
-      },
-      "description": {
-        "fr": "Les bandas animent les rues du Grand Bayonne toute la matinée.",
-        "es": "Las bandas animan las calles de Gran Bayona.",
-        "eu": "Bandak Baiona Handiko kaleak animatzen dituzte."
-      }
-    },
-    {
-      "venueId": "BAY-GRAND-BAYONNE",
-      "shortName": {
-        "fr": "Cortège des géants",
-        "es": "Cortège des géants",
-        "eu": "Cortège des géants"
-      },
-      "startTimestamp": "2026-03-19T16:00:00+01:00",
-      "endTimestamp": "2026-03-19T19:00:00+01:00",
-      "title": {
-        "fr": "Cortège des géants de Bayonne",
-        "es": "Desfile de los gigantes de Bayona",
-        "eu": "Baionako erraldoien desfilea"
-      },
-      "description": {
-        "fr": "Les géants traditionnels défilent dans les rues historiques accompagnés des bandas.",
-        "es": "Los gigantes desfilan por las calles históricas.",
-        "eu": "Erraldoiak kale historikoetan zehar."
-      }
+      "artistName": "Big Daddy Rock Band"
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
       "shortName": {
-        "fr": "Bandas de midi",
-        "es": "Bandas de midi",
-        "eu": "Bandas de midi"
+        "fr": "Défilé du Corso",
+        "es": "Défilé du Corso",
+        "eu": "Défilé du Corso"
       },
-      "startTimestamp": "2026-03-20T11:00:00+01:00",
-      "endTimestamp": "2026-03-20T14:00:00+01:00",
+      "startTimestamp": "2026-07-19T22:00:00+02:00",
+      "endTimestamp": "2026-07-19T23:30:00+02:00",
       "title": {
-        "fr": "Bandas & ambiance quartier",
-        "es": "Bandas y ambiente de barrio",
-        "eu": "Bandak eta auzo giroaz"
+        "fr": "Défilé du Corso",
+        "es": "Défilé du Corso",
+        "eu": "Défilé du Corso"
       },
       "description": {
-        "fr": "Les rues du vieux Bayonne s'animent dès 11h avec les bandas.",
-        "es": "Las calles del viejo Bayona se animan desde las 11h.",
-        "eu": "Baiona zaharreko kaleak 11etatik animatzen dira."
+        "fr": "Défilé festif dans les rues de Bayonne, passage par Place de la Liberté.",
+        "es": "Défilé festif dans les rues de Bayonne, passage par Place de la Liberté.",
+        "eu": "Défilé festif dans les rues de Bayonne, passage par Place de la Liberté."
       }
+    },
+    {
+      "venueId": "BAY-PLACE-PAUL-BERT",
+      "shortName": {
+        "fr": "Mix Spécial Féria",
+        "es": "Mix Spécial Féria",
+        "eu": "Mix Spécial Féria"
+      },
+      "startTimestamp": "2026-07-19T22:00:00+02:00",
+      "endTimestamp": "2026-07-20T01:30:00+02:00",
+      "title": {
+        "fr": "Mix Spécial Féria",
+        "es": "Mix Spécial Féria",
+        "eu": "Mix Spécial Féria"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place Paul-Bert.",
+        "es": "Concert et ambiance musicale, Place Paul-Bert.",
+        "eu": "Concert et ambiance musicale, Place Paul-Bert."
+      }
+    },
+    {
+      "venueId": "BAY-CARREAU-HALLES",
+      "shortName": {
+        "fr": "MixLive",
+        "es": "MixLive",
+        "eu": "MixLive"
+      },
+      "startTimestamp": "2026-07-19T22:30:00+02:00",
+      "endTimestamp": "2026-07-20T01:30:00+02:00",
+      "title": {
+        "fr": "MixLive",
+        "es": "MixLive",
+        "eu": "MixLive"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Carreau des Halles.",
+        "es": "Concert et ambiance musicale, Carreau des Halles.",
+        "eu": "Concert et ambiance musicale, Carreau des Halles."
+      }
+    },
+    {
+      "venueId": "BAY-PLACE-DE-LA-REPUBLIQUE",
+      "shortName": {
+        "fr": "Big Band Côte Basque",
+        "es": "Big Band Côte Basque",
+        "eu": "Big Band Côte Basque"
+      },
+      "startTimestamp": "2026-07-19T22:30:00+02:00",
+      "endTimestamp": "2026-07-20T01:30:00+02:00",
+      "title": {
+        "fr": "Big Band Côte Basque",
+        "es": "Big Band Côte Basque",
+        "eu": "Big Band Côte Basque"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la République.",
+        "es": "Concert et ambiance musicale, Place de la République.",
+        "eu": "Concert et ambiance musicale, Place de la République."
+      },
+      "artistName": "Big Band Côte Basque"
+    },
+    {
+      "venueId": "BAY-PLACE-DE-LA-REPUBLIQUE",
+      "shortName": {
+        "fr": "DJ Yossi",
+        "es": "DJ Yossi",
+        "eu": "DJ Yossi"
+      },
+      "startTimestamp": "2026-07-19T22:30:00+02:00",
+      "endTimestamp": "2026-07-20T02:30:00+02:00",
+      "title": {
+        "fr": "DJ Yossi",
+        "es": "DJ Yossi",
+        "eu": "DJ Yossi"
+      },
+      "description": {
+        "fr": "Concert et ambiance musicale, Place de la République.",
+        "es": "Concert et ambiance musicale, Place de la République.",
+        "eu": "Concert et ambiance musicale, Place de la République."
+      },
+      "artistName": "DJ Yossi"
     },
     {
       "venueId": "BAY-PLACE-LIBERTE",
       "shortName": {
-        "fr": "Dernier lâcher",
-        "es": "Dernier lâcher",
-        "eu": "Dernier lâcher"
+        "fr": "Clôture des Fêtes",
+        "es": "Clôture des Fêtes",
+        "eu": "Clôture des Fêtes"
       },
-      "startTimestamp": "2026-03-23T19:00:00+01:00",
-      "endTimestamp": "2026-03-23T20:30:00+01:00",
+      "startTimestamp": "2026-07-19T23:59:00+02:00",
+      "endTimestamp": "2026-07-20T00:30:00+02:00",
       "title": {
-        "fr": "Dernier lâcher de vaches",
-        "es": "Última suelta de vacas",
-        "eu": "Azken behi lasterka"
+        "fr": "Cérémonie de clôture officielle des Fêtes",
+        "es": "Cérémonie de clôture officielle des Fêtes",
+        "eu": "Cérémonie de clôture officielle des Fêtes"
       },
       "description": {
-        "fr": "Le dernier lâcher de vaches, moment empreint d'émotion.",
-        "es": "La última suelta, momento de emoción.",
-        "eu": "Azken behi lasterka, emozioz betea."
-      }
-    },
-    {
-      "venueId": "BAY-PLACE-LIBERTE",
-      "shortName": {
-        "fr": "Adieu aux fêtes",
-        "es": "Adieu aux fêtes",
-        "eu": "Adieu aux fêtes"
-      },
-      "startTimestamp": "2026-03-23T23:30:00+01:00",
-      "endTimestamp": "2026-03-24T01:00:00+01:00",
-      "title": {
-        "fr": "Adieu aux fêtes",
-        "es": "Adiós a las fiestas",
-        "eu": "Festen agurra"
-      },
-      "description": {
-        "fr": "La traditionnelle chanson clôt les fêtes dans les larmes et la joie mêlées.",
-        "es": "La canción tradicional cierra las fiestas entre lágrimas y alegría.",
-        "eu": "Abesti tradizionalak festak ixten ditu."
+        "fr": "Grand feu d'artifice et départ du Roi Léon : 00h00 cérémonie de clôture, 00h10 feu d'artifice, 00h30-01h30 DJ Bobkat.",
+        "es": "Grand feu d'artifice et départ du Roi Léon : 00h00 cérémonie de clôture, 00h10 feu d'artifice, 00h30-01h30 DJ Bobkat.",
+        "eu": "Grand feu d'artifice et départ du Roi Léon : 00h00 cérémonie de clôture, 00h10 feu d'artifice, 00h30-01h30 DJ Bobkat."
       }
     }
   ]
